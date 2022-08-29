@@ -24,7 +24,7 @@ jobs:
       - name: Publish package
         uses: gradle/gradle-build-action@v2
         with:
-          arguments: publish -Psigning.keyId=${{ secrets.OSSRH_GPG_SECRET_KEY_ID }} -Psigning.password=${{ secrets.OSSRH_GPG_SECRET_KEY_PASSWORD }} -Psigning.secretKeyRingFile=$(echo "${{secrets.OSSRH_GPG_SECRET_KEY}}" | base64 -d) --warn --stacktrace
+          arguments: publish
         env:
           IS_PRERELEASE: ${{ github.event.release.prerelease }}
           MAVEN_USERNAME: ${{ secrets.OSSRH_USERNAME }}
