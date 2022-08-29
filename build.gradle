@@ -96,9 +96,7 @@ if(hasProperty('target') && target == 'android') {
         repositories {
             maven {
                 name = "OSSRH"
-                urlRepository = "https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/"
-                urlSnapshotRepository = "https://s01.oss.sonatype.org/content/repositories/snapshots/"
-                url = System.getenv("IS_PRERELEASE") == "false" ? urlRepository : urlSnapshotRepository
+                url = System.getenv("IS_PRERELEASE") == "false" ? "https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/" : "https://s01.oss.sonatype.org/content/repositories/snapshots/"
                 credentials {
                     username = System.getenv("MAVEN_USERNAME")
                     password = System.getenv("MAVEN_PASSWORD")
