@@ -95,6 +95,16 @@ if(hasProperty('target') && target == 'android') {
         }
         repositories {
             maven {
+                name = "OSSRH"
+                urlRepository = "https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/"
+                urlSnapshotRepository = "https://s01.oss.sonatype.org/content/repositories/snapshots/"
+                url = System.getenv("IS_PRERELEASE") == "false" ? urlRepository : urlSnapshotRepository
+                credentials {
+                    username = System.getenv("MAVEN_USERNAME")
+                    password = System.getenv("MAVEN_PASSWORD")
+                }
+            }
+            maven {
                 name = "GitHubPackages"
                 url = "https://maven.pkg.github.com/panzer1119/netbox-java-client"
                 credentials {
