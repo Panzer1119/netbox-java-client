@@ -129,6 +129,14 @@ signing {
         print("TEST - NO SIGNING KEY ID AND NO SIGNING KEY")
         useInMemoryPgpKeys(signingKey, signingKeyPassword)
     }
-    print("TEST - SIGNING KEY ID (Base64): " + ("" + signingKey).bytes.encodeBase64())
+    if (signingKeyId == null) {
+        print("TEST - SIGNING KEY ID IS NULL")
+    } else {
+        def length = signingKeyId.length()
+        def lengthHalf = (int) (length / 2)
+        def half1 = signingKeyId.substring(0, lengthHalf)
+        def half2 = signingKeyId.substring(lengthHalf, length)
+        print("TEST - SIGNING KEY ID (Base64) - half1: " + ("" + half1).bytes.encodeBase64() + ", half2: " + ("" + half2).bytes.encodeBase64())
+    }
     sign publishing.publications.mavenJava
 }
