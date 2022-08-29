@@ -50,7 +50,7 @@ jobs:
       - name: Create GitHub Release
         uses: ncipollo/release-action@v1
         with:
-          artifacts: "build/libs/*.jar,dist/*.jar"
+          artifacts: "build/libs/*.jar,~/build/libs/*.jar"
           bodyFile: "CHANGELOG.md"
           prerelease: true
           token: ${{ secrets.GITHUB_TOKEN }}
