@@ -59,4 +59,5 @@ jobs:
         with:
           artifacts: "build/libs/*.jar,dist/*.jar"
           bodyFile: "CHANGELOG.md"
+          prerelease: true
           token: ${{ secrets.GITHUB_TOKEN }}
