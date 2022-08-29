@@ -46,7 +46,7 @@ jobs:
       - name: Create GitHub Release
         uses: ncipollo/release-action@v1
         with:
-          artifacts: "build/libs/*.jar"
+          artifacts: "${{ github.workspace }}/build/libs/*.jar"
           bodyFile: "CHANGELOG.md"
           artifactErrorsFailBuild: false
           prerelease: ${{ endsWith(github.ref_name, '-SNAPSHOT') }}
