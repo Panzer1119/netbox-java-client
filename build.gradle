@@ -1,83 +1,20 @@
-apply plugin: 'idea'
-apply plugin: 'eclipse'
-apply plugin: 'java'
-apply plugin: 'com.diffplug.spotless'
-apply plugin: 'maven-publish'
+plugins {
+    id 'java-library'
+    id "org.sonarqube" version "3.3"
+    id "com.github.johnrengelman.shadow" version "7.0.0"
+    id "com.github.ben-manes.versions" version "0.39.0"
+    id 'signing'
+    id 'maven-publish'
+}
 
 group = 'de.codemakers.netbox'
-version = '3.3.0-alpha.10'
-
-buildscript {
-    repositories {
-        mavenCentral()
-    }
-    dependencies {
-        classpath 'com.android.tools.build:gradle:2.3.+'
-        classpath 'com.github.dcendents:android-maven-gradle-plugin:2.1'
-        classpath 'com.diffplug.spotless:spotless-plugin-gradle:6.3.0'
-    }
-}
-
-repositories {
-    mavenCentral()
-}
-sourceSets {
-    main.java.srcDirs = ['src/main/java']
-}
+version = '3.3.0-SNAPSHOT+1'
 
 sourceCompatibility = JavaVersion.VERSION_1_8
 targetCompatibility = JavaVersion.VERSION_1_8
 
-publishing {
-    publications {
-        mavenJava(MavenPublication) {
-            artifactId = 'netbox-java-client'
-            from components.java
-            pom {
-                name = 'OpenAPI NetBox Java Client'
-                description = 'A generated java client api for NetBox'
-                url = 'https://github.com/Panzer1119/netbox-java-client'
-                licenses {
-                    license {
-                        name = 'The Apache License, Version 2.0'
-                        url = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
-                    }
-                }
-                developers {
-                    developer {
-                        id = 'Panzer1119'
-                        name = 'Paul Hagedorn'
-                        email = 'panzer1119@gmail.com'
-                    }
-                }
-                scm {
-                    connection = 'scm:git:git@github.com:Panzer1119/netbox-java-client.git'
-                    developerConnection = 'scm:git:git@github.com:Panzer1119/netbox-java-client.git'
-                    url = 'https://github.com/Panzer1119/netbox-java-client'
-                }
-            }
-        }
-    }
-    repositories {
-        maven {
-            name = "OSSRH"
-            def releasesRepoUrl = "https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/"
-            def snapshotsRepoUrl = "https://s01.oss.sonatype.org/content/repositories/snapshots/"
-            url = !version.endsWith("SNAPSHOT") && System.getenv("IS_PRERELEASE") == "false" ? releasesRepoUrl : snapshotsRepoUrl
-            credentials {
-                username = System.getenv("MAVEN_USERNAME")
-                password = System.getenv("MAVEN_PASSWORD")
-            }
-        }
-        maven {
-            name = "GitHubPackages"
-            url = "https://maven.pkg.github.com/panzer1119/netbox-java-client"
-            credentials {
-                username = System.getenv("GITHUB_ACTOR")
-                password = System.getenv("GITHUB_TOKEN")
-            }
-        }
-    }
+repositories {
+    mavenCentral()
 }
 
 ext {
@@ -96,8 +33,28 @@ dependencies {
     implementation 'org.openapitools:jackson-databind-nullable:0.2.2'
     implementation group: 'org.apache.commons', name: 'commons-lang3', version: '3.12.0'
     implementation "jakarta.annotation:jakarta.annotation-api:$jakarta_annotation_version"
+    // Testing
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.2'
     testImplementation 'org.mockito:mockito-core:3.12.4'
+}
+
+sourceSets {
+    main.java.srcDirs = ['src/main/java']
+}
+
+test {
+    useJUnitPlatform()
+}
+
+shadowJar {
+    getDestinationDirectory().set(new File(projectDir, "./dist"))
+}
+
+javadoc {
+    options.tags = ["http.response.details:a:Http Response Details"]
+    if (JavaVersion.current().isJava9Compatible()) {
+        options.addBooleanOption('html5', true)
+    }
 }
 
 java {
@@ -105,36 +62,75 @@ java {
     withSourcesJar()
 }
 
-javadoc {
-    options.tags = ["http.response.details:a:Http Response Details"]
-    if(JavaVersion.current().isJava9Compatible()) {
-        options.addBooleanOption('html5', true)
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            artifactId = 'netbox-java-client'
+            from components.java
+            pom {
+                name = 'OpenAPI NetBox Java Client'
+                description = 'A generated java client api for NetBox'
+                url = 'https://github.com/Panzer1119/netbox-java-client'
+                licenses {
+                    license {
+                        name = 'The Apache License, Version 2.0'
+                        url = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+                    }
+                }
+                developers {
+                    developer {
+                        id = 'panzer1119'
+                        name = 'Paul Hagedorn'
+                        email = 'panzer1119@gmail.com'
+                    }
+                }
+                scm {
+                    connection = 'scm:git:git@github.com:Panzer1119/netbox-java-client.git'
+                    developerConnection = 'scm:git:git@github.com:Panzer1119/netbox-java-client.git'
+                    url = 'https://github.com/Panzer1119/netbox-java-client'
+                }
+            }
+        }
+    }
+    repositories {
+        maven {
+            name = "OSSRH"
+            def releasesRepoUrl = System.getenv("MAVEN_URL_RELEASES")
+            def snapshotsRepoUrl = System.getenv("MAVEN_URL_SNAPSHOTS")
+            url = !version.endsWith("SNAPSHOT") && System.getenv("IS_PRERELEASE") == "false" ? releasesRepoUrl : snapshotsRepoUrl
+            credentials {
+                username = System.getenv("MAVEN_USERNAME")
+                password = System.getenv("MAVEN_PASSWORD")
+            }
+        }
+        maven {
+            name = "GitHubPackages"
+            url = "https://maven.pkg.github.com/panzer1119/netbox-java-client"
+            credentials {
+                username = System.getenv("GITHUB_ACTOR")
+                password = System.getenv("GITHUB_TOKEN")
+            }
+        }
     }
 }
 
-// Use spotless plugin to automatically format code, remove unused import, etc
-// To apply changes directly to the file, run `gradlew spotlessApply`
-// Ref: https://github.com/diffplug/spotless/tree/main/plugin-gradle
-spotless {
-    // comment out below to run spotless as part of the `check` task
-    enforceCheck false
+def hasSigningKey = project.hasProperty("signingKeyId") || project.hasProperty("signingKey")
 
-    format 'misc', {
-        // define the files (e.g. '*.gradle', '*.md') to apply `misc` to
-        target '.gitignore'
+if (hasSigningKey) {
+    sign(project)
+}
 
-        // define the steps to apply to those files
-        trimTrailingWhitespace()
-        indentWithSpaces() // Takes an integer argument if you don't like 4
-        endWithNewline()
-    }
-    java {
-        // don't need to set target, it is inferred from java
-
-        // apply a specific flavor of google-java-format
-        googleJavaFormat('1.8').aosp().reflowLongStrings()
-
-        removeUnusedImports()
-        importOrder()
+void sign(Project project) {
+    project.signing {
+        required { project.gradle.taskGraph.hasTask("required") }
+        def signingKeyId = project.findProperty("signingKeyId")
+        def signingKey = project.findProperty("signingKey")
+        def signingPassword = project.findProperty("signingPassword")
+        if (signingKeyId) {
+            useInMemoryPgpKeys(signingKeyId, signingKey, signingPassword)
+        } else if (signingKey) {
+            useInMemoryPgpKeys(signingKey, signingPassword)
+        }
+        sign publishing.publications.mavenJava
     }
 }
