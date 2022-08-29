@@ -52,7 +52,7 @@ jobs:
         with:
           artifacts: "build/libs/*.jar,~/build/libs/*.jar"
           bodyFile: "CHANGELOG.md"
-          prerelease: true
+          prerelease: ${{ endsWith(github.ref_name, '-SNAPSHOT') }}
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Delete the oldest Packages on GitHub, but keep at least 5 Versions
