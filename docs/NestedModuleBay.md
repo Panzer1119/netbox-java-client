@@ -1,0 +1,17 @@
+
+
+# NestedModuleBay
+
+
+## Properties
+
+| Name | Type | Description | Notes |
+|------------ | ------------- | ------------- | -------------|
+|**id** | **Integer** |  |  [optional] [readonly] |
+|**url** | **URI** |  |  [optional] [readonly] |
+|**display** | **String** |  |  [optional] [readonly] |
+|**module** | [**NestedModule**](NestedModule.md) |  |  [optional] |
+|**name** | **String** |  |  |
+
+
+
