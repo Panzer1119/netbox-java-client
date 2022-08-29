@@ -40,7 +40,7 @@ Add this dependency to your project's POM:
 <dependency>
   <groupId>de.codemakers.netbox</groupId>
   <artifactId>netbox-java-client</artifactId>
-  <version>3.3.9-SNAPSHOT</version>
+  <version>0.3.3-1-SNAPSHOT</version>
   <scope>compile</scope>
 </dependency>
 ```
@@ -56,7 +56,7 @@ Add this dependency to your project's build file:
   }
 
   dependencies {
-     implementation "de.codemakers.netbox:netbox-java-client:3.3.9-SNAPSHOT"
+     implementation "de.codemakers.netbox:netbox-java-client:0.3.3-1-SNAPSHOT"
   }
 ```
 
