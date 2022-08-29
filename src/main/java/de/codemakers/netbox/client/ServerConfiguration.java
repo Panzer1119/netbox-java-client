@@ -9,7 +9,7 @@ public class ServerConfiguration {
     public String URL;
     public String description;
     public Map<String, ServerVariable> variables;
-
+    
     /**
      * @param URL A URL to the target host.
      * @param description A description of the host designated by the URL.
@@ -20,22 +20,23 @@ public class ServerConfiguration {
         this.description = description;
         this.variables = variables;
     }
-
+    
     /**
      * Format URL template using given variables.
      *
      * @param variables A map between a variable name and its value.
+     *
      * @return Formatted URL.
      */
     public String URL(Map<String, String> variables) {
         String url = this.URL;
-
+        
         // go through variables and replace placeholders
-        for (Map.Entry<String, ServerVariable> variable: this.variables.entrySet()) {
+        for (Map.Entry<String, ServerVariable> variable : this.variables.entrySet()) {
             String name = variable.getKey();
             ServerVariable serverVariable = variable.getValue();
             String value = serverVariable.defaultValue;
-
+            
             if (variables != null && variables.containsKey(name)) {
                 value = variables.get(name);
                 if (serverVariable.enumValues.size() > 0 && !serverVariable.enumValues.contains(value)) {
@@ -46,7 +47,7 @@ public class ServerConfiguration {
         }
         return url;
     }
-
+    
     /**
      * Format URL template using default server variables.
      *
