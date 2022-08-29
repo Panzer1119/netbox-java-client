@@ -1,9 +1,9 @@
-name: Publish snapshot packages to GitHub Packages and Maven and create a GitHub release
+name: Publish snapshot packages to GitHub Packages and Sonatype OSSRH and create a GitHub release
 
 on:
   push:
     tags:
-      - 'v*.*.*-SNAPSHOT*'
+      - 'v*.*.*'
 
 jobs:
   publish:
