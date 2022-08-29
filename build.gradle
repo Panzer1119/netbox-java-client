@@ -115,32 +115,21 @@ publishing {
     }
 }
 
-def hasSigningKey = project.hasProperty("signingKeyId") || project.hasProperty("signingKey")
+def signingKey = System.getenv("SIGNING_KEY")
+def signingKeyId = System.getenv("SIGNING_KEY_ID")
+def signingKeyPassword = System.getenv("SIGNING_KEY_PASSWORD")
 
-if (hasSigningKey) {
-    sign(project)
-} else {
-    print("No Signing Key")
-    print(project.hasProperty("signingKeyId"))
-    if (project.hasProperty("signingKeyId")) {
-        printf("signingKeyId=%s", project.findProperty("signingKeyId"))
-    }
-    print(project.hasProperty("signingKey"))
-    if (project.hasProperty("signingKey")) {
-        printf("signingKey=%s", project.findProperty("signingKey"))
-    }
+if (signingKey) {
+    sign(project, signingKey, signingKeyId, signingKeyPassword)
 }
 
-void sign(Project project) {
+void sign(Project project, String signingKey, String signingKeyId, String signingKeyPassword) {
     project.signing {
         required { project.gradle.taskGraph.hasTask("required") }
-        def signingKeyId = project.findProperty("signingKeyId")
-        def signingKey = project.findProperty("signingKey")
-        def signingPassword = project.findProperty("signingPassword")
         if (signingKeyId) {
-            useInMemoryPgpKeys(signingKeyId, signingKey, signingPassword)
+            useInMemoryPgpKeys(signingKeyId, signingKey, signingKeyPassword)
         } else if (signingKey) {
-            useInMemoryPgpKeys(signingKey, signingPassword)
+            useInMemoryPgpKeys(signingKey, signingKeyPassword)
         }
         sign publishing.publications.mavenJava
     }

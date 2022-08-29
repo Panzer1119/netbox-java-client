@@ -34,9 +34,9 @@ jobs:
         with:
           arguments: publish
         env:
-          ORG_GRADLE_PROJECT_signingKeyId: ${{ secrets.SIGNING_KEY_ID }}
-          ORG_GRADLE_PROJECT_signingKey: ${{ secrets.SIGNING_KEY }}
-          ORG_GRADLE_PROJECT_signingPassword: ${{ secrets.SIGNING_KEY_PASSWORD }}
+          SIGNING_KEY_ID: ${{ secrets.SIGNING_KEY_ID }}
+          SIGNING_KEY: ${{ secrets.SIGNING_KEY }}
+          SIGNING_KEY_PASSWORD: ${{ secrets.SIGNING_KEY_PASSWORD }}
           MAVEN_URL_RELEASES: ${{ secrets.MAVEN_URL_RELEASES }}
           MAVEN_URL_SNAPSHOTS: ${{ secrets.MAVEN_URL_SNAPSHOTS }}
           MAVEN_USERNAME: ${{ secrets.MAVEN_USERNAME }}
