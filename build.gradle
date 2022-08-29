@@ -121,13 +121,14 @@ signing {
     def signingKeyPassword = System.getenv("SIGNING_KEY_PASSWORD")
     if (signingKeyId) {
         useInMemoryPgpKeys(signingKeyId, signingKey, signingKeyPassword)
+        print("TEST - SIGNING KEY ID AND SIGNING KEY")
     } else if (signingKey) {
-        print("NO SIGNING KEY ID")
+        print("TEST - NO SIGNING KEY ID BUT SIGNING KEY")
         useInMemoryPgpKeys(signingKey, signingKeyPassword)
     } else {
-        print("NO SIGNING KEY ID AND NO SIGNING KEY")
+        print("TEST - NO SIGNING KEY ID AND NO SIGNING KEY")
         useInMemoryPgpKeys(signingKey, signingKeyPassword)
     }
-    print("SIGNING KEY ID: " + signingKey)
+    print("TEST - SIGNING KEY ID (Base64): " + ("" + signingKey).bytes.encodeBase64())
     sign publishing.publications.mavenJava
 }
