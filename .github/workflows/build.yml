@@ -12,6 +12,8 @@ jobs:
   build:
     name: Build NetBox API
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
       - name: Checkout the Repository
         uses: actions/checkout@v2
