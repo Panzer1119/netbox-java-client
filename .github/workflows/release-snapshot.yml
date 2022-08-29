@@ -1,9 +1,9 @@
-name: Publish and Release snapshot packages to GitHub Packages
+name: Publish snapshot packages to GitHub Packages and Maven and create a GitHub release
 
 on:
   push:
     tags:
-      - v*.*.*-SNAPSHOT
+      - 'v*.*.*-SNAPSHOT*'
 
 jobs:
   publish:
