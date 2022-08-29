@@ -48,6 +48,7 @@ jobs:
         with:
           artifacts: "build/libs/*.jar,~/build/libs/*.jar"
           bodyFile: "CHANGELOG.md"
+          artifactErrorsFailBuild: false
           prerelease: ${{ endsWith(github.ref_name, '-SNAPSHOT') }}
           token: ${{ secrets.GITHUB_TOKEN }}
 
