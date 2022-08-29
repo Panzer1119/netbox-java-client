@@ -1,0 +1,38 @@
+# This workflow will build a Java project with Gradle, and cache/restore any dependencies to improve the workflow execution time
+
+name: Java CI with Gradle
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  build:
+    name: Build NetBox API
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        java: [ '8' ]
+    steps:
+      - name: Checkout the Repository
+        uses: actions/checkout@v2
+
+      - name: Set up Java 8
+        uses: actions/setup-java@v3
+        with:
+          java-version: '8'
+          distribution: 'adopt'
+          cache: 'gradle'
+
+      - name: Make gradlew executable
+        run: chmod +x ./gradlew
+
+      - name: Validate Gradle wrapper
+        uses: gradle/wrapper-validation-action@v1
+
+      - name: Gradle run build
+        uses: gradle/gradle-build-action@v2
+        with:
+          arguments: build
