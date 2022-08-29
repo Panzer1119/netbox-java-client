@@ -52,9 +52,9 @@ jobs:
           prerelease: ${{ endsWith(github.ref_name, '-SNAPSHOT') }}
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Delete the oldest Packages on GitHub, but keep at least 5 Versions
-        uses: smartsquaregmbh/delete-old-packages@v0.3.1
+      - name: Delete the oldest Pre-Releases from GitHub Packages, but keep at least 10 Versions
+        uses: actions/delete-package-versions@v3
         with:
-          keep: 5
-          names: |
-            de.codemakers.netbox.netbox-java-client
+          package-name: de.codemakers.netbox.netbox-java-client
+          min-versions-to-keep: 10
+          delete-only-pre-release-versions: true
