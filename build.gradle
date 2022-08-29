@@ -122,7 +122,10 @@ signing {
     if (signingKeyId) {
         useInMemoryPgpKeys(signingKeyId, signingKey, signingKeyPassword)
     } else if (signingKey) {
+        print("NO SIGNING KEY ID")
         useInMemoryPgpKeys(signingKey, signingKeyPassword)
+    } else {
+        print("NO SIGNING KEY ID AND NO SIGNING KEY")
     }
     sign publishing.publications.mavenJava
 }
