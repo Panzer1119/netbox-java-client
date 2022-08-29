@@ -3,7 +3,6 @@ apply plugin: 'eclipse'
 apply plugin: 'java'
 apply plugin: 'com.diffplug.spotless'
 apply plugin: 'maven-publish'
-apply plugin: 'signing'
 
 group = 'de.codemakers.netbox'
 version = '3.3.0-alpha.9'
@@ -79,10 +78,6 @@ publishing {
             }
         }
     }
-}
-
-signing {
-    sign publishing.publications.mavenJava
 }
 
 ext {
