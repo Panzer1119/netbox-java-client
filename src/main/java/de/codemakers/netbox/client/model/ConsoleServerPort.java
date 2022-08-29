@@ -63,7 +63,7 @@ public class ConsoleServerPort {
     
     public static final String SERIALIZED_NAME_TYPE = "type";
     @SerializedName(SERIALIZED_NAME_TYPE)
-    private Type type;
+    private Type0 type;
     
     public static final String SERIALIZED_NAME_SPEED = "speed";
     @SerializedName(SERIALIZED_NAME_SPEED)
@@ -280,7 +280,7 @@ public class ConsoleServerPort {
     }
     
     
-    public ConsoleServerPort type(Type type) {
+    public ConsoleServerPort type(Type0 type) {
         
         this.type = type;
         return this;
@@ -294,12 +294,12 @@ public class ConsoleServerPort {
     @javax.annotation.Nullable
     @ApiModelProperty(value = "")
     
-    public Type getType() {
+    public Type0 getType() {
         return type;
     }
     
     
-    public void setType(Type type) {
+    public void setType(Type0 type) {
         this.type = type;
     }
     
@@ -736,7 +736,7 @@ public class ConsoleServerPort {
         }
         // validate the optional field `type`
         if (jsonObj.getAsJsonObject("type") != null) {
-            Type.validateJsonObject(jsonObj.getAsJsonObject("type"));
+            Type0.validateJsonObject(jsonObj.getAsJsonObject("type"));
         }
         // validate the optional field `speed`
         if (jsonObj.getAsJsonObject("speed") != null) {

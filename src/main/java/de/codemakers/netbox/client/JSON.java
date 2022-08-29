@@ -17,6 +17,7 @@ import com.google.gson.*;
 import com.google.gson.internal.bind.util.ISO8601Utils;
 import com.google.gson.stream.JsonReader;
 import com.google.gson.stream.JsonWriter;
+import de.codemakers.netbox.client.model.Type0;
 import io.gsonfire.GsonFireBuilder;
 import okio.ByteString;
 
@@ -346,7 +347,7 @@ public class JSON {
                 .registerTypeAdapterFactory(new de.codemakers.netbox.client.model.Tenant.CustomTypeAdapterFactory())
                 .registerTypeAdapterFactory(new de.codemakers.netbox.client.model.TenantGroup.CustomTypeAdapterFactory())
                 .registerTypeAdapterFactory(new de.codemakers.netbox.client.model.Token.CustomTypeAdapterFactory())
-                .registerTypeAdapterFactory(new de.codemakers.netbox.client.model.Type.CustomTypeAdapterFactory())
+                .registerTypeAdapterFactory(new Type0.CustomTypeAdapterFactory())
                 .registerTypeAdapterFactory(new de.codemakers.netbox.client.model.Type1.CustomTypeAdapterFactory())
                 .registerTypeAdapterFactory(new de.codemakers.netbox.client.model.Type2.CustomTypeAdapterFactory())
                 .registerTypeAdapterFactory(new de.codemakers.netbox.client.model.Type3.CustomTypeAdapterFactory())

@@ -17,17 +17,17 @@ import org.junit.jupiter.api.Test;
 
 
 /**
- * Model tests for WritableDeviceType
+ * Model tests for DeviceType
  */
-public class WritableDeviceTypeTest {
-    private final WritableDeviceType model = new WritableDeviceType();
+public class DeviceTypeTest0 {
+    private final DeviceType model = new DeviceType();
     
     /**
-     * Model tests for WritableDeviceType
+     * Model tests for DeviceType
      */
     @Test
-    public void testWritableDeviceType() {
-        // TODO: test WritableDeviceType
+    public void testDeviceType() {
+        // TODO: test DeviceType
     }
     
     /**

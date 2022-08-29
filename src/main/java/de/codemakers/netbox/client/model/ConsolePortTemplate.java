@@ -66,7 +66,7 @@ public class ConsolePortTemplate {
     
     public static final String SERIALIZED_NAME_TYPE = "type";
     @SerializedName(SERIALIZED_NAME_TYPE)
-    private Type type;
+    private Type0 type;
     
     public static final String SERIALIZED_NAME_DESCRIPTION = "description";
     @SerializedName(SERIALIZED_NAME_DESCRIPTION)
@@ -228,7 +228,7 @@ public class ConsolePortTemplate {
     }
     
     
-    public ConsolePortTemplate type(Type type) {
+    public ConsolePortTemplate type(Type0 type) {
         
         this.type = type;
         return this;
@@ -242,12 +242,12 @@ public class ConsolePortTemplate {
     @javax.annotation.Nullable
     @ApiModelProperty(value = "")
     
-    public Type getType() {
+    public Type0 getType() {
         return type;
     }
     
     
-    public void setType(Type type) {
+    public void setType(Type0 type) {
         this.type = type;
     }
     
@@ -440,7 +440,7 @@ public class ConsolePortTemplate {
         }
         // validate the optional field `type`
         if (jsonObj.getAsJsonObject("type") != null) {
-            Type.validateJsonObject(jsonObj.getAsJsonObject("type"));
+            Type0.validateJsonObject(jsonObj.getAsJsonObject("type"));
         }
         if (jsonObj.get("description") != null && !jsonObj.get("description").isJsonPrimitive()) {
             throw new IllegalArgumentException(String.format("Expected the field `description` to be a primitive type in the JSON string but got `%s`", jsonObj.get("description")

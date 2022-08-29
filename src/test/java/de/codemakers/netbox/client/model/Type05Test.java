@@ -17,17 +17,17 @@ import org.junit.jupiter.api.Test;
 
 
 /**
- * Model tests for Type
+ * Model tests for Type5
  */
-public class TypeTest {
-    private final Type model = new Type();
+public class Type05Test {
+    private final Type5 model = new Type5();
     
     /**
-     * Model tests for Type
+     * Model tests for Type5
      */
     @Test
-    public void testType() {
-        // TODO: test Type
+    public void testType5() {
+        // TODO: test Type5
     }
     
     /**

@@ -17,17 +17,17 @@ import org.junit.jupiter.api.Test;
 
 
 /**
- * Model tests for NestedCircuitType
+ * Model tests for ContentType
  */
-public class NestedCircuitTypeTest {
-    private final NestedCircuitType model = new NestedCircuitType();
+public class ContentTypeTest0 {
+    private final ContentType model = new ContentType();
     
     /**
-     * Model tests for NestedCircuitType
+     * Model tests for ContentType
      */
     @Test
-    public void testNestedCircuitType() {
-        // TODO: test NestedCircuitType
+    public void testContentType() {
+        // TODO: test ContentType
     }
     
     /**
@@ -55,27 +55,19 @@ public class NestedCircuitTypeTest {
     }
     
     /**
-     * Test the property 'name'
+     * Test the property 'appLabel'
      */
     @Test
-    public void nameTest() {
-        // TODO: test name
+    public void appLabelTest() {
+        // TODO: test appLabel
     }
     
     /**
-     * Test the property 'slug'
+     * Test the property 'model'
      */
     @Test
-    public void slugTest() {
-        // TODO: test slug
-    }
-    
-    /**
-     * Test the property 'circuitCount'
-     */
-    @Test
-    public void circuitCountTest() {
-        // TODO: test circuitCount
+    public void modelTest() {
+        // TODO: test model
     }
     
 }

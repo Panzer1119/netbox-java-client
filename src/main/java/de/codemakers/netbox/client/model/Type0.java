@@ -32,7 +32,7 @@ import java.util.Set;
  * Type
  */
 @javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-08-29T15:14:28.278845400+02:00[Europe/Berlin]")
-public class Type {
+public class Type0 {
     /**
      * Gets or Sets label
      */
@@ -191,10 +191,10 @@ public class Type {
     @SerializedName(SERIALIZED_NAME_VALUE)
     private ValueEnum value;
     
-    public Type() {
+    public Type0() {
     }
     
-    public Type label(LabelEnum label) {
+    public Type0 label(LabelEnum label) {
         
         this.label = label;
         return this;
@@ -218,7 +218,7 @@ public class Type {
     }
     
     
-    public Type value(ValueEnum value) {
+    public Type0 value(ValueEnum value) {
         
         this.value = value;
         return this;
@@ -250,7 +250,7 @@ public class Type {
         if (o == null || getClass() != o.getClass()) {
             return false;
         }
-        Type type = (Type) o;
+        Type0 type = (Type0) o;
         return Objects.equals(this.label, type.label) && Objects.equals(this.value, type.value);
     }
     
@@ -305,23 +305,23 @@ public class Type {
      */
     public static void validateJsonObject(JsonObject jsonObj) throws IOException {
         if (jsonObj == null) {
-            if (Type.openapiRequiredFields.isEmpty()) {
+            if (Type0.openapiRequiredFields.isEmpty()) {
                 return;
             } else { // has required fields
-                throw new IllegalArgumentException(String.format("The required field(s) %s in Type is not found in the empty JSON string", Type.openapiRequiredFields.toString()));
+                throw new IllegalArgumentException(String.format("The required field(s) %s in Type is not found in the empty JSON string", Type0.openapiRequiredFields.toString()));
             }
         }
         
         Set<Entry<String, JsonElement>> entries = jsonObj.entrySet();
         // check to see if the JSON string contains additional fields
         for (Entry<String, JsonElement> entry : entries) {
-            if (!Type.openapiFields.contains(entry.getKey())) {
+            if (!Type0.openapiFields.contains(entry.getKey())) {
                 throw new IllegalArgumentException(String.format("The field `%s` in the JSON string is not defined in the `Type` properties. JSON: %s", entry.getKey(), jsonObj.toString()));
             }
         }
         
         // check to make sure all required properties/fields are present in the JSON string
-        for (String requiredField : Type.openapiRequiredFields) {
+        for (String requiredField : Type0.openapiRequiredFields) {
             if (jsonObj.get(requiredField) == null) {
                 throw new IllegalArgumentException(String.format("The required field `%s` is not found in the JSON string: %s", requiredField, jsonObj.toString()));
             }
@@ -340,21 +340,21 @@ public class Type {
         @SuppressWarnings("unchecked")
         @Override
         public <T> TypeAdapter<T> create(Gson gson, TypeToken<T> type) {
-            if (!Type.class.isAssignableFrom(type.getRawType())) {
+            if (!Type0.class.isAssignableFrom(type.getRawType())) {
                 return null; // this class only serializes 'Type' and its subtypes
             }
             final TypeAdapter<JsonElement> elementAdapter = gson.getAdapter(JsonElement.class);
-            final TypeAdapter<Type> thisAdapter = gson.getDelegateAdapter(this, TypeToken.get(Type.class));
+            final TypeAdapter<Type0> thisAdapter = gson.getDelegateAdapter(this, TypeToken.get(Type0.class));
             
-            return (TypeAdapter<T>) new TypeAdapter<Type>() {
+            return (TypeAdapter<T>) new TypeAdapter<Type0>() {
                 @Override
-                public void write(JsonWriter out, Type value) throws IOException {
+                public void write(JsonWriter out, Type0 value) throws IOException {
                     JsonObject obj = thisAdapter.toJsonTree(value).getAsJsonObject();
                     elementAdapter.write(out, obj);
                 }
                 
                 @Override
-                public Type read(JsonReader in) throws IOException {
+                public Type0 read(JsonReader in) throws IOException {
                     JsonObject jsonObj = elementAdapter.read(in).getAsJsonObject();
                     validateJsonObject(jsonObj);
                     return thisAdapter.fromJsonTree(jsonObj);
@@ -373,8 +373,8 @@ public class Type {
      *
      * @throws IOException if the JSON string is invalid with respect to Type
      */
-    public static Type fromJson(String jsonString) throws IOException {
-        return JSON.getGson().fromJson(jsonString, Type.class);
+    public static Type0 fromJson(String jsonString) throws IOException {
+        return JSON.getGson().fromJson(jsonString, Type0.class);
     }
     
     /**

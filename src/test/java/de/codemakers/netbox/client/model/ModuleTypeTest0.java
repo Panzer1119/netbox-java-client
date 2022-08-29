@@ -17,17 +17,17 @@ import org.junit.jupiter.api.Test;
 
 
 /**
- * Model tests for DeviceType
+ * Model tests for ModuleType
  */
-public class DeviceTypeTest {
-    private final DeviceType model = new DeviceType();
+public class ModuleTypeTest0 {
+    private final ModuleType model = new ModuleType();
     
     /**
-     * Model tests for DeviceType
+     * Model tests for ModuleType
      */
     @Test
-    public void testDeviceType() {
-        // TODO: test DeviceType
+    public void testModuleType() {
+        // TODO: test ModuleType
     }
     
     /**
@@ -71,67 +71,11 @@ public class DeviceTypeTest {
     }
     
     /**
-     * Test the property 'slug'
-     */
-    @Test
-    public void slugTest() {
-        // TODO: test slug
-    }
-    
-    /**
      * Test the property 'partNumber'
      */
     @Test
     public void partNumberTest() {
         // TODO: test partNumber
-    }
-    
-    /**
-     * Test the property 'uHeight'
-     */
-    @Test
-    public void uHeightTest() {
-        // TODO: test uHeight
-    }
-    
-    /**
-     * Test the property 'isFullDepth'
-     */
-    @Test
-    public void isFullDepthTest() {
-        // TODO: test isFullDepth
-    }
-    
-    /**
-     * Test the property 'subdeviceRole'
-     */
-    @Test
-    public void subdeviceRoleTest() {
-        // TODO: test subdeviceRole
-    }
-    
-    /**
-     * Test the property 'airflow'
-     */
-    @Test
-    public void airflowTest() {
-        // TODO: test airflow
-    }
-    
-    /**
-     * Test the property 'frontImage'
-     */
-    @Test
-    public void frontImageTest() {
-        // TODO: test frontImage
-    }
-    
-    /**
-     * Test the property 'rearImage'
-     */
-    @Test
-    public void rearImageTest() {
-        // TODO: test rearImage
     }
     
     /**
@@ -172,14 +116,6 @@ public class DeviceTypeTest {
     @Test
     public void lastUpdatedTest() {
         // TODO: test lastUpdated
-    }
-    
-    /**
-     * Test the property 'deviceCount'
-     */
-    @Test
-    public void deviceCountTest() {
-        // TODO: test deviceCount
     }
     
 }

@@ -17,17 +17,17 @@ import org.junit.jupiter.api.Test;
 
 
 /**
- * Model tests for Type4
+ * Model tests for AuthType
  */
-public class Type4Test {
-    private final Type4 model = new Type4();
+public class AuthTypeTest0 {
+    private final AuthType model = new AuthType();
     
     /**
-     * Model tests for Type4
+     * Model tests for AuthType
      */
     @Test
-    public void testType4() {
-        // TODO: test Type4
+    public void testAuthType() {
+        // TODO: test AuthType
     }
     
     /**

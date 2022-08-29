@@ -19,7 +19,7 @@ import org.junit.jupiter.api.Test;
 /**
  * Model tests for WritableModuleType
  */
-public class WritableModuleTypeTest {
+public class WritableModuleTypeTest0 {
     private final WritableModuleType model = new WritableModuleType();
     
     /**

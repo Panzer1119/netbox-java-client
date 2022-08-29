@@ -17,17 +17,17 @@ import org.junit.jupiter.api.Test;
 
 
 /**
- * Model tests for NestedModuleType
+ * Model tests for NestedClusterType
  */
-public class NestedModuleTypeTest {
-    private final NestedModuleType model = new NestedModuleType();
+public class NestedClusterTypeTest0 {
+    private final NestedClusterType model = new NestedClusterType();
     
     /**
-     * Model tests for NestedModuleType
+     * Model tests for NestedClusterType
      */
     @Test
-    public void testNestedModuleType() {
-        // TODO: test NestedModuleType
+    public void testNestedClusterType() {
+        // TODO: test NestedClusterType
     }
     
     /**
@@ -55,19 +55,27 @@ public class NestedModuleTypeTest {
     }
     
     /**
-     * Test the property 'manufacturer'
+     * Test the property 'name'
      */
     @Test
-    public void manufacturerTest() {
-        // TODO: test manufacturer
+    public void nameTest() {
+        // TODO: test name
     }
     
     /**
-     * Test the property 'model'
+     * Test the property 'slug'
      */
     @Test
-    public void modelTest() {
-        // TODO: test model
+    public void slugTest() {
+        // TODO: test slug
+    }
+    
+    /**
+     * Test the property 'clusterCount'
+     */
+    @Test
+    public void clusterCountTest() {
+        // TODO: test clusterCount
     }
     
 }

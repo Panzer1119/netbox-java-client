@@ -17,17 +17,17 @@ import org.junit.jupiter.api.Test;
 
 
 /**
- * Model tests for ModuleType
+ * Model tests for WritableDeviceType
  */
-public class ModuleTypeTest {
-    private final ModuleType model = new ModuleType();
+public class WritableDeviceTypeTest0 {
+    private final WritableDeviceType model = new WritableDeviceType();
     
     /**
-     * Model tests for ModuleType
+     * Model tests for WritableDeviceType
      */
     @Test
-    public void testModuleType() {
-        // TODO: test ModuleType
+    public void testWritableDeviceType() {
+        // TODO: test WritableDeviceType
     }
     
     /**
@@ -71,11 +71,67 @@ public class ModuleTypeTest {
     }
     
     /**
+     * Test the property 'slug'
+     */
+    @Test
+    public void slugTest() {
+        // TODO: test slug
+    }
+    
+    /**
      * Test the property 'partNumber'
      */
     @Test
     public void partNumberTest() {
         // TODO: test partNumber
+    }
+    
+    /**
+     * Test the property 'uHeight'
+     */
+    @Test
+    public void uHeightTest() {
+        // TODO: test uHeight
+    }
+    
+    /**
+     * Test the property 'isFullDepth'
+     */
+    @Test
+    public void isFullDepthTest() {
+        // TODO: test isFullDepth
+    }
+    
+    /**
+     * Test the property 'subdeviceRole'
+     */
+    @Test
+    public void subdeviceRoleTest() {
+        // TODO: test subdeviceRole
+    }
+    
+    /**
+     * Test the property 'airflow'
+     */
+    @Test
+    public void airflowTest() {
+        // TODO: test airflow
+    }
+    
+    /**
+     * Test the property 'frontImage'
+     */
+    @Test
+    public void frontImageTest() {
+        // TODO: test frontImage
+    }
+    
+    /**
+     * Test the property 'rearImage'
+     */
+    @Test
+    public void rearImageTest() {
+        // TODO: test rearImage
     }
     
     /**
@@ -116,6 +172,14 @@ public class ModuleTypeTest {
     @Test
     public void lastUpdatedTest() {
         // TODO: test lastUpdated
+    }
+    
+    /**
+     * Test the property 'deviceCount'
+     */
+    @Test
+    public void deviceCountTest() {
+        // TODO: test deviceCount
     }
     
 }

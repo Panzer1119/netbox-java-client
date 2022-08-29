@@ -17,17 +17,17 @@ import org.junit.jupiter.api.Test;
 
 
 /**
- * Model tests for ClusterType
+ * Model tests for CircuitType
  */
-public class ClusterTypeTest {
-    private final ClusterType model = new ClusterType();
+public class CircuitTypeTest0 {
+    private final CircuitType model = new CircuitType();
     
     /**
-     * Model tests for ClusterType
+     * Model tests for CircuitType
      */
     @Test
-    public void testClusterType() {
-        // TODO: test ClusterType
+    public void testCircuitType() {
+        // TODO: test CircuitType
     }
     
     /**
@@ -111,11 +111,11 @@ public class ClusterTypeTest {
     }
     
     /**
-     * Test the property 'clusterCount'
+     * Test the property 'circuitCount'
      */
     @Test
-    public void clusterCountTest() {
-        // TODO: test clusterCount
+    public void circuitCountTest() {
+        // TODO: test circuitCount
     }
     
 }

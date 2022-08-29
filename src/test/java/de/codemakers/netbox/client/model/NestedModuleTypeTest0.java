@@ -17,17 +17,17 @@ import org.junit.jupiter.api.Test;
 
 
 /**
- * Model tests for ContentType
+ * Model tests for NestedModuleType
  */
-public class ContentTypeTest {
-    private final ContentType model = new ContentType();
+public class NestedModuleTypeTest0 {
+    private final NestedModuleType model = new NestedModuleType();
     
     /**
-     * Model tests for ContentType
+     * Model tests for NestedModuleType
      */
     @Test
-    public void testContentType() {
-        // TODO: test ContentType
+    public void testNestedModuleType() {
+        // TODO: test NestedModuleType
     }
     
     /**
@@ -55,11 +55,11 @@ public class ContentTypeTest {
     }
     
     /**
-     * Test the property 'appLabel'
+     * Test the property 'manufacturer'
      */
     @Test
-    public void appLabelTest() {
-        // TODO: test appLabel
+    public void manufacturerTest() {
+        // TODO: test manufacturer
     }
     
     /**
