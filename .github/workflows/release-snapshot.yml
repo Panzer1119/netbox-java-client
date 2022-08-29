@@ -52,7 +52,7 @@ jobs:
         with:
           keep: 5
           names: |
-            de.codemakers.netbox
+            de.codemakers.netbox.netbox-java-client
 
       - name: Create GitHub Release
         uses: ncipollo/release-action@v1
