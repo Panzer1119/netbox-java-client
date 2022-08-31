@@ -1,3 +1,5 @@
+[![Maven Central](https://img.shields.io/maven-central/v/de.codemakers.netbox/netbox-java-client)](https://mvnrepository.com/artifact/de.codemakers.netbox/netbox-java-client)
+
 # netbox-java-client
 
 NetBox API
