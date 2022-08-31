@@ -86,7 +86,6 @@ public class CircuitsApiExample {
         ApiClient defaultClient = Configuration.getDefaultApiClient();
         // Configure clients using the `defaultClient` object, such as
         // overriding the host and port, timeout, etc.
-        defaultClient.setBasePath("https://demo.netbox.dev/api");
         
         CircuitsApi apiInstance = new CircuitsApi(defaultClient);
         try {
