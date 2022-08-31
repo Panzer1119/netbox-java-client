@@ -19,7 +19,7 @@ repositories {
 
 ext {
     swagger_annotations_version = "1.5.22"
-    jackson_version = "2.13.0"
+    jackson_version = "2.13.3"
     jakarta_annotation_version = "2.1.0"
     junit_version = "4.13.2"
     jupiter_version = "5.9.0"
