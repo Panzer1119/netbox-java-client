@@ -8,7 +8,7 @@ plugins {
 }
 
 group = 'de.codemakers.netbox'
-version = "0.3.2-1-SNAPSHOT"
+version = "0.3.2-2-SNAPSHOT"
 
 sourceCompatibility = JavaVersion.VERSION_11
 targetCompatibility = JavaVersion.VERSION_11
