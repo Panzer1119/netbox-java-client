@@ -1,5 +1,9 @@
 function versionRegex (contents) {
-    return RegExp('implementation ["\']de\.codemakers\.netbox:netbox-java-client:(.+?)["\']', 'm')
+    return RegExp('(?:implementation|compile) ["\']de\.codemakers\.netbox:netbox-java-client:(.+?)["\']', 'm')
+}
+
+function replaceRegex (contents) {
+    return RegExp('(implementation|compile) (["\'])de\.codemakers\.netbox:netbox-java-client:(.+?)["\']', 'm')
 }
 
 module.exports.readVersion = function (contents) {
@@ -11,7 +15,7 @@ module.exports.readVersion = function (contents) {
 }
 
 module.exports.writeVersion = function (contents, version) {
-    return contents.replace(versionRegex(contents), () => {
-        return `implementation "de.codemakers.netbox:netbox-java-client:${version}"`
+    return contents.replace(replaceRegex(contents), () => {
+        return `$1 $2de.codemakers.netbox:netbox-java-client:${version}$2`
     })
 }
