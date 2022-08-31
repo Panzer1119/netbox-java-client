@@ -87,12 +87,6 @@ public class CircuitsApiExample {
         // Configure clients using the `defaultClient` object, such as
         // overriding the host and port, timeout, etc.
         defaultClient.setBasePath("https://demo.netbox.dev/api");
-    
-        // Configure API key authorization: Bearer
-        ApiKeyAuth Bearer = (ApiKeyAuth) defaultClient.getAuthentication("Bearer");
-        Bearer.setApiKey("YOUR API KEY");
-        // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-        //Bearer.setApiKeyPrefix("Token");
         
         CircuitsApi apiInstance = new CircuitsApi(defaultClient);
         try {
