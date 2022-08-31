@@ -44,7 +44,7 @@ Add this dependency to your project's POM:
 <dependency>
   <groupId>de.codemakers.netbox</groupId>
   <artifactId>netbox-java-client</artifactId>
-  <version>0.4.1-1-SNAPSHOT</version>
+  <version>0.3.2-1-SNAPSHOT</version>
   <scope>compile</scope>
 </dependency>
 ```
@@ -54,7 +54,7 @@ Add this dependency to your project's POM:
 Add this dependency to your project's build file:
 
 ```groovy
-implementation "de.codemakers.netbox:netbox-java-client:0.4.1-1-SNAPSHOT"
+implementation "de.codemakers.netbox:netbox-java-client:0.3.2-1-SNAPSHOT"
 ```
 
 ### Others
