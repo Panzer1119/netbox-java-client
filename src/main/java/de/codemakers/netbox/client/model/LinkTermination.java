@@ -38,7 +38,7 @@ public class LinkTermination {
     
     public static final String JSON_PROPERTY_CABLE = "cable";
     
-    private NestedCable cable;
+    private Integer cable;
     
     public static final String JSON_PROPERTY__OCCUPIED = "_occupied";
     
@@ -54,7 +54,7 @@ public class LinkTermination {
             @JsonProperty(JSON_PROPERTY_DISPLAY) String display,
             @JsonProperty(JSON_PROPERTY_DEVICE) NestedDevice device,
             @JsonProperty(JSON_PROPERTY_NAME) String name,
-            @JsonProperty(JSON_PROPERTY_CABLE) NestedCable cable
+            @JsonProperty(JSON_PROPERTY_CABLE) Integer cable
     ) {
         this();
         this.id = id;
@@ -164,7 +164,7 @@ public class LinkTermination {
     @JsonProperty(JSON_PROPERTY_CABLE)
     @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
     
-    public NestedCable getCable() {
+    public Integer getCable() {
         return cable;
     }
     
