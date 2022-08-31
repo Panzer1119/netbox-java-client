@@ -54,7 +54,7 @@ Add this dependency to your project's POM:
 Add this dependency to your project's build file:
 
 ```groovy
-compile "de.codemakers.netbox:netbox-java-client:3.3.0"
+compile "de.codemakers.netbox:netbox-java-client:0.4.1-1-SNAPSHOT"
 ```
 
 ### Others
