@@ -9,7 +9,7 @@ public class ServerVariable {
     public String description;
     public String defaultValue;
     public HashSet<String> enumValues = null;
-    
+
     /**
      * @param description A description for the server variable.
      * @param defaultValue The default value to use for substitution.
