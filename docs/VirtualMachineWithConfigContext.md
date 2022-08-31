@@ -11,10 +11,9 @@
 |**url** | **URI** |  |  [optional] [readonly] |
 |**display** | **String** |  |  [optional] [readonly] |
 |**name** | **String** |  |  |
-|**status** | [**Status11**](Status11.md) |  |  [optional] |
+|**status** | [**Status10**](Status10.md) |  |  [optional] |
 |**site** | [**NestedSite**](NestedSite.md) |  |  [optional] |
-|**cluster** | [**NestedCluster**](NestedCluster.md) |  |  [optional] |
-|**device** | [**NestedDevice**](NestedDevice.md) |  |  [optional] |
+|**cluster** | [**NestedCluster**](NestedCluster.md) |  |  |
 |**role** | [**NestedDeviceRole**](NestedDeviceRole.md) |  |  [optional] |
 |**tenant** | [**NestedTenant**](NestedTenant.md) |  |  [optional] |
 |**platform** | [**NestedPlatform**](NestedPlatform.md) |  |  [optional] |

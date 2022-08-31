@@ -13,7 +13,6 @@
 |**name** | **String** |  |  |
 |**type** | **Integer** |  |  |
 |**group** | **Integer** |  |  |
-|**status** | [**StatusEnum**](#StatusEnum) |  |  [optional] |
 |**tenant** | **Integer** |  |  [optional] |
 |**site** | **Integer** |  |  |
 |**comments** | **String** |  |  [optional] |
@@ -23,19 +22,6 @@
 |**lastUpdated** | **OffsetDateTime** |  |  [optional] [readonly] |
 |**deviceCount** | **Integer** |  |  [optional] [readonly] |
 |**virtualmachineCount** | **Integer** |  |  [optional] [readonly] |
-
-
-
-## Enum: StatusEnum
-
-| Name | Value |
-|---- | -----|
-| PLANNED | &quot;planned&quot; |
-| STAGING | &quot;staging&quot; |
-| ACTIVE | &quot;active&quot; |
-| DECOMMISSIONING | &quot;decommissioning&quot; |
-| OFFLINE | &quot;offline&quot; |
-| UNKNOWN_DEFAULT_OPEN_API | &quot;unknown_default_open_api&quot; |
 
 
 

@@ -17,8 +17,6 @@
 |**type** | [**Type2**](Type2.md) |  |  |
 |**mgmtOnly** | **Boolean** |  |  [optional] |
 |**description** | **String** |  |  [optional] |
-|**poeMode** | [**PoeMode**](PoeMode.md) |  |  [optional] |
-|**poeType** | [**PoeType**](PoeType.md) |  |  [optional] |
 |**created** | **OffsetDateTime** |  |  [optional] [readonly] |
 |**lastUpdated** | **OffsetDateTime** |  |  [optional] [readonly] |
 

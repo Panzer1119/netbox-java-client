@@ -18,7 +18,6 @@
 |**status** | [**StatusEnum**](#StatusEnum) |  |  [optional] |
 |**role** | **Integer** |  |  [optional] |
 |**description** | **String** |  |  [optional] |
-|**l2vpnTermination** | **String** |  |  [optional] [readonly] |
 |**tags** | [**List&lt;NestedTag&gt;**](NestedTag.md) |  |  [optional] |
 |**customFields** | **Object** |  |  [optional] |
 |**created** | **OffsetDateTime** |  |  [optional] [readonly] |

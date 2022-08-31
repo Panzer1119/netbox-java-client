@@ -16,7 +16,6 @@ docs/AvailableIP.md
 docs/AvailablePrefix.md
 docs/AvailableVLAN.md
 docs/Cable.md
-docs/CableTermination.md
 docs/Circuit.md
 docs/CircuitCircuitTermination.md
 docs/CircuitTermination.md
@@ -44,7 +43,6 @@ docs/ContentType.md
 docs/CustomField.md
 docs/CustomLink.md
 docs/DcimApi.md
-docs/DcimCableTerminationsList200Response.md
 docs/DcimCablesList200Response.md
 docs/DcimConsolePortTemplatesList200Response.md
 docs/DcimConsolePortsList200Response.md
@@ -115,7 +113,6 @@ docs/FilterLogic.md
 docs/FrontPort.md
 docs/FrontPortRearPort.md
 docs/FrontPortTemplate.md
-docs/GenericObject.md
 docs/Group.md
 docs/IPAddress.md
 docs/IPRange.md
@@ -131,8 +128,6 @@ docs/IpamFhrpGroupAssignmentsList200Response.md
 docs/IpamFhrpGroupsList200Response.md
 docs/IpamIpAddressesList200Response.md
 docs/IpamIpRangesList200Response.md
-docs/IpamL2vpnTerminationsList200Response.md
-docs/IpamL2vpnsList200Response.md
 docs/IpamPrefixesList200Response.md
 docs/IpamRirsList200Response.md
 docs/IpamRolesList200Response.md
@@ -145,8 +140,6 @@ docs/IpamVrfsList200Response.md
 docs/JobResult.md
 docs/JournalEntry.md
 docs/Kind.md
-docs/L2VPN.md
-docs/L2VPNTermination.md
 docs/LengthUnit.md
 docs/Location.md
 docs/Manufacturer.md
@@ -176,8 +169,6 @@ docs/NestedGroup.md
 docs/NestedIPAddress.md
 docs/NestedInterface.md
 docs/NestedInventoryItemRole.md
-docs/NestedL2VPN.md
-docs/NestedL2VPNTermination.md
 docs/NestedLocation.md
 docs/NestedManufacturer.md
 docs/NestedModule.md
@@ -216,8 +207,6 @@ docs/ObjectPermission.md
 docs/OuterUnit.md
 docs/Phase.md
 docs/Platform.md
-docs/PoeMode.md
-docs/PoeType.md
 docs/PowerFeed.md
 docs/PowerOutlet.md
 docs/PowerOutletTemplate.md
@@ -251,7 +240,6 @@ docs/Speed.md
 docs/Status.md
 docs/Status1.md
 docs/Status10.md
-docs/Status11.md
 docs/Status2.md
 docs/Status3.md
 docs/Status4.md
@@ -282,8 +270,6 @@ docs/Type4.md
 docs/Type5.md
 docs/Type6.md
 docs/Type7.md
-docs/Type8.md
-docs/UiVisibility.md
 docs/User.md
 docs/UsersApi.md
 docs/UsersGroupsList200Response.md
@@ -342,8 +328,6 @@ docs/WritableInterfaceTemplate.md
 docs/WritableInventoryItem.md
 docs/WritableInventoryItemTemplate.md
 docs/WritableJournalEntry.md
-docs/WritableL2VPN.md
-docs/WritableL2VPNTermination.md
 docs/WritableLocation.md
 docs/WritableModule.md
 docs/WritableModuleBay.md
@@ -420,7 +404,6 @@ src/main/java/de/codemakers/netbox/client/model/AvailableIP.java
 src/main/java/de/codemakers/netbox/client/model/AvailablePrefix.java
 src/main/java/de/codemakers/netbox/client/model/AvailableVLAN.java
 src/main/java/de/codemakers/netbox/client/model/Cable.java
-src/main/java/de/codemakers/netbox/client/model/CableTermination.java
 src/main/java/de/codemakers/netbox/client/model/Circuit.java
 src/main/java/de/codemakers/netbox/client/model/CircuitCircuitTermination.java
 src/main/java/de/codemakers/netbox/client/model/CircuitTermination.java
@@ -446,7 +429,6 @@ src/main/java/de/codemakers/netbox/client/model/ContactRole.java
 src/main/java/de/codemakers/netbox/client/model/ContentType.java
 src/main/java/de/codemakers/netbox/client/model/CustomField.java
 src/main/java/de/codemakers/netbox/client/model/CustomLink.java
-src/main/java/de/codemakers/netbox/client/model/DcimCableTerminationsList200Response.java
 src/main/java/de/codemakers/netbox/client/model/DcimCablesList200Response.java
 src/main/java/de/codemakers/netbox/client/model/DcimConsolePortTemplatesList200Response.java
 src/main/java/de/codemakers/netbox/client/model/DcimConsolePortsList200Response.java
@@ -516,7 +498,6 @@ src/main/java/de/codemakers/netbox/client/model/FilterLogic.java
 src/main/java/de/codemakers/netbox/client/model/FrontPort.java
 src/main/java/de/codemakers/netbox/client/model/FrontPortRearPort.java
 src/main/java/de/codemakers/netbox/client/model/FrontPortTemplate.java
-src/main/java/de/codemakers/netbox/client/model/GenericObject.java
 src/main/java/de/codemakers/netbox/client/model/Group.java
 src/main/java/de/codemakers/netbox/client/model/IPAddress.java
 src/main/java/de/codemakers/netbox/client/model/IPRange.java
@@ -531,8 +512,6 @@ src/main/java/de/codemakers/netbox/client/model/IpamFhrpGroupAssignmentsList200R
 src/main/java/de/codemakers/netbox/client/model/IpamFhrpGroupsList200Response.java
 src/main/java/de/codemakers/netbox/client/model/IpamIpAddressesList200Response.java
 src/main/java/de/codemakers/netbox/client/model/IpamIpRangesList200Response.java
-src/main/java/de/codemakers/netbox/client/model/IpamL2vpnTerminationsList200Response.java
-src/main/java/de/codemakers/netbox/client/model/IpamL2vpnsList200Response.java
 src/main/java/de/codemakers/netbox/client/model/IpamPrefixesList200Response.java
 src/main/java/de/codemakers/netbox/client/model/IpamRirsList200Response.java
 src/main/java/de/codemakers/netbox/client/model/IpamRolesList200Response.java
@@ -545,8 +524,6 @@ src/main/java/de/codemakers/netbox/client/model/IpamVrfsList200Response.java
 src/main/java/de/codemakers/netbox/client/model/JobResult.java
 src/main/java/de/codemakers/netbox/client/model/JournalEntry.java
 src/main/java/de/codemakers/netbox/client/model/Kind.java
-src/main/java/de/codemakers/netbox/client/model/L2VPN.java
-src/main/java/de/codemakers/netbox/client/model/L2VPNTermination.java
 src/main/java/de/codemakers/netbox/client/model/LengthUnit.java
 src/main/java/de/codemakers/netbox/client/model/Location.java
 src/main/java/de/codemakers/netbox/client/model/Manufacturer.java
@@ -576,8 +553,6 @@ src/main/java/de/codemakers/netbox/client/model/NestedGroup.java
 src/main/java/de/codemakers/netbox/client/model/NestedIPAddress.java
 src/main/java/de/codemakers/netbox/client/model/NestedInterface.java
 src/main/java/de/codemakers/netbox/client/model/NestedInventoryItemRole.java
-src/main/java/de/codemakers/netbox/client/model/NestedL2VPN.java
-src/main/java/de/codemakers/netbox/client/model/NestedL2VPNTermination.java
 src/main/java/de/codemakers/netbox/client/model/NestedLocation.java
 src/main/java/de/codemakers/netbox/client/model/NestedManufacturer.java
 src/main/java/de/codemakers/netbox/client/model/NestedModule.java
@@ -616,8 +591,6 @@ src/main/java/de/codemakers/netbox/client/model/ObjectPermission.java
 src/main/java/de/codemakers/netbox/client/model/OuterUnit.java
 src/main/java/de/codemakers/netbox/client/model/Phase.java
 src/main/java/de/codemakers/netbox/client/model/Platform.java
-src/main/java/de/codemakers/netbox/client/model/PoeMode.java
-src/main/java/de/codemakers/netbox/client/model/PoeType.java
 src/main/java/de/codemakers/netbox/client/model/PowerFeed.java
 src/main/java/de/codemakers/netbox/client/model/PowerOutlet.java
 src/main/java/de/codemakers/netbox/client/model/PowerOutletTemplate.java
@@ -651,7 +624,6 @@ src/main/java/de/codemakers/netbox/client/model/Speed.java
 src/main/java/de/codemakers/netbox/client/model/Status.java
 src/main/java/de/codemakers/netbox/client/model/Status1.java
 src/main/java/de/codemakers/netbox/client/model/Status10.java
-src/main/java/de/codemakers/netbox/client/model/Status11.java
 src/main/java/de/codemakers/netbox/client/model/Status2.java
 src/main/java/de/codemakers/netbox/client/model/Status3.java
 src/main/java/de/codemakers/netbox/client/model/Status4.java
@@ -680,8 +652,6 @@ src/main/java/de/codemakers/netbox/client/model/Type4.java
 src/main/java/de/codemakers/netbox/client/model/Type5.java
 src/main/java/de/codemakers/netbox/client/model/Type6.java
 src/main/java/de/codemakers/netbox/client/model/Type7.java
-src/main/java/de/codemakers/netbox/client/model/Type8.java
-src/main/java/de/codemakers/netbox/client/model/UiVisibility.java
 src/main/java/de/codemakers/netbox/client/model/User.java
 src/main/java/de/codemakers/netbox/client/model/UsersGroupsList200Response.java
 src/main/java/de/codemakers/netbox/client/model/UsersPermissionsList200Response.java
@@ -737,8 +707,6 @@ src/main/java/de/codemakers/netbox/client/model/WritableInterfaceTemplate.java
 src/main/java/de/codemakers/netbox/client/model/WritableInventoryItem.java
 src/main/java/de/codemakers/netbox/client/model/WritableInventoryItemTemplate.java
 src/main/java/de/codemakers/netbox/client/model/WritableJournalEntry.java
-src/main/java/de/codemakers/netbox/client/model/WritableL2VPN.java
-src/main/java/de/codemakers/netbox/client/model/WritableL2VPNTermination.java
 src/main/java/de/codemakers/netbox/client/model/WritableLocation.java
 src/main/java/de/codemakers/netbox/client/model/WritableModule.java
 src/main/java/de/codemakers/netbox/client/model/WritableModuleBay.java
@@ -795,7 +763,6 @@ src/test/java/de/codemakers/netbox/client/model/AuthTypeTest.java
 src/test/java/de/codemakers/netbox/client/model/AvailableIPTest.java
 src/test/java/de/codemakers/netbox/client/model/AvailablePrefixTest.java
 src/test/java/de/codemakers/netbox/client/model/AvailableVLANTest.java
-src/test/java/de/codemakers/netbox/client/model/CableTerminationTest.java
 src/test/java/de/codemakers/netbox/client/model/CableTest.java
 src/test/java/de/codemakers/netbox/client/model/CircuitCircuitTerminationTest.java
 src/test/java/de/codemakers/netbox/client/model/CircuitTerminationTest.java
@@ -822,7 +789,6 @@ src/test/java/de/codemakers/netbox/client/model/ContactTest.java
 src/test/java/de/codemakers/netbox/client/model/ContentTypeTest.java
 src/test/java/de/codemakers/netbox/client/model/CustomFieldTest.java
 src/test/java/de/codemakers/netbox/client/model/CustomLinkTest.java
-src/test/java/de/codemakers/netbox/client/model/DcimCableTerminationsList200ResponseTest.java
 src/test/java/de/codemakers/netbox/client/model/DcimCablesList200ResponseTest.java
 src/test/java/de/codemakers/netbox/client/model/DcimConsolePortTemplatesList200ResponseTest.java
 src/test/java/de/codemakers/netbox/client/model/DcimConsolePortsList200ResponseTest.java
@@ -892,7 +858,6 @@ src/test/java/de/codemakers/netbox/client/model/FilterLogicTest.java
 src/test/java/de/codemakers/netbox/client/model/FrontPortRearPortTest.java
 src/test/java/de/codemakers/netbox/client/model/FrontPortTemplateTest.java
 src/test/java/de/codemakers/netbox/client/model/FrontPortTest.java
-src/test/java/de/codemakers/netbox/client/model/GenericObjectTest.java
 src/test/java/de/codemakers/netbox/client/model/GroupTest.java
 src/test/java/de/codemakers/netbox/client/model/IPAddressTest.java
 src/test/java/de/codemakers/netbox/client/model/IPRangeTest.java
@@ -907,8 +872,6 @@ src/test/java/de/codemakers/netbox/client/model/IpamFhrpGroupAssignmentsList200R
 src/test/java/de/codemakers/netbox/client/model/IpamFhrpGroupsList200ResponseTest.java
 src/test/java/de/codemakers/netbox/client/model/IpamIpAddressesList200ResponseTest.java
 src/test/java/de/codemakers/netbox/client/model/IpamIpRangesList200ResponseTest.java
-src/test/java/de/codemakers/netbox/client/model/IpamL2vpnTerminationsList200ResponseTest.java
-src/test/java/de/codemakers/netbox/client/model/IpamL2vpnsList200ResponseTest.java
 src/test/java/de/codemakers/netbox/client/model/IpamPrefixesList200ResponseTest.java
 src/test/java/de/codemakers/netbox/client/model/IpamRirsList200ResponseTest.java
 src/test/java/de/codemakers/netbox/client/model/IpamRolesList200ResponseTest.java
@@ -921,8 +884,6 @@ src/test/java/de/codemakers/netbox/client/model/IpamVrfsList200ResponseTest.java
 src/test/java/de/codemakers/netbox/client/model/JobResultTest.java
 src/test/java/de/codemakers/netbox/client/model/JournalEntryTest.java
 src/test/java/de/codemakers/netbox/client/model/KindTest.java
-src/test/java/de/codemakers/netbox/client/model/L2VPNTerminationTest.java
-src/test/java/de/codemakers/netbox/client/model/L2VPNTest.java
 src/test/java/de/codemakers/netbox/client/model/LengthUnitTest.java
 src/test/java/de/codemakers/netbox/client/model/LocationTest.java
 src/test/java/de/codemakers/netbox/client/model/ManufacturerTest.java
@@ -952,8 +913,6 @@ src/test/java/de/codemakers/netbox/client/model/NestedGroupTest.java
 src/test/java/de/codemakers/netbox/client/model/NestedIPAddressTest.java
 src/test/java/de/codemakers/netbox/client/model/NestedInterfaceTest.java
 src/test/java/de/codemakers/netbox/client/model/NestedInventoryItemRoleTest.java
-src/test/java/de/codemakers/netbox/client/model/NestedL2VPNTerminationTest.java
-src/test/java/de/codemakers/netbox/client/model/NestedL2VPNTest.java
 src/test/java/de/codemakers/netbox/client/model/NestedLocationTest.java
 src/test/java/de/codemakers/netbox/client/model/NestedManufacturerTest.java
 src/test/java/de/codemakers/netbox/client/model/NestedModuleBayTest.java
@@ -992,8 +951,6 @@ src/test/java/de/codemakers/netbox/client/model/ObjectPermissionTest.java
 src/test/java/de/codemakers/netbox/client/model/OuterUnitTest.java
 src/test/java/de/codemakers/netbox/client/model/PhaseTest.java
 src/test/java/de/codemakers/netbox/client/model/PlatformTest.java
-src/test/java/de/codemakers/netbox/client/model/PoeModeTest.java
-src/test/java/de/codemakers/netbox/client/model/PoeTypeTest.java
 src/test/java/de/codemakers/netbox/client/model/PowerFeedTest.java
 src/test/java/de/codemakers/netbox/client/model/PowerOutletTemplateTest.java
 src/test/java/de/codemakers/netbox/client/model/PowerOutletTest.java
@@ -1025,7 +982,6 @@ src/test/java/de/codemakers/netbox/client/model/SiteGroupTest.java
 src/test/java/de/codemakers/netbox/client/model/SiteTest.java
 src/test/java/de/codemakers/netbox/client/model/SpeedTest.java
 src/test/java/de/codemakers/netbox/client/model/Status10Test.java
-src/test/java/de/codemakers/netbox/client/model/Status11Test.java
 src/test/java/de/codemakers/netbox/client/model/Status1Test.java
 src/test/java/de/codemakers/netbox/client/model/Status2Test.java
 src/test/java/de/codemakers/netbox/client/model/Status3Test.java
@@ -1055,9 +1011,7 @@ src/test/java/de/codemakers/netbox/client/model/Type4Test.java
 src/test/java/de/codemakers/netbox/client/model/Type5Test.java
 src/test/java/de/codemakers/netbox/client/model/Type6Test.java
 src/test/java/de/codemakers/netbox/client/model/Type7Test.java
-src/test/java/de/codemakers/netbox/client/model/Type8Test.java
 src/test/java/de/codemakers/netbox/client/model/TypeTest.java
-src/test/java/de/codemakers/netbox/client/model/UiVisibilityTest.java
 src/test/java/de/codemakers/netbox/client/model/UserTest.java
 src/test/java/de/codemakers/netbox/client/model/UsersGroupsList200ResponseTest.java
 src/test/java/de/codemakers/netbox/client/model/UsersPermissionsList200ResponseTest.java
@@ -1113,8 +1067,6 @@ src/test/java/de/codemakers/netbox/client/model/WritableInterfaceTest.java
 src/test/java/de/codemakers/netbox/client/model/WritableInventoryItemTemplateTest.java
 src/test/java/de/codemakers/netbox/client/model/WritableInventoryItemTest.java
 src/test/java/de/codemakers/netbox/client/model/WritableJournalEntryTest.java
-src/test/java/de/codemakers/netbox/client/model/WritableL2VPNTerminationTest.java
-src/test/java/de/codemakers/netbox/client/model/WritableL2VPNTest.java
 src/test/java/de/codemakers/netbox/client/model/WritableLocationTest.java
 src/test/java/de/codemakers/netbox/client/model/WritableModuleBayTemplateTest.java
 src/test/java/de/codemakers/netbox/client/model/WritableModuleBayTest.java

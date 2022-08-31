@@ -14,11 +14,10 @@
 |**interfaceB** | [**NestedInterface**](NestedInterface.md) |  |  |
 |**ssid** | **String** |  |  [optional] |
 |**status** | [**Status1**](Status1.md) |  |  [optional] |
-|**tenant** | [**NestedTenant**](NestedTenant.md) |  |  [optional] |
+|**description** | **String** |  |  [optional] |
 |**authType** | [**AuthType**](AuthType.md) |  |  [optional] |
 |**authCipher** | [**AuthCipher**](AuthCipher.md) |  |  [optional] |
 |**authPsk** | **String** |  |  [optional] |
-|**description** | **String** |  |  [optional] |
 |**tags** | [**List&lt;NestedTag&gt;**](NestedTag.md) |  |  [optional] |
 |**customFields** | **Object** |  |  [optional] |
 |**created** | **OffsetDateTime** |  |  [optional] [readonly] |

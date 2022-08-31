@@ -931,7 +931,7 @@ ApiResponse<Void>
 
 ## usersGroupsList
 
-> UsersGroupsList200Response usersGroupsList(id, name, q, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, nameEmpty, ordering, limit, offset)
+> UsersGroupsList200Response usersGroupsList(id, name, q, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, nameEmpty, limit, offset)
 
 
 
@@ -978,11 +978,10 @@ public class Example {
         String nameIe = "nameIe_example"; // String | 
         String nameNie = "nameNie_example"; // String | 
         String nameEmpty = "nameEmpty_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            UsersGroupsList200Response result = apiInstance.usersGroupsList(id, name, q, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, nameEmpty, ordering, limit, offset);
+            UsersGroupsList200Response result = apiInstance.usersGroupsList(id, name, q, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, nameEmpty, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling UsersApi#usersGroupsList");
@@ -1018,7 +1017,6 @@ public class Example {
 | **nameIe** | **String**|  | [optional] |
 | **nameNie** | **String**|  | [optional] |
 | **nameEmpty** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -1043,7 +1041,7 @@ public class Example {
 
 ## usersGroupsListWithHttpInfo
 
-> ApiResponse<UsersGroupsList200Response> usersGroupsList usersGroupsListWithHttpInfo(id, name, q, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, nameEmpty, ordering, limit, offset)
+> ApiResponse<UsersGroupsList200Response> usersGroupsList usersGroupsListWithHttpInfo(id, name, q, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, nameEmpty, limit, offset)
 
 
 
@@ -1091,11 +1089,10 @@ public class Example {
         String nameIe = "nameIe_example"; // String | 
         String nameNie = "nameNie_example"; // String | 
         String nameEmpty = "nameEmpty_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<UsersGroupsList200Response> response = apiInstance.usersGroupsListWithHttpInfo(id, name, q, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, nameEmpty, ordering, limit, offset);
+            ApiResponse<UsersGroupsList200Response> response = apiInstance.usersGroupsListWithHttpInfo(id, name, q, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, nameEmpty, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -1133,7 +1130,6 @@ public class Example {
 | **nameIe** | **String**|  | [optional] |
 | **nameNie** | **String**|  | [optional] |
 | **nameEmpty** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -2307,7 +2303,7 @@ ApiResponse<Void>
 
 ## usersPermissionsList
 
-> UsersPermissionsList200Response usersPermissionsList(id, name, enabled, objectTypes, description, q, userId, user, groupId, group, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, nameEmpty, objectTypesN, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, descriptionEmpty, userIdN, userN, groupIdN, groupN, ordering, limit, offset)
+> UsersPermissionsList200Response usersPermissionsList(id, name, enabled, objectTypes, description, q, userId, user, groupId, group, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, nameEmpty, objectTypesN, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, descriptionEmpty, userIdN, userN, groupIdN, groupN, limit, offset)
 
 
 
@@ -2376,11 +2372,10 @@ public class Example {
         String userN = "userN_example"; // String | 
         String groupIdN = "groupIdN_example"; // String | 
         String groupN = "groupN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            UsersPermissionsList200Response result = apiInstance.usersPermissionsList(id, name, enabled, objectTypes, description, q, userId, user, groupId, group, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, nameEmpty, objectTypesN, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, descriptionEmpty, userIdN, userN, groupIdN, groupN, ordering, limit, offset);
+            UsersPermissionsList200Response result = apiInstance.usersPermissionsList(id, name, enabled, objectTypes, description, q, userId, user, groupId, group, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, nameEmpty, objectTypesN, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, descriptionEmpty, userIdN, userN, groupIdN, groupN, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling UsersApi#usersPermissionsList");
@@ -2438,7 +2433,6 @@ public class Example {
 | **userN** | **String**|  | [optional] |
 | **groupIdN** | **String**|  | [optional] |
 | **groupN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -2463,7 +2457,7 @@ public class Example {
 
 ## usersPermissionsListWithHttpInfo
 
-> ApiResponse<UsersPermissionsList200Response> usersPermissionsList usersPermissionsListWithHttpInfo(id, name, enabled, objectTypes, description, q, userId, user, groupId, group, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, nameEmpty, objectTypesN, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, descriptionEmpty, userIdN, userN, groupIdN, groupN, ordering, limit, offset)
+> ApiResponse<UsersPermissionsList200Response> usersPermissionsList usersPermissionsListWithHttpInfo(id, name, enabled, objectTypes, description, q, userId, user, groupId, group, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, nameEmpty, objectTypesN, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, descriptionEmpty, userIdN, userN, groupIdN, groupN, limit, offset)
 
 
 
@@ -2533,11 +2527,10 @@ public class Example {
         String userN = "userN_example"; // String | 
         String groupIdN = "groupIdN_example"; // String | 
         String groupN = "groupN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<UsersPermissionsList200Response> response = apiInstance.usersPermissionsListWithHttpInfo(id, name, enabled, objectTypes, description, q, userId, user, groupId, group, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, nameEmpty, objectTypesN, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, descriptionEmpty, userIdN, userN, groupIdN, groupN, ordering, limit, offset);
+            ApiResponse<UsersPermissionsList200Response> response = apiInstance.usersPermissionsListWithHttpInfo(id, name, enabled, objectTypes, description, q, userId, user, groupId, group, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, nameEmpty, objectTypesN, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, descriptionEmpty, userIdN, userN, groupIdN, groupN, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -2597,7 +2590,6 @@ public class Example {
 | **userN** | **String**|  | [optional] |
 | **groupIdN** | **String**|  | [optional] |
 | **groupN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -3771,7 +3763,7 @@ ApiResponse<Void>
 
 ## usersTokensList
 
-> UsersTokensList200Response usersTokensList(id, key, writeEnabled, description, q, userId, user, created, createdGte, createdLte, expires, expiresGte, expiresLte, idN, idLte, idLt, idGte, idGt, keyN, keyIc, keyNic, keyIew, keyNiew, keyIsw, keyNisw, keyIe, keyNie, keyEmpty, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, descriptionEmpty, userIdN, userN, ordering, limit, offset)
+> UsersTokensList200Response usersTokensList(id, key, writeEnabled, description, q, userId, user, created, createdGte, createdLte, expires, expiresGte, expiresLte, idN, idLte, idLt, idGte, idGt, keyN, keyIc, keyNic, keyIew, keyNiew, keyIsw, keyNisw, keyIe, keyNie, keyEmpty, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, descriptionEmpty, userIdN, userN, limit, offset)
 
 
 
@@ -3840,11 +3832,10 @@ public class Example {
         String descriptionEmpty = "descriptionEmpty_example"; // String | 
         String userIdN = "userIdN_example"; // String | 
         String userN = "userN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            UsersTokensList200Response result = apiInstance.usersTokensList(id, key, writeEnabled, description, q, userId, user, created, createdGte, createdLte, expires, expiresGte, expiresLte, idN, idLte, idLt, idGte, idGt, keyN, keyIc, keyNic, keyIew, keyNiew, keyIsw, keyNisw, keyIe, keyNie, keyEmpty, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, descriptionEmpty, userIdN, userN, ordering, limit, offset);
+            UsersTokensList200Response result = apiInstance.usersTokensList(id, key, writeEnabled, description, q, userId, user, created, createdGte, createdLte, expires, expiresGte, expiresLte, idN, idLte, idLt, idGte, idGt, keyN, keyIc, keyNic, keyIew, keyNiew, keyIsw, keyNisw, keyIe, keyNie, keyEmpty, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, descriptionEmpty, userIdN, userN, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling UsersApi#usersTokensList");
@@ -3902,7 +3893,6 @@ public class Example {
 | **descriptionEmpty** | **String**|  | [optional] |
 | **userIdN** | **String**|  | [optional] |
 | **userN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -3927,7 +3917,7 @@ public class Example {
 
 ## usersTokensListWithHttpInfo
 
-> ApiResponse<UsersTokensList200Response> usersTokensList usersTokensListWithHttpInfo(id, key, writeEnabled, description, q, userId, user, created, createdGte, createdLte, expires, expiresGte, expiresLte, idN, idLte, idLt, idGte, idGt, keyN, keyIc, keyNic, keyIew, keyNiew, keyIsw, keyNisw, keyIe, keyNie, keyEmpty, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, descriptionEmpty, userIdN, userN, ordering, limit, offset)
+> ApiResponse<UsersTokensList200Response> usersTokensList usersTokensListWithHttpInfo(id, key, writeEnabled, description, q, userId, user, created, createdGte, createdLte, expires, expiresGte, expiresLte, idN, idLte, idLt, idGte, idGt, keyN, keyIc, keyNic, keyIew, keyNiew, keyIsw, keyNisw, keyIe, keyNie, keyEmpty, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, descriptionEmpty, userIdN, userN, limit, offset)
 
 
 
@@ -3997,11 +3987,10 @@ public class Example {
         String descriptionEmpty = "descriptionEmpty_example"; // String | 
         String userIdN = "userIdN_example"; // String | 
         String userN = "userN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<UsersTokensList200Response> response = apiInstance.usersTokensListWithHttpInfo(id, key, writeEnabled, description, q, userId, user, created, createdGte, createdLte, expires, expiresGte, expiresLte, idN, idLte, idLt, idGte, idGt, keyN, keyIc, keyNic, keyIew, keyNiew, keyIsw, keyNisw, keyIe, keyNie, keyEmpty, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, descriptionEmpty, userIdN, userN, ordering, limit, offset);
+            ApiResponse<UsersTokensList200Response> response = apiInstance.usersTokensListWithHttpInfo(id, key, writeEnabled, description, q, userId, user, created, createdGte, createdLte, expires, expiresGte, expiresLte, idN, idLte, idLt, idGte, idGt, keyN, keyIc, keyNic, keyIew, keyNiew, keyIsw, keyNisw, keyIe, keyNie, keyEmpty, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, descriptionEmpty, userIdN, userN, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -4061,7 +4050,6 @@ public class Example {
 | **descriptionEmpty** | **String**|  | [optional] |
 | **userIdN** | **String**|  | [optional] |
 | **userN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -5373,7 +5361,7 @@ ApiResponse<Void>
 
 ## usersUsersList
 
-> UsersUsersList200Response usersUsersList(id, username, firstName, lastName, email, isStaff, isActive, q, groupId, group, idN, idLte, idLt, idGte, idGt, usernameN, usernameIc, usernameNic, usernameIew, usernameNiew, usernameIsw, usernameNisw, usernameIe, usernameNie, usernameEmpty, firstNameN, firstNameIc, firstNameNic, firstNameIew, firstNameNiew, firstNameIsw, firstNameNisw, firstNameIe, firstNameNie, firstNameEmpty, lastNameN, lastNameIc, lastNameNic, lastNameIew, lastNameNiew, lastNameIsw, lastNameNisw, lastNameIe, lastNameNie, lastNameEmpty, emailN, emailIc, emailNic, emailIew, emailNiew, emailIsw, emailNisw, emailIe, emailNie, emailEmpty, groupIdN, groupN, ordering, limit, offset)
+> UsersUsersList200Response usersUsersList(id, username, firstName, lastName, email, isStaff, isActive, q, groupId, group, idN, idLte, idLt, idGte, idGt, usernameN, usernameIc, usernameNic, usernameIew, usernameNiew, usernameIsw, usernameNisw, usernameIe, usernameNie, usernameEmpty, firstNameN, firstNameIc, firstNameNic, firstNameIew, firstNameNiew, firstNameIsw, firstNameNisw, firstNameIe, firstNameNie, firstNameEmpty, lastNameN, lastNameIc, lastNameNic, lastNameIew, lastNameNiew, lastNameIsw, lastNameNisw, lastNameIe, lastNameNie, lastNameEmpty, emailN, emailIc, emailNic, emailIew, emailNiew, emailIsw, emailNisw, emailIe, emailNie, emailEmpty, groupIdN, groupN, limit, offset)
 
 
 
@@ -5459,11 +5447,10 @@ public class Example {
         String emailEmpty = "emailEmpty_example"; // String | 
         String groupIdN = "groupIdN_example"; // String | 
         String groupN = "groupN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            UsersUsersList200Response result = apiInstance.usersUsersList(id, username, firstName, lastName, email, isStaff, isActive, q, groupId, group, idN, idLte, idLt, idGte, idGt, usernameN, usernameIc, usernameNic, usernameIew, usernameNiew, usernameIsw, usernameNisw, usernameIe, usernameNie, usernameEmpty, firstNameN, firstNameIc, firstNameNic, firstNameIew, firstNameNiew, firstNameIsw, firstNameNisw, firstNameIe, firstNameNie, firstNameEmpty, lastNameN, lastNameIc, lastNameNic, lastNameIew, lastNameNiew, lastNameIsw, lastNameNisw, lastNameIe, lastNameNie, lastNameEmpty, emailN, emailIc, emailNic, emailIew, emailNiew, emailIsw, emailNisw, emailIe, emailNie, emailEmpty, groupIdN, groupN, ordering, limit, offset);
+            UsersUsersList200Response result = apiInstance.usersUsersList(id, username, firstName, lastName, email, isStaff, isActive, q, groupId, group, idN, idLte, idLt, idGte, idGt, usernameN, usernameIc, usernameNic, usernameIew, usernameNiew, usernameIsw, usernameNisw, usernameIe, usernameNie, usernameEmpty, firstNameN, firstNameIc, firstNameNic, firstNameIew, firstNameNiew, firstNameIsw, firstNameNisw, firstNameIe, firstNameNie, firstNameEmpty, lastNameN, lastNameIc, lastNameNic, lastNameIew, lastNameNiew, lastNameIsw, lastNameNisw, lastNameIe, lastNameNie, lastNameEmpty, emailN, emailIc, emailNic, emailIew, emailNiew, emailIsw, emailNisw, emailIe, emailNie, emailEmpty, groupIdN, groupN, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling UsersApi#usersUsersList");
@@ -5538,7 +5525,6 @@ public class Example {
 | **emailEmpty** | **String**|  | [optional] |
 | **groupIdN** | **String**|  | [optional] |
 | **groupN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -5563,7 +5549,7 @@ public class Example {
 
 ## usersUsersListWithHttpInfo
 
-> ApiResponse<UsersUsersList200Response> usersUsersList usersUsersListWithHttpInfo(id, username, firstName, lastName, email, isStaff, isActive, q, groupId, group, idN, idLte, idLt, idGte, idGt, usernameN, usernameIc, usernameNic, usernameIew, usernameNiew, usernameIsw, usernameNisw, usernameIe, usernameNie, usernameEmpty, firstNameN, firstNameIc, firstNameNic, firstNameIew, firstNameNiew, firstNameIsw, firstNameNisw, firstNameIe, firstNameNie, firstNameEmpty, lastNameN, lastNameIc, lastNameNic, lastNameIew, lastNameNiew, lastNameIsw, lastNameNisw, lastNameIe, lastNameNie, lastNameEmpty, emailN, emailIc, emailNic, emailIew, emailNiew, emailIsw, emailNisw, emailIe, emailNie, emailEmpty, groupIdN, groupN, ordering, limit, offset)
+> ApiResponse<UsersUsersList200Response> usersUsersList usersUsersListWithHttpInfo(id, username, firstName, lastName, email, isStaff, isActive, q, groupId, group, idN, idLte, idLt, idGte, idGt, usernameN, usernameIc, usernameNic, usernameIew, usernameNiew, usernameIsw, usernameNisw, usernameIe, usernameNie, usernameEmpty, firstNameN, firstNameIc, firstNameNic, firstNameIew, firstNameNiew, firstNameIsw, firstNameNisw, firstNameIe, firstNameNie, firstNameEmpty, lastNameN, lastNameIc, lastNameNic, lastNameIew, lastNameNiew, lastNameIsw, lastNameNisw, lastNameIe, lastNameNie, lastNameEmpty, emailN, emailIc, emailNic, emailIew, emailNiew, emailIsw, emailNisw, emailIe, emailNie, emailEmpty, groupIdN, groupN, limit, offset)
 
 
 
@@ -5650,11 +5636,10 @@ public class Example {
         String emailEmpty = "emailEmpty_example"; // String | 
         String groupIdN = "groupIdN_example"; // String | 
         String groupN = "groupN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<UsersUsersList200Response> response = apiInstance.usersUsersListWithHttpInfo(id, username, firstName, lastName, email, isStaff, isActive, q, groupId, group, idN, idLte, idLt, idGte, idGt, usernameN, usernameIc, usernameNic, usernameIew, usernameNiew, usernameIsw, usernameNisw, usernameIe, usernameNie, usernameEmpty, firstNameN, firstNameIc, firstNameNic, firstNameIew, firstNameNiew, firstNameIsw, firstNameNisw, firstNameIe, firstNameNie, firstNameEmpty, lastNameN, lastNameIc, lastNameNic, lastNameIew, lastNameNiew, lastNameIsw, lastNameNisw, lastNameIe, lastNameNie, lastNameEmpty, emailN, emailIc, emailNic, emailIew, emailNiew, emailIsw, emailNisw, emailIe, emailNie, emailEmpty, groupIdN, groupN, ordering, limit, offset);
+            ApiResponse<UsersUsersList200Response> response = apiInstance.usersUsersListWithHttpInfo(id, username, firstName, lastName, email, isStaff, isActive, q, groupId, group, idN, idLte, idLt, idGte, idGt, usernameN, usernameIc, usernameNic, usernameIew, usernameNiew, usernameIsw, usernameNisw, usernameIe, usernameNie, usernameEmpty, firstNameN, firstNameIc, firstNameNic, firstNameIew, firstNameNiew, firstNameIsw, firstNameNisw, firstNameIe, firstNameNie, firstNameEmpty, lastNameN, lastNameIc, lastNameNic, lastNameIew, lastNameNiew, lastNameIsw, lastNameNisw, lastNameIe, lastNameNie, lastNameEmpty, emailN, emailIc, emailNic, emailIew, emailNiew, emailIsw, emailNisw, emailIe, emailNie, emailEmpty, groupIdN, groupN, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -5731,7 +5716,6 @@ public class Example {
 | **emailEmpty** | **String**|  | [optional] |
 | **groupIdN** | **String**|  | [optional] |
 | **groupN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 

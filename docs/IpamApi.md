@@ -116,42 +116,6 @@ All URIs are relative to *https://demo.netbox.dev/api*
 | [**ipamIpRangesReadWithHttpInfo**](IpamApi.md#ipamIpRangesReadWithHttpInfo) | **GET** /ipam/ip-ranges/{id}/ |  |
 | [**ipamIpRangesUpdate**](IpamApi.md#ipamIpRangesUpdate) | **PUT** /ipam/ip-ranges/{id}/ |  |
 | [**ipamIpRangesUpdateWithHttpInfo**](IpamApi.md#ipamIpRangesUpdateWithHttpInfo) | **PUT** /ipam/ip-ranges/{id}/ |  |
-| [**ipamL2vpnTerminationsBulkDelete**](IpamApi.md#ipamL2vpnTerminationsBulkDelete) | **DELETE** /ipam/l2vpn-terminations/ |  |
-| [**ipamL2vpnTerminationsBulkDeleteWithHttpInfo**](IpamApi.md#ipamL2vpnTerminationsBulkDeleteWithHttpInfo) | **DELETE** /ipam/l2vpn-terminations/ |  |
-| [**ipamL2vpnTerminationsBulkPartialUpdate**](IpamApi.md#ipamL2vpnTerminationsBulkPartialUpdate) | **PATCH** /ipam/l2vpn-terminations/ |  |
-| [**ipamL2vpnTerminationsBulkPartialUpdateWithHttpInfo**](IpamApi.md#ipamL2vpnTerminationsBulkPartialUpdateWithHttpInfo) | **PATCH** /ipam/l2vpn-terminations/ |  |
-| [**ipamL2vpnTerminationsBulkUpdate**](IpamApi.md#ipamL2vpnTerminationsBulkUpdate) | **PUT** /ipam/l2vpn-terminations/ |  |
-| [**ipamL2vpnTerminationsBulkUpdateWithHttpInfo**](IpamApi.md#ipamL2vpnTerminationsBulkUpdateWithHttpInfo) | **PUT** /ipam/l2vpn-terminations/ |  |
-| [**ipamL2vpnTerminationsCreate**](IpamApi.md#ipamL2vpnTerminationsCreate) | **POST** /ipam/l2vpn-terminations/ |  |
-| [**ipamL2vpnTerminationsCreateWithHttpInfo**](IpamApi.md#ipamL2vpnTerminationsCreateWithHttpInfo) | **POST** /ipam/l2vpn-terminations/ |  |
-| [**ipamL2vpnTerminationsDelete**](IpamApi.md#ipamL2vpnTerminationsDelete) | **DELETE** /ipam/l2vpn-terminations/{id}/ |  |
-| [**ipamL2vpnTerminationsDeleteWithHttpInfo**](IpamApi.md#ipamL2vpnTerminationsDeleteWithHttpInfo) | **DELETE** /ipam/l2vpn-terminations/{id}/ |  |
-| [**ipamL2vpnTerminationsList**](IpamApi.md#ipamL2vpnTerminationsList) | **GET** /ipam/l2vpn-terminations/ |  |
-| [**ipamL2vpnTerminationsListWithHttpInfo**](IpamApi.md#ipamL2vpnTerminationsListWithHttpInfo) | **GET** /ipam/l2vpn-terminations/ |  |
-| [**ipamL2vpnTerminationsPartialUpdate**](IpamApi.md#ipamL2vpnTerminationsPartialUpdate) | **PATCH** /ipam/l2vpn-terminations/{id}/ |  |
-| [**ipamL2vpnTerminationsPartialUpdateWithHttpInfo**](IpamApi.md#ipamL2vpnTerminationsPartialUpdateWithHttpInfo) | **PATCH** /ipam/l2vpn-terminations/{id}/ |  |
-| [**ipamL2vpnTerminationsRead**](IpamApi.md#ipamL2vpnTerminationsRead) | **GET** /ipam/l2vpn-terminations/{id}/ |  |
-| [**ipamL2vpnTerminationsReadWithHttpInfo**](IpamApi.md#ipamL2vpnTerminationsReadWithHttpInfo) | **GET** /ipam/l2vpn-terminations/{id}/ |  |
-| [**ipamL2vpnTerminationsUpdate**](IpamApi.md#ipamL2vpnTerminationsUpdate) | **PUT** /ipam/l2vpn-terminations/{id}/ |  |
-| [**ipamL2vpnTerminationsUpdateWithHttpInfo**](IpamApi.md#ipamL2vpnTerminationsUpdateWithHttpInfo) | **PUT** /ipam/l2vpn-terminations/{id}/ |  |
-| [**ipamL2vpnsBulkDelete**](IpamApi.md#ipamL2vpnsBulkDelete) | **DELETE** /ipam/l2vpns/ |  |
-| [**ipamL2vpnsBulkDeleteWithHttpInfo**](IpamApi.md#ipamL2vpnsBulkDeleteWithHttpInfo) | **DELETE** /ipam/l2vpns/ |  |
-| [**ipamL2vpnsBulkPartialUpdate**](IpamApi.md#ipamL2vpnsBulkPartialUpdate) | **PATCH** /ipam/l2vpns/ |  |
-| [**ipamL2vpnsBulkPartialUpdateWithHttpInfo**](IpamApi.md#ipamL2vpnsBulkPartialUpdateWithHttpInfo) | **PATCH** /ipam/l2vpns/ |  |
-| [**ipamL2vpnsBulkUpdate**](IpamApi.md#ipamL2vpnsBulkUpdate) | **PUT** /ipam/l2vpns/ |  |
-| [**ipamL2vpnsBulkUpdateWithHttpInfo**](IpamApi.md#ipamL2vpnsBulkUpdateWithHttpInfo) | **PUT** /ipam/l2vpns/ |  |
-| [**ipamL2vpnsCreate**](IpamApi.md#ipamL2vpnsCreate) | **POST** /ipam/l2vpns/ |  |
-| [**ipamL2vpnsCreateWithHttpInfo**](IpamApi.md#ipamL2vpnsCreateWithHttpInfo) | **POST** /ipam/l2vpns/ |  |
-| [**ipamL2vpnsDelete**](IpamApi.md#ipamL2vpnsDelete) | **DELETE** /ipam/l2vpns/{id}/ |  |
-| [**ipamL2vpnsDeleteWithHttpInfo**](IpamApi.md#ipamL2vpnsDeleteWithHttpInfo) | **DELETE** /ipam/l2vpns/{id}/ |  |
-| [**ipamL2vpnsList**](IpamApi.md#ipamL2vpnsList) | **GET** /ipam/l2vpns/ |  |
-| [**ipamL2vpnsListWithHttpInfo**](IpamApi.md#ipamL2vpnsListWithHttpInfo) | **GET** /ipam/l2vpns/ |  |
-| [**ipamL2vpnsPartialUpdate**](IpamApi.md#ipamL2vpnsPartialUpdate) | **PATCH** /ipam/l2vpns/{id}/ |  |
-| [**ipamL2vpnsPartialUpdateWithHttpInfo**](IpamApi.md#ipamL2vpnsPartialUpdateWithHttpInfo) | **PATCH** /ipam/l2vpns/{id}/ |  |
-| [**ipamL2vpnsRead**](IpamApi.md#ipamL2vpnsRead) | **GET** /ipam/l2vpns/{id}/ |  |
-| [**ipamL2vpnsReadWithHttpInfo**](IpamApi.md#ipamL2vpnsReadWithHttpInfo) | **GET** /ipam/l2vpns/{id}/ |  |
-| [**ipamL2vpnsUpdate**](IpamApi.md#ipamL2vpnsUpdate) | **PUT** /ipam/l2vpns/{id}/ |  |
-| [**ipamL2vpnsUpdateWithHttpInfo**](IpamApi.md#ipamL2vpnsUpdateWithHttpInfo) | **PUT** /ipam/l2vpns/{id}/ |  |
 | [**ipamPrefixesAvailableIpsCreate**](IpamApi.md#ipamPrefixesAvailableIpsCreate) | **POST** /ipam/prefixes/{id}/available-ips/ |  |
 | [**ipamPrefixesAvailableIpsCreateWithHttpInfo**](IpamApi.md#ipamPrefixesAvailableIpsCreateWithHttpInfo) | **POST** /ipam/prefixes/{id}/available-ips/ |  |
 | [**ipamPrefixesAvailableIpsList**](IpamApi.md#ipamPrefixesAvailableIpsList) | **GET** /ipam/prefixes/{id}/available-ips/ |  |
@@ -1039,7 +1003,7 @@ ApiResponse<Void>
 
 ## ipamAggregatesList
 
-> IpamAggregatesList200Response ipamAggregatesList(id, dateAdded, description, created, lastUpdated, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, family, prefix, rirId, rir, idN, idLte, idLt, idGte, idGt, dateAddedN, dateAddedLte, dateAddedLt, dateAddedGte, dateAddedGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, rirIdN, rirN, ordering, limit, offset)
+> IpamAggregatesList200Response ipamAggregatesList(id, dateAdded, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, family, prefix, rirId, rir, idN, idLte, idLt, idGte, idGt, dateAddedN, dateAddedLte, dateAddedLt, dateAddedGte, dateAddedGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, rirIdN, rirN, limit, offset)
 
 
 
@@ -1072,7 +1036,11 @@ public class Example {
         String dateAdded = "dateAdded_example"; // String | 
         String description = "description_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String tenantGroupId = "tenantGroupId_example"; // String | 
@@ -1102,16 +1070,6 @@ public class Example {
         String descriptionNisw = "descriptionNisw_example"; // String | 
         String descriptionIe = "descriptionIe_example"; // String | 
         String descriptionNie = "descriptionNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String tenantGroupIdN = "tenantGroupIdN_example"; // String | 
         String tenantGroupN = "tenantGroupN_example"; // String | 
@@ -1119,11 +1077,10 @@ public class Example {
         String tenantN = "tenantN_example"; // String | 
         String rirIdN = "rirIdN_example"; // String | 
         String rirN = "rirN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            IpamAggregatesList200Response result = apiInstance.ipamAggregatesList(id, dateAdded, description, created, lastUpdated, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, family, prefix, rirId, rir, idN, idLte, idLt, idGte, idGt, dateAddedN, dateAddedLte, dateAddedLt, dateAddedGte, dateAddedGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, rirIdN, rirN, ordering, limit, offset);
+            IpamAggregatesList200Response result = apiInstance.ipamAggregatesList(id, dateAdded, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, family, prefix, rirId, rir, idN, idLte, idLt, idGte, idGt, dateAddedN, dateAddedLte, dateAddedLt, dateAddedGte, dateAddedGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, rirIdN, rirN, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling IpamApi#ipamAggregatesList");
@@ -1145,7 +1102,11 @@ public class Example {
 | **dateAdded** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **tenantGroupId** | **String**|  | [optional] |
@@ -1175,16 +1136,6 @@ public class Example {
 | **descriptionNisw** | **String**|  | [optional] |
 | **descriptionIe** | **String**|  | [optional] |
 | **descriptionNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **tenantGroupIdN** | **String**|  | [optional] |
 | **tenantGroupN** | **String**|  | [optional] |
@@ -1192,7 +1143,6 @@ public class Example {
 | **tenantN** | **String**|  | [optional] |
 | **rirIdN** | **String**|  | [optional] |
 | **rirN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -1217,7 +1167,7 @@ public class Example {
 
 ## ipamAggregatesListWithHttpInfo
 
-> ApiResponse<IpamAggregatesList200Response> ipamAggregatesList ipamAggregatesListWithHttpInfo(id, dateAdded, description, created, lastUpdated, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, family, prefix, rirId, rir, idN, idLte, idLt, idGte, idGt, dateAddedN, dateAddedLte, dateAddedLt, dateAddedGte, dateAddedGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, rirIdN, rirN, ordering, limit, offset)
+> ApiResponse<IpamAggregatesList200Response> ipamAggregatesList ipamAggregatesListWithHttpInfo(id, dateAdded, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, family, prefix, rirId, rir, idN, idLte, idLt, idGte, idGt, dateAddedN, dateAddedLte, dateAddedLt, dateAddedGte, dateAddedGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, rirIdN, rirN, limit, offset)
 
 
 
@@ -1251,7 +1201,11 @@ public class Example {
         String dateAdded = "dateAdded_example"; // String | 
         String description = "description_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String tenantGroupId = "tenantGroupId_example"; // String | 
@@ -1281,16 +1235,6 @@ public class Example {
         String descriptionNisw = "descriptionNisw_example"; // String | 
         String descriptionIe = "descriptionIe_example"; // String | 
         String descriptionNie = "descriptionNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String tenantGroupIdN = "tenantGroupIdN_example"; // String | 
         String tenantGroupN = "tenantGroupN_example"; // String | 
@@ -1298,11 +1242,10 @@ public class Example {
         String tenantN = "tenantN_example"; // String | 
         String rirIdN = "rirIdN_example"; // String | 
         String rirN = "rirN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<IpamAggregatesList200Response> response = apiInstance.ipamAggregatesListWithHttpInfo(id, dateAdded, description, created, lastUpdated, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, family, prefix, rirId, rir, idN, idLte, idLt, idGte, idGt, dateAddedN, dateAddedLte, dateAddedLt, dateAddedGte, dateAddedGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, rirIdN, rirN, ordering, limit, offset);
+            ApiResponse<IpamAggregatesList200Response> response = apiInstance.ipamAggregatesListWithHttpInfo(id, dateAdded, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, family, prefix, rirId, rir, idN, idLte, idLt, idGte, idGt, dateAddedN, dateAddedLte, dateAddedLt, dateAddedGte, dateAddedGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, rirIdN, rirN, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -1326,7 +1269,11 @@ public class Example {
 | **dateAdded** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **tenantGroupId** | **String**|  | [optional] |
@@ -1356,16 +1303,6 @@ public class Example {
 | **descriptionNisw** | **String**|  | [optional] |
 | **descriptionIe** | **String**|  | [optional] |
 | **descriptionNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **tenantGroupIdN** | **String**|  | [optional] |
 | **tenantGroupN** | **String**|  | [optional] |
@@ -1373,7 +1310,6 @@ public class Example {
 | **tenantN** | **String**|  | [optional] |
 | **rirIdN** | **String**|  | [optional] |
 | **rirN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -2547,7 +2483,7 @@ ApiResponse<Void>
 
 ## ipamAsnsList
 
-> IpamAsnsList200Response ipamAsnsList(id, asn, description, created, lastUpdated, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, rirId, rir, siteId, site, idN, idLte, idLt, idGte, idGt, asnN, asnLte, asnLt, asnGte, asnGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, rirIdN, rirN, siteIdN, siteN, ordering, limit, offset)
+> IpamAsnsList200Response ipamAsnsList(id, asn, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, rirId, rir, siteId, site, idN, idLte, idLt, idGte, idGt, asnN, asnLte, asnLt, asnGte, asnGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, rirIdN, rirN, siteIdN, siteN, limit, offset)
 
 
 
@@ -2580,7 +2516,11 @@ public class Example {
         String asn = "asn_example"; // String | 
         String description = "description_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String tenantGroupId = "tenantGroupId_example"; // String | 
@@ -2610,16 +2550,6 @@ public class Example {
         String descriptionNisw = "descriptionNisw_example"; // String | 
         String descriptionIe = "descriptionIe_example"; // String | 
         String descriptionNie = "descriptionNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String tenantGroupIdN = "tenantGroupIdN_example"; // String | 
         String tenantGroupN = "tenantGroupN_example"; // String | 
@@ -2629,11 +2559,10 @@ public class Example {
         String rirN = "rirN_example"; // String | 
         String siteIdN = "siteIdN_example"; // String | 
         String siteN = "siteN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            IpamAsnsList200Response result = apiInstance.ipamAsnsList(id, asn, description, created, lastUpdated, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, rirId, rir, siteId, site, idN, idLte, idLt, idGte, idGt, asnN, asnLte, asnLt, asnGte, asnGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, rirIdN, rirN, siteIdN, siteN, ordering, limit, offset);
+            IpamAsnsList200Response result = apiInstance.ipamAsnsList(id, asn, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, rirId, rir, siteId, site, idN, idLte, idLt, idGte, idGt, asnN, asnLte, asnLt, asnGte, asnGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, rirIdN, rirN, siteIdN, siteN, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling IpamApi#ipamAsnsList");
@@ -2655,7 +2584,11 @@ public class Example {
 | **asn** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **tenantGroupId** | **String**|  | [optional] |
@@ -2685,16 +2618,6 @@ public class Example {
 | **descriptionNisw** | **String**|  | [optional] |
 | **descriptionIe** | **String**|  | [optional] |
 | **descriptionNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **tenantGroupIdN** | **String**|  | [optional] |
 | **tenantGroupN** | **String**|  | [optional] |
@@ -2704,7 +2627,6 @@ public class Example {
 | **rirN** | **String**|  | [optional] |
 | **siteIdN** | **String**|  | [optional] |
 | **siteN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -2729,7 +2651,7 @@ public class Example {
 
 ## ipamAsnsListWithHttpInfo
 
-> ApiResponse<IpamAsnsList200Response> ipamAsnsList ipamAsnsListWithHttpInfo(id, asn, description, created, lastUpdated, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, rirId, rir, siteId, site, idN, idLte, idLt, idGte, idGt, asnN, asnLte, asnLt, asnGte, asnGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, rirIdN, rirN, siteIdN, siteN, ordering, limit, offset)
+> ApiResponse<IpamAsnsList200Response> ipamAsnsList ipamAsnsListWithHttpInfo(id, asn, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, rirId, rir, siteId, site, idN, idLte, idLt, idGte, idGt, asnN, asnLte, asnLt, asnGte, asnGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, rirIdN, rirN, siteIdN, siteN, limit, offset)
 
 
 
@@ -2763,7 +2685,11 @@ public class Example {
         String asn = "asn_example"; // String | 
         String description = "description_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String tenantGroupId = "tenantGroupId_example"; // String | 
@@ -2793,16 +2719,6 @@ public class Example {
         String descriptionNisw = "descriptionNisw_example"; // String | 
         String descriptionIe = "descriptionIe_example"; // String | 
         String descriptionNie = "descriptionNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String tenantGroupIdN = "tenantGroupIdN_example"; // String | 
         String tenantGroupN = "tenantGroupN_example"; // String | 
@@ -2812,11 +2728,10 @@ public class Example {
         String rirN = "rirN_example"; // String | 
         String siteIdN = "siteIdN_example"; // String | 
         String siteN = "siteN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<IpamAsnsList200Response> response = apiInstance.ipamAsnsListWithHttpInfo(id, asn, description, created, lastUpdated, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, rirId, rir, siteId, site, idN, idLte, idLt, idGte, idGt, asnN, asnLte, asnLt, asnGte, asnGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, rirIdN, rirN, siteIdN, siteN, ordering, limit, offset);
+            ApiResponse<IpamAsnsList200Response> response = apiInstance.ipamAsnsListWithHttpInfo(id, asn, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, rirId, rir, siteId, site, idN, idLte, idLt, idGte, idGt, asnN, asnLte, asnLt, asnGte, asnGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, rirIdN, rirN, siteIdN, siteN, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -2840,7 +2755,11 @@ public class Example {
 | **asn** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **tenantGroupId** | **String**|  | [optional] |
@@ -2870,16 +2789,6 @@ public class Example {
 | **descriptionNisw** | **String**|  | [optional] |
 | **descriptionIe** | **String**|  | [optional] |
 | **descriptionNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **tenantGroupIdN** | **String**|  | [optional] |
 | **tenantGroupN** | **String**|  | [optional] |
@@ -2889,7 +2798,6 @@ public class Example {
 | **rirN** | **String**|  | [optional] |
 | **siteIdN** | **String**|  | [optional] |
 | **siteN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -4063,7 +3971,7 @@ ApiResponse<Void>
 
 ## ipamFhrpGroupAssignmentsList
 
-> IpamFhrpGroupAssignmentsList200Response ipamFhrpGroupAssignmentsList(id, groupId, interfaceType, interfaceId, priority, created, lastUpdated, device, deviceId, virtualMachine, virtualMachineId, idN, idLte, idLt, idGte, idGt, groupIdN, interfaceTypeN, interfaceIdN, interfaceIdLte, interfaceIdLt, interfaceIdGte, interfaceIdGt, priorityN, priorityLte, priorityLt, priorityGte, priorityGt, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, ordering, limit, offset)
+> IpamFhrpGroupAssignmentsList200Response ipamFhrpGroupAssignmentsList(id, groupId, interfaceType, interfaceId, priority, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, device, deviceId, virtualMachine, virtualMachineId, idN, idLte, idLt, idGte, idGt, groupIdN, interfaceTypeN, interfaceIdN, interfaceIdLte, interfaceIdLt, interfaceIdGte, interfaceIdGt, priorityN, priorityLte, priorityLt, priorityGte, priorityGt, limit, offset)
 
 
 
@@ -4098,7 +4006,11 @@ public class Example {
         String interfaceId = "interfaceId_example"; // String | 
         String priority = "priority_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String device = "device_example"; // String | 
         String deviceId = "deviceId_example"; // String | 
         String virtualMachine = "virtualMachine_example"; // String | 
@@ -4120,21 +4032,10 @@ public class Example {
         String priorityLt = "priorityLt_example"; // String | 
         String priorityGte = "priorityGte_example"; // String | 
         String priorityGt = "priorityGt_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            IpamFhrpGroupAssignmentsList200Response result = apiInstance.ipamFhrpGroupAssignmentsList(id, groupId, interfaceType, interfaceId, priority, created, lastUpdated, device, deviceId, virtualMachine, virtualMachineId, idN, idLte, idLt, idGte, idGt, groupIdN, interfaceTypeN, interfaceIdN, interfaceIdLte, interfaceIdLt, interfaceIdGte, interfaceIdGt, priorityN, priorityLte, priorityLt, priorityGte, priorityGt, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, ordering, limit, offset);
+            IpamFhrpGroupAssignmentsList200Response result = apiInstance.ipamFhrpGroupAssignmentsList(id, groupId, interfaceType, interfaceId, priority, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, device, deviceId, virtualMachine, virtualMachineId, idN, idLte, idLt, idGte, idGt, groupIdN, interfaceTypeN, interfaceIdN, interfaceIdLte, interfaceIdLt, interfaceIdGte, interfaceIdGt, priorityN, priorityLte, priorityLt, priorityGte, priorityGt, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling IpamApi#ipamFhrpGroupAssignmentsList");
@@ -4158,7 +4059,11 @@ public class Example {
 | **interfaceId** | **String**|  | [optional] |
 | **priority** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **device** | **String**|  | [optional] |
 | **deviceId** | **String**|  | [optional] |
 | **virtualMachine** | **String**|  | [optional] |
@@ -4180,17 +4085,6 @@ public class Example {
 | **priorityLt** | **String**|  | [optional] |
 | **priorityGte** | **String**|  | [optional] |
 | **priorityGt** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -4215,7 +4109,7 @@ public class Example {
 
 ## ipamFhrpGroupAssignmentsListWithHttpInfo
 
-> ApiResponse<IpamFhrpGroupAssignmentsList200Response> ipamFhrpGroupAssignmentsList ipamFhrpGroupAssignmentsListWithHttpInfo(id, groupId, interfaceType, interfaceId, priority, created, lastUpdated, device, deviceId, virtualMachine, virtualMachineId, idN, idLte, idLt, idGte, idGt, groupIdN, interfaceTypeN, interfaceIdN, interfaceIdLte, interfaceIdLt, interfaceIdGte, interfaceIdGt, priorityN, priorityLte, priorityLt, priorityGte, priorityGt, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, ordering, limit, offset)
+> ApiResponse<IpamFhrpGroupAssignmentsList200Response> ipamFhrpGroupAssignmentsList ipamFhrpGroupAssignmentsListWithHttpInfo(id, groupId, interfaceType, interfaceId, priority, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, device, deviceId, virtualMachine, virtualMachineId, idN, idLte, idLt, idGte, idGt, groupIdN, interfaceTypeN, interfaceIdN, interfaceIdLte, interfaceIdLt, interfaceIdGte, interfaceIdGt, priorityN, priorityLte, priorityLt, priorityGte, priorityGt, limit, offset)
 
 
 
@@ -4251,7 +4145,11 @@ public class Example {
         String interfaceId = "interfaceId_example"; // String | 
         String priority = "priority_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String device = "device_example"; // String | 
         String deviceId = "deviceId_example"; // String | 
         String virtualMachine = "virtualMachine_example"; // String | 
@@ -4273,21 +4171,10 @@ public class Example {
         String priorityLt = "priorityLt_example"; // String | 
         String priorityGte = "priorityGte_example"; // String | 
         String priorityGt = "priorityGt_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<IpamFhrpGroupAssignmentsList200Response> response = apiInstance.ipamFhrpGroupAssignmentsListWithHttpInfo(id, groupId, interfaceType, interfaceId, priority, created, lastUpdated, device, deviceId, virtualMachine, virtualMachineId, idN, idLte, idLt, idGte, idGt, groupIdN, interfaceTypeN, interfaceIdN, interfaceIdLte, interfaceIdLt, interfaceIdGte, interfaceIdGt, priorityN, priorityLte, priorityLt, priorityGte, priorityGt, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, ordering, limit, offset);
+            ApiResponse<IpamFhrpGroupAssignmentsList200Response> response = apiInstance.ipamFhrpGroupAssignmentsListWithHttpInfo(id, groupId, interfaceType, interfaceId, priority, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, device, deviceId, virtualMachine, virtualMachineId, idN, idLte, idLt, idGte, idGt, groupIdN, interfaceTypeN, interfaceIdN, interfaceIdLte, interfaceIdLt, interfaceIdGte, interfaceIdGt, priorityN, priorityLte, priorityLt, priorityGte, priorityGt, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -4313,7 +4200,11 @@ public class Example {
 | **interfaceId** | **String**|  | [optional] |
 | **priority** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **device** | **String**|  | [optional] |
 | **deviceId** | **String**|  | [optional] |
 | **virtualMachine** | **String**|  | [optional] |
@@ -4335,17 +4226,6 @@ public class Example {
 | **priorityLt** | **String**|  | [optional] |
 | **priorityGte** | **String**|  | [optional] |
 | **priorityGt** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -5519,7 +5399,7 @@ ApiResponse<Void>
 
 ## ipamFhrpGroupsList
 
-> IpamFhrpGroupsList200Response ipamFhrpGroupsList(id, groupId, authKey, created, lastUpdated, q, tag, protocol, authType, relatedIp, idN, idLte, idLt, idGte, idGt, groupIdN, groupIdLte, groupIdLt, groupIdGte, groupIdGt, authKeyN, authKeyIc, authKeyNic, authKeyIew, authKeyNiew, authKeyIsw, authKeyNisw, authKeyIe, authKeyNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, protocolN, authTypeN, ordering, limit, offset)
+> IpamFhrpGroupsList200Response ipamFhrpGroupsList(id, groupId, authKey, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, protocol, authType, relatedIp, idN, idLte, idLt, idGte, idGt, groupIdN, groupIdLte, groupIdLt, groupIdGte, groupIdGt, authKeyN, authKeyIc, authKeyNic, authKeyIew, authKeyNiew, authKeyIsw, authKeyNisw, authKeyIe, authKeyNie, tagN, protocolN, authTypeN, limit, offset)
 
 
 
@@ -5552,7 +5432,11 @@ public class Example {
         String groupId = "groupId_example"; // String | 
         String authKey = "authKey_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String protocol = "protocol_example"; // String | 
@@ -5577,24 +5461,13 @@ public class Example {
         String authKeyNisw = "authKeyNisw_example"; // String | 
         String authKeyIe = "authKeyIe_example"; // String | 
         String authKeyNie = "authKeyNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String protocolN = "protocolN_example"; // String | 
         String authTypeN = "authTypeN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            IpamFhrpGroupsList200Response result = apiInstance.ipamFhrpGroupsList(id, groupId, authKey, created, lastUpdated, q, tag, protocol, authType, relatedIp, idN, idLte, idLt, idGte, idGt, groupIdN, groupIdLte, groupIdLt, groupIdGte, groupIdGt, authKeyN, authKeyIc, authKeyNic, authKeyIew, authKeyNiew, authKeyIsw, authKeyNisw, authKeyIe, authKeyNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, protocolN, authTypeN, ordering, limit, offset);
+            IpamFhrpGroupsList200Response result = apiInstance.ipamFhrpGroupsList(id, groupId, authKey, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, protocol, authType, relatedIp, idN, idLte, idLt, idGte, idGt, groupIdN, groupIdLte, groupIdLt, groupIdGte, groupIdGt, authKeyN, authKeyIc, authKeyNic, authKeyIew, authKeyNiew, authKeyIsw, authKeyNisw, authKeyIe, authKeyNie, tagN, protocolN, authTypeN, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling IpamApi#ipamFhrpGroupsList");
@@ -5616,7 +5489,11 @@ public class Example {
 | **groupId** | **String**|  | [optional] |
 | **authKey** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **protocol** | **String**|  | [optional] |
@@ -5641,20 +5518,9 @@ public class Example {
 | **authKeyNisw** | **String**|  | [optional] |
 | **authKeyIe** | **String**|  | [optional] |
 | **authKeyNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **protocolN** | **String**|  | [optional] |
 | **authTypeN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -5679,7 +5545,7 @@ public class Example {
 
 ## ipamFhrpGroupsListWithHttpInfo
 
-> ApiResponse<IpamFhrpGroupsList200Response> ipamFhrpGroupsList ipamFhrpGroupsListWithHttpInfo(id, groupId, authKey, created, lastUpdated, q, tag, protocol, authType, relatedIp, idN, idLte, idLt, idGte, idGt, groupIdN, groupIdLte, groupIdLt, groupIdGte, groupIdGt, authKeyN, authKeyIc, authKeyNic, authKeyIew, authKeyNiew, authKeyIsw, authKeyNisw, authKeyIe, authKeyNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, protocolN, authTypeN, ordering, limit, offset)
+> ApiResponse<IpamFhrpGroupsList200Response> ipamFhrpGroupsList ipamFhrpGroupsListWithHttpInfo(id, groupId, authKey, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, protocol, authType, relatedIp, idN, idLte, idLt, idGte, idGt, groupIdN, groupIdLte, groupIdLt, groupIdGte, groupIdGt, authKeyN, authKeyIc, authKeyNic, authKeyIew, authKeyNiew, authKeyIsw, authKeyNisw, authKeyIe, authKeyNie, tagN, protocolN, authTypeN, limit, offset)
 
 
 
@@ -5713,7 +5579,11 @@ public class Example {
         String groupId = "groupId_example"; // String | 
         String authKey = "authKey_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String protocol = "protocol_example"; // String | 
@@ -5738,24 +5608,13 @@ public class Example {
         String authKeyNisw = "authKeyNisw_example"; // String | 
         String authKeyIe = "authKeyIe_example"; // String | 
         String authKeyNie = "authKeyNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String protocolN = "protocolN_example"; // String | 
         String authTypeN = "authTypeN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<IpamFhrpGroupsList200Response> response = apiInstance.ipamFhrpGroupsListWithHttpInfo(id, groupId, authKey, created, lastUpdated, q, tag, protocol, authType, relatedIp, idN, idLte, idLt, idGte, idGt, groupIdN, groupIdLte, groupIdLt, groupIdGte, groupIdGt, authKeyN, authKeyIc, authKeyNic, authKeyIew, authKeyNiew, authKeyIsw, authKeyNisw, authKeyIe, authKeyNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, protocolN, authTypeN, ordering, limit, offset);
+            ApiResponse<IpamFhrpGroupsList200Response> response = apiInstance.ipamFhrpGroupsListWithHttpInfo(id, groupId, authKey, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, protocol, authType, relatedIp, idN, idLte, idLt, idGte, idGt, groupIdN, groupIdLte, groupIdLt, groupIdGte, groupIdGt, authKeyN, authKeyIc, authKeyNic, authKeyIew, authKeyNiew, authKeyIsw, authKeyNisw, authKeyIe, authKeyNie, tagN, protocolN, authTypeN, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -5779,7 +5638,11 @@ public class Example {
 | **groupId** | **String**|  | [optional] |
 | **authKey** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **protocol** | **String**|  | [optional] |
@@ -5804,20 +5667,9 @@ public class Example {
 | **authKeyNisw** | **String**|  | [optional] |
 | **authKeyIe** | **String**|  | [optional] |
 | **authKeyNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **protocolN** | **String**|  | [optional] |
 | **authTypeN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -6991,7 +6843,7 @@ ApiResponse<Void>
 
 ## ipamIpAddressesList
 
-> IpamIpAddressesList200Response ipamIpAddressesList(id, dnsName, description, created, lastUpdated, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, family, parent, address, maskLength, vrfId, vrf, presentInVrfId, presentInVrf, device, deviceId, virtualMachine, virtualMachineId, _interface, interfaceId, vminterface, vminterfaceId, fhrpgroupId, assignedToInterface, status, role, idN, idLte, idLt, idGte, idGt, dnsNameN, dnsNameIc, dnsNameNic, dnsNameIew, dnsNameNiew, dnsNameIsw, dnsNameNisw, dnsNameIe, dnsNameNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, vrfIdN, vrfN, interfaceN, interfaceIdN, vminterfaceN, vminterfaceIdN, fhrpgroupIdN, statusN, roleN, ordering, limit, offset)
+> IpamIpAddressesList200Response ipamIpAddressesList(id, dnsName, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, family, parent, address, maskLength, vrfId, vrf, presentInVrfId, presentInVrf, device, deviceId, virtualMachine, virtualMachineId, _interface, interfaceId, vminterface, vminterfaceId, fhrpgroupId, assignedToInterface, status, role, idN, idLte, idLt, idGte, idGt, dnsNameN, dnsNameIc, dnsNameNic, dnsNameIew, dnsNameNiew, dnsNameIsw, dnsNameNisw, dnsNameIe, dnsNameNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, vrfIdN, vrfN, interfaceN, interfaceIdN, vminterfaceN, vminterfaceIdN, fhrpgroupIdN, statusN, roleN, limit, offset)
 
 
 
@@ -7024,7 +6876,11 @@ public class Example {
         String dnsName = "dnsName_example"; // String | 
         String description = "description_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String tenantGroupId = "tenantGroupId_example"; // String | 
@@ -7074,16 +6930,6 @@ public class Example {
         String descriptionNisw = "descriptionNisw_example"; // String | 
         String descriptionIe = "descriptionIe_example"; // String | 
         String descriptionNie = "descriptionNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String tenantGroupIdN = "tenantGroupIdN_example"; // String | 
         String tenantGroupN = "tenantGroupN_example"; // String | 
@@ -7098,11 +6944,10 @@ public class Example {
         String fhrpgroupIdN = "fhrpgroupIdN_example"; // String | 
         String statusN = "statusN_example"; // String | 
         String roleN = "roleN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            IpamIpAddressesList200Response result = apiInstance.ipamIpAddressesList(id, dnsName, description, created, lastUpdated, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, family, parent, address, maskLength, vrfId, vrf, presentInVrfId, presentInVrf, device, deviceId, virtualMachine, virtualMachineId, _interface, interfaceId, vminterface, vminterfaceId, fhrpgroupId, assignedToInterface, status, role, idN, idLte, idLt, idGte, idGt, dnsNameN, dnsNameIc, dnsNameNic, dnsNameIew, dnsNameNiew, dnsNameIsw, dnsNameNisw, dnsNameIe, dnsNameNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, vrfIdN, vrfN, interfaceN, interfaceIdN, vminterfaceN, vminterfaceIdN, fhrpgroupIdN, statusN, roleN, ordering, limit, offset);
+            IpamIpAddressesList200Response result = apiInstance.ipamIpAddressesList(id, dnsName, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, family, parent, address, maskLength, vrfId, vrf, presentInVrfId, presentInVrf, device, deviceId, virtualMachine, virtualMachineId, _interface, interfaceId, vminterface, vminterfaceId, fhrpgroupId, assignedToInterface, status, role, idN, idLte, idLt, idGte, idGt, dnsNameN, dnsNameIc, dnsNameNic, dnsNameIew, dnsNameNiew, dnsNameIsw, dnsNameNisw, dnsNameIe, dnsNameNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, vrfIdN, vrfN, interfaceN, interfaceIdN, vminterfaceN, vminterfaceIdN, fhrpgroupIdN, statusN, roleN, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling IpamApi#ipamIpAddressesList");
@@ -7124,7 +6969,11 @@ public class Example {
 | **dnsName** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **tenantGroupId** | **String**|  | [optional] |
@@ -7174,16 +7023,6 @@ public class Example {
 | **descriptionNisw** | **String**|  | [optional] |
 | **descriptionIe** | **String**|  | [optional] |
 | **descriptionNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **tenantGroupIdN** | **String**|  | [optional] |
 | **tenantGroupN** | **String**|  | [optional] |
@@ -7198,7 +7037,6 @@ public class Example {
 | **fhrpgroupIdN** | **String**|  | [optional] |
 | **statusN** | **String**|  | [optional] |
 | **roleN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -7223,7 +7061,7 @@ public class Example {
 
 ## ipamIpAddressesListWithHttpInfo
 
-> ApiResponse<IpamIpAddressesList200Response> ipamIpAddressesList ipamIpAddressesListWithHttpInfo(id, dnsName, description, created, lastUpdated, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, family, parent, address, maskLength, vrfId, vrf, presentInVrfId, presentInVrf, device, deviceId, virtualMachine, virtualMachineId, _interface, interfaceId, vminterface, vminterfaceId, fhrpgroupId, assignedToInterface, status, role, idN, idLte, idLt, idGte, idGt, dnsNameN, dnsNameIc, dnsNameNic, dnsNameIew, dnsNameNiew, dnsNameIsw, dnsNameNisw, dnsNameIe, dnsNameNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, vrfIdN, vrfN, interfaceN, interfaceIdN, vminterfaceN, vminterfaceIdN, fhrpgroupIdN, statusN, roleN, ordering, limit, offset)
+> ApiResponse<IpamIpAddressesList200Response> ipamIpAddressesList ipamIpAddressesListWithHttpInfo(id, dnsName, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, family, parent, address, maskLength, vrfId, vrf, presentInVrfId, presentInVrf, device, deviceId, virtualMachine, virtualMachineId, _interface, interfaceId, vminterface, vminterfaceId, fhrpgroupId, assignedToInterface, status, role, idN, idLte, idLt, idGte, idGt, dnsNameN, dnsNameIc, dnsNameNic, dnsNameIew, dnsNameNiew, dnsNameIsw, dnsNameNisw, dnsNameIe, dnsNameNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, vrfIdN, vrfN, interfaceN, interfaceIdN, vminterfaceN, vminterfaceIdN, fhrpgroupIdN, statusN, roleN, limit, offset)
 
 
 
@@ -7257,7 +7095,11 @@ public class Example {
         String dnsName = "dnsName_example"; // String | 
         String description = "description_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String tenantGroupId = "tenantGroupId_example"; // String | 
@@ -7307,16 +7149,6 @@ public class Example {
         String descriptionNisw = "descriptionNisw_example"; // String | 
         String descriptionIe = "descriptionIe_example"; // String | 
         String descriptionNie = "descriptionNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String tenantGroupIdN = "tenantGroupIdN_example"; // String | 
         String tenantGroupN = "tenantGroupN_example"; // String | 
@@ -7331,11 +7163,10 @@ public class Example {
         String fhrpgroupIdN = "fhrpgroupIdN_example"; // String | 
         String statusN = "statusN_example"; // String | 
         String roleN = "roleN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<IpamIpAddressesList200Response> response = apiInstance.ipamIpAddressesListWithHttpInfo(id, dnsName, description, created, lastUpdated, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, family, parent, address, maskLength, vrfId, vrf, presentInVrfId, presentInVrf, device, deviceId, virtualMachine, virtualMachineId, _interface, interfaceId, vminterface, vminterfaceId, fhrpgroupId, assignedToInterface, status, role, idN, idLte, idLt, idGte, idGt, dnsNameN, dnsNameIc, dnsNameNic, dnsNameIew, dnsNameNiew, dnsNameIsw, dnsNameNisw, dnsNameIe, dnsNameNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, vrfIdN, vrfN, interfaceN, interfaceIdN, vminterfaceN, vminterfaceIdN, fhrpgroupIdN, statusN, roleN, ordering, limit, offset);
+            ApiResponse<IpamIpAddressesList200Response> response = apiInstance.ipamIpAddressesListWithHttpInfo(id, dnsName, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, family, parent, address, maskLength, vrfId, vrf, presentInVrfId, presentInVrf, device, deviceId, virtualMachine, virtualMachineId, _interface, interfaceId, vminterface, vminterfaceId, fhrpgroupId, assignedToInterface, status, role, idN, idLte, idLt, idGte, idGt, dnsNameN, dnsNameIc, dnsNameNic, dnsNameIew, dnsNameNiew, dnsNameIsw, dnsNameNisw, dnsNameIe, dnsNameNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, vrfIdN, vrfN, interfaceN, interfaceIdN, vminterfaceN, vminterfaceIdN, fhrpgroupIdN, statusN, roleN, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -7359,7 +7190,11 @@ public class Example {
 | **dnsName** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **tenantGroupId** | **String**|  | [optional] |
@@ -7409,16 +7244,6 @@ public class Example {
 | **descriptionNisw** | **String**|  | [optional] |
 | **descriptionIe** | **String**|  | [optional] |
 | **descriptionNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **tenantGroupIdN** | **String**|  | [optional] |
 | **tenantGroupN** | **String**|  | [optional] |
@@ -7433,7 +7258,6 @@ public class Example {
 | **fhrpgroupIdN** | **String**|  | [optional] |
 | **statusN** | **String**|  | [optional] |
 | **roleN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -8899,7 +8723,7 @@ ApiResponse<Void>
 
 ## ipamIpRangesList
 
-> IpamIpRangesList200Response ipamIpRangesList(id, description, tenantGroupId, tenantGroup, tenantId, tenant, created, lastUpdated, q, tag, family, contains, vrfId, vrf, roleId, role, status, idN, idLte, idLt, idGte, idGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, vrfIdN, vrfN, roleIdN, roleN, statusN, ordering, limit, offset)
+> IpamIpRangesList200Response ipamIpRangesList(id, description, tenantGroupId, tenantGroup, tenantId, tenant, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, family, contains, vrfId, vrf, roleId, role, status, idN, idLte, idLt, idGte, idGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, tagN, vrfIdN, vrfN, roleIdN, roleN, statusN, limit, offset)
 
 
 
@@ -8935,7 +8759,11 @@ public class Example {
         String tenantId = "tenantId_example"; // String | 
         String tenant = "tenant_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         BigDecimal family = new BigDecimal(78); // BigDecimal | 
@@ -8963,27 +8791,16 @@ public class Example {
         String tenantGroupN = "tenantGroupN_example"; // String | 
         String tenantIdN = "tenantIdN_example"; // String | 
         String tenantN = "tenantN_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String vrfIdN = "vrfIdN_example"; // String | 
         String vrfN = "vrfN_example"; // String | 
         String roleIdN = "roleIdN_example"; // String | 
         String roleN = "roleN_example"; // String | 
         String statusN = "statusN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            IpamIpRangesList200Response result = apiInstance.ipamIpRangesList(id, description, tenantGroupId, tenantGroup, tenantId, tenant, created, lastUpdated, q, tag, family, contains, vrfId, vrf, roleId, role, status, idN, idLte, idLt, idGte, idGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, vrfIdN, vrfN, roleIdN, roleN, statusN, ordering, limit, offset);
+            IpamIpRangesList200Response result = apiInstance.ipamIpRangesList(id, description, tenantGroupId, tenantGroup, tenantId, tenant, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, family, contains, vrfId, vrf, roleId, role, status, idN, idLte, idLt, idGte, idGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, tagN, vrfIdN, vrfN, roleIdN, roleN, statusN, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling IpamApi#ipamIpRangesList");
@@ -9008,7 +8825,11 @@ public class Example {
 | **tenantId** | **String**|  | [optional] |
 | **tenant** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **family** | **BigDecimal**|  | [optional] |
@@ -9036,23 +8857,12 @@ public class Example {
 | **tenantGroupN** | **String**|  | [optional] |
 | **tenantIdN** | **String**|  | [optional] |
 | **tenantN** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **vrfIdN** | **String**|  | [optional] |
 | **vrfN** | **String**|  | [optional] |
 | **roleIdN** | **String**|  | [optional] |
 | **roleN** | **String**|  | [optional] |
 | **statusN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -9077,7 +8887,7 @@ public class Example {
 
 ## ipamIpRangesListWithHttpInfo
 
-> ApiResponse<IpamIpRangesList200Response> ipamIpRangesList ipamIpRangesListWithHttpInfo(id, description, tenantGroupId, tenantGroup, tenantId, tenant, created, lastUpdated, q, tag, family, contains, vrfId, vrf, roleId, role, status, idN, idLte, idLt, idGte, idGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, vrfIdN, vrfN, roleIdN, roleN, statusN, ordering, limit, offset)
+> ApiResponse<IpamIpRangesList200Response> ipamIpRangesList ipamIpRangesListWithHttpInfo(id, description, tenantGroupId, tenantGroup, tenantId, tenant, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, family, contains, vrfId, vrf, roleId, role, status, idN, idLte, idLt, idGte, idGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, tagN, vrfIdN, vrfN, roleIdN, roleN, statusN, limit, offset)
 
 
 
@@ -9114,7 +8924,11 @@ public class Example {
         String tenantId = "tenantId_example"; // String | 
         String tenant = "tenant_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         BigDecimal family = new BigDecimal(78); // BigDecimal | 
@@ -9142,27 +8956,16 @@ public class Example {
         String tenantGroupN = "tenantGroupN_example"; // String | 
         String tenantIdN = "tenantIdN_example"; // String | 
         String tenantN = "tenantN_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String vrfIdN = "vrfIdN_example"; // String | 
         String vrfN = "vrfN_example"; // String | 
         String roleIdN = "roleIdN_example"; // String | 
         String roleN = "roleN_example"; // String | 
         String statusN = "statusN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<IpamIpRangesList200Response> response = apiInstance.ipamIpRangesListWithHttpInfo(id, description, tenantGroupId, tenantGroup, tenantId, tenant, created, lastUpdated, q, tag, family, contains, vrfId, vrf, roleId, role, status, idN, idLte, idLt, idGte, idGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, vrfIdN, vrfN, roleIdN, roleN, statusN, ordering, limit, offset);
+            ApiResponse<IpamIpRangesList200Response> response = apiInstance.ipamIpRangesListWithHttpInfo(id, description, tenantGroupId, tenantGroup, tenantId, tenant, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, family, contains, vrfId, vrf, roleId, role, status, idN, idLte, idLt, idGte, idGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, tagN, vrfIdN, vrfN, roleIdN, roleN, statusN, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -9189,7 +8992,11 @@ public class Example {
 | **tenantId** | **String**|  | [optional] |
 | **tenant** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **family** | **BigDecimal**|  | [optional] |
@@ -9217,23 +9024,12 @@ public class Example {
 | **tenantGroupN** | **String**|  | [optional] |
 | **tenantIdN** | **String**|  | [optional] |
 | **tenantN** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **vrfIdN** | **String**|  | [optional] |
 | **vrfN** | **String**|  | [optional] |
 | **roleIdN** | **String**|  | [optional] |
 | **roleN** | **String**|  | [optional] |
 | **statusN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -9680,3110 +9476,6 @@ public class Example {
 ### Return type
 
 ApiResponse<[**IPRange**](IPRange.md)>
-
-
-### Authorization
-
-[Bearer](../README.md#Bearer)
-
-### HTTP request headers
-
-- **Content-Type**: application/json
-- **Accept**: application/json
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **200** |  |  -  |
-
-
-## ipamL2vpnTerminationsBulkDelete
-
-> void ipamL2vpnTerminationsBulkDelete()
-
-
-
-### Example
-
-```java
-// Import classes:
-import de.codemakers.netbox.client.ApiClient;
-import de.codemakers.netbox.client.ApiException;
-import de.codemakers.netbox.client.Configuration;
-import de.codemakers.netbox.client.auth.*;
-import de.codemakers.netbox.client.models.*;
-import de.codemakers.netbox.client.api.IpamApi;
-
-public class Example {
-    public static void main(String[] args) {
-        ApiClient defaultClient = Configuration.getDefaultApiClient();
-        defaultClient.setBasePath("https://demo.netbox.dev/api");
-        
-        // Configure API key authorization: Bearer
-        ApiKeyAuth Bearer = (ApiKeyAuth) defaultClient.getAuthentication("Bearer");
-        Bearer.setApiKey("YOUR API KEY");
-        // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-        //Bearer.setApiKeyPrefix("Token");
-
-        IpamApi apiInstance = new IpamApi(defaultClient);
-        try {
-            apiInstance.ipamL2vpnTerminationsBulkDelete();
-        } catch (ApiException e) {
-            System.err.println("Exception when calling IpamApi#ipamL2vpnTerminationsBulkDelete");
-            System.err.println("Status code: " + e.getCode());
-            System.err.println("Reason: " + e.getResponseBody());
-            System.err.println("Response headers: " + e.getResponseHeaders());
-            e.printStackTrace();
-        }
-    }
-}
-```
-
-### Parameters
-
-This endpoint does not need any parameter.
-
-### Return type
-
-
-null (empty response body)
-
-### Authorization
-
-[Bearer](../README.md#Bearer)
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: Not defined
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **204** |  |  -  |
-
-## ipamL2vpnTerminationsBulkDeleteWithHttpInfo
-
-> ApiResponse<Void> ipamL2vpnTerminationsBulkDelete ipamL2vpnTerminationsBulkDeleteWithHttpInfo()
-
-
-
-### Example
-
-```java
-// Import classes:
-import de.codemakers.netbox.client.ApiClient;
-import de.codemakers.netbox.client.ApiException;
-import de.codemakers.netbox.client.ApiResponse;
-import de.codemakers.netbox.client.Configuration;
-import de.codemakers.netbox.client.auth.*;
-import de.codemakers.netbox.client.models.*;
-import de.codemakers.netbox.client.api.IpamApi;
-
-public class Example {
-    public static void main(String[] args) {
-        ApiClient defaultClient = Configuration.getDefaultApiClient();
-        defaultClient.setBasePath("https://demo.netbox.dev/api");
-        
-        // Configure API key authorization: Bearer
-        ApiKeyAuth Bearer = (ApiKeyAuth) defaultClient.getAuthentication("Bearer");
-        Bearer.setApiKey("YOUR API KEY");
-        // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-        //Bearer.setApiKeyPrefix("Token");
-
-        IpamApi apiInstance = new IpamApi(defaultClient);
-        try {
-            ApiResponse<Void> response = apiInstance.ipamL2vpnTerminationsBulkDeleteWithHttpInfo();
-            System.out.println("Status code: " + response.getStatusCode());
-            System.out.println("Response headers: " + response.getHeaders());
-        } catch (ApiException e) {
-            System.err.println("Exception when calling IpamApi#ipamL2vpnTerminationsBulkDelete");
-            System.err.println("Status code: " + e.getCode());
-            System.err.println("Response headers: " + e.getResponseHeaders());
-            System.err.println("Reason: " + e.getResponseBody());
-            e.printStackTrace();
-        }
-    }
-}
-```
-
-### Parameters
-
-This endpoint does not need any parameter.
-
-### Return type
-
-
-ApiResponse<Void>
-
-### Authorization
-
-[Bearer](../README.md#Bearer)
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: Not defined
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **204** |  |  -  |
-
-
-## ipamL2vpnTerminationsBulkPartialUpdate
-
-> L2VPNTermination ipamL2vpnTerminationsBulkPartialUpdate(data)
-
-
-
-### Example
-
-```java
-// Import classes:
-import de.codemakers.netbox.client.ApiClient;
-import de.codemakers.netbox.client.ApiException;
-import de.codemakers.netbox.client.Configuration;
-import de.codemakers.netbox.client.auth.*;
-import de.codemakers.netbox.client.models.*;
-import de.codemakers.netbox.client.api.IpamApi;
-
-public class Example {
-    public static void main(String[] args) {
-        ApiClient defaultClient = Configuration.getDefaultApiClient();
-        defaultClient.setBasePath("https://demo.netbox.dev/api");
-        
-        // Configure API key authorization: Bearer
-        ApiKeyAuth Bearer = (ApiKeyAuth) defaultClient.getAuthentication("Bearer");
-        Bearer.setApiKey("YOUR API KEY");
-        // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-        //Bearer.setApiKeyPrefix("Token");
-
-        IpamApi apiInstance = new IpamApi(defaultClient);
-        WritableL2VPNTermination data = new WritableL2VPNTermination(); // WritableL2VPNTermination | 
-        try {
-            L2VPNTermination result = apiInstance.ipamL2vpnTerminationsBulkPartialUpdate(data);
-            System.out.println(result);
-        } catch (ApiException e) {
-            System.err.println("Exception when calling IpamApi#ipamL2vpnTerminationsBulkPartialUpdate");
-            System.err.println("Status code: " + e.getCode());
-            System.err.println("Reason: " + e.getResponseBody());
-            System.err.println("Response headers: " + e.getResponseHeaders());
-            e.printStackTrace();
-        }
-    }
-}
-```
-
-### Parameters
-
-
-| Name | Type | Description  | Notes |
-|------------- | ------------- | ------------- | -------------|
-| **data** | [**WritableL2VPNTermination**](WritableL2VPNTermination.md)|  | |
-
-### Return type
-
-[**L2VPNTermination**](L2VPNTermination.md)
-
-
-### Authorization
-
-[Bearer](../README.md#Bearer)
-
-### HTTP request headers
-
-- **Content-Type**: application/json
-- **Accept**: application/json
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **200** |  |  -  |
-
-## ipamL2vpnTerminationsBulkPartialUpdateWithHttpInfo
-
-> ApiResponse<L2VPNTermination> ipamL2vpnTerminationsBulkPartialUpdate ipamL2vpnTerminationsBulkPartialUpdateWithHttpInfo(data)
-
-
-
-### Example
-
-```java
-// Import classes:
-import de.codemakers.netbox.client.ApiClient;
-import de.codemakers.netbox.client.ApiException;
-import de.codemakers.netbox.client.ApiResponse;
-import de.codemakers.netbox.client.Configuration;
-import de.codemakers.netbox.client.auth.*;
-import de.codemakers.netbox.client.models.*;
-import de.codemakers.netbox.client.api.IpamApi;
-
-public class Example {
-    public static void main(String[] args) {
-        ApiClient defaultClient = Configuration.getDefaultApiClient();
-        defaultClient.setBasePath("https://demo.netbox.dev/api");
-        
-        // Configure API key authorization: Bearer
-        ApiKeyAuth Bearer = (ApiKeyAuth) defaultClient.getAuthentication("Bearer");
-        Bearer.setApiKey("YOUR API KEY");
-        // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-        //Bearer.setApiKeyPrefix("Token");
-
-        IpamApi apiInstance = new IpamApi(defaultClient);
-        WritableL2VPNTermination data = new WritableL2VPNTermination(); // WritableL2VPNTermination | 
-        try {
-            ApiResponse<L2VPNTermination> response = apiInstance.ipamL2vpnTerminationsBulkPartialUpdateWithHttpInfo(data);
-            System.out.println("Status code: " + response.getStatusCode());
-            System.out.println("Response headers: " + response.getHeaders());
-            System.out.println("Response body: " + response.getData());
-        } catch (ApiException e) {
-            System.err.println("Exception when calling IpamApi#ipamL2vpnTerminationsBulkPartialUpdate");
-            System.err.println("Status code: " + e.getCode());
-            System.err.println("Response headers: " + e.getResponseHeaders());
-            System.err.println("Reason: " + e.getResponseBody());
-            e.printStackTrace();
-        }
-    }
-}
-```
-
-### Parameters
-
-
-| Name | Type | Description  | Notes |
-|------------- | ------------- | ------------- | -------------|
-| **data** | [**WritableL2VPNTermination**](WritableL2VPNTermination.md)|  | |
-
-### Return type
-
-ApiResponse<[**L2VPNTermination**](L2VPNTermination.md)>
-
-
-### Authorization
-
-[Bearer](../README.md#Bearer)
-
-### HTTP request headers
-
-- **Content-Type**: application/json
-- **Accept**: application/json
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **200** |  |  -  |
-
-
-## ipamL2vpnTerminationsBulkUpdate
-
-> L2VPNTermination ipamL2vpnTerminationsBulkUpdate(data)
-
-
-
-### Example
-
-```java
-// Import classes:
-import de.codemakers.netbox.client.ApiClient;
-import de.codemakers.netbox.client.ApiException;
-import de.codemakers.netbox.client.Configuration;
-import de.codemakers.netbox.client.auth.*;
-import de.codemakers.netbox.client.models.*;
-import de.codemakers.netbox.client.api.IpamApi;
-
-public class Example {
-    public static void main(String[] args) {
-        ApiClient defaultClient = Configuration.getDefaultApiClient();
-        defaultClient.setBasePath("https://demo.netbox.dev/api");
-        
-        // Configure API key authorization: Bearer
-        ApiKeyAuth Bearer = (ApiKeyAuth) defaultClient.getAuthentication("Bearer");
-        Bearer.setApiKey("YOUR API KEY");
-        // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-        //Bearer.setApiKeyPrefix("Token");
-
-        IpamApi apiInstance = new IpamApi(defaultClient);
-        WritableL2VPNTermination data = new WritableL2VPNTermination(); // WritableL2VPNTermination | 
-        try {
-            L2VPNTermination result = apiInstance.ipamL2vpnTerminationsBulkUpdate(data);
-            System.out.println(result);
-        } catch (ApiException e) {
-            System.err.println("Exception when calling IpamApi#ipamL2vpnTerminationsBulkUpdate");
-            System.err.println("Status code: " + e.getCode());
-            System.err.println("Reason: " + e.getResponseBody());
-            System.err.println("Response headers: " + e.getResponseHeaders());
-            e.printStackTrace();
-        }
-    }
-}
-```
-
-### Parameters
-
-
-| Name | Type | Description  | Notes |
-|------------- | ------------- | ------------- | -------------|
-| **data** | [**WritableL2VPNTermination**](WritableL2VPNTermination.md)|  | |
-
-### Return type
-
-[**L2VPNTermination**](L2VPNTermination.md)
-
-
-### Authorization
-
-[Bearer](../README.md#Bearer)
-
-### HTTP request headers
-
-- **Content-Type**: application/json
-- **Accept**: application/json
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **200** |  |  -  |
-
-## ipamL2vpnTerminationsBulkUpdateWithHttpInfo
-
-> ApiResponse<L2VPNTermination> ipamL2vpnTerminationsBulkUpdate ipamL2vpnTerminationsBulkUpdateWithHttpInfo(data)
-
-
-
-### Example
-
-```java
-// Import classes:
-import de.codemakers.netbox.client.ApiClient;
-import de.codemakers.netbox.client.ApiException;
-import de.codemakers.netbox.client.ApiResponse;
-import de.codemakers.netbox.client.Configuration;
-import de.codemakers.netbox.client.auth.*;
-import de.codemakers.netbox.client.models.*;
-import de.codemakers.netbox.client.api.IpamApi;
-
-public class Example {
-    public static void main(String[] args) {
-        ApiClient defaultClient = Configuration.getDefaultApiClient();
-        defaultClient.setBasePath("https://demo.netbox.dev/api");
-        
-        // Configure API key authorization: Bearer
-        ApiKeyAuth Bearer = (ApiKeyAuth) defaultClient.getAuthentication("Bearer");
-        Bearer.setApiKey("YOUR API KEY");
-        // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-        //Bearer.setApiKeyPrefix("Token");
-
-        IpamApi apiInstance = new IpamApi(defaultClient);
-        WritableL2VPNTermination data = new WritableL2VPNTermination(); // WritableL2VPNTermination | 
-        try {
-            ApiResponse<L2VPNTermination> response = apiInstance.ipamL2vpnTerminationsBulkUpdateWithHttpInfo(data);
-            System.out.println("Status code: " + response.getStatusCode());
-            System.out.println("Response headers: " + response.getHeaders());
-            System.out.println("Response body: " + response.getData());
-        } catch (ApiException e) {
-            System.err.println("Exception when calling IpamApi#ipamL2vpnTerminationsBulkUpdate");
-            System.err.println("Status code: " + e.getCode());
-            System.err.println("Response headers: " + e.getResponseHeaders());
-            System.err.println("Reason: " + e.getResponseBody());
-            e.printStackTrace();
-        }
-    }
-}
-```
-
-### Parameters
-
-
-| Name | Type | Description  | Notes |
-|------------- | ------------- | ------------- | -------------|
-| **data** | [**WritableL2VPNTermination**](WritableL2VPNTermination.md)|  | |
-
-### Return type
-
-ApiResponse<[**L2VPNTermination**](L2VPNTermination.md)>
-
-
-### Authorization
-
-[Bearer](../README.md#Bearer)
-
-### HTTP request headers
-
-- **Content-Type**: application/json
-- **Accept**: application/json
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **200** |  |  -  |
-
-
-## ipamL2vpnTerminationsCreate
-
-> L2VPNTermination ipamL2vpnTerminationsCreate(data)
-
-
-
-### Example
-
-```java
-// Import classes:
-import de.codemakers.netbox.client.ApiClient;
-import de.codemakers.netbox.client.ApiException;
-import de.codemakers.netbox.client.Configuration;
-import de.codemakers.netbox.client.auth.*;
-import de.codemakers.netbox.client.models.*;
-import de.codemakers.netbox.client.api.IpamApi;
-
-public class Example {
-    public static void main(String[] args) {
-        ApiClient defaultClient = Configuration.getDefaultApiClient();
-        defaultClient.setBasePath("https://demo.netbox.dev/api");
-        
-        // Configure API key authorization: Bearer
-        ApiKeyAuth Bearer = (ApiKeyAuth) defaultClient.getAuthentication("Bearer");
-        Bearer.setApiKey("YOUR API KEY");
-        // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-        //Bearer.setApiKeyPrefix("Token");
-
-        IpamApi apiInstance = new IpamApi(defaultClient);
-        WritableL2VPNTermination data = new WritableL2VPNTermination(); // WritableL2VPNTermination | 
-        try {
-            L2VPNTermination result = apiInstance.ipamL2vpnTerminationsCreate(data);
-            System.out.println(result);
-        } catch (ApiException e) {
-            System.err.println("Exception when calling IpamApi#ipamL2vpnTerminationsCreate");
-            System.err.println("Status code: " + e.getCode());
-            System.err.println("Reason: " + e.getResponseBody());
-            System.err.println("Response headers: " + e.getResponseHeaders());
-            e.printStackTrace();
-        }
-    }
-}
-```
-
-### Parameters
-
-
-| Name | Type | Description  | Notes |
-|------------- | ------------- | ------------- | -------------|
-| **data** | [**WritableL2VPNTermination**](WritableL2VPNTermination.md)|  | |
-
-### Return type
-
-[**L2VPNTermination**](L2VPNTermination.md)
-
-
-### Authorization
-
-[Bearer](../README.md#Bearer)
-
-### HTTP request headers
-
-- **Content-Type**: application/json
-- **Accept**: application/json
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **201** |  |  -  |
-
-## ipamL2vpnTerminationsCreateWithHttpInfo
-
-> ApiResponse<L2VPNTermination> ipamL2vpnTerminationsCreate ipamL2vpnTerminationsCreateWithHttpInfo(data)
-
-
-
-### Example
-
-```java
-// Import classes:
-import de.codemakers.netbox.client.ApiClient;
-import de.codemakers.netbox.client.ApiException;
-import de.codemakers.netbox.client.ApiResponse;
-import de.codemakers.netbox.client.Configuration;
-import de.codemakers.netbox.client.auth.*;
-import de.codemakers.netbox.client.models.*;
-import de.codemakers.netbox.client.api.IpamApi;
-
-public class Example {
-    public static void main(String[] args) {
-        ApiClient defaultClient = Configuration.getDefaultApiClient();
-        defaultClient.setBasePath("https://demo.netbox.dev/api");
-        
-        // Configure API key authorization: Bearer
-        ApiKeyAuth Bearer = (ApiKeyAuth) defaultClient.getAuthentication("Bearer");
-        Bearer.setApiKey("YOUR API KEY");
-        // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-        //Bearer.setApiKeyPrefix("Token");
-
-        IpamApi apiInstance = new IpamApi(defaultClient);
-        WritableL2VPNTermination data = new WritableL2VPNTermination(); // WritableL2VPNTermination | 
-        try {
-            ApiResponse<L2VPNTermination> response = apiInstance.ipamL2vpnTerminationsCreateWithHttpInfo(data);
-            System.out.println("Status code: " + response.getStatusCode());
-            System.out.println("Response headers: " + response.getHeaders());
-            System.out.println("Response body: " + response.getData());
-        } catch (ApiException e) {
-            System.err.println("Exception when calling IpamApi#ipamL2vpnTerminationsCreate");
-            System.err.println("Status code: " + e.getCode());
-            System.err.println("Response headers: " + e.getResponseHeaders());
-            System.err.println("Reason: " + e.getResponseBody());
-            e.printStackTrace();
-        }
-    }
-}
-```
-
-### Parameters
-
-
-| Name | Type | Description  | Notes |
-|------------- | ------------- | ------------- | -------------|
-| **data** | [**WritableL2VPNTermination**](WritableL2VPNTermination.md)|  | |
-
-### Return type
-
-ApiResponse<[**L2VPNTermination**](L2VPNTermination.md)>
-
-
-### Authorization
-
-[Bearer](../README.md#Bearer)
-
-### HTTP request headers
-
-- **Content-Type**: application/json
-- **Accept**: application/json
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **201** |  |  -  |
-
-
-## ipamL2vpnTerminationsDelete
-
-> void ipamL2vpnTerminationsDelete(id)
-
-
-
-### Example
-
-```java
-// Import classes:
-import de.codemakers.netbox.client.ApiClient;
-import de.codemakers.netbox.client.ApiException;
-import de.codemakers.netbox.client.Configuration;
-import de.codemakers.netbox.client.auth.*;
-import de.codemakers.netbox.client.models.*;
-import de.codemakers.netbox.client.api.IpamApi;
-
-public class Example {
-    public static void main(String[] args) {
-        ApiClient defaultClient = Configuration.getDefaultApiClient();
-        defaultClient.setBasePath("https://demo.netbox.dev/api");
-        
-        // Configure API key authorization: Bearer
-        ApiKeyAuth Bearer = (ApiKeyAuth) defaultClient.getAuthentication("Bearer");
-        Bearer.setApiKey("YOUR API KEY");
-        // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-        //Bearer.setApiKeyPrefix("Token");
-
-        IpamApi apiInstance = new IpamApi(defaultClient);
-        Integer id = 56; // Integer | A unique integer value identifying this L2VPN termination.
-        try {
-            apiInstance.ipamL2vpnTerminationsDelete(id);
-        } catch (ApiException e) {
-            System.err.println("Exception when calling IpamApi#ipamL2vpnTerminationsDelete");
-            System.err.println("Status code: " + e.getCode());
-            System.err.println("Reason: " + e.getResponseBody());
-            System.err.println("Response headers: " + e.getResponseHeaders());
-            e.printStackTrace();
-        }
-    }
-}
-```
-
-### Parameters
-
-
-| Name | Type | Description  | Notes |
-|------------- | ------------- | ------------- | -------------|
-| **id** | **Integer**| A unique integer value identifying this L2VPN termination. | |
-
-### Return type
-
-
-null (empty response body)
-
-### Authorization
-
-[Bearer](../README.md#Bearer)
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: Not defined
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **204** |  |  -  |
-
-## ipamL2vpnTerminationsDeleteWithHttpInfo
-
-> ApiResponse<Void> ipamL2vpnTerminationsDelete ipamL2vpnTerminationsDeleteWithHttpInfo(id)
-
-
-
-### Example
-
-```java
-// Import classes:
-import de.codemakers.netbox.client.ApiClient;
-import de.codemakers.netbox.client.ApiException;
-import de.codemakers.netbox.client.ApiResponse;
-import de.codemakers.netbox.client.Configuration;
-import de.codemakers.netbox.client.auth.*;
-import de.codemakers.netbox.client.models.*;
-import de.codemakers.netbox.client.api.IpamApi;
-
-public class Example {
-    public static void main(String[] args) {
-        ApiClient defaultClient = Configuration.getDefaultApiClient();
-        defaultClient.setBasePath("https://demo.netbox.dev/api");
-        
-        // Configure API key authorization: Bearer
-        ApiKeyAuth Bearer = (ApiKeyAuth) defaultClient.getAuthentication("Bearer");
-        Bearer.setApiKey("YOUR API KEY");
-        // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-        //Bearer.setApiKeyPrefix("Token");
-
-        IpamApi apiInstance = new IpamApi(defaultClient);
-        Integer id = 56; // Integer | A unique integer value identifying this L2VPN termination.
-        try {
-            ApiResponse<Void> response = apiInstance.ipamL2vpnTerminationsDeleteWithHttpInfo(id);
-            System.out.println("Status code: " + response.getStatusCode());
-            System.out.println("Response headers: " + response.getHeaders());
-        } catch (ApiException e) {
-            System.err.println("Exception when calling IpamApi#ipamL2vpnTerminationsDelete");
-            System.err.println("Status code: " + e.getCode());
-            System.err.println("Response headers: " + e.getResponseHeaders());
-            System.err.println("Reason: " + e.getResponseBody());
-            e.printStackTrace();
-        }
-    }
-}
-```
-
-### Parameters
-
-
-| Name | Type | Description  | Notes |
-|------------- | ------------- | ------------- | -------------|
-| **id** | **Integer**| A unique integer value identifying this L2VPN termination. | |
-
-### Return type
-
-
-ApiResponse<Void>
-
-### Authorization
-
-[Bearer](../README.md#Bearer)
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: Not defined
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **204** |  |  -  |
-
-
-## ipamL2vpnTerminationsList
-
-> IpamL2vpnTerminationsList200Response ipamL2vpnTerminationsList(id, assignedObjectTypeId, created, lastUpdated, q, tag, l2vpnId, l2vpn, region, regionId, site, siteId, device, deviceId, virtualMachine, virtualMachineId, _interface, interfaceId, vminterface, vminterfaceId, vlan, vlanVid, vlanId, assignedObjectType, idN, idLte, idLt, idGte, idGt, assignedObjectTypeIdN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, l2vpnIdN, l2vpnN, deviceN, deviceIdN, virtualMachineN, virtualMachineIdN, interfaceN, interfaceIdN, vminterfaceN, vminterfaceIdN, vlanN, vlanVidN, vlanVidLte, vlanVidLt, vlanVidGte, vlanVidGt, vlanIdN, assignedObjectTypeN, ordering, limit, offset)
-
-
-
-Overrides ListModelMixin to allow processing ExportTemplates.
-
-### Example
-
-```java
-// Import classes:
-import de.codemakers.netbox.client.ApiClient;
-import de.codemakers.netbox.client.ApiException;
-import de.codemakers.netbox.client.Configuration;
-import de.codemakers.netbox.client.auth.*;
-import de.codemakers.netbox.client.models.*;
-import de.codemakers.netbox.client.api.IpamApi;
-
-public class Example {
-    public static void main(String[] args) {
-        ApiClient defaultClient = Configuration.getDefaultApiClient();
-        defaultClient.setBasePath("https://demo.netbox.dev/api");
-        
-        // Configure API key authorization: Bearer
-        ApiKeyAuth Bearer = (ApiKeyAuth) defaultClient.getAuthentication("Bearer");
-        Bearer.setApiKey("YOUR API KEY");
-        // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-        //Bearer.setApiKeyPrefix("Token");
-
-        IpamApi apiInstance = new IpamApi(defaultClient);
-        String id = "id_example"; // String | 
-        String assignedObjectTypeId = "assignedObjectTypeId_example"; // String | 
-        String created = "created_example"; // String | 
-        String lastUpdated = "lastUpdated_example"; // String | 
-        String q = "q_example"; // String | 
-        String tag = "tag_example"; // String | 
-        String l2vpnId = "l2vpnId_example"; // String | 
-        String l2vpn = "l2vpn_example"; // String | 
-        String region = "region_example"; // String | 
-        String regionId = "regionId_example"; // String | 
-        String site = "site_example"; // String | 
-        String siteId = "siteId_example"; // String | 
-        String device = "device_example"; // String | 
-        String deviceId = "deviceId_example"; // String | 
-        String virtualMachine = "virtualMachine_example"; // String | 
-        String virtualMachineId = "virtualMachineId_example"; // String | 
-        String _interface = "_interface_example"; // String | 
-        String interfaceId = "interfaceId_example"; // String | 
-        String vminterface = "vminterface_example"; // String | 
-        String vminterfaceId = "vminterfaceId_example"; // String | 
-        String vlan = "vlan_example"; // String | 
-        BigDecimal vlanVid = new BigDecimal(78); // BigDecimal | 
-        String vlanId = "vlanId_example"; // String | 
-        String assignedObjectType = "assignedObjectType_example"; // String | 
-        String idN = "idN_example"; // String | 
-        String idLte = "idLte_example"; // String | 
-        String idLt = "idLt_example"; // String | 
-        String idGte = "idGte_example"; // String | 
-        String idGt = "idGt_example"; // String | 
-        String assignedObjectTypeIdN = "assignedObjectTypeIdN_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
-        String tagN = "tagN_example"; // String | 
-        String l2vpnIdN = "l2vpnIdN_example"; // String | 
-        String l2vpnN = "l2vpnN_example"; // String | 
-        String deviceN = "deviceN_example"; // String | 
-        String deviceIdN = "deviceIdN_example"; // String | 
-        String virtualMachineN = "virtualMachineN_example"; // String | 
-        String virtualMachineIdN = "virtualMachineIdN_example"; // String | 
-        String interfaceN = "interfaceN_example"; // String | 
-        String interfaceIdN = "interfaceIdN_example"; // String | 
-        String vminterfaceN = "vminterfaceN_example"; // String | 
-        String vminterfaceIdN = "vminterfaceIdN_example"; // String | 
-        String vlanN = "vlanN_example"; // String | 
-        BigDecimal vlanVidN = new BigDecimal(78); // BigDecimal | 
-        BigDecimal vlanVidLte = new BigDecimal(78); // BigDecimal | 
-        BigDecimal vlanVidLt = new BigDecimal(78); // BigDecimal | 
-        BigDecimal vlanVidGte = new BigDecimal(78); // BigDecimal | 
-        BigDecimal vlanVidGt = new BigDecimal(78); // BigDecimal | 
-        String vlanIdN = "vlanIdN_example"; // String | 
-        String assignedObjectTypeN = "assignedObjectTypeN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
-        Integer limit = 56; // Integer | Number of results to return per page.
-        Integer offset = 56; // Integer | The initial index from which to return the results.
-        try {
-            IpamL2vpnTerminationsList200Response result = apiInstance.ipamL2vpnTerminationsList(id, assignedObjectTypeId, created, lastUpdated, q, tag, l2vpnId, l2vpn, region, regionId, site, siteId, device, deviceId, virtualMachine, virtualMachineId, _interface, interfaceId, vminterface, vminterfaceId, vlan, vlanVid, vlanId, assignedObjectType, idN, idLte, idLt, idGte, idGt, assignedObjectTypeIdN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, l2vpnIdN, l2vpnN, deviceN, deviceIdN, virtualMachineN, virtualMachineIdN, interfaceN, interfaceIdN, vminterfaceN, vminterfaceIdN, vlanN, vlanVidN, vlanVidLte, vlanVidLt, vlanVidGte, vlanVidGt, vlanIdN, assignedObjectTypeN, ordering, limit, offset);
-            System.out.println(result);
-        } catch (ApiException e) {
-            System.err.println("Exception when calling IpamApi#ipamL2vpnTerminationsList");
-            System.err.println("Status code: " + e.getCode());
-            System.err.println("Reason: " + e.getResponseBody());
-            System.err.println("Response headers: " + e.getResponseHeaders());
-            e.printStackTrace();
-        }
-    }
-}
-```
-
-### Parameters
-
-
-| Name | Type | Description  | Notes |
-|------------- | ------------- | ------------- | -------------|
-| **id** | **String**|  | [optional] |
-| **assignedObjectTypeId** | **String**|  | [optional] |
-| **created** | **String**|  | [optional] |
-| **lastUpdated** | **String**|  | [optional] |
-| **q** | **String**|  | [optional] |
-| **tag** | **String**|  | [optional] |
-| **l2vpnId** | **String**|  | [optional] |
-| **l2vpn** | **String**|  | [optional] |
-| **region** | **String**|  | [optional] |
-| **regionId** | **String**|  | [optional] |
-| **site** | **String**|  | [optional] |
-| **siteId** | **String**|  | [optional] |
-| **device** | **String**|  | [optional] |
-| **deviceId** | **String**|  | [optional] |
-| **virtualMachine** | **String**|  | [optional] |
-| **virtualMachineId** | **String**|  | [optional] |
-| **_interface** | **String**|  | [optional] |
-| **interfaceId** | **String**|  | [optional] |
-| **vminterface** | **String**|  | [optional] |
-| **vminterfaceId** | **String**|  | [optional] |
-| **vlan** | **String**|  | [optional] |
-| **vlanVid** | **BigDecimal**|  | [optional] |
-| **vlanId** | **String**|  | [optional] |
-| **assignedObjectType** | **String**|  | [optional] |
-| **idN** | **String**|  | [optional] |
-| **idLte** | **String**|  | [optional] |
-| **idLt** | **String**|  | [optional] |
-| **idGte** | **String**|  | [optional] |
-| **idGt** | **String**|  | [optional] |
-| **assignedObjectTypeIdN** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
-| **tagN** | **String**|  | [optional] |
-| **l2vpnIdN** | **String**|  | [optional] |
-| **l2vpnN** | **String**|  | [optional] |
-| **deviceN** | **String**|  | [optional] |
-| **deviceIdN** | **String**|  | [optional] |
-| **virtualMachineN** | **String**|  | [optional] |
-| **virtualMachineIdN** | **String**|  | [optional] |
-| **interfaceN** | **String**|  | [optional] |
-| **interfaceIdN** | **String**|  | [optional] |
-| **vminterfaceN** | **String**|  | [optional] |
-| **vminterfaceIdN** | **String**|  | [optional] |
-| **vlanN** | **String**|  | [optional] |
-| **vlanVidN** | **BigDecimal**|  | [optional] |
-| **vlanVidLte** | **BigDecimal**|  | [optional] |
-| **vlanVidLt** | **BigDecimal**|  | [optional] |
-| **vlanVidGte** | **BigDecimal**|  | [optional] |
-| **vlanVidGt** | **BigDecimal**|  | [optional] |
-| **vlanIdN** | **String**|  | [optional] |
-| **assignedObjectTypeN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
-| **limit** | **Integer**| Number of results to return per page. | [optional] |
-| **offset** | **Integer**| The initial index from which to return the results. | [optional] |
-
-### Return type
-
-[**IpamL2vpnTerminationsList200Response**](IpamL2vpnTerminationsList200Response.md)
-
-
-### Authorization
-
-[Bearer](../README.md#Bearer)
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/json
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **200** |  |  -  |
-
-## ipamL2vpnTerminationsListWithHttpInfo
-
-> ApiResponse<IpamL2vpnTerminationsList200Response> ipamL2vpnTerminationsList ipamL2vpnTerminationsListWithHttpInfo(id, assignedObjectTypeId, created, lastUpdated, q, tag, l2vpnId, l2vpn, region, regionId, site, siteId, device, deviceId, virtualMachine, virtualMachineId, _interface, interfaceId, vminterface, vminterfaceId, vlan, vlanVid, vlanId, assignedObjectType, idN, idLte, idLt, idGte, idGt, assignedObjectTypeIdN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, l2vpnIdN, l2vpnN, deviceN, deviceIdN, virtualMachineN, virtualMachineIdN, interfaceN, interfaceIdN, vminterfaceN, vminterfaceIdN, vlanN, vlanVidN, vlanVidLte, vlanVidLt, vlanVidGte, vlanVidGt, vlanIdN, assignedObjectTypeN, ordering, limit, offset)
-
-
-
-Overrides ListModelMixin to allow processing ExportTemplates.
-
-### Example
-
-```java
-// Import classes:
-import de.codemakers.netbox.client.ApiClient;
-import de.codemakers.netbox.client.ApiException;
-import de.codemakers.netbox.client.ApiResponse;
-import de.codemakers.netbox.client.Configuration;
-import de.codemakers.netbox.client.auth.*;
-import de.codemakers.netbox.client.models.*;
-import de.codemakers.netbox.client.api.IpamApi;
-
-public class Example {
-    public static void main(String[] args) {
-        ApiClient defaultClient = Configuration.getDefaultApiClient();
-        defaultClient.setBasePath("https://demo.netbox.dev/api");
-        
-        // Configure API key authorization: Bearer
-        ApiKeyAuth Bearer = (ApiKeyAuth) defaultClient.getAuthentication("Bearer");
-        Bearer.setApiKey("YOUR API KEY");
-        // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-        //Bearer.setApiKeyPrefix("Token");
-
-        IpamApi apiInstance = new IpamApi(defaultClient);
-        String id = "id_example"; // String | 
-        String assignedObjectTypeId = "assignedObjectTypeId_example"; // String | 
-        String created = "created_example"; // String | 
-        String lastUpdated = "lastUpdated_example"; // String | 
-        String q = "q_example"; // String | 
-        String tag = "tag_example"; // String | 
-        String l2vpnId = "l2vpnId_example"; // String | 
-        String l2vpn = "l2vpn_example"; // String | 
-        String region = "region_example"; // String | 
-        String regionId = "regionId_example"; // String | 
-        String site = "site_example"; // String | 
-        String siteId = "siteId_example"; // String | 
-        String device = "device_example"; // String | 
-        String deviceId = "deviceId_example"; // String | 
-        String virtualMachine = "virtualMachine_example"; // String | 
-        String virtualMachineId = "virtualMachineId_example"; // String | 
-        String _interface = "_interface_example"; // String | 
-        String interfaceId = "interfaceId_example"; // String | 
-        String vminterface = "vminterface_example"; // String | 
-        String vminterfaceId = "vminterfaceId_example"; // String | 
-        String vlan = "vlan_example"; // String | 
-        BigDecimal vlanVid = new BigDecimal(78); // BigDecimal | 
-        String vlanId = "vlanId_example"; // String | 
-        String assignedObjectType = "assignedObjectType_example"; // String | 
-        String idN = "idN_example"; // String | 
-        String idLte = "idLte_example"; // String | 
-        String idLt = "idLt_example"; // String | 
-        String idGte = "idGte_example"; // String | 
-        String idGt = "idGt_example"; // String | 
-        String assignedObjectTypeIdN = "assignedObjectTypeIdN_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
-        String tagN = "tagN_example"; // String | 
-        String l2vpnIdN = "l2vpnIdN_example"; // String | 
-        String l2vpnN = "l2vpnN_example"; // String | 
-        String deviceN = "deviceN_example"; // String | 
-        String deviceIdN = "deviceIdN_example"; // String | 
-        String virtualMachineN = "virtualMachineN_example"; // String | 
-        String virtualMachineIdN = "virtualMachineIdN_example"; // String | 
-        String interfaceN = "interfaceN_example"; // String | 
-        String interfaceIdN = "interfaceIdN_example"; // String | 
-        String vminterfaceN = "vminterfaceN_example"; // String | 
-        String vminterfaceIdN = "vminterfaceIdN_example"; // String | 
-        String vlanN = "vlanN_example"; // String | 
-        BigDecimal vlanVidN = new BigDecimal(78); // BigDecimal | 
-        BigDecimal vlanVidLte = new BigDecimal(78); // BigDecimal | 
-        BigDecimal vlanVidLt = new BigDecimal(78); // BigDecimal | 
-        BigDecimal vlanVidGte = new BigDecimal(78); // BigDecimal | 
-        BigDecimal vlanVidGt = new BigDecimal(78); // BigDecimal | 
-        String vlanIdN = "vlanIdN_example"; // String | 
-        String assignedObjectTypeN = "assignedObjectTypeN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
-        Integer limit = 56; // Integer | Number of results to return per page.
-        Integer offset = 56; // Integer | The initial index from which to return the results.
-        try {
-            ApiResponse<IpamL2vpnTerminationsList200Response> response = apiInstance.ipamL2vpnTerminationsListWithHttpInfo(id, assignedObjectTypeId, created, lastUpdated, q, tag, l2vpnId, l2vpn, region, regionId, site, siteId, device, deviceId, virtualMachine, virtualMachineId, _interface, interfaceId, vminterface, vminterfaceId, vlan, vlanVid, vlanId, assignedObjectType, idN, idLte, idLt, idGte, idGt, assignedObjectTypeIdN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, l2vpnIdN, l2vpnN, deviceN, deviceIdN, virtualMachineN, virtualMachineIdN, interfaceN, interfaceIdN, vminterfaceN, vminterfaceIdN, vlanN, vlanVidN, vlanVidLte, vlanVidLt, vlanVidGte, vlanVidGt, vlanIdN, assignedObjectTypeN, ordering, limit, offset);
-            System.out.println("Status code: " + response.getStatusCode());
-            System.out.println("Response headers: " + response.getHeaders());
-            System.out.println("Response body: " + response.getData());
-        } catch (ApiException e) {
-            System.err.println("Exception when calling IpamApi#ipamL2vpnTerminationsList");
-            System.err.println("Status code: " + e.getCode());
-            System.err.println("Response headers: " + e.getResponseHeaders());
-            System.err.println("Reason: " + e.getResponseBody());
-            e.printStackTrace();
-        }
-    }
-}
-```
-
-### Parameters
-
-
-| Name | Type | Description  | Notes |
-|------------- | ------------- | ------------- | -------------|
-| **id** | **String**|  | [optional] |
-| **assignedObjectTypeId** | **String**|  | [optional] |
-| **created** | **String**|  | [optional] |
-| **lastUpdated** | **String**|  | [optional] |
-| **q** | **String**|  | [optional] |
-| **tag** | **String**|  | [optional] |
-| **l2vpnId** | **String**|  | [optional] |
-| **l2vpn** | **String**|  | [optional] |
-| **region** | **String**|  | [optional] |
-| **regionId** | **String**|  | [optional] |
-| **site** | **String**|  | [optional] |
-| **siteId** | **String**|  | [optional] |
-| **device** | **String**|  | [optional] |
-| **deviceId** | **String**|  | [optional] |
-| **virtualMachine** | **String**|  | [optional] |
-| **virtualMachineId** | **String**|  | [optional] |
-| **_interface** | **String**|  | [optional] |
-| **interfaceId** | **String**|  | [optional] |
-| **vminterface** | **String**|  | [optional] |
-| **vminterfaceId** | **String**|  | [optional] |
-| **vlan** | **String**|  | [optional] |
-| **vlanVid** | **BigDecimal**|  | [optional] |
-| **vlanId** | **String**|  | [optional] |
-| **assignedObjectType** | **String**|  | [optional] |
-| **idN** | **String**|  | [optional] |
-| **idLte** | **String**|  | [optional] |
-| **idLt** | **String**|  | [optional] |
-| **idGte** | **String**|  | [optional] |
-| **idGt** | **String**|  | [optional] |
-| **assignedObjectTypeIdN** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
-| **tagN** | **String**|  | [optional] |
-| **l2vpnIdN** | **String**|  | [optional] |
-| **l2vpnN** | **String**|  | [optional] |
-| **deviceN** | **String**|  | [optional] |
-| **deviceIdN** | **String**|  | [optional] |
-| **virtualMachineN** | **String**|  | [optional] |
-| **virtualMachineIdN** | **String**|  | [optional] |
-| **interfaceN** | **String**|  | [optional] |
-| **interfaceIdN** | **String**|  | [optional] |
-| **vminterfaceN** | **String**|  | [optional] |
-| **vminterfaceIdN** | **String**|  | [optional] |
-| **vlanN** | **String**|  | [optional] |
-| **vlanVidN** | **BigDecimal**|  | [optional] |
-| **vlanVidLte** | **BigDecimal**|  | [optional] |
-| **vlanVidLt** | **BigDecimal**|  | [optional] |
-| **vlanVidGte** | **BigDecimal**|  | [optional] |
-| **vlanVidGt** | **BigDecimal**|  | [optional] |
-| **vlanIdN** | **String**|  | [optional] |
-| **assignedObjectTypeN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
-| **limit** | **Integer**| Number of results to return per page. | [optional] |
-| **offset** | **Integer**| The initial index from which to return the results. | [optional] |
-
-### Return type
-
-ApiResponse<[**IpamL2vpnTerminationsList200Response**](IpamL2vpnTerminationsList200Response.md)>
-
-
-### Authorization
-
-[Bearer](../README.md#Bearer)
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/json
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **200** |  |  -  |
-
-
-## ipamL2vpnTerminationsPartialUpdate
-
-> L2VPNTermination ipamL2vpnTerminationsPartialUpdate(id, data)
-
-
-
-### Example
-
-```java
-// Import classes:
-import de.codemakers.netbox.client.ApiClient;
-import de.codemakers.netbox.client.ApiException;
-import de.codemakers.netbox.client.Configuration;
-import de.codemakers.netbox.client.auth.*;
-import de.codemakers.netbox.client.models.*;
-import de.codemakers.netbox.client.api.IpamApi;
-
-public class Example {
-    public static void main(String[] args) {
-        ApiClient defaultClient = Configuration.getDefaultApiClient();
-        defaultClient.setBasePath("https://demo.netbox.dev/api");
-        
-        // Configure API key authorization: Bearer
-        ApiKeyAuth Bearer = (ApiKeyAuth) defaultClient.getAuthentication("Bearer");
-        Bearer.setApiKey("YOUR API KEY");
-        // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-        //Bearer.setApiKeyPrefix("Token");
-
-        IpamApi apiInstance = new IpamApi(defaultClient);
-        Integer id = 56; // Integer | A unique integer value identifying this L2VPN termination.
-        WritableL2VPNTermination data = new WritableL2VPNTermination(); // WritableL2VPNTermination | 
-        try {
-            L2VPNTermination result = apiInstance.ipamL2vpnTerminationsPartialUpdate(id, data);
-            System.out.println(result);
-        } catch (ApiException e) {
-            System.err.println("Exception when calling IpamApi#ipamL2vpnTerminationsPartialUpdate");
-            System.err.println("Status code: " + e.getCode());
-            System.err.println("Reason: " + e.getResponseBody());
-            System.err.println("Response headers: " + e.getResponseHeaders());
-            e.printStackTrace();
-        }
-    }
-}
-```
-
-### Parameters
-
-
-| Name | Type | Description  | Notes |
-|------------- | ------------- | ------------- | -------------|
-| **id** | **Integer**| A unique integer value identifying this L2VPN termination. | |
-| **data** | [**WritableL2VPNTermination**](WritableL2VPNTermination.md)|  | |
-
-### Return type
-
-[**L2VPNTermination**](L2VPNTermination.md)
-
-
-### Authorization
-
-[Bearer](../README.md#Bearer)
-
-### HTTP request headers
-
-- **Content-Type**: application/json
-- **Accept**: application/json
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **200** |  |  -  |
-
-## ipamL2vpnTerminationsPartialUpdateWithHttpInfo
-
-> ApiResponse<L2VPNTermination> ipamL2vpnTerminationsPartialUpdate ipamL2vpnTerminationsPartialUpdateWithHttpInfo(id, data)
-
-
-
-### Example
-
-```java
-// Import classes:
-import de.codemakers.netbox.client.ApiClient;
-import de.codemakers.netbox.client.ApiException;
-import de.codemakers.netbox.client.ApiResponse;
-import de.codemakers.netbox.client.Configuration;
-import de.codemakers.netbox.client.auth.*;
-import de.codemakers.netbox.client.models.*;
-import de.codemakers.netbox.client.api.IpamApi;
-
-public class Example {
-    public static void main(String[] args) {
-        ApiClient defaultClient = Configuration.getDefaultApiClient();
-        defaultClient.setBasePath("https://demo.netbox.dev/api");
-        
-        // Configure API key authorization: Bearer
-        ApiKeyAuth Bearer = (ApiKeyAuth) defaultClient.getAuthentication("Bearer");
-        Bearer.setApiKey("YOUR API KEY");
-        // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-        //Bearer.setApiKeyPrefix("Token");
-
-        IpamApi apiInstance = new IpamApi(defaultClient);
-        Integer id = 56; // Integer | A unique integer value identifying this L2VPN termination.
-        WritableL2VPNTermination data = new WritableL2VPNTermination(); // WritableL2VPNTermination | 
-        try {
-            ApiResponse<L2VPNTermination> response = apiInstance.ipamL2vpnTerminationsPartialUpdateWithHttpInfo(id, data);
-            System.out.println("Status code: " + response.getStatusCode());
-            System.out.println("Response headers: " + response.getHeaders());
-            System.out.println("Response body: " + response.getData());
-        } catch (ApiException e) {
-            System.err.println("Exception when calling IpamApi#ipamL2vpnTerminationsPartialUpdate");
-            System.err.println("Status code: " + e.getCode());
-            System.err.println("Response headers: " + e.getResponseHeaders());
-            System.err.println("Reason: " + e.getResponseBody());
-            e.printStackTrace();
-        }
-    }
-}
-```
-
-### Parameters
-
-
-| Name | Type | Description  | Notes |
-|------------- | ------------- | ------------- | -------------|
-| **id** | **Integer**| A unique integer value identifying this L2VPN termination. | |
-| **data** | [**WritableL2VPNTermination**](WritableL2VPNTermination.md)|  | |
-
-### Return type
-
-ApiResponse<[**L2VPNTermination**](L2VPNTermination.md)>
-
-
-### Authorization
-
-[Bearer](../README.md#Bearer)
-
-### HTTP request headers
-
-- **Content-Type**: application/json
-- **Accept**: application/json
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **200** |  |  -  |
-
-
-## ipamL2vpnTerminationsRead
-
-> L2VPNTermination ipamL2vpnTerminationsRead(id)
-
-
-
-### Example
-
-```java
-// Import classes:
-import de.codemakers.netbox.client.ApiClient;
-import de.codemakers.netbox.client.ApiException;
-import de.codemakers.netbox.client.Configuration;
-import de.codemakers.netbox.client.auth.*;
-import de.codemakers.netbox.client.models.*;
-import de.codemakers.netbox.client.api.IpamApi;
-
-public class Example {
-    public static void main(String[] args) {
-        ApiClient defaultClient = Configuration.getDefaultApiClient();
-        defaultClient.setBasePath("https://demo.netbox.dev/api");
-        
-        // Configure API key authorization: Bearer
-        ApiKeyAuth Bearer = (ApiKeyAuth) defaultClient.getAuthentication("Bearer");
-        Bearer.setApiKey("YOUR API KEY");
-        // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-        //Bearer.setApiKeyPrefix("Token");
-
-        IpamApi apiInstance = new IpamApi(defaultClient);
-        Integer id = 56; // Integer | A unique integer value identifying this L2VPN termination.
-        try {
-            L2VPNTermination result = apiInstance.ipamL2vpnTerminationsRead(id);
-            System.out.println(result);
-        } catch (ApiException e) {
-            System.err.println("Exception when calling IpamApi#ipamL2vpnTerminationsRead");
-            System.err.println("Status code: " + e.getCode());
-            System.err.println("Reason: " + e.getResponseBody());
-            System.err.println("Response headers: " + e.getResponseHeaders());
-            e.printStackTrace();
-        }
-    }
-}
-```
-
-### Parameters
-
-
-| Name | Type | Description  | Notes |
-|------------- | ------------- | ------------- | -------------|
-| **id** | **Integer**| A unique integer value identifying this L2VPN termination. | |
-
-### Return type
-
-[**L2VPNTermination**](L2VPNTermination.md)
-
-
-### Authorization
-
-[Bearer](../README.md#Bearer)
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/json
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **200** |  |  -  |
-
-## ipamL2vpnTerminationsReadWithHttpInfo
-
-> ApiResponse<L2VPNTermination> ipamL2vpnTerminationsRead ipamL2vpnTerminationsReadWithHttpInfo(id)
-
-
-
-### Example
-
-```java
-// Import classes:
-import de.codemakers.netbox.client.ApiClient;
-import de.codemakers.netbox.client.ApiException;
-import de.codemakers.netbox.client.ApiResponse;
-import de.codemakers.netbox.client.Configuration;
-import de.codemakers.netbox.client.auth.*;
-import de.codemakers.netbox.client.models.*;
-import de.codemakers.netbox.client.api.IpamApi;
-
-public class Example {
-    public static void main(String[] args) {
-        ApiClient defaultClient = Configuration.getDefaultApiClient();
-        defaultClient.setBasePath("https://demo.netbox.dev/api");
-        
-        // Configure API key authorization: Bearer
-        ApiKeyAuth Bearer = (ApiKeyAuth) defaultClient.getAuthentication("Bearer");
-        Bearer.setApiKey("YOUR API KEY");
-        // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-        //Bearer.setApiKeyPrefix("Token");
-
-        IpamApi apiInstance = new IpamApi(defaultClient);
-        Integer id = 56; // Integer | A unique integer value identifying this L2VPN termination.
-        try {
-            ApiResponse<L2VPNTermination> response = apiInstance.ipamL2vpnTerminationsReadWithHttpInfo(id);
-            System.out.println("Status code: " + response.getStatusCode());
-            System.out.println("Response headers: " + response.getHeaders());
-            System.out.println("Response body: " + response.getData());
-        } catch (ApiException e) {
-            System.err.println("Exception when calling IpamApi#ipamL2vpnTerminationsRead");
-            System.err.println("Status code: " + e.getCode());
-            System.err.println("Response headers: " + e.getResponseHeaders());
-            System.err.println("Reason: " + e.getResponseBody());
-            e.printStackTrace();
-        }
-    }
-}
-```
-
-### Parameters
-
-
-| Name | Type | Description  | Notes |
-|------------- | ------------- | ------------- | -------------|
-| **id** | **Integer**| A unique integer value identifying this L2VPN termination. | |
-
-### Return type
-
-ApiResponse<[**L2VPNTermination**](L2VPNTermination.md)>
-
-
-### Authorization
-
-[Bearer](../README.md#Bearer)
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/json
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **200** |  |  -  |
-
-
-## ipamL2vpnTerminationsUpdate
-
-> L2VPNTermination ipamL2vpnTerminationsUpdate(id, data)
-
-
-
-### Example
-
-```java
-// Import classes:
-import de.codemakers.netbox.client.ApiClient;
-import de.codemakers.netbox.client.ApiException;
-import de.codemakers.netbox.client.Configuration;
-import de.codemakers.netbox.client.auth.*;
-import de.codemakers.netbox.client.models.*;
-import de.codemakers.netbox.client.api.IpamApi;
-
-public class Example {
-    public static void main(String[] args) {
-        ApiClient defaultClient = Configuration.getDefaultApiClient();
-        defaultClient.setBasePath("https://demo.netbox.dev/api");
-        
-        // Configure API key authorization: Bearer
-        ApiKeyAuth Bearer = (ApiKeyAuth) defaultClient.getAuthentication("Bearer");
-        Bearer.setApiKey("YOUR API KEY");
-        // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-        //Bearer.setApiKeyPrefix("Token");
-
-        IpamApi apiInstance = new IpamApi(defaultClient);
-        Integer id = 56; // Integer | A unique integer value identifying this L2VPN termination.
-        WritableL2VPNTermination data = new WritableL2VPNTermination(); // WritableL2VPNTermination | 
-        try {
-            L2VPNTermination result = apiInstance.ipamL2vpnTerminationsUpdate(id, data);
-            System.out.println(result);
-        } catch (ApiException e) {
-            System.err.println("Exception when calling IpamApi#ipamL2vpnTerminationsUpdate");
-            System.err.println("Status code: " + e.getCode());
-            System.err.println("Reason: " + e.getResponseBody());
-            System.err.println("Response headers: " + e.getResponseHeaders());
-            e.printStackTrace();
-        }
-    }
-}
-```
-
-### Parameters
-
-
-| Name | Type | Description  | Notes |
-|------------- | ------------- | ------------- | -------------|
-| **id** | **Integer**| A unique integer value identifying this L2VPN termination. | |
-| **data** | [**WritableL2VPNTermination**](WritableL2VPNTermination.md)|  | |
-
-### Return type
-
-[**L2VPNTermination**](L2VPNTermination.md)
-
-
-### Authorization
-
-[Bearer](../README.md#Bearer)
-
-### HTTP request headers
-
-- **Content-Type**: application/json
-- **Accept**: application/json
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **200** |  |  -  |
-
-## ipamL2vpnTerminationsUpdateWithHttpInfo
-
-> ApiResponse<L2VPNTermination> ipamL2vpnTerminationsUpdate ipamL2vpnTerminationsUpdateWithHttpInfo(id, data)
-
-
-
-### Example
-
-```java
-// Import classes:
-import de.codemakers.netbox.client.ApiClient;
-import de.codemakers.netbox.client.ApiException;
-import de.codemakers.netbox.client.ApiResponse;
-import de.codemakers.netbox.client.Configuration;
-import de.codemakers.netbox.client.auth.*;
-import de.codemakers.netbox.client.models.*;
-import de.codemakers.netbox.client.api.IpamApi;
-
-public class Example {
-    public static void main(String[] args) {
-        ApiClient defaultClient = Configuration.getDefaultApiClient();
-        defaultClient.setBasePath("https://demo.netbox.dev/api");
-        
-        // Configure API key authorization: Bearer
-        ApiKeyAuth Bearer = (ApiKeyAuth) defaultClient.getAuthentication("Bearer");
-        Bearer.setApiKey("YOUR API KEY");
-        // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-        //Bearer.setApiKeyPrefix("Token");
-
-        IpamApi apiInstance = new IpamApi(defaultClient);
-        Integer id = 56; // Integer | A unique integer value identifying this L2VPN termination.
-        WritableL2VPNTermination data = new WritableL2VPNTermination(); // WritableL2VPNTermination | 
-        try {
-            ApiResponse<L2VPNTermination> response = apiInstance.ipamL2vpnTerminationsUpdateWithHttpInfo(id, data);
-            System.out.println("Status code: " + response.getStatusCode());
-            System.out.println("Response headers: " + response.getHeaders());
-            System.out.println("Response body: " + response.getData());
-        } catch (ApiException e) {
-            System.err.println("Exception when calling IpamApi#ipamL2vpnTerminationsUpdate");
-            System.err.println("Status code: " + e.getCode());
-            System.err.println("Response headers: " + e.getResponseHeaders());
-            System.err.println("Reason: " + e.getResponseBody());
-            e.printStackTrace();
-        }
-    }
-}
-```
-
-### Parameters
-
-
-| Name | Type | Description  | Notes |
-|------------- | ------------- | ------------- | -------------|
-| **id** | **Integer**| A unique integer value identifying this L2VPN termination. | |
-| **data** | [**WritableL2VPNTermination**](WritableL2VPNTermination.md)|  | |
-
-### Return type
-
-ApiResponse<[**L2VPNTermination**](L2VPNTermination.md)>
-
-
-### Authorization
-
-[Bearer](../README.md#Bearer)
-
-### HTTP request headers
-
-- **Content-Type**: application/json
-- **Accept**: application/json
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **200** |  |  -  |
-
-
-## ipamL2vpnsBulkDelete
-
-> void ipamL2vpnsBulkDelete()
-
-
-
-### Example
-
-```java
-// Import classes:
-import de.codemakers.netbox.client.ApiClient;
-import de.codemakers.netbox.client.ApiException;
-import de.codemakers.netbox.client.Configuration;
-import de.codemakers.netbox.client.auth.*;
-import de.codemakers.netbox.client.models.*;
-import de.codemakers.netbox.client.api.IpamApi;
-
-public class Example {
-    public static void main(String[] args) {
-        ApiClient defaultClient = Configuration.getDefaultApiClient();
-        defaultClient.setBasePath("https://demo.netbox.dev/api");
-        
-        // Configure API key authorization: Bearer
-        ApiKeyAuth Bearer = (ApiKeyAuth) defaultClient.getAuthentication("Bearer");
-        Bearer.setApiKey("YOUR API KEY");
-        // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-        //Bearer.setApiKeyPrefix("Token");
-
-        IpamApi apiInstance = new IpamApi(defaultClient);
-        try {
-            apiInstance.ipamL2vpnsBulkDelete();
-        } catch (ApiException e) {
-            System.err.println("Exception when calling IpamApi#ipamL2vpnsBulkDelete");
-            System.err.println("Status code: " + e.getCode());
-            System.err.println("Reason: " + e.getResponseBody());
-            System.err.println("Response headers: " + e.getResponseHeaders());
-            e.printStackTrace();
-        }
-    }
-}
-```
-
-### Parameters
-
-This endpoint does not need any parameter.
-
-### Return type
-
-
-null (empty response body)
-
-### Authorization
-
-[Bearer](../README.md#Bearer)
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: Not defined
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **204** |  |  -  |
-
-## ipamL2vpnsBulkDeleteWithHttpInfo
-
-> ApiResponse<Void> ipamL2vpnsBulkDelete ipamL2vpnsBulkDeleteWithHttpInfo()
-
-
-
-### Example
-
-```java
-// Import classes:
-import de.codemakers.netbox.client.ApiClient;
-import de.codemakers.netbox.client.ApiException;
-import de.codemakers.netbox.client.ApiResponse;
-import de.codemakers.netbox.client.Configuration;
-import de.codemakers.netbox.client.auth.*;
-import de.codemakers.netbox.client.models.*;
-import de.codemakers.netbox.client.api.IpamApi;
-
-public class Example {
-    public static void main(String[] args) {
-        ApiClient defaultClient = Configuration.getDefaultApiClient();
-        defaultClient.setBasePath("https://demo.netbox.dev/api");
-        
-        // Configure API key authorization: Bearer
-        ApiKeyAuth Bearer = (ApiKeyAuth) defaultClient.getAuthentication("Bearer");
-        Bearer.setApiKey("YOUR API KEY");
-        // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-        //Bearer.setApiKeyPrefix("Token");
-
-        IpamApi apiInstance = new IpamApi(defaultClient);
-        try {
-            ApiResponse<Void> response = apiInstance.ipamL2vpnsBulkDeleteWithHttpInfo();
-            System.out.println("Status code: " + response.getStatusCode());
-            System.out.println("Response headers: " + response.getHeaders());
-        } catch (ApiException e) {
-            System.err.println("Exception when calling IpamApi#ipamL2vpnsBulkDelete");
-            System.err.println("Status code: " + e.getCode());
-            System.err.println("Response headers: " + e.getResponseHeaders());
-            System.err.println("Reason: " + e.getResponseBody());
-            e.printStackTrace();
-        }
-    }
-}
-```
-
-### Parameters
-
-This endpoint does not need any parameter.
-
-### Return type
-
-
-ApiResponse<Void>
-
-### Authorization
-
-[Bearer](../README.md#Bearer)
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: Not defined
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **204** |  |  -  |
-
-
-## ipamL2vpnsBulkPartialUpdate
-
-> L2VPN ipamL2vpnsBulkPartialUpdate(data)
-
-
-
-### Example
-
-```java
-// Import classes:
-import de.codemakers.netbox.client.ApiClient;
-import de.codemakers.netbox.client.ApiException;
-import de.codemakers.netbox.client.Configuration;
-import de.codemakers.netbox.client.auth.*;
-import de.codemakers.netbox.client.models.*;
-import de.codemakers.netbox.client.api.IpamApi;
-
-public class Example {
-    public static void main(String[] args) {
-        ApiClient defaultClient = Configuration.getDefaultApiClient();
-        defaultClient.setBasePath("https://demo.netbox.dev/api");
-        
-        // Configure API key authorization: Bearer
-        ApiKeyAuth Bearer = (ApiKeyAuth) defaultClient.getAuthentication("Bearer");
-        Bearer.setApiKey("YOUR API KEY");
-        // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-        //Bearer.setApiKeyPrefix("Token");
-
-        IpamApi apiInstance = new IpamApi(defaultClient);
-        WritableL2VPN data = new WritableL2VPN(); // WritableL2VPN | 
-        try {
-            L2VPN result = apiInstance.ipamL2vpnsBulkPartialUpdate(data);
-            System.out.println(result);
-        } catch (ApiException e) {
-            System.err.println("Exception when calling IpamApi#ipamL2vpnsBulkPartialUpdate");
-            System.err.println("Status code: " + e.getCode());
-            System.err.println("Reason: " + e.getResponseBody());
-            System.err.println("Response headers: " + e.getResponseHeaders());
-            e.printStackTrace();
-        }
-    }
-}
-```
-
-### Parameters
-
-
-| Name | Type | Description  | Notes |
-|------------- | ------------- | ------------- | -------------|
-| **data** | [**WritableL2VPN**](WritableL2VPN.md)|  | |
-
-### Return type
-
-[**L2VPN**](L2VPN.md)
-
-
-### Authorization
-
-[Bearer](../README.md#Bearer)
-
-### HTTP request headers
-
-- **Content-Type**: application/json
-- **Accept**: application/json
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **200** |  |  -  |
-
-## ipamL2vpnsBulkPartialUpdateWithHttpInfo
-
-> ApiResponse<L2VPN> ipamL2vpnsBulkPartialUpdate ipamL2vpnsBulkPartialUpdateWithHttpInfo(data)
-
-
-
-### Example
-
-```java
-// Import classes:
-import de.codemakers.netbox.client.ApiClient;
-import de.codemakers.netbox.client.ApiException;
-import de.codemakers.netbox.client.ApiResponse;
-import de.codemakers.netbox.client.Configuration;
-import de.codemakers.netbox.client.auth.*;
-import de.codemakers.netbox.client.models.*;
-import de.codemakers.netbox.client.api.IpamApi;
-
-public class Example {
-    public static void main(String[] args) {
-        ApiClient defaultClient = Configuration.getDefaultApiClient();
-        defaultClient.setBasePath("https://demo.netbox.dev/api");
-        
-        // Configure API key authorization: Bearer
-        ApiKeyAuth Bearer = (ApiKeyAuth) defaultClient.getAuthentication("Bearer");
-        Bearer.setApiKey("YOUR API KEY");
-        // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-        //Bearer.setApiKeyPrefix("Token");
-
-        IpamApi apiInstance = new IpamApi(defaultClient);
-        WritableL2VPN data = new WritableL2VPN(); // WritableL2VPN | 
-        try {
-            ApiResponse<L2VPN> response = apiInstance.ipamL2vpnsBulkPartialUpdateWithHttpInfo(data);
-            System.out.println("Status code: " + response.getStatusCode());
-            System.out.println("Response headers: " + response.getHeaders());
-            System.out.println("Response body: " + response.getData());
-        } catch (ApiException e) {
-            System.err.println("Exception when calling IpamApi#ipamL2vpnsBulkPartialUpdate");
-            System.err.println("Status code: " + e.getCode());
-            System.err.println("Response headers: " + e.getResponseHeaders());
-            System.err.println("Reason: " + e.getResponseBody());
-            e.printStackTrace();
-        }
-    }
-}
-```
-
-### Parameters
-
-
-| Name | Type | Description  | Notes |
-|------------- | ------------- | ------------- | -------------|
-| **data** | [**WritableL2VPN**](WritableL2VPN.md)|  | |
-
-### Return type
-
-ApiResponse<[**L2VPN**](L2VPN.md)>
-
-
-### Authorization
-
-[Bearer](../README.md#Bearer)
-
-### HTTP request headers
-
-- **Content-Type**: application/json
-- **Accept**: application/json
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **200** |  |  -  |
-
-
-## ipamL2vpnsBulkUpdate
-
-> L2VPN ipamL2vpnsBulkUpdate(data)
-
-
-
-### Example
-
-```java
-// Import classes:
-import de.codemakers.netbox.client.ApiClient;
-import de.codemakers.netbox.client.ApiException;
-import de.codemakers.netbox.client.Configuration;
-import de.codemakers.netbox.client.auth.*;
-import de.codemakers.netbox.client.models.*;
-import de.codemakers.netbox.client.api.IpamApi;
-
-public class Example {
-    public static void main(String[] args) {
-        ApiClient defaultClient = Configuration.getDefaultApiClient();
-        defaultClient.setBasePath("https://demo.netbox.dev/api");
-        
-        // Configure API key authorization: Bearer
-        ApiKeyAuth Bearer = (ApiKeyAuth) defaultClient.getAuthentication("Bearer");
-        Bearer.setApiKey("YOUR API KEY");
-        // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-        //Bearer.setApiKeyPrefix("Token");
-
-        IpamApi apiInstance = new IpamApi(defaultClient);
-        WritableL2VPN data = new WritableL2VPN(); // WritableL2VPN | 
-        try {
-            L2VPN result = apiInstance.ipamL2vpnsBulkUpdate(data);
-            System.out.println(result);
-        } catch (ApiException e) {
-            System.err.println("Exception when calling IpamApi#ipamL2vpnsBulkUpdate");
-            System.err.println("Status code: " + e.getCode());
-            System.err.println("Reason: " + e.getResponseBody());
-            System.err.println("Response headers: " + e.getResponseHeaders());
-            e.printStackTrace();
-        }
-    }
-}
-```
-
-### Parameters
-
-
-| Name | Type | Description  | Notes |
-|------------- | ------------- | ------------- | -------------|
-| **data** | [**WritableL2VPN**](WritableL2VPN.md)|  | |
-
-### Return type
-
-[**L2VPN**](L2VPN.md)
-
-
-### Authorization
-
-[Bearer](../README.md#Bearer)
-
-### HTTP request headers
-
-- **Content-Type**: application/json
-- **Accept**: application/json
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **200** |  |  -  |
-
-## ipamL2vpnsBulkUpdateWithHttpInfo
-
-> ApiResponse<L2VPN> ipamL2vpnsBulkUpdate ipamL2vpnsBulkUpdateWithHttpInfo(data)
-
-
-
-### Example
-
-```java
-// Import classes:
-import de.codemakers.netbox.client.ApiClient;
-import de.codemakers.netbox.client.ApiException;
-import de.codemakers.netbox.client.ApiResponse;
-import de.codemakers.netbox.client.Configuration;
-import de.codemakers.netbox.client.auth.*;
-import de.codemakers.netbox.client.models.*;
-import de.codemakers.netbox.client.api.IpamApi;
-
-public class Example {
-    public static void main(String[] args) {
-        ApiClient defaultClient = Configuration.getDefaultApiClient();
-        defaultClient.setBasePath("https://demo.netbox.dev/api");
-        
-        // Configure API key authorization: Bearer
-        ApiKeyAuth Bearer = (ApiKeyAuth) defaultClient.getAuthentication("Bearer");
-        Bearer.setApiKey("YOUR API KEY");
-        // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-        //Bearer.setApiKeyPrefix("Token");
-
-        IpamApi apiInstance = new IpamApi(defaultClient);
-        WritableL2VPN data = new WritableL2VPN(); // WritableL2VPN | 
-        try {
-            ApiResponse<L2VPN> response = apiInstance.ipamL2vpnsBulkUpdateWithHttpInfo(data);
-            System.out.println("Status code: " + response.getStatusCode());
-            System.out.println("Response headers: " + response.getHeaders());
-            System.out.println("Response body: " + response.getData());
-        } catch (ApiException e) {
-            System.err.println("Exception when calling IpamApi#ipamL2vpnsBulkUpdate");
-            System.err.println("Status code: " + e.getCode());
-            System.err.println("Response headers: " + e.getResponseHeaders());
-            System.err.println("Reason: " + e.getResponseBody());
-            e.printStackTrace();
-        }
-    }
-}
-```
-
-### Parameters
-
-
-| Name | Type | Description  | Notes |
-|------------- | ------------- | ------------- | -------------|
-| **data** | [**WritableL2VPN**](WritableL2VPN.md)|  | |
-
-### Return type
-
-ApiResponse<[**L2VPN**](L2VPN.md)>
-
-
-### Authorization
-
-[Bearer](../README.md#Bearer)
-
-### HTTP request headers
-
-- **Content-Type**: application/json
-- **Accept**: application/json
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **200** |  |  -  |
-
-
-## ipamL2vpnsCreate
-
-> L2VPN ipamL2vpnsCreate(data)
-
-
-
-### Example
-
-```java
-// Import classes:
-import de.codemakers.netbox.client.ApiClient;
-import de.codemakers.netbox.client.ApiException;
-import de.codemakers.netbox.client.Configuration;
-import de.codemakers.netbox.client.auth.*;
-import de.codemakers.netbox.client.models.*;
-import de.codemakers.netbox.client.api.IpamApi;
-
-public class Example {
-    public static void main(String[] args) {
-        ApiClient defaultClient = Configuration.getDefaultApiClient();
-        defaultClient.setBasePath("https://demo.netbox.dev/api");
-        
-        // Configure API key authorization: Bearer
-        ApiKeyAuth Bearer = (ApiKeyAuth) defaultClient.getAuthentication("Bearer");
-        Bearer.setApiKey("YOUR API KEY");
-        // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-        //Bearer.setApiKeyPrefix("Token");
-
-        IpamApi apiInstance = new IpamApi(defaultClient);
-        WritableL2VPN data = new WritableL2VPN(); // WritableL2VPN | 
-        try {
-            L2VPN result = apiInstance.ipamL2vpnsCreate(data);
-            System.out.println(result);
-        } catch (ApiException e) {
-            System.err.println("Exception when calling IpamApi#ipamL2vpnsCreate");
-            System.err.println("Status code: " + e.getCode());
-            System.err.println("Reason: " + e.getResponseBody());
-            System.err.println("Response headers: " + e.getResponseHeaders());
-            e.printStackTrace();
-        }
-    }
-}
-```
-
-### Parameters
-
-
-| Name | Type | Description  | Notes |
-|------------- | ------------- | ------------- | -------------|
-| **data** | [**WritableL2VPN**](WritableL2VPN.md)|  | |
-
-### Return type
-
-[**L2VPN**](L2VPN.md)
-
-
-### Authorization
-
-[Bearer](../README.md#Bearer)
-
-### HTTP request headers
-
-- **Content-Type**: application/json
-- **Accept**: application/json
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **201** |  |  -  |
-
-## ipamL2vpnsCreateWithHttpInfo
-
-> ApiResponse<L2VPN> ipamL2vpnsCreate ipamL2vpnsCreateWithHttpInfo(data)
-
-
-
-### Example
-
-```java
-// Import classes:
-import de.codemakers.netbox.client.ApiClient;
-import de.codemakers.netbox.client.ApiException;
-import de.codemakers.netbox.client.ApiResponse;
-import de.codemakers.netbox.client.Configuration;
-import de.codemakers.netbox.client.auth.*;
-import de.codemakers.netbox.client.models.*;
-import de.codemakers.netbox.client.api.IpamApi;
-
-public class Example {
-    public static void main(String[] args) {
-        ApiClient defaultClient = Configuration.getDefaultApiClient();
-        defaultClient.setBasePath("https://demo.netbox.dev/api");
-        
-        // Configure API key authorization: Bearer
-        ApiKeyAuth Bearer = (ApiKeyAuth) defaultClient.getAuthentication("Bearer");
-        Bearer.setApiKey("YOUR API KEY");
-        // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-        //Bearer.setApiKeyPrefix("Token");
-
-        IpamApi apiInstance = new IpamApi(defaultClient);
-        WritableL2VPN data = new WritableL2VPN(); // WritableL2VPN | 
-        try {
-            ApiResponse<L2VPN> response = apiInstance.ipamL2vpnsCreateWithHttpInfo(data);
-            System.out.println("Status code: " + response.getStatusCode());
-            System.out.println("Response headers: " + response.getHeaders());
-            System.out.println("Response body: " + response.getData());
-        } catch (ApiException e) {
-            System.err.println("Exception when calling IpamApi#ipamL2vpnsCreate");
-            System.err.println("Status code: " + e.getCode());
-            System.err.println("Response headers: " + e.getResponseHeaders());
-            System.err.println("Reason: " + e.getResponseBody());
-            e.printStackTrace();
-        }
-    }
-}
-```
-
-### Parameters
-
-
-| Name | Type | Description  | Notes |
-|------------- | ------------- | ------------- | -------------|
-| **data** | [**WritableL2VPN**](WritableL2VPN.md)|  | |
-
-### Return type
-
-ApiResponse<[**L2VPN**](L2VPN.md)>
-
-
-### Authorization
-
-[Bearer](../README.md#Bearer)
-
-### HTTP request headers
-
-- **Content-Type**: application/json
-- **Accept**: application/json
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **201** |  |  -  |
-
-
-## ipamL2vpnsDelete
-
-> void ipamL2vpnsDelete(id)
-
-
-
-### Example
-
-```java
-// Import classes:
-import de.codemakers.netbox.client.ApiClient;
-import de.codemakers.netbox.client.ApiException;
-import de.codemakers.netbox.client.Configuration;
-import de.codemakers.netbox.client.auth.*;
-import de.codemakers.netbox.client.models.*;
-import de.codemakers.netbox.client.api.IpamApi;
-
-public class Example {
-    public static void main(String[] args) {
-        ApiClient defaultClient = Configuration.getDefaultApiClient();
-        defaultClient.setBasePath("https://demo.netbox.dev/api");
-        
-        // Configure API key authorization: Bearer
-        ApiKeyAuth Bearer = (ApiKeyAuth) defaultClient.getAuthentication("Bearer");
-        Bearer.setApiKey("YOUR API KEY");
-        // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-        //Bearer.setApiKeyPrefix("Token");
-
-        IpamApi apiInstance = new IpamApi(defaultClient);
-        Integer id = 56; // Integer | A unique integer value identifying this L2VPN.
-        try {
-            apiInstance.ipamL2vpnsDelete(id);
-        } catch (ApiException e) {
-            System.err.println("Exception when calling IpamApi#ipamL2vpnsDelete");
-            System.err.println("Status code: " + e.getCode());
-            System.err.println("Reason: " + e.getResponseBody());
-            System.err.println("Response headers: " + e.getResponseHeaders());
-            e.printStackTrace();
-        }
-    }
-}
-```
-
-### Parameters
-
-
-| Name | Type | Description  | Notes |
-|------------- | ------------- | ------------- | -------------|
-| **id** | **Integer**| A unique integer value identifying this L2VPN. | |
-
-### Return type
-
-
-null (empty response body)
-
-### Authorization
-
-[Bearer](../README.md#Bearer)
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: Not defined
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **204** |  |  -  |
-
-## ipamL2vpnsDeleteWithHttpInfo
-
-> ApiResponse<Void> ipamL2vpnsDelete ipamL2vpnsDeleteWithHttpInfo(id)
-
-
-
-### Example
-
-```java
-// Import classes:
-import de.codemakers.netbox.client.ApiClient;
-import de.codemakers.netbox.client.ApiException;
-import de.codemakers.netbox.client.ApiResponse;
-import de.codemakers.netbox.client.Configuration;
-import de.codemakers.netbox.client.auth.*;
-import de.codemakers.netbox.client.models.*;
-import de.codemakers.netbox.client.api.IpamApi;
-
-public class Example {
-    public static void main(String[] args) {
-        ApiClient defaultClient = Configuration.getDefaultApiClient();
-        defaultClient.setBasePath("https://demo.netbox.dev/api");
-        
-        // Configure API key authorization: Bearer
-        ApiKeyAuth Bearer = (ApiKeyAuth) defaultClient.getAuthentication("Bearer");
-        Bearer.setApiKey("YOUR API KEY");
-        // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-        //Bearer.setApiKeyPrefix("Token");
-
-        IpamApi apiInstance = new IpamApi(defaultClient);
-        Integer id = 56; // Integer | A unique integer value identifying this L2VPN.
-        try {
-            ApiResponse<Void> response = apiInstance.ipamL2vpnsDeleteWithHttpInfo(id);
-            System.out.println("Status code: " + response.getStatusCode());
-            System.out.println("Response headers: " + response.getHeaders());
-        } catch (ApiException e) {
-            System.err.println("Exception when calling IpamApi#ipamL2vpnsDelete");
-            System.err.println("Status code: " + e.getCode());
-            System.err.println("Response headers: " + e.getResponseHeaders());
-            System.err.println("Reason: " + e.getResponseBody());
-            e.printStackTrace();
-        }
-    }
-}
-```
-
-### Parameters
-
-
-| Name | Type | Description  | Notes |
-|------------- | ------------- | ------------- | -------------|
-| **id** | **Integer**| A unique integer value identifying this L2VPN. | |
-
-### Return type
-
-
-ApiResponse<Void>
-
-### Authorization
-
-[Bearer](../README.md#Bearer)
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: Not defined
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **204** |  |  -  |
-
-
-## ipamL2vpnsList
-
-> IpamL2vpnsList200Response ipamL2vpnsList(id, identifier, name, type, description, created, lastUpdated, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, importTargetId, importTarget, exportTargetId, exportTarget, idN, idLte, idLt, idGte, idGt, identifierN, identifierLte, identifierLt, identifierGte, identifierGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, typeN, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, importTargetIdN, importTargetN, exportTargetIdN, exportTargetN, ordering, limit, offset)
-
-
-
-Overrides ListModelMixin to allow processing ExportTemplates.
-
-### Example
-
-```java
-// Import classes:
-import de.codemakers.netbox.client.ApiClient;
-import de.codemakers.netbox.client.ApiException;
-import de.codemakers.netbox.client.Configuration;
-import de.codemakers.netbox.client.auth.*;
-import de.codemakers.netbox.client.models.*;
-import de.codemakers.netbox.client.api.IpamApi;
-
-public class Example {
-    public static void main(String[] args) {
-        ApiClient defaultClient = Configuration.getDefaultApiClient();
-        defaultClient.setBasePath("https://demo.netbox.dev/api");
-        
-        // Configure API key authorization: Bearer
-        ApiKeyAuth Bearer = (ApiKeyAuth) defaultClient.getAuthentication("Bearer");
-        Bearer.setApiKey("YOUR API KEY");
-        // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-        //Bearer.setApiKeyPrefix("Token");
-
-        IpamApi apiInstance = new IpamApi(defaultClient);
-        String id = "id_example"; // String | 
-        String identifier = "identifier_example"; // String | 
-        String name = "name_example"; // String | 
-        String type = "type_example"; // String | 
-        String description = "description_example"; // String | 
-        String created = "created_example"; // String | 
-        String lastUpdated = "lastUpdated_example"; // String | 
-        String q = "q_example"; // String | 
-        String tag = "tag_example"; // String | 
-        String tenantGroupId = "tenantGroupId_example"; // String | 
-        String tenantGroup = "tenantGroup_example"; // String | 
-        String tenantId = "tenantId_example"; // String | 
-        String tenant = "tenant_example"; // String | 
-        String importTargetId = "importTargetId_example"; // String | 
-        String importTarget = "importTarget_example"; // String | 
-        String exportTargetId = "exportTargetId_example"; // String | 
-        String exportTarget = "exportTarget_example"; // String | 
-        String idN = "idN_example"; // String | 
-        String idLte = "idLte_example"; // String | 
-        String idLt = "idLt_example"; // String | 
-        String idGte = "idGte_example"; // String | 
-        String idGt = "idGt_example"; // String | 
-        String identifierN = "identifierN_example"; // String | 
-        String identifierLte = "identifierLte_example"; // String | 
-        String identifierLt = "identifierLt_example"; // String | 
-        String identifierGte = "identifierGte_example"; // String | 
-        String identifierGt = "identifierGt_example"; // String | 
-        String nameN = "nameN_example"; // String | 
-        String nameIc = "nameIc_example"; // String | 
-        String nameNic = "nameNic_example"; // String | 
-        String nameIew = "nameIew_example"; // String | 
-        String nameNiew = "nameNiew_example"; // String | 
-        String nameIsw = "nameIsw_example"; // String | 
-        String nameNisw = "nameNisw_example"; // String | 
-        String nameIe = "nameIe_example"; // String | 
-        String nameNie = "nameNie_example"; // String | 
-        String typeN = "typeN_example"; // String | 
-        String descriptionN = "descriptionN_example"; // String | 
-        String descriptionIc = "descriptionIc_example"; // String | 
-        String descriptionNic = "descriptionNic_example"; // String | 
-        String descriptionIew = "descriptionIew_example"; // String | 
-        String descriptionNiew = "descriptionNiew_example"; // String | 
-        String descriptionIsw = "descriptionIsw_example"; // String | 
-        String descriptionNisw = "descriptionNisw_example"; // String | 
-        String descriptionIe = "descriptionIe_example"; // String | 
-        String descriptionNie = "descriptionNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
-        String tagN = "tagN_example"; // String | 
-        String tenantGroupIdN = "tenantGroupIdN_example"; // String | 
-        String tenantGroupN = "tenantGroupN_example"; // String | 
-        String tenantIdN = "tenantIdN_example"; // String | 
-        String tenantN = "tenantN_example"; // String | 
-        String importTargetIdN = "importTargetIdN_example"; // String | 
-        String importTargetN = "importTargetN_example"; // String | 
-        String exportTargetIdN = "exportTargetIdN_example"; // String | 
-        String exportTargetN = "exportTargetN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
-        Integer limit = 56; // Integer | Number of results to return per page.
-        Integer offset = 56; // Integer | The initial index from which to return the results.
-        try {
-            IpamL2vpnsList200Response result = apiInstance.ipamL2vpnsList(id, identifier, name, type, description, created, lastUpdated, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, importTargetId, importTarget, exportTargetId, exportTarget, idN, idLte, idLt, idGte, idGt, identifierN, identifierLte, identifierLt, identifierGte, identifierGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, typeN, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, importTargetIdN, importTargetN, exportTargetIdN, exportTargetN, ordering, limit, offset);
-            System.out.println(result);
-        } catch (ApiException e) {
-            System.err.println("Exception when calling IpamApi#ipamL2vpnsList");
-            System.err.println("Status code: " + e.getCode());
-            System.err.println("Reason: " + e.getResponseBody());
-            System.err.println("Response headers: " + e.getResponseHeaders());
-            e.printStackTrace();
-        }
-    }
-}
-```
-
-### Parameters
-
-
-| Name | Type | Description  | Notes |
-|------------- | ------------- | ------------- | -------------|
-| **id** | **String**|  | [optional] |
-| **identifier** | **String**|  | [optional] |
-| **name** | **String**|  | [optional] |
-| **type** | **String**|  | [optional] |
-| **description** | **String**|  | [optional] |
-| **created** | **String**|  | [optional] |
-| **lastUpdated** | **String**|  | [optional] |
-| **q** | **String**|  | [optional] |
-| **tag** | **String**|  | [optional] |
-| **tenantGroupId** | **String**|  | [optional] |
-| **tenantGroup** | **String**|  | [optional] |
-| **tenantId** | **String**|  | [optional] |
-| **tenant** | **String**|  | [optional] |
-| **importTargetId** | **String**|  | [optional] |
-| **importTarget** | **String**|  | [optional] |
-| **exportTargetId** | **String**|  | [optional] |
-| **exportTarget** | **String**|  | [optional] |
-| **idN** | **String**|  | [optional] |
-| **idLte** | **String**|  | [optional] |
-| **idLt** | **String**|  | [optional] |
-| **idGte** | **String**|  | [optional] |
-| **idGt** | **String**|  | [optional] |
-| **identifierN** | **String**|  | [optional] |
-| **identifierLte** | **String**|  | [optional] |
-| **identifierLt** | **String**|  | [optional] |
-| **identifierGte** | **String**|  | [optional] |
-| **identifierGt** | **String**|  | [optional] |
-| **nameN** | **String**|  | [optional] |
-| **nameIc** | **String**|  | [optional] |
-| **nameNic** | **String**|  | [optional] |
-| **nameIew** | **String**|  | [optional] |
-| **nameNiew** | **String**|  | [optional] |
-| **nameIsw** | **String**|  | [optional] |
-| **nameNisw** | **String**|  | [optional] |
-| **nameIe** | **String**|  | [optional] |
-| **nameNie** | **String**|  | [optional] |
-| **typeN** | **String**|  | [optional] |
-| **descriptionN** | **String**|  | [optional] |
-| **descriptionIc** | **String**|  | [optional] |
-| **descriptionNic** | **String**|  | [optional] |
-| **descriptionIew** | **String**|  | [optional] |
-| **descriptionNiew** | **String**|  | [optional] |
-| **descriptionIsw** | **String**|  | [optional] |
-| **descriptionNisw** | **String**|  | [optional] |
-| **descriptionIe** | **String**|  | [optional] |
-| **descriptionNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
-| **tagN** | **String**|  | [optional] |
-| **tenantGroupIdN** | **String**|  | [optional] |
-| **tenantGroupN** | **String**|  | [optional] |
-| **tenantIdN** | **String**|  | [optional] |
-| **tenantN** | **String**|  | [optional] |
-| **importTargetIdN** | **String**|  | [optional] |
-| **importTargetN** | **String**|  | [optional] |
-| **exportTargetIdN** | **String**|  | [optional] |
-| **exportTargetN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
-| **limit** | **Integer**| Number of results to return per page. | [optional] |
-| **offset** | **Integer**| The initial index from which to return the results. | [optional] |
-
-### Return type
-
-[**IpamL2vpnsList200Response**](IpamL2vpnsList200Response.md)
-
-
-### Authorization
-
-[Bearer](../README.md#Bearer)
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/json
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **200** |  |  -  |
-
-## ipamL2vpnsListWithHttpInfo
-
-> ApiResponse<IpamL2vpnsList200Response> ipamL2vpnsList ipamL2vpnsListWithHttpInfo(id, identifier, name, type, description, created, lastUpdated, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, importTargetId, importTarget, exportTargetId, exportTarget, idN, idLte, idLt, idGte, idGt, identifierN, identifierLte, identifierLt, identifierGte, identifierGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, typeN, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, importTargetIdN, importTargetN, exportTargetIdN, exportTargetN, ordering, limit, offset)
-
-
-
-Overrides ListModelMixin to allow processing ExportTemplates.
-
-### Example
-
-```java
-// Import classes:
-import de.codemakers.netbox.client.ApiClient;
-import de.codemakers.netbox.client.ApiException;
-import de.codemakers.netbox.client.ApiResponse;
-import de.codemakers.netbox.client.Configuration;
-import de.codemakers.netbox.client.auth.*;
-import de.codemakers.netbox.client.models.*;
-import de.codemakers.netbox.client.api.IpamApi;
-
-public class Example {
-    public static void main(String[] args) {
-        ApiClient defaultClient = Configuration.getDefaultApiClient();
-        defaultClient.setBasePath("https://demo.netbox.dev/api");
-        
-        // Configure API key authorization: Bearer
-        ApiKeyAuth Bearer = (ApiKeyAuth) defaultClient.getAuthentication("Bearer");
-        Bearer.setApiKey("YOUR API KEY");
-        // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-        //Bearer.setApiKeyPrefix("Token");
-
-        IpamApi apiInstance = new IpamApi(defaultClient);
-        String id = "id_example"; // String | 
-        String identifier = "identifier_example"; // String | 
-        String name = "name_example"; // String | 
-        String type = "type_example"; // String | 
-        String description = "description_example"; // String | 
-        String created = "created_example"; // String | 
-        String lastUpdated = "lastUpdated_example"; // String | 
-        String q = "q_example"; // String | 
-        String tag = "tag_example"; // String | 
-        String tenantGroupId = "tenantGroupId_example"; // String | 
-        String tenantGroup = "tenantGroup_example"; // String | 
-        String tenantId = "tenantId_example"; // String | 
-        String tenant = "tenant_example"; // String | 
-        String importTargetId = "importTargetId_example"; // String | 
-        String importTarget = "importTarget_example"; // String | 
-        String exportTargetId = "exportTargetId_example"; // String | 
-        String exportTarget = "exportTarget_example"; // String | 
-        String idN = "idN_example"; // String | 
-        String idLte = "idLte_example"; // String | 
-        String idLt = "idLt_example"; // String | 
-        String idGte = "idGte_example"; // String | 
-        String idGt = "idGt_example"; // String | 
-        String identifierN = "identifierN_example"; // String | 
-        String identifierLte = "identifierLte_example"; // String | 
-        String identifierLt = "identifierLt_example"; // String | 
-        String identifierGte = "identifierGte_example"; // String | 
-        String identifierGt = "identifierGt_example"; // String | 
-        String nameN = "nameN_example"; // String | 
-        String nameIc = "nameIc_example"; // String | 
-        String nameNic = "nameNic_example"; // String | 
-        String nameIew = "nameIew_example"; // String | 
-        String nameNiew = "nameNiew_example"; // String | 
-        String nameIsw = "nameIsw_example"; // String | 
-        String nameNisw = "nameNisw_example"; // String | 
-        String nameIe = "nameIe_example"; // String | 
-        String nameNie = "nameNie_example"; // String | 
-        String typeN = "typeN_example"; // String | 
-        String descriptionN = "descriptionN_example"; // String | 
-        String descriptionIc = "descriptionIc_example"; // String | 
-        String descriptionNic = "descriptionNic_example"; // String | 
-        String descriptionIew = "descriptionIew_example"; // String | 
-        String descriptionNiew = "descriptionNiew_example"; // String | 
-        String descriptionIsw = "descriptionIsw_example"; // String | 
-        String descriptionNisw = "descriptionNisw_example"; // String | 
-        String descriptionIe = "descriptionIe_example"; // String | 
-        String descriptionNie = "descriptionNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
-        String tagN = "tagN_example"; // String | 
-        String tenantGroupIdN = "tenantGroupIdN_example"; // String | 
-        String tenantGroupN = "tenantGroupN_example"; // String | 
-        String tenantIdN = "tenantIdN_example"; // String | 
-        String tenantN = "tenantN_example"; // String | 
-        String importTargetIdN = "importTargetIdN_example"; // String | 
-        String importTargetN = "importTargetN_example"; // String | 
-        String exportTargetIdN = "exportTargetIdN_example"; // String | 
-        String exportTargetN = "exportTargetN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
-        Integer limit = 56; // Integer | Number of results to return per page.
-        Integer offset = 56; // Integer | The initial index from which to return the results.
-        try {
-            ApiResponse<IpamL2vpnsList200Response> response = apiInstance.ipamL2vpnsListWithHttpInfo(id, identifier, name, type, description, created, lastUpdated, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, importTargetId, importTarget, exportTargetId, exportTarget, idN, idLte, idLt, idGte, idGt, identifierN, identifierLte, identifierLt, identifierGte, identifierGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, typeN, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, importTargetIdN, importTargetN, exportTargetIdN, exportTargetN, ordering, limit, offset);
-            System.out.println("Status code: " + response.getStatusCode());
-            System.out.println("Response headers: " + response.getHeaders());
-            System.out.println("Response body: " + response.getData());
-        } catch (ApiException e) {
-            System.err.println("Exception when calling IpamApi#ipamL2vpnsList");
-            System.err.println("Status code: " + e.getCode());
-            System.err.println("Response headers: " + e.getResponseHeaders());
-            System.err.println("Reason: " + e.getResponseBody());
-            e.printStackTrace();
-        }
-    }
-}
-```
-
-### Parameters
-
-
-| Name | Type | Description  | Notes |
-|------------- | ------------- | ------------- | -------------|
-| **id** | **String**|  | [optional] |
-| **identifier** | **String**|  | [optional] |
-| **name** | **String**|  | [optional] |
-| **type** | **String**|  | [optional] |
-| **description** | **String**|  | [optional] |
-| **created** | **String**|  | [optional] |
-| **lastUpdated** | **String**|  | [optional] |
-| **q** | **String**|  | [optional] |
-| **tag** | **String**|  | [optional] |
-| **tenantGroupId** | **String**|  | [optional] |
-| **tenantGroup** | **String**|  | [optional] |
-| **tenantId** | **String**|  | [optional] |
-| **tenant** | **String**|  | [optional] |
-| **importTargetId** | **String**|  | [optional] |
-| **importTarget** | **String**|  | [optional] |
-| **exportTargetId** | **String**|  | [optional] |
-| **exportTarget** | **String**|  | [optional] |
-| **idN** | **String**|  | [optional] |
-| **idLte** | **String**|  | [optional] |
-| **idLt** | **String**|  | [optional] |
-| **idGte** | **String**|  | [optional] |
-| **idGt** | **String**|  | [optional] |
-| **identifierN** | **String**|  | [optional] |
-| **identifierLte** | **String**|  | [optional] |
-| **identifierLt** | **String**|  | [optional] |
-| **identifierGte** | **String**|  | [optional] |
-| **identifierGt** | **String**|  | [optional] |
-| **nameN** | **String**|  | [optional] |
-| **nameIc** | **String**|  | [optional] |
-| **nameNic** | **String**|  | [optional] |
-| **nameIew** | **String**|  | [optional] |
-| **nameNiew** | **String**|  | [optional] |
-| **nameIsw** | **String**|  | [optional] |
-| **nameNisw** | **String**|  | [optional] |
-| **nameIe** | **String**|  | [optional] |
-| **nameNie** | **String**|  | [optional] |
-| **typeN** | **String**|  | [optional] |
-| **descriptionN** | **String**|  | [optional] |
-| **descriptionIc** | **String**|  | [optional] |
-| **descriptionNic** | **String**|  | [optional] |
-| **descriptionIew** | **String**|  | [optional] |
-| **descriptionNiew** | **String**|  | [optional] |
-| **descriptionIsw** | **String**|  | [optional] |
-| **descriptionNisw** | **String**|  | [optional] |
-| **descriptionIe** | **String**|  | [optional] |
-| **descriptionNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
-| **tagN** | **String**|  | [optional] |
-| **tenantGroupIdN** | **String**|  | [optional] |
-| **tenantGroupN** | **String**|  | [optional] |
-| **tenantIdN** | **String**|  | [optional] |
-| **tenantN** | **String**|  | [optional] |
-| **importTargetIdN** | **String**|  | [optional] |
-| **importTargetN** | **String**|  | [optional] |
-| **exportTargetIdN** | **String**|  | [optional] |
-| **exportTargetN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
-| **limit** | **Integer**| Number of results to return per page. | [optional] |
-| **offset** | **Integer**| The initial index from which to return the results. | [optional] |
-
-### Return type
-
-ApiResponse<[**IpamL2vpnsList200Response**](IpamL2vpnsList200Response.md)>
-
-
-### Authorization
-
-[Bearer](../README.md#Bearer)
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/json
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **200** |  |  -  |
-
-
-## ipamL2vpnsPartialUpdate
-
-> L2VPN ipamL2vpnsPartialUpdate(id, data)
-
-
-
-### Example
-
-```java
-// Import classes:
-import de.codemakers.netbox.client.ApiClient;
-import de.codemakers.netbox.client.ApiException;
-import de.codemakers.netbox.client.Configuration;
-import de.codemakers.netbox.client.auth.*;
-import de.codemakers.netbox.client.models.*;
-import de.codemakers.netbox.client.api.IpamApi;
-
-public class Example {
-    public static void main(String[] args) {
-        ApiClient defaultClient = Configuration.getDefaultApiClient();
-        defaultClient.setBasePath("https://demo.netbox.dev/api");
-        
-        // Configure API key authorization: Bearer
-        ApiKeyAuth Bearer = (ApiKeyAuth) defaultClient.getAuthentication("Bearer");
-        Bearer.setApiKey("YOUR API KEY");
-        // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-        //Bearer.setApiKeyPrefix("Token");
-
-        IpamApi apiInstance = new IpamApi(defaultClient);
-        Integer id = 56; // Integer | A unique integer value identifying this L2VPN.
-        WritableL2VPN data = new WritableL2VPN(); // WritableL2VPN | 
-        try {
-            L2VPN result = apiInstance.ipamL2vpnsPartialUpdate(id, data);
-            System.out.println(result);
-        } catch (ApiException e) {
-            System.err.println("Exception when calling IpamApi#ipamL2vpnsPartialUpdate");
-            System.err.println("Status code: " + e.getCode());
-            System.err.println("Reason: " + e.getResponseBody());
-            System.err.println("Response headers: " + e.getResponseHeaders());
-            e.printStackTrace();
-        }
-    }
-}
-```
-
-### Parameters
-
-
-| Name | Type | Description  | Notes |
-|------------- | ------------- | ------------- | -------------|
-| **id** | **Integer**| A unique integer value identifying this L2VPN. | |
-| **data** | [**WritableL2VPN**](WritableL2VPN.md)|  | |
-
-### Return type
-
-[**L2VPN**](L2VPN.md)
-
-
-### Authorization
-
-[Bearer](../README.md#Bearer)
-
-### HTTP request headers
-
-- **Content-Type**: application/json
-- **Accept**: application/json
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **200** |  |  -  |
-
-## ipamL2vpnsPartialUpdateWithHttpInfo
-
-> ApiResponse<L2VPN> ipamL2vpnsPartialUpdate ipamL2vpnsPartialUpdateWithHttpInfo(id, data)
-
-
-
-### Example
-
-```java
-// Import classes:
-import de.codemakers.netbox.client.ApiClient;
-import de.codemakers.netbox.client.ApiException;
-import de.codemakers.netbox.client.ApiResponse;
-import de.codemakers.netbox.client.Configuration;
-import de.codemakers.netbox.client.auth.*;
-import de.codemakers.netbox.client.models.*;
-import de.codemakers.netbox.client.api.IpamApi;
-
-public class Example {
-    public static void main(String[] args) {
-        ApiClient defaultClient = Configuration.getDefaultApiClient();
-        defaultClient.setBasePath("https://demo.netbox.dev/api");
-        
-        // Configure API key authorization: Bearer
-        ApiKeyAuth Bearer = (ApiKeyAuth) defaultClient.getAuthentication("Bearer");
-        Bearer.setApiKey("YOUR API KEY");
-        // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-        //Bearer.setApiKeyPrefix("Token");
-
-        IpamApi apiInstance = new IpamApi(defaultClient);
-        Integer id = 56; // Integer | A unique integer value identifying this L2VPN.
-        WritableL2VPN data = new WritableL2VPN(); // WritableL2VPN | 
-        try {
-            ApiResponse<L2VPN> response = apiInstance.ipamL2vpnsPartialUpdateWithHttpInfo(id, data);
-            System.out.println("Status code: " + response.getStatusCode());
-            System.out.println("Response headers: " + response.getHeaders());
-            System.out.println("Response body: " + response.getData());
-        } catch (ApiException e) {
-            System.err.println("Exception when calling IpamApi#ipamL2vpnsPartialUpdate");
-            System.err.println("Status code: " + e.getCode());
-            System.err.println("Response headers: " + e.getResponseHeaders());
-            System.err.println("Reason: " + e.getResponseBody());
-            e.printStackTrace();
-        }
-    }
-}
-```
-
-### Parameters
-
-
-| Name | Type | Description  | Notes |
-|------------- | ------------- | ------------- | -------------|
-| **id** | **Integer**| A unique integer value identifying this L2VPN. | |
-| **data** | [**WritableL2VPN**](WritableL2VPN.md)|  | |
-
-### Return type
-
-ApiResponse<[**L2VPN**](L2VPN.md)>
-
-
-### Authorization
-
-[Bearer](../README.md#Bearer)
-
-### HTTP request headers
-
-- **Content-Type**: application/json
-- **Accept**: application/json
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **200** |  |  -  |
-
-
-## ipamL2vpnsRead
-
-> L2VPN ipamL2vpnsRead(id)
-
-
-
-### Example
-
-```java
-// Import classes:
-import de.codemakers.netbox.client.ApiClient;
-import de.codemakers.netbox.client.ApiException;
-import de.codemakers.netbox.client.Configuration;
-import de.codemakers.netbox.client.auth.*;
-import de.codemakers.netbox.client.models.*;
-import de.codemakers.netbox.client.api.IpamApi;
-
-public class Example {
-    public static void main(String[] args) {
-        ApiClient defaultClient = Configuration.getDefaultApiClient();
-        defaultClient.setBasePath("https://demo.netbox.dev/api");
-        
-        // Configure API key authorization: Bearer
-        ApiKeyAuth Bearer = (ApiKeyAuth) defaultClient.getAuthentication("Bearer");
-        Bearer.setApiKey("YOUR API KEY");
-        // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-        //Bearer.setApiKeyPrefix("Token");
-
-        IpamApi apiInstance = new IpamApi(defaultClient);
-        Integer id = 56; // Integer | A unique integer value identifying this L2VPN.
-        try {
-            L2VPN result = apiInstance.ipamL2vpnsRead(id);
-            System.out.println(result);
-        } catch (ApiException e) {
-            System.err.println("Exception when calling IpamApi#ipamL2vpnsRead");
-            System.err.println("Status code: " + e.getCode());
-            System.err.println("Reason: " + e.getResponseBody());
-            System.err.println("Response headers: " + e.getResponseHeaders());
-            e.printStackTrace();
-        }
-    }
-}
-```
-
-### Parameters
-
-
-| Name | Type | Description  | Notes |
-|------------- | ------------- | ------------- | -------------|
-| **id** | **Integer**| A unique integer value identifying this L2VPN. | |
-
-### Return type
-
-[**L2VPN**](L2VPN.md)
-
-
-### Authorization
-
-[Bearer](../README.md#Bearer)
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/json
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **200** |  |  -  |
-
-## ipamL2vpnsReadWithHttpInfo
-
-> ApiResponse<L2VPN> ipamL2vpnsRead ipamL2vpnsReadWithHttpInfo(id)
-
-
-
-### Example
-
-```java
-// Import classes:
-import de.codemakers.netbox.client.ApiClient;
-import de.codemakers.netbox.client.ApiException;
-import de.codemakers.netbox.client.ApiResponse;
-import de.codemakers.netbox.client.Configuration;
-import de.codemakers.netbox.client.auth.*;
-import de.codemakers.netbox.client.models.*;
-import de.codemakers.netbox.client.api.IpamApi;
-
-public class Example {
-    public static void main(String[] args) {
-        ApiClient defaultClient = Configuration.getDefaultApiClient();
-        defaultClient.setBasePath("https://demo.netbox.dev/api");
-        
-        // Configure API key authorization: Bearer
-        ApiKeyAuth Bearer = (ApiKeyAuth) defaultClient.getAuthentication("Bearer");
-        Bearer.setApiKey("YOUR API KEY");
-        // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-        //Bearer.setApiKeyPrefix("Token");
-
-        IpamApi apiInstance = new IpamApi(defaultClient);
-        Integer id = 56; // Integer | A unique integer value identifying this L2VPN.
-        try {
-            ApiResponse<L2VPN> response = apiInstance.ipamL2vpnsReadWithHttpInfo(id);
-            System.out.println("Status code: " + response.getStatusCode());
-            System.out.println("Response headers: " + response.getHeaders());
-            System.out.println("Response body: " + response.getData());
-        } catch (ApiException e) {
-            System.err.println("Exception when calling IpamApi#ipamL2vpnsRead");
-            System.err.println("Status code: " + e.getCode());
-            System.err.println("Response headers: " + e.getResponseHeaders());
-            System.err.println("Reason: " + e.getResponseBody());
-            e.printStackTrace();
-        }
-    }
-}
-```
-
-### Parameters
-
-
-| Name | Type | Description  | Notes |
-|------------- | ------------- | ------------- | -------------|
-| **id** | **Integer**| A unique integer value identifying this L2VPN. | |
-
-### Return type
-
-ApiResponse<[**L2VPN**](L2VPN.md)>
-
-
-### Authorization
-
-[Bearer](../README.md#Bearer)
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/json
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **200** |  |  -  |
-
-
-## ipamL2vpnsUpdate
-
-> L2VPN ipamL2vpnsUpdate(id, data)
-
-
-
-### Example
-
-```java
-// Import classes:
-import de.codemakers.netbox.client.ApiClient;
-import de.codemakers.netbox.client.ApiException;
-import de.codemakers.netbox.client.Configuration;
-import de.codemakers.netbox.client.auth.*;
-import de.codemakers.netbox.client.models.*;
-import de.codemakers.netbox.client.api.IpamApi;
-
-public class Example {
-    public static void main(String[] args) {
-        ApiClient defaultClient = Configuration.getDefaultApiClient();
-        defaultClient.setBasePath("https://demo.netbox.dev/api");
-        
-        // Configure API key authorization: Bearer
-        ApiKeyAuth Bearer = (ApiKeyAuth) defaultClient.getAuthentication("Bearer");
-        Bearer.setApiKey("YOUR API KEY");
-        // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-        //Bearer.setApiKeyPrefix("Token");
-
-        IpamApi apiInstance = new IpamApi(defaultClient);
-        Integer id = 56; // Integer | A unique integer value identifying this L2VPN.
-        WritableL2VPN data = new WritableL2VPN(); // WritableL2VPN | 
-        try {
-            L2VPN result = apiInstance.ipamL2vpnsUpdate(id, data);
-            System.out.println(result);
-        } catch (ApiException e) {
-            System.err.println("Exception when calling IpamApi#ipamL2vpnsUpdate");
-            System.err.println("Status code: " + e.getCode());
-            System.err.println("Reason: " + e.getResponseBody());
-            System.err.println("Response headers: " + e.getResponseHeaders());
-            e.printStackTrace();
-        }
-    }
-}
-```
-
-### Parameters
-
-
-| Name | Type | Description  | Notes |
-|------------- | ------------- | ------------- | -------------|
-| **id** | **Integer**| A unique integer value identifying this L2VPN. | |
-| **data** | [**WritableL2VPN**](WritableL2VPN.md)|  | |
-
-### Return type
-
-[**L2VPN**](L2VPN.md)
-
-
-### Authorization
-
-[Bearer](../README.md#Bearer)
-
-### HTTP request headers
-
-- **Content-Type**: application/json
-- **Accept**: application/json
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **200** |  |  -  |
-
-## ipamL2vpnsUpdateWithHttpInfo
-
-> ApiResponse<L2VPN> ipamL2vpnsUpdate ipamL2vpnsUpdateWithHttpInfo(id, data)
-
-
-
-### Example
-
-```java
-// Import classes:
-import de.codemakers.netbox.client.ApiClient;
-import de.codemakers.netbox.client.ApiException;
-import de.codemakers.netbox.client.ApiResponse;
-import de.codemakers.netbox.client.Configuration;
-import de.codemakers.netbox.client.auth.*;
-import de.codemakers.netbox.client.models.*;
-import de.codemakers.netbox.client.api.IpamApi;
-
-public class Example {
-    public static void main(String[] args) {
-        ApiClient defaultClient = Configuration.getDefaultApiClient();
-        defaultClient.setBasePath("https://demo.netbox.dev/api");
-        
-        // Configure API key authorization: Bearer
-        ApiKeyAuth Bearer = (ApiKeyAuth) defaultClient.getAuthentication("Bearer");
-        Bearer.setApiKey("YOUR API KEY");
-        // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-        //Bearer.setApiKeyPrefix("Token");
-
-        IpamApi apiInstance = new IpamApi(defaultClient);
-        Integer id = 56; // Integer | A unique integer value identifying this L2VPN.
-        WritableL2VPN data = new WritableL2VPN(); // WritableL2VPN | 
-        try {
-            ApiResponse<L2VPN> response = apiInstance.ipamL2vpnsUpdateWithHttpInfo(id, data);
-            System.out.println("Status code: " + response.getStatusCode());
-            System.out.println("Response headers: " + response.getHeaders());
-            System.out.println("Response body: " + response.getData());
-        } catch (ApiException e) {
-            System.err.println("Exception when calling IpamApi#ipamL2vpnsUpdate");
-            System.err.println("Status code: " + e.getCode());
-            System.err.println("Response headers: " + e.getResponseHeaders());
-            System.err.println("Reason: " + e.getResponseBody());
-            e.printStackTrace();
-        }
-    }
-}
-```
-
-### Parameters
-
-
-| Name | Type | Description  | Notes |
-|------------- | ------------- | ------------- | -------------|
-| **id** | **Integer**| A unique integer value identifying this L2VPN. | |
-| **data** | [**WritableL2VPN**](WritableL2VPN.md)|  | |
-
-### Return type
-
-ApiResponse<[**L2VPN**](L2VPN.md)>
 
 
 ### Authorization
@@ -14095,7 +10787,7 @@ ApiResponse<Void>
 
 ## ipamPrefixesList
 
-> IpamPrefixesList200Response ipamPrefixesList(id, isPool, markUtilized, description, created, lastUpdated, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, family, prefix, within, withinInclude, contains, depth, children, maskLength, maskLengthGte, maskLengthLte, vrfId, vrf, presentInVrfId, presentInVrf, regionId, region, siteGroupId, siteGroup, siteId, site, vlanId, vlanVid, roleId, role, status, idN, idLte, idLt, idGte, idGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, depthN, depthLte, depthLt, depthGte, depthGt, childrenN, childrenLte, childrenLt, childrenGte, childrenGt, vrfIdN, vrfN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, vlanIdN, vlanVidN, vlanVidLte, vlanVidLt, vlanVidGte, vlanVidGt, roleIdN, roleN, statusN, ordering, limit, offset)
+> IpamPrefixesList200Response ipamPrefixesList(id, isPool, markUtilized, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, family, prefix, within, withinInclude, contains, depth, children, maskLength, maskLengthGte, maskLengthLte, vrfId, vrf, presentInVrfId, presentInVrf, regionId, region, siteGroupId, siteGroup, siteId, site, vlanId, vlanVid, roleId, role, status, idN, idLte, idLt, idGte, idGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, depthN, depthLte, depthLt, depthGte, depthGt, childrenN, childrenLte, childrenLt, childrenGte, childrenGt, vrfIdN, vrfN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, vlanIdN, vlanVidN, vlanVidLte, vlanVidLt, vlanVidGte, vlanVidGt, roleIdN, roleN, statusN, limit, offset)
 
 
 
@@ -14129,7 +10821,11 @@ public class Example {
         String markUtilized = "markUtilized_example"; // String | 
         String description = "description_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String tenantGroupId = "tenantGroupId_example"; // String | 
@@ -14175,16 +10871,6 @@ public class Example {
         String descriptionNisw = "descriptionNisw_example"; // String | 
         String descriptionIe = "descriptionIe_example"; // String | 
         String descriptionNie = "descriptionNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String tenantGroupIdN = "tenantGroupIdN_example"; // String | 
         String tenantGroupN = "tenantGroupN_example"; // String | 
@@ -14217,11 +10903,10 @@ public class Example {
         String roleIdN = "roleIdN_example"; // String | 
         String roleN = "roleN_example"; // String | 
         String statusN = "statusN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            IpamPrefixesList200Response result = apiInstance.ipamPrefixesList(id, isPool, markUtilized, description, created, lastUpdated, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, family, prefix, within, withinInclude, contains, depth, children, maskLength, maskLengthGte, maskLengthLte, vrfId, vrf, presentInVrfId, presentInVrf, regionId, region, siteGroupId, siteGroup, siteId, site, vlanId, vlanVid, roleId, role, status, idN, idLte, idLt, idGte, idGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, depthN, depthLte, depthLt, depthGte, depthGt, childrenN, childrenLte, childrenLt, childrenGte, childrenGt, vrfIdN, vrfN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, vlanIdN, vlanVidN, vlanVidLte, vlanVidLt, vlanVidGte, vlanVidGt, roleIdN, roleN, statusN, ordering, limit, offset);
+            IpamPrefixesList200Response result = apiInstance.ipamPrefixesList(id, isPool, markUtilized, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, family, prefix, within, withinInclude, contains, depth, children, maskLength, maskLengthGte, maskLengthLte, vrfId, vrf, presentInVrfId, presentInVrf, regionId, region, siteGroupId, siteGroup, siteId, site, vlanId, vlanVid, roleId, role, status, idN, idLte, idLt, idGte, idGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, depthN, depthLte, depthLt, depthGte, depthGt, childrenN, childrenLte, childrenLt, childrenGte, childrenGt, vrfIdN, vrfN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, vlanIdN, vlanVidN, vlanVidLte, vlanVidLt, vlanVidGte, vlanVidGt, roleIdN, roleN, statusN, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling IpamApi#ipamPrefixesList");
@@ -14244,7 +10929,11 @@ public class Example {
 | **markUtilized** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **tenantGroupId** | **String**|  | [optional] |
@@ -14290,16 +10979,6 @@ public class Example {
 | **descriptionNisw** | **String**|  | [optional] |
 | **descriptionIe** | **String**|  | [optional] |
 | **descriptionNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **tenantGroupIdN** | **String**|  | [optional] |
 | **tenantGroupN** | **String**|  | [optional] |
@@ -14332,7 +11011,6 @@ public class Example {
 | **roleIdN** | **String**|  | [optional] |
 | **roleN** | **String**|  | [optional] |
 | **statusN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -14357,7 +11035,7 @@ public class Example {
 
 ## ipamPrefixesListWithHttpInfo
 
-> ApiResponse<IpamPrefixesList200Response> ipamPrefixesList ipamPrefixesListWithHttpInfo(id, isPool, markUtilized, description, created, lastUpdated, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, family, prefix, within, withinInclude, contains, depth, children, maskLength, maskLengthGte, maskLengthLte, vrfId, vrf, presentInVrfId, presentInVrf, regionId, region, siteGroupId, siteGroup, siteId, site, vlanId, vlanVid, roleId, role, status, idN, idLte, idLt, idGte, idGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, depthN, depthLte, depthLt, depthGte, depthGt, childrenN, childrenLte, childrenLt, childrenGte, childrenGt, vrfIdN, vrfN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, vlanIdN, vlanVidN, vlanVidLte, vlanVidLt, vlanVidGte, vlanVidGt, roleIdN, roleN, statusN, ordering, limit, offset)
+> ApiResponse<IpamPrefixesList200Response> ipamPrefixesList ipamPrefixesListWithHttpInfo(id, isPool, markUtilized, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, family, prefix, within, withinInclude, contains, depth, children, maskLength, maskLengthGte, maskLengthLte, vrfId, vrf, presentInVrfId, presentInVrf, regionId, region, siteGroupId, siteGroup, siteId, site, vlanId, vlanVid, roleId, role, status, idN, idLte, idLt, idGte, idGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, depthN, depthLte, depthLt, depthGte, depthGt, childrenN, childrenLte, childrenLt, childrenGte, childrenGt, vrfIdN, vrfN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, vlanIdN, vlanVidN, vlanVidLte, vlanVidLt, vlanVidGte, vlanVidGt, roleIdN, roleN, statusN, limit, offset)
 
 
 
@@ -14392,7 +11070,11 @@ public class Example {
         String markUtilized = "markUtilized_example"; // String | 
         String description = "description_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String tenantGroupId = "tenantGroupId_example"; // String | 
@@ -14438,16 +11120,6 @@ public class Example {
         String descriptionNisw = "descriptionNisw_example"; // String | 
         String descriptionIe = "descriptionIe_example"; // String | 
         String descriptionNie = "descriptionNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String tenantGroupIdN = "tenantGroupIdN_example"; // String | 
         String tenantGroupN = "tenantGroupN_example"; // String | 
@@ -14480,11 +11152,10 @@ public class Example {
         String roleIdN = "roleIdN_example"; // String | 
         String roleN = "roleN_example"; // String | 
         String statusN = "statusN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<IpamPrefixesList200Response> response = apiInstance.ipamPrefixesListWithHttpInfo(id, isPool, markUtilized, description, created, lastUpdated, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, family, prefix, within, withinInclude, contains, depth, children, maskLength, maskLengthGte, maskLengthLte, vrfId, vrf, presentInVrfId, presentInVrf, regionId, region, siteGroupId, siteGroup, siteId, site, vlanId, vlanVid, roleId, role, status, idN, idLte, idLt, idGte, idGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, depthN, depthLte, depthLt, depthGte, depthGt, childrenN, childrenLte, childrenLt, childrenGte, childrenGt, vrfIdN, vrfN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, vlanIdN, vlanVidN, vlanVidLte, vlanVidLt, vlanVidGte, vlanVidGt, roleIdN, roleN, statusN, ordering, limit, offset);
+            ApiResponse<IpamPrefixesList200Response> response = apiInstance.ipamPrefixesListWithHttpInfo(id, isPool, markUtilized, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, family, prefix, within, withinInclude, contains, depth, children, maskLength, maskLengthGte, maskLengthLte, vrfId, vrf, presentInVrfId, presentInVrf, regionId, region, siteGroupId, siteGroup, siteId, site, vlanId, vlanVid, roleId, role, status, idN, idLte, idLt, idGte, idGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, depthN, depthLte, depthLt, depthGte, depthGt, childrenN, childrenLte, childrenLt, childrenGte, childrenGt, vrfIdN, vrfN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, vlanIdN, vlanVidN, vlanVidLte, vlanVidLt, vlanVidGte, vlanVidGt, roleIdN, roleN, statusN, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -14509,7 +11180,11 @@ public class Example {
 | **markUtilized** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **tenantGroupId** | **String**|  | [optional] |
@@ -14555,16 +11230,6 @@ public class Example {
 | **descriptionNisw** | **String**|  | [optional] |
 | **descriptionIe** | **String**|  | [optional] |
 | **descriptionNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **tenantGroupIdN** | **String**|  | [optional] |
 | **tenantGroupN** | **String**|  | [optional] |
@@ -14597,7 +11262,6 @@ public class Example {
 | **roleIdN** | **String**|  | [optional] |
 | **roleN** | **String**|  | [optional] |
 | **statusN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -15771,7 +12435,7 @@ ApiResponse<Void>
 
 ## ipamRirsList
 
-> IpamRirsList200Response ipamRirsList(id, name, slug, isPrivate, description, created, lastUpdated, q, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, ordering, limit, offset)
+> IpamRirsList200Response ipamRirsList(id, name, slug, isPrivate, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, limit, offset)
 
 
 
@@ -15806,7 +12470,11 @@ public class Example {
         String isPrivate = "isPrivate_example"; // String | 
         String description = "description_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String idN = "idN_example"; // String | 
@@ -15841,22 +12509,11 @@ public class Example {
         String descriptionNisw = "descriptionNisw_example"; // String | 
         String descriptionIe = "descriptionIe_example"; // String | 
         String descriptionNie = "descriptionNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            IpamRirsList200Response result = apiInstance.ipamRirsList(id, name, slug, isPrivate, description, created, lastUpdated, q, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, ordering, limit, offset);
+            IpamRirsList200Response result = apiInstance.ipamRirsList(id, name, slug, isPrivate, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling IpamApi#ipamRirsList");
@@ -15880,7 +12537,11 @@ public class Example {
 | **isPrivate** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **idN** | **String**|  | [optional] |
@@ -15915,18 +12576,7 @@ public class Example {
 | **descriptionNisw** | **String**|  | [optional] |
 | **descriptionIe** | **String**|  | [optional] |
 | **descriptionNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -15951,7 +12601,7 @@ public class Example {
 
 ## ipamRirsListWithHttpInfo
 
-> ApiResponse<IpamRirsList200Response> ipamRirsList ipamRirsListWithHttpInfo(id, name, slug, isPrivate, description, created, lastUpdated, q, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, ordering, limit, offset)
+> ApiResponse<IpamRirsList200Response> ipamRirsList ipamRirsListWithHttpInfo(id, name, slug, isPrivate, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, limit, offset)
 
 
 
@@ -15987,7 +12637,11 @@ public class Example {
         String isPrivate = "isPrivate_example"; // String | 
         String description = "description_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String idN = "idN_example"; // String | 
@@ -16022,22 +12676,11 @@ public class Example {
         String descriptionNisw = "descriptionNisw_example"; // String | 
         String descriptionIe = "descriptionIe_example"; // String | 
         String descriptionNie = "descriptionNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<IpamRirsList200Response> response = apiInstance.ipamRirsListWithHttpInfo(id, name, slug, isPrivate, description, created, lastUpdated, q, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, ordering, limit, offset);
+            ApiResponse<IpamRirsList200Response> response = apiInstance.ipamRirsListWithHttpInfo(id, name, slug, isPrivate, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -16063,7 +12706,11 @@ public class Example {
 | **isPrivate** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **idN** | **String**|  | [optional] |
@@ -16098,18 +12745,7 @@ public class Example {
 | **descriptionNisw** | **String**|  | [optional] |
 | **descriptionIe** | **String**|  | [optional] |
 | **descriptionNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -17283,7 +13919,7 @@ ApiResponse<Void>
 
 ## ipamRolesList
 
-> IpamRolesList200Response ipamRolesList(id, name, slug, description, created, lastUpdated, q, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, ordering, limit, offset)
+> IpamRolesList200Response ipamRolesList(id, name, slug, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, limit, offset)
 
 
 
@@ -17317,7 +13953,11 @@ public class Example {
         String slug = "slug_example"; // String | 
         String description = "description_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String idN = "idN_example"; // String | 
@@ -17352,22 +13992,11 @@ public class Example {
         String descriptionNisw = "descriptionNisw_example"; // String | 
         String descriptionIe = "descriptionIe_example"; // String | 
         String descriptionNie = "descriptionNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            IpamRolesList200Response result = apiInstance.ipamRolesList(id, name, slug, description, created, lastUpdated, q, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, ordering, limit, offset);
+            IpamRolesList200Response result = apiInstance.ipamRolesList(id, name, slug, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling IpamApi#ipamRolesList");
@@ -17390,7 +14019,11 @@ public class Example {
 | **slug** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **idN** | **String**|  | [optional] |
@@ -17425,18 +14058,7 @@ public class Example {
 | **descriptionNisw** | **String**|  | [optional] |
 | **descriptionIe** | **String**|  | [optional] |
 | **descriptionNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -17461,7 +14083,7 @@ public class Example {
 
 ## ipamRolesListWithHttpInfo
 
-> ApiResponse<IpamRolesList200Response> ipamRolesList ipamRolesListWithHttpInfo(id, name, slug, description, created, lastUpdated, q, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, ordering, limit, offset)
+> ApiResponse<IpamRolesList200Response> ipamRolesList ipamRolesListWithHttpInfo(id, name, slug, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, limit, offset)
 
 
 
@@ -17496,7 +14118,11 @@ public class Example {
         String slug = "slug_example"; // String | 
         String description = "description_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String idN = "idN_example"; // String | 
@@ -17531,22 +14157,11 @@ public class Example {
         String descriptionNisw = "descriptionNisw_example"; // String | 
         String descriptionIe = "descriptionIe_example"; // String | 
         String descriptionNie = "descriptionNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<IpamRolesList200Response> response = apiInstance.ipamRolesListWithHttpInfo(id, name, slug, description, created, lastUpdated, q, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, ordering, limit, offset);
+            ApiResponse<IpamRolesList200Response> response = apiInstance.ipamRolesListWithHttpInfo(id, name, slug, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -17571,7 +14186,11 @@ public class Example {
 | **slug** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **idN** | **String**|  | [optional] |
@@ -17606,18 +14225,7 @@ public class Example {
 | **descriptionNisw** | **String**|  | [optional] |
 | **descriptionIe** | **String**|  | [optional] |
 | **descriptionNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -18791,7 +15399,7 @@ ApiResponse<Void>
 
 ## ipamRouteTargetsList
 
-> IpamRouteTargetsList200Response ipamRouteTargetsList(id, name, description, created, lastUpdated, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, importingVrfId, importingVrf, exportingVrfId, exportingVrf, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, importingVrfIdN, importingVrfN, exportingVrfIdN, exportingVrfN, ordering, limit, offset)
+> IpamRouteTargetsList200Response ipamRouteTargetsList(id, name, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, importingVrfId, importingVrf, exportingVrfId, exportingVrf, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, importingVrfIdN, importingVrfN, exportingVrfIdN, exportingVrfN, limit, offset)
 
 
 
@@ -18824,7 +15432,11 @@ public class Example {
         String name = "name_example"; // String | 
         String description = "description_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String tenantGroupId = "tenantGroupId_example"; // String | 
@@ -18858,16 +15470,6 @@ public class Example {
         String descriptionNisw = "descriptionNisw_example"; // String | 
         String descriptionIe = "descriptionIe_example"; // String | 
         String descriptionNie = "descriptionNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String tenantGroupIdN = "tenantGroupIdN_example"; // String | 
         String tenantGroupN = "tenantGroupN_example"; // String | 
@@ -18877,11 +15479,10 @@ public class Example {
         String importingVrfN = "importingVrfN_example"; // String | 
         String exportingVrfIdN = "exportingVrfIdN_example"; // String | 
         String exportingVrfN = "exportingVrfN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            IpamRouteTargetsList200Response result = apiInstance.ipamRouteTargetsList(id, name, description, created, lastUpdated, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, importingVrfId, importingVrf, exportingVrfId, exportingVrf, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, importingVrfIdN, importingVrfN, exportingVrfIdN, exportingVrfN, ordering, limit, offset);
+            IpamRouteTargetsList200Response result = apiInstance.ipamRouteTargetsList(id, name, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, importingVrfId, importingVrf, exportingVrfId, exportingVrf, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, importingVrfIdN, importingVrfN, exportingVrfIdN, exportingVrfN, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling IpamApi#ipamRouteTargetsList");
@@ -18903,7 +15504,11 @@ public class Example {
 | **name** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **tenantGroupId** | **String**|  | [optional] |
@@ -18937,16 +15542,6 @@ public class Example {
 | **descriptionNisw** | **String**|  | [optional] |
 | **descriptionIe** | **String**|  | [optional] |
 | **descriptionNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **tenantGroupIdN** | **String**|  | [optional] |
 | **tenantGroupN** | **String**|  | [optional] |
@@ -18956,7 +15551,6 @@ public class Example {
 | **importingVrfN** | **String**|  | [optional] |
 | **exportingVrfIdN** | **String**|  | [optional] |
 | **exportingVrfN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -18981,7 +15575,7 @@ public class Example {
 
 ## ipamRouteTargetsListWithHttpInfo
 
-> ApiResponse<IpamRouteTargetsList200Response> ipamRouteTargetsList ipamRouteTargetsListWithHttpInfo(id, name, description, created, lastUpdated, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, importingVrfId, importingVrf, exportingVrfId, exportingVrf, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, importingVrfIdN, importingVrfN, exportingVrfIdN, exportingVrfN, ordering, limit, offset)
+> ApiResponse<IpamRouteTargetsList200Response> ipamRouteTargetsList ipamRouteTargetsListWithHttpInfo(id, name, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, importingVrfId, importingVrf, exportingVrfId, exportingVrf, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, importingVrfIdN, importingVrfN, exportingVrfIdN, exportingVrfN, limit, offset)
 
 
 
@@ -19015,7 +15609,11 @@ public class Example {
         String name = "name_example"; // String | 
         String description = "description_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String tenantGroupId = "tenantGroupId_example"; // String | 
@@ -19049,16 +15647,6 @@ public class Example {
         String descriptionNisw = "descriptionNisw_example"; // String | 
         String descriptionIe = "descriptionIe_example"; // String | 
         String descriptionNie = "descriptionNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String tenantGroupIdN = "tenantGroupIdN_example"; // String | 
         String tenantGroupN = "tenantGroupN_example"; // String | 
@@ -19068,11 +15656,10 @@ public class Example {
         String importingVrfN = "importingVrfN_example"; // String | 
         String exportingVrfIdN = "exportingVrfIdN_example"; // String | 
         String exportingVrfN = "exportingVrfN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<IpamRouteTargetsList200Response> response = apiInstance.ipamRouteTargetsListWithHttpInfo(id, name, description, created, lastUpdated, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, importingVrfId, importingVrf, exportingVrfId, exportingVrf, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, importingVrfIdN, importingVrfN, exportingVrfIdN, exportingVrfN, ordering, limit, offset);
+            ApiResponse<IpamRouteTargetsList200Response> response = apiInstance.ipamRouteTargetsListWithHttpInfo(id, name, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, importingVrfId, importingVrf, exportingVrfId, exportingVrf, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, importingVrfIdN, importingVrfN, exportingVrfIdN, exportingVrfN, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -19096,7 +15683,11 @@ public class Example {
 | **name** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **tenantGroupId** | **String**|  | [optional] |
@@ -19130,16 +15721,6 @@ public class Example {
 | **descriptionNisw** | **String**|  | [optional] |
 | **descriptionIe** | **String**|  | [optional] |
 | **descriptionNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **tenantGroupIdN** | **String**|  | [optional] |
 | **tenantGroupN** | **String**|  | [optional] |
@@ -19149,7 +15730,6 @@ public class Example {
 | **importingVrfN** | **String**|  | [optional] |
 | **exportingVrfIdN** | **String**|  | [optional] |
 | **exportingVrfN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -20323,7 +16903,7 @@ ApiResponse<Void>
 
 ## ipamServiceTemplatesList
 
-> IpamServiceTemplatesList200Response ipamServiceTemplatesList(id, name, protocol, created, lastUpdated, q, tag, port, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, protocolN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, ordering, limit, offset)
+> IpamServiceTemplatesList200Response ipamServiceTemplatesList(id, name, protocol, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, port, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, protocolN, tagN, limit, offset)
 
 
 
@@ -20356,7 +16936,11 @@ public class Example {
         String name = "name_example"; // String | 
         String protocol = "protocol_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         BigDecimal port = new BigDecimal(78); // BigDecimal | 
@@ -20375,22 +16959,11 @@ public class Example {
         String nameIe = "nameIe_example"; // String | 
         String nameNie = "nameNie_example"; // String | 
         String protocolN = "protocolN_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            IpamServiceTemplatesList200Response result = apiInstance.ipamServiceTemplatesList(id, name, protocol, created, lastUpdated, q, tag, port, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, protocolN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, ordering, limit, offset);
+            IpamServiceTemplatesList200Response result = apiInstance.ipamServiceTemplatesList(id, name, protocol, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, port, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, protocolN, tagN, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling IpamApi#ipamServiceTemplatesList");
@@ -20412,7 +16985,11 @@ public class Example {
 | **name** | **String**|  | [optional] |
 | **protocol** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **port** | **BigDecimal**|  | [optional] |
@@ -20431,18 +17008,7 @@ public class Example {
 | **nameIe** | **String**|  | [optional] |
 | **nameNie** | **String**|  | [optional] |
 | **protocolN** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -20467,7 +17033,7 @@ public class Example {
 
 ## ipamServiceTemplatesListWithHttpInfo
 
-> ApiResponse<IpamServiceTemplatesList200Response> ipamServiceTemplatesList ipamServiceTemplatesListWithHttpInfo(id, name, protocol, created, lastUpdated, q, tag, port, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, protocolN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, ordering, limit, offset)
+> ApiResponse<IpamServiceTemplatesList200Response> ipamServiceTemplatesList ipamServiceTemplatesListWithHttpInfo(id, name, protocol, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, port, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, protocolN, tagN, limit, offset)
 
 
 
@@ -20501,7 +17067,11 @@ public class Example {
         String name = "name_example"; // String | 
         String protocol = "protocol_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         BigDecimal port = new BigDecimal(78); // BigDecimal | 
@@ -20520,22 +17090,11 @@ public class Example {
         String nameIe = "nameIe_example"; // String | 
         String nameNie = "nameNie_example"; // String | 
         String protocolN = "protocolN_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<IpamServiceTemplatesList200Response> response = apiInstance.ipamServiceTemplatesListWithHttpInfo(id, name, protocol, created, lastUpdated, q, tag, port, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, protocolN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, ordering, limit, offset);
+            ApiResponse<IpamServiceTemplatesList200Response> response = apiInstance.ipamServiceTemplatesListWithHttpInfo(id, name, protocol, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, port, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, protocolN, tagN, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -20559,7 +17118,11 @@ public class Example {
 | **name** | **String**|  | [optional] |
 | **protocol** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **port** | **BigDecimal**|  | [optional] |
@@ -20578,18 +17141,7 @@ public class Example {
 | **nameIe** | **String**|  | [optional] |
 | **nameNie** | **String**|  | [optional] |
 | **protocolN** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -21763,7 +18315,7 @@ ApiResponse<Void>
 
 ## ipamServicesList
 
-> IpamServicesList200Response ipamServicesList(id, name, protocol, description, created, lastUpdated, q, tag, deviceId, device, virtualMachineId, virtualMachine, port, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, protocolN, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, deviceIdN, deviceN, virtualMachineIdN, virtualMachineN, ordering, limit, offset)
+> IpamServicesList200Response ipamServicesList(id, name, protocol, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, deviceId, device, virtualMachineId, virtualMachine, port, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, protocolN, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, deviceIdN, deviceN, virtualMachineIdN, virtualMachineN, limit, offset)
 
 
 
@@ -21797,7 +18349,11 @@ public class Example {
         String protocol = "protocol_example"; // String | 
         String description = "description_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String deviceId = "deviceId_example"; // String | 
@@ -21829,26 +18385,15 @@ public class Example {
         String descriptionNisw = "descriptionNisw_example"; // String | 
         String descriptionIe = "descriptionIe_example"; // String | 
         String descriptionNie = "descriptionNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String deviceIdN = "deviceIdN_example"; // String | 
         String deviceN = "deviceN_example"; // String | 
         String virtualMachineIdN = "virtualMachineIdN_example"; // String | 
         String virtualMachineN = "virtualMachineN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            IpamServicesList200Response result = apiInstance.ipamServicesList(id, name, protocol, description, created, lastUpdated, q, tag, deviceId, device, virtualMachineId, virtualMachine, port, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, protocolN, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, deviceIdN, deviceN, virtualMachineIdN, virtualMachineN, ordering, limit, offset);
+            IpamServicesList200Response result = apiInstance.ipamServicesList(id, name, protocol, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, deviceId, device, virtualMachineId, virtualMachine, port, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, protocolN, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, deviceIdN, deviceN, virtualMachineIdN, virtualMachineN, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling IpamApi#ipamServicesList");
@@ -21871,7 +18416,11 @@ public class Example {
 | **protocol** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **deviceId** | **String**|  | [optional] |
@@ -21903,22 +18452,11 @@ public class Example {
 | **descriptionNisw** | **String**|  | [optional] |
 | **descriptionIe** | **String**|  | [optional] |
 | **descriptionNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **deviceIdN** | **String**|  | [optional] |
 | **deviceN** | **String**|  | [optional] |
 | **virtualMachineIdN** | **String**|  | [optional] |
 | **virtualMachineN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -21943,7 +18481,7 @@ public class Example {
 
 ## ipamServicesListWithHttpInfo
 
-> ApiResponse<IpamServicesList200Response> ipamServicesList ipamServicesListWithHttpInfo(id, name, protocol, description, created, lastUpdated, q, tag, deviceId, device, virtualMachineId, virtualMachine, port, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, protocolN, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, deviceIdN, deviceN, virtualMachineIdN, virtualMachineN, ordering, limit, offset)
+> ApiResponse<IpamServicesList200Response> ipamServicesList ipamServicesListWithHttpInfo(id, name, protocol, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, deviceId, device, virtualMachineId, virtualMachine, port, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, protocolN, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, deviceIdN, deviceN, virtualMachineIdN, virtualMachineN, limit, offset)
 
 
 
@@ -21978,7 +18516,11 @@ public class Example {
         String protocol = "protocol_example"; // String | 
         String description = "description_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String deviceId = "deviceId_example"; // String | 
@@ -22010,26 +18552,15 @@ public class Example {
         String descriptionNisw = "descriptionNisw_example"; // String | 
         String descriptionIe = "descriptionIe_example"; // String | 
         String descriptionNie = "descriptionNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String deviceIdN = "deviceIdN_example"; // String | 
         String deviceN = "deviceN_example"; // String | 
         String virtualMachineIdN = "virtualMachineIdN_example"; // String | 
         String virtualMachineN = "virtualMachineN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<IpamServicesList200Response> response = apiInstance.ipamServicesListWithHttpInfo(id, name, protocol, description, created, lastUpdated, q, tag, deviceId, device, virtualMachineId, virtualMachine, port, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, protocolN, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, deviceIdN, deviceN, virtualMachineIdN, virtualMachineN, ordering, limit, offset);
+            ApiResponse<IpamServicesList200Response> response = apiInstance.ipamServicesListWithHttpInfo(id, name, protocol, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, deviceId, device, virtualMachineId, virtualMachine, port, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, protocolN, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, deviceIdN, deviceN, virtualMachineIdN, virtualMachineN, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -22054,7 +18585,11 @@ public class Example {
 | **protocol** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **deviceId** | **String**|  | [optional] |
@@ -22086,22 +18621,11 @@ public class Example {
 | **descriptionNisw** | **String**|  | [optional] |
 | **descriptionIe** | **String**|  | [optional] |
 | **descriptionNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **deviceIdN** | **String**|  | [optional] |
 | **deviceN** | **String**|  | [optional] |
 | **virtualMachineIdN** | **String**|  | [optional] |
 | **virtualMachineN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -23567,7 +20091,7 @@ ApiResponse<Void>
 
 ## ipamVlanGroupsList
 
-> IpamVlanGroupsList200Response ipamVlanGroupsList(id, name, slug, minVid, maxVid, description, scopeId, created, lastUpdated, q, tag, scopeType, region, sitegroup, site, location, rack, clustergroup, cluster, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, minVidN, minVidLte, minVidLt, minVidGte, minVidGt, maxVidN, maxVidLte, maxVidLt, maxVidGte, maxVidGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, scopeIdN, scopeIdLte, scopeIdLt, scopeIdGte, scopeIdGt, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, scopeTypeN, ordering, limit, offset)
+> IpamVlanGroupsList200Response ipamVlanGroupsList(id, name, slug, minVid, maxVid, description, scopeId, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, scopeType, region, sitegroup, site, location, rack, clustergroup, cluster, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, minVidN, minVidLte, minVidLt, minVidGte, minVidGt, maxVidN, maxVidLte, maxVidLt, maxVidGte, maxVidGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, scopeIdN, scopeIdLte, scopeIdLt, scopeIdGte, scopeIdGt, tagN, scopeTypeN, limit, offset)
 
 
 
@@ -23604,7 +20128,11 @@ public class Example {
         String description = "description_example"; // String | 
         String scopeId = "scopeId_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String scopeType = "scopeType_example"; // String | 
@@ -23662,23 +20190,12 @@ public class Example {
         String scopeIdLt = "scopeIdLt_example"; // String | 
         String scopeIdGte = "scopeIdGte_example"; // String | 
         String scopeIdGt = "scopeIdGt_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String scopeTypeN = "scopeTypeN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            IpamVlanGroupsList200Response result = apiInstance.ipamVlanGroupsList(id, name, slug, minVid, maxVid, description, scopeId, created, lastUpdated, q, tag, scopeType, region, sitegroup, site, location, rack, clustergroup, cluster, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, minVidN, minVidLte, minVidLt, minVidGte, minVidGt, maxVidN, maxVidLte, maxVidLt, maxVidGte, maxVidGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, scopeIdN, scopeIdLte, scopeIdLt, scopeIdGte, scopeIdGt, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, scopeTypeN, ordering, limit, offset);
+            IpamVlanGroupsList200Response result = apiInstance.ipamVlanGroupsList(id, name, slug, minVid, maxVid, description, scopeId, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, scopeType, region, sitegroup, site, location, rack, clustergroup, cluster, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, minVidN, minVidLte, minVidLt, minVidGte, minVidGt, maxVidN, maxVidLte, maxVidLt, maxVidGte, maxVidGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, scopeIdN, scopeIdLte, scopeIdLt, scopeIdGte, scopeIdGt, tagN, scopeTypeN, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling IpamApi#ipamVlanGroupsList");
@@ -23704,7 +20221,11 @@ public class Example {
 | **description** | **String**|  | [optional] |
 | **scopeId** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **scopeType** | **String**|  | [optional] |
@@ -23762,19 +20283,8 @@ public class Example {
 | **scopeIdLt** | **String**|  | [optional] |
 | **scopeIdGte** | **String**|  | [optional] |
 | **scopeIdGt** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **scopeTypeN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -23799,7 +20309,7 @@ public class Example {
 
 ## ipamVlanGroupsListWithHttpInfo
 
-> ApiResponse<IpamVlanGroupsList200Response> ipamVlanGroupsList ipamVlanGroupsListWithHttpInfo(id, name, slug, minVid, maxVid, description, scopeId, created, lastUpdated, q, tag, scopeType, region, sitegroup, site, location, rack, clustergroup, cluster, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, minVidN, minVidLte, minVidLt, minVidGte, minVidGt, maxVidN, maxVidLte, maxVidLt, maxVidGte, maxVidGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, scopeIdN, scopeIdLte, scopeIdLt, scopeIdGte, scopeIdGt, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, scopeTypeN, ordering, limit, offset)
+> ApiResponse<IpamVlanGroupsList200Response> ipamVlanGroupsList ipamVlanGroupsListWithHttpInfo(id, name, slug, minVid, maxVid, description, scopeId, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, scopeType, region, sitegroup, site, location, rack, clustergroup, cluster, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, minVidN, minVidLte, minVidLt, minVidGte, minVidGt, maxVidN, maxVidLte, maxVidLt, maxVidGte, maxVidGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, scopeIdN, scopeIdLte, scopeIdLt, scopeIdGte, scopeIdGt, tagN, scopeTypeN, limit, offset)
 
 
 
@@ -23837,7 +20347,11 @@ public class Example {
         String description = "description_example"; // String | 
         String scopeId = "scopeId_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String scopeType = "scopeType_example"; // String | 
@@ -23895,23 +20409,12 @@ public class Example {
         String scopeIdLt = "scopeIdLt_example"; // String | 
         String scopeIdGte = "scopeIdGte_example"; // String | 
         String scopeIdGt = "scopeIdGt_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String scopeTypeN = "scopeTypeN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<IpamVlanGroupsList200Response> response = apiInstance.ipamVlanGroupsListWithHttpInfo(id, name, slug, minVid, maxVid, description, scopeId, created, lastUpdated, q, tag, scopeType, region, sitegroup, site, location, rack, clustergroup, cluster, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, minVidN, minVidLte, minVidLt, minVidGte, minVidGt, maxVidN, maxVidLte, maxVidLt, maxVidGte, maxVidGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, scopeIdN, scopeIdLte, scopeIdLt, scopeIdGte, scopeIdGt, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, scopeTypeN, ordering, limit, offset);
+            ApiResponse<IpamVlanGroupsList200Response> response = apiInstance.ipamVlanGroupsListWithHttpInfo(id, name, slug, minVid, maxVid, description, scopeId, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, scopeType, region, sitegroup, site, location, rack, clustergroup, cluster, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, minVidN, minVidLte, minVidLt, minVidGte, minVidGt, maxVidN, maxVidLte, maxVidLt, maxVidGte, maxVidGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, scopeIdN, scopeIdLte, scopeIdLt, scopeIdGte, scopeIdGt, tagN, scopeTypeN, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -23939,7 +20442,11 @@ public class Example {
 | **description** | **String**|  | [optional] |
 | **scopeId** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **scopeType** | **String**|  | [optional] |
@@ -23997,19 +20504,8 @@ public class Example {
 | **scopeIdLt** | **String**|  | [optional] |
 | **scopeIdGte** | **String**|  | [optional] |
 | **scopeIdGt** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **scopeTypeN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -25183,7 +21679,7 @@ ApiResponse<Void>
 
 ## ipamVlansList
 
-> IpamVlansList200Response ipamVlansList(id, vid, name, description, created, lastUpdated, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, regionId, region, siteGroupId, siteGroup, siteId, site, groupId, group, roleId, role, status, availableOnDevice, availableOnVirtualmachine, idN, idLte, idLt, idGte, idGt, vidN, vidLte, vidLt, vidGte, vidGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, groupIdN, groupN, roleIdN, roleN, statusN, ordering, limit, offset)
+> IpamVlansList200Response ipamVlansList(id, vid, name, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, regionId, region, siteGroupId, siteGroup, siteId, site, groupId, group, roleId, role, status, availableOnDevice, availableOnVirtualmachine, idN, idLte, idLt, idGte, idGt, vidN, vidLte, vidLt, vidGte, vidGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, groupIdN, groupN, roleIdN, roleN, statusN, limit, offset)
 
 
 
@@ -25217,7 +21713,11 @@ public class Example {
         String name = "name_example"; // String | 
         String description = "description_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String tenantGroupId = "tenantGroupId_example"; // String | 
@@ -25265,16 +21765,6 @@ public class Example {
         String descriptionNisw = "descriptionNisw_example"; // String | 
         String descriptionIe = "descriptionIe_example"; // String | 
         String descriptionNie = "descriptionNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String tenantGroupIdN = "tenantGroupIdN_example"; // String | 
         String tenantGroupN = "tenantGroupN_example"; // String | 
@@ -25291,11 +21781,10 @@ public class Example {
         String roleIdN = "roleIdN_example"; // String | 
         String roleN = "roleN_example"; // String | 
         String statusN = "statusN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            IpamVlansList200Response result = apiInstance.ipamVlansList(id, vid, name, description, created, lastUpdated, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, regionId, region, siteGroupId, siteGroup, siteId, site, groupId, group, roleId, role, status, availableOnDevice, availableOnVirtualmachine, idN, idLte, idLt, idGte, idGt, vidN, vidLte, vidLt, vidGte, vidGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, groupIdN, groupN, roleIdN, roleN, statusN, ordering, limit, offset);
+            IpamVlansList200Response result = apiInstance.ipamVlansList(id, vid, name, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, regionId, region, siteGroupId, siteGroup, siteId, site, groupId, group, roleId, role, status, availableOnDevice, availableOnVirtualmachine, idN, idLte, idLt, idGte, idGt, vidN, vidLte, vidLt, vidGte, vidGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, groupIdN, groupN, roleIdN, roleN, statusN, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling IpamApi#ipamVlansList");
@@ -25318,7 +21807,11 @@ public class Example {
 | **name** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **tenantGroupId** | **String**|  | [optional] |
@@ -25366,16 +21859,6 @@ public class Example {
 | **descriptionNisw** | **String**|  | [optional] |
 | **descriptionIe** | **String**|  | [optional] |
 | **descriptionNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **tenantGroupIdN** | **String**|  | [optional] |
 | **tenantGroupN** | **String**|  | [optional] |
@@ -25392,7 +21875,6 @@ public class Example {
 | **roleIdN** | **String**|  | [optional] |
 | **roleN** | **String**|  | [optional] |
 | **statusN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -25417,7 +21899,7 @@ public class Example {
 
 ## ipamVlansListWithHttpInfo
 
-> ApiResponse<IpamVlansList200Response> ipamVlansList ipamVlansListWithHttpInfo(id, vid, name, description, created, lastUpdated, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, regionId, region, siteGroupId, siteGroup, siteId, site, groupId, group, roleId, role, status, availableOnDevice, availableOnVirtualmachine, idN, idLte, idLt, idGte, idGt, vidN, vidLte, vidLt, vidGte, vidGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, groupIdN, groupN, roleIdN, roleN, statusN, ordering, limit, offset)
+> ApiResponse<IpamVlansList200Response> ipamVlansList ipamVlansListWithHttpInfo(id, vid, name, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, regionId, region, siteGroupId, siteGroup, siteId, site, groupId, group, roleId, role, status, availableOnDevice, availableOnVirtualmachine, idN, idLte, idLt, idGte, idGt, vidN, vidLte, vidLt, vidGte, vidGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, groupIdN, groupN, roleIdN, roleN, statusN, limit, offset)
 
 
 
@@ -25452,7 +21934,11 @@ public class Example {
         String name = "name_example"; // String | 
         String description = "description_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String tenantGroupId = "tenantGroupId_example"; // String | 
@@ -25500,16 +21986,6 @@ public class Example {
         String descriptionNisw = "descriptionNisw_example"; // String | 
         String descriptionIe = "descriptionIe_example"; // String | 
         String descriptionNie = "descriptionNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String tenantGroupIdN = "tenantGroupIdN_example"; // String | 
         String tenantGroupN = "tenantGroupN_example"; // String | 
@@ -25526,11 +22002,10 @@ public class Example {
         String roleIdN = "roleIdN_example"; // String | 
         String roleN = "roleN_example"; // String | 
         String statusN = "statusN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<IpamVlansList200Response> response = apiInstance.ipamVlansListWithHttpInfo(id, vid, name, description, created, lastUpdated, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, regionId, region, siteGroupId, siteGroup, siteId, site, groupId, group, roleId, role, status, availableOnDevice, availableOnVirtualmachine, idN, idLte, idLt, idGte, idGt, vidN, vidLte, vidLt, vidGte, vidGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, groupIdN, groupN, roleIdN, roleN, statusN, ordering, limit, offset);
+            ApiResponse<IpamVlansList200Response> response = apiInstance.ipamVlansListWithHttpInfo(id, vid, name, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, regionId, region, siteGroupId, siteGroup, siteId, site, groupId, group, roleId, role, status, availableOnDevice, availableOnVirtualmachine, idN, idLte, idLt, idGte, idGt, vidN, vidLte, vidLt, vidGte, vidGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, groupIdN, groupN, roleIdN, roleN, statusN, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -25555,7 +22030,11 @@ public class Example {
 | **name** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **tenantGroupId** | **String**|  | [optional] |
@@ -25603,16 +22082,6 @@ public class Example {
 | **descriptionNisw** | **String**|  | [optional] |
 | **descriptionIe** | **String**|  | [optional] |
 | **descriptionNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **tenantGroupIdN** | **String**|  | [optional] |
 | **tenantGroupN** | **String**|  | [optional] |
@@ -25629,7 +22098,6 @@ public class Example {
 | **roleIdN** | **String**|  | [optional] |
 | **roleN** | **String**|  | [optional] |
 | **statusN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -26803,7 +23271,7 @@ ApiResponse<Void>
 
 ## ipamVrfsList
 
-> IpamVrfsList200Response ipamVrfsList(id, name, rd, enforceUnique, description, created, lastUpdated, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, importTargetId, importTarget, exportTargetId, exportTarget, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, rdN, rdIc, rdNic, rdIew, rdNiew, rdIsw, rdNisw, rdIe, rdNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, importTargetIdN, importTargetN, exportTargetIdN, exportTargetN, ordering, limit, offset)
+> IpamVrfsList200Response ipamVrfsList(id, name, rd, enforceUnique, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, importTargetId, importTarget, exportTargetId, exportTarget, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, rdN, rdIc, rdNic, rdIew, rdNiew, rdIsw, rdNisw, rdIe, rdNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, importTargetIdN, importTargetN, exportTargetIdN, exportTargetN, limit, offset)
 
 
 
@@ -26838,7 +23306,11 @@ public class Example {
         String enforceUnique = "enforceUnique_example"; // String | 
         String description = "description_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String tenantGroupId = "tenantGroupId_example"; // String | 
@@ -26881,16 +23353,6 @@ public class Example {
         String descriptionNisw = "descriptionNisw_example"; // String | 
         String descriptionIe = "descriptionIe_example"; // String | 
         String descriptionNie = "descriptionNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String tenantGroupIdN = "tenantGroupIdN_example"; // String | 
         String tenantGroupN = "tenantGroupN_example"; // String | 
@@ -26900,11 +23362,10 @@ public class Example {
         String importTargetN = "importTargetN_example"; // String | 
         String exportTargetIdN = "exportTargetIdN_example"; // String | 
         String exportTargetN = "exportTargetN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            IpamVrfsList200Response result = apiInstance.ipamVrfsList(id, name, rd, enforceUnique, description, created, lastUpdated, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, importTargetId, importTarget, exportTargetId, exportTarget, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, rdN, rdIc, rdNic, rdIew, rdNiew, rdIsw, rdNisw, rdIe, rdNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, importTargetIdN, importTargetN, exportTargetIdN, exportTargetN, ordering, limit, offset);
+            IpamVrfsList200Response result = apiInstance.ipamVrfsList(id, name, rd, enforceUnique, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, importTargetId, importTarget, exportTargetId, exportTarget, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, rdN, rdIc, rdNic, rdIew, rdNiew, rdIsw, rdNisw, rdIe, rdNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, importTargetIdN, importTargetN, exportTargetIdN, exportTargetN, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling IpamApi#ipamVrfsList");
@@ -26928,7 +23389,11 @@ public class Example {
 | **enforceUnique** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **tenantGroupId** | **String**|  | [optional] |
@@ -26971,16 +23436,6 @@ public class Example {
 | **descriptionNisw** | **String**|  | [optional] |
 | **descriptionIe** | **String**|  | [optional] |
 | **descriptionNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **tenantGroupIdN** | **String**|  | [optional] |
 | **tenantGroupN** | **String**|  | [optional] |
@@ -26990,7 +23445,6 @@ public class Example {
 | **importTargetN** | **String**|  | [optional] |
 | **exportTargetIdN** | **String**|  | [optional] |
 | **exportTargetN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -27015,7 +23469,7 @@ public class Example {
 
 ## ipamVrfsListWithHttpInfo
 
-> ApiResponse<IpamVrfsList200Response> ipamVrfsList ipamVrfsListWithHttpInfo(id, name, rd, enforceUnique, description, created, lastUpdated, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, importTargetId, importTarget, exportTargetId, exportTarget, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, rdN, rdIc, rdNic, rdIew, rdNiew, rdIsw, rdNisw, rdIe, rdNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, importTargetIdN, importTargetN, exportTargetIdN, exportTargetN, ordering, limit, offset)
+> ApiResponse<IpamVrfsList200Response> ipamVrfsList ipamVrfsListWithHttpInfo(id, name, rd, enforceUnique, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, importTargetId, importTarget, exportTargetId, exportTarget, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, rdN, rdIc, rdNic, rdIew, rdNiew, rdIsw, rdNisw, rdIe, rdNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, importTargetIdN, importTargetN, exportTargetIdN, exportTargetN, limit, offset)
 
 
 
@@ -27051,7 +23505,11 @@ public class Example {
         String enforceUnique = "enforceUnique_example"; // String | 
         String description = "description_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String tenantGroupId = "tenantGroupId_example"; // String | 
@@ -27094,16 +23552,6 @@ public class Example {
         String descriptionNisw = "descriptionNisw_example"; // String | 
         String descriptionIe = "descriptionIe_example"; // String | 
         String descriptionNie = "descriptionNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String tenantGroupIdN = "tenantGroupIdN_example"; // String | 
         String tenantGroupN = "tenantGroupN_example"; // String | 
@@ -27113,11 +23561,10 @@ public class Example {
         String importTargetN = "importTargetN_example"; // String | 
         String exportTargetIdN = "exportTargetIdN_example"; // String | 
         String exportTargetN = "exportTargetN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<IpamVrfsList200Response> response = apiInstance.ipamVrfsListWithHttpInfo(id, name, rd, enforceUnique, description, created, lastUpdated, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, importTargetId, importTarget, exportTargetId, exportTarget, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, rdN, rdIc, rdNic, rdIew, rdNiew, rdIsw, rdNisw, rdIe, rdNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, importTargetIdN, importTargetN, exportTargetIdN, exportTargetN, ordering, limit, offset);
+            ApiResponse<IpamVrfsList200Response> response = apiInstance.ipamVrfsListWithHttpInfo(id, name, rd, enforceUnique, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, importTargetId, importTarget, exportTargetId, exportTarget, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, rdN, rdIc, rdNic, rdIew, rdNiew, rdIsw, rdNisw, rdIe, rdNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, importTargetIdN, importTargetN, exportTargetIdN, exportTargetN, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -27143,7 +23590,11 @@ public class Example {
 | **enforceUnique** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **tenantGroupId** | **String**|  | [optional] |
@@ -27186,16 +23637,6 @@ public class Example {
 | **descriptionNisw** | **String**|  | [optional] |
 | **descriptionIe** | **String**|  | [optional] |
 | **descriptionNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **tenantGroupIdN** | **String**|  | [optional] |
 | **tenantGroupN** | **String**|  | [optional] |
@@ -27205,7 +23646,6 @@ public class Example {
 | **importTargetN** | **String**|  | [optional] |
 | **exportTargetIdN** | **String**|  | [optional] |
 | **exportTargetN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 

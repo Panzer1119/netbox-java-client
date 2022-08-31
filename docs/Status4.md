@@ -16,10 +16,11 @@
 
 | Name | Value |
 |---- | -----|
-| OFFLINE | &quot;Offline&quot; |
-| ACTIVE | &quot;Active&quot; |
+| RESERVED | &quot;Reserved&quot; |
+| AVAILABLE | &quot;Available&quot; |
 | PLANNED | &quot;Planned&quot; |
-| FAILED | &quot;Failed&quot; |
+| ACTIVE | &quot;Active&quot; |
+| DEPRECATED | &quot;Deprecated&quot; |
 | UNKNOWN_DEFAULT_OPEN_API | &quot;unknown_default_open_api&quot; |
 
 
@@ -28,10 +29,11 @@
 
 | Name | Value |
 |---- | -----|
-| OFFLINE | &quot;offline&quot; |
-| ACTIVE | &quot;active&quot; |
+| RESERVED | &quot;reserved&quot; |
+| AVAILABLE | &quot;available&quot; |
 | PLANNED | &quot;planned&quot; |
-| FAILED | &quot;failed&quot; |
+| ACTIVE | &quot;active&quot; |
+| DEPRECATED | &quot;deprecated&quot; |
 | UNKNOWN_DEFAULT_OPEN_API | &quot;unknown_default_open_api&quot; |
 
 

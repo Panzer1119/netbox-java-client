@@ -809,7 +809,7 @@ ApiResponse<Void>
 
 ## circuitsCircuitTerminationsList
 
-> CircuitsCircuitTerminationsList200Response circuitsCircuitTerminationsList(id, termSide, portSpeed, upstreamSpeed, xconnectId, description, cableEnd, created, lastUpdated, q, tag, cabled, circuitId, siteId, site, providerNetworkId, idN, idLte, idLt, idGte, idGt, termSideN, portSpeedN, portSpeedLte, portSpeedLt, portSpeedGte, portSpeedGt, upstreamSpeedN, upstreamSpeedLte, upstreamSpeedLt, upstreamSpeedGte, upstreamSpeedGt, xconnectIdN, xconnectIdIc, xconnectIdNic, xconnectIdIew, xconnectIdNiew, xconnectIdIsw, xconnectIdNisw, xconnectIdIe, xconnectIdNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, cableEndN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, circuitIdN, siteIdN, siteN, providerNetworkIdN, ordering, limit, offset)
+> CircuitsCircuitTerminationsList200Response circuitsCircuitTerminationsList(id, termSide, portSpeed, upstreamSpeed, xconnectId, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, cabled, q, circuitId, siteId, site, providerNetworkId, idN, idLte, idLt, idGte, idGt, termSideN, portSpeedN, portSpeedLte, portSpeedLt, portSpeedGte, portSpeedGt, upstreamSpeedN, upstreamSpeedLte, upstreamSpeedLt, upstreamSpeedGte, upstreamSpeedGt, xconnectIdN, xconnectIdIc, xconnectIdNic, xconnectIdIew, xconnectIdNiew, xconnectIdIsw, xconnectIdNisw, xconnectIdIe, xconnectIdNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, circuitIdN, siteIdN, siteN, providerNetworkIdN, limit, offset)
 
 
 
@@ -844,12 +844,14 @@ public class Example {
         String upstreamSpeed = "upstreamSpeed_example"; // String | 
         String xconnectId = "xconnectId_example"; // String | 
         String description = "description_example"; // String | 
-        String cableEnd = "cableEnd_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
-        String q = "q_example"; // String | 
-        String tag = "tag_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String cabled = "cabled_example"; // String | 
+        String q = "q_example"; // String | 
         String circuitId = "circuitId_example"; // String | 
         String siteId = "siteId_example"; // String | 
         String site = "site_example"; // String | 
@@ -888,27 +890,14 @@ public class Example {
         String descriptionNisw = "descriptionNisw_example"; // String | 
         String descriptionIe = "descriptionIe_example"; // String | 
         String descriptionNie = "descriptionNie_example"; // String | 
-        String cableEndN = "cableEndN_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
-        String tagN = "tagN_example"; // String | 
         String circuitIdN = "circuitIdN_example"; // String | 
         String siteIdN = "siteIdN_example"; // String | 
         String siteN = "siteN_example"; // String | 
         String providerNetworkIdN = "providerNetworkIdN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            CircuitsCircuitTerminationsList200Response result = apiInstance.circuitsCircuitTerminationsList(id, termSide, portSpeed, upstreamSpeed, xconnectId, description, cableEnd, created, lastUpdated, q, tag, cabled, circuitId, siteId, site, providerNetworkId, idN, idLte, idLt, idGte, idGt, termSideN, portSpeedN, portSpeedLte, portSpeedLt, portSpeedGte, portSpeedGt, upstreamSpeedN, upstreamSpeedLte, upstreamSpeedLt, upstreamSpeedGte, upstreamSpeedGt, xconnectIdN, xconnectIdIc, xconnectIdNic, xconnectIdIew, xconnectIdNiew, xconnectIdIsw, xconnectIdNisw, xconnectIdIe, xconnectIdNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, cableEndN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, circuitIdN, siteIdN, siteN, providerNetworkIdN, ordering, limit, offset);
+            CircuitsCircuitTerminationsList200Response result = apiInstance.circuitsCircuitTerminationsList(id, termSide, portSpeed, upstreamSpeed, xconnectId, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, cabled, q, circuitId, siteId, site, providerNetworkId, idN, idLte, idLt, idGte, idGt, termSideN, portSpeedN, portSpeedLte, portSpeedLt, portSpeedGte, portSpeedGt, upstreamSpeedN, upstreamSpeedLte, upstreamSpeedLt, upstreamSpeedGte, upstreamSpeedGt, xconnectIdN, xconnectIdIc, xconnectIdNic, xconnectIdIew, xconnectIdNiew, xconnectIdIsw, xconnectIdNisw, xconnectIdIe, xconnectIdNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, circuitIdN, siteIdN, siteN, providerNetworkIdN, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling CircuitsApi#circuitsCircuitTerminationsList");
@@ -932,12 +921,14 @@ public class Example {
 | **upstreamSpeed** | **String**|  | [optional] |
 | **xconnectId** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
-| **cableEnd** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
-| **q** | **String**|  | [optional] |
-| **tag** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **cabled** | **String**|  | [optional] |
+| **q** | **String**|  | [optional] |
 | **circuitId** | **String**|  | [optional] |
 | **siteId** | **String**|  | [optional] |
 | **site** | **String**|  | [optional] |
@@ -976,23 +967,10 @@ public class Example {
 | **descriptionNisw** | **String**|  | [optional] |
 | **descriptionIe** | **String**|  | [optional] |
 | **descriptionNie** | **String**|  | [optional] |
-| **cableEndN** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
-| **tagN** | **String**|  | [optional] |
 | **circuitIdN** | **String**|  | [optional] |
 | **siteIdN** | **String**|  | [optional] |
 | **siteN** | **String**|  | [optional] |
 | **providerNetworkIdN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -1017,7 +995,7 @@ public class Example {
 
 ## circuitsCircuitTerminationsListWithHttpInfo
 
-> ApiResponse<CircuitsCircuitTerminationsList200Response> circuitsCircuitTerminationsList circuitsCircuitTerminationsListWithHttpInfo(id, termSide, portSpeed, upstreamSpeed, xconnectId, description, cableEnd, created, lastUpdated, q, tag, cabled, circuitId, siteId, site, providerNetworkId, idN, idLte, idLt, idGte, idGt, termSideN, portSpeedN, portSpeedLte, portSpeedLt, portSpeedGte, portSpeedGt, upstreamSpeedN, upstreamSpeedLte, upstreamSpeedLt, upstreamSpeedGte, upstreamSpeedGt, xconnectIdN, xconnectIdIc, xconnectIdNic, xconnectIdIew, xconnectIdNiew, xconnectIdIsw, xconnectIdNisw, xconnectIdIe, xconnectIdNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, cableEndN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, circuitIdN, siteIdN, siteN, providerNetworkIdN, ordering, limit, offset)
+> ApiResponse<CircuitsCircuitTerminationsList200Response> circuitsCircuitTerminationsList circuitsCircuitTerminationsListWithHttpInfo(id, termSide, portSpeed, upstreamSpeed, xconnectId, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, cabled, q, circuitId, siteId, site, providerNetworkId, idN, idLte, idLt, idGte, idGt, termSideN, portSpeedN, portSpeedLte, portSpeedLt, portSpeedGte, portSpeedGt, upstreamSpeedN, upstreamSpeedLte, upstreamSpeedLt, upstreamSpeedGte, upstreamSpeedGt, xconnectIdN, xconnectIdIc, xconnectIdNic, xconnectIdIew, xconnectIdNiew, xconnectIdIsw, xconnectIdNisw, xconnectIdIe, xconnectIdNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, circuitIdN, siteIdN, siteN, providerNetworkIdN, limit, offset)
 
 
 
@@ -1053,12 +1031,14 @@ public class Example {
         String upstreamSpeed = "upstreamSpeed_example"; // String | 
         String xconnectId = "xconnectId_example"; // String | 
         String description = "description_example"; // String | 
-        String cableEnd = "cableEnd_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
-        String q = "q_example"; // String | 
-        String tag = "tag_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String cabled = "cabled_example"; // String | 
+        String q = "q_example"; // String | 
         String circuitId = "circuitId_example"; // String | 
         String siteId = "siteId_example"; // String | 
         String site = "site_example"; // String | 
@@ -1097,27 +1077,14 @@ public class Example {
         String descriptionNisw = "descriptionNisw_example"; // String | 
         String descriptionIe = "descriptionIe_example"; // String | 
         String descriptionNie = "descriptionNie_example"; // String | 
-        String cableEndN = "cableEndN_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
-        String tagN = "tagN_example"; // String | 
         String circuitIdN = "circuitIdN_example"; // String | 
         String siteIdN = "siteIdN_example"; // String | 
         String siteN = "siteN_example"; // String | 
         String providerNetworkIdN = "providerNetworkIdN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<CircuitsCircuitTerminationsList200Response> response = apiInstance.circuitsCircuitTerminationsListWithHttpInfo(id, termSide, portSpeed, upstreamSpeed, xconnectId, description, cableEnd, created, lastUpdated, q, tag, cabled, circuitId, siteId, site, providerNetworkId, idN, idLte, idLt, idGte, idGt, termSideN, portSpeedN, portSpeedLte, portSpeedLt, portSpeedGte, portSpeedGt, upstreamSpeedN, upstreamSpeedLte, upstreamSpeedLt, upstreamSpeedGte, upstreamSpeedGt, xconnectIdN, xconnectIdIc, xconnectIdNic, xconnectIdIew, xconnectIdNiew, xconnectIdIsw, xconnectIdNisw, xconnectIdIe, xconnectIdNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, cableEndN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, circuitIdN, siteIdN, siteN, providerNetworkIdN, ordering, limit, offset);
+            ApiResponse<CircuitsCircuitTerminationsList200Response> response = apiInstance.circuitsCircuitTerminationsListWithHttpInfo(id, termSide, portSpeed, upstreamSpeed, xconnectId, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, cabled, q, circuitId, siteId, site, providerNetworkId, idN, idLte, idLt, idGte, idGt, termSideN, portSpeedN, portSpeedLte, portSpeedLt, portSpeedGte, portSpeedGt, upstreamSpeedN, upstreamSpeedLte, upstreamSpeedLt, upstreamSpeedGte, upstreamSpeedGt, xconnectIdN, xconnectIdIc, xconnectIdNic, xconnectIdIew, xconnectIdNiew, xconnectIdIsw, xconnectIdNisw, xconnectIdIe, xconnectIdNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, circuitIdN, siteIdN, siteN, providerNetworkIdN, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -1143,12 +1110,14 @@ public class Example {
 | **upstreamSpeed** | **String**|  | [optional] |
 | **xconnectId** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
-| **cableEnd** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
-| **q** | **String**|  | [optional] |
-| **tag** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **cabled** | **String**|  | [optional] |
+| **q** | **String**|  | [optional] |
 | **circuitId** | **String**|  | [optional] |
 | **siteId** | **String**|  | [optional] |
 | **site** | **String**|  | [optional] |
@@ -1187,23 +1156,10 @@ public class Example {
 | **descriptionNisw** | **String**|  | [optional] |
 | **descriptionIe** | **String**|  | [optional] |
 | **descriptionNie** | **String**|  | [optional] |
-| **cableEndN** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
-| **tagN** | **String**|  | [optional] |
 | **circuitIdN** | **String**|  | [optional] |
 | **siteIdN** | **String**|  | [optional] |
 | **siteN** | **String**|  | [optional] |
 | **providerNetworkIdN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -2525,7 +2481,7 @@ ApiResponse<Void>
 
 ## circuitsCircuitTypesList
 
-> CircuitsCircuitTypesList200Response circuitsCircuitTypesList(id, name, slug, description, created, lastUpdated, q, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, ordering, limit, offset)
+> CircuitsCircuitTypesList200Response circuitsCircuitTypesList(id, name, slug, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, limit, offset)
 
 
 
@@ -2559,7 +2515,11 @@ public class Example {
         String slug = "slug_example"; // String | 
         String description = "description_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String idN = "idN_example"; // String | 
@@ -2594,22 +2554,11 @@ public class Example {
         String descriptionNisw = "descriptionNisw_example"; // String | 
         String descriptionIe = "descriptionIe_example"; // String | 
         String descriptionNie = "descriptionNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            CircuitsCircuitTypesList200Response result = apiInstance.circuitsCircuitTypesList(id, name, slug, description, created, lastUpdated, q, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, ordering, limit, offset);
+            CircuitsCircuitTypesList200Response result = apiInstance.circuitsCircuitTypesList(id, name, slug, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling CircuitsApi#circuitsCircuitTypesList");
@@ -2632,7 +2581,11 @@ public class Example {
 | **slug** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **idN** | **String**|  | [optional] |
@@ -2667,18 +2620,7 @@ public class Example {
 | **descriptionNisw** | **String**|  | [optional] |
 | **descriptionIe** | **String**|  | [optional] |
 | **descriptionNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -2703,7 +2645,7 @@ public class Example {
 
 ## circuitsCircuitTypesListWithHttpInfo
 
-> ApiResponse<CircuitsCircuitTypesList200Response> circuitsCircuitTypesList circuitsCircuitTypesListWithHttpInfo(id, name, slug, description, created, lastUpdated, q, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, ordering, limit, offset)
+> ApiResponse<CircuitsCircuitTypesList200Response> circuitsCircuitTypesList circuitsCircuitTypesListWithHttpInfo(id, name, slug, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, limit, offset)
 
 
 
@@ -2738,7 +2680,11 @@ public class Example {
         String slug = "slug_example"; // String | 
         String description = "description_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String idN = "idN_example"; // String | 
@@ -2773,22 +2719,11 @@ public class Example {
         String descriptionNisw = "descriptionNisw_example"; // String | 
         String descriptionIe = "descriptionIe_example"; // String | 
         String descriptionNie = "descriptionNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<CircuitsCircuitTypesList200Response> response = apiInstance.circuitsCircuitTypesListWithHttpInfo(id, name, slug, description, created, lastUpdated, q, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, ordering, limit, offset);
+            ApiResponse<CircuitsCircuitTypesList200Response> response = apiInstance.circuitsCircuitTypesListWithHttpInfo(id, name, slug, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -2813,7 +2748,11 @@ public class Example {
 | **slug** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **idN** | **String**|  | [optional] |
@@ -2848,18 +2787,7 @@ public class Example {
 | **descriptionNisw** | **String**|  | [optional] |
 | **descriptionIe** | **String**|  | [optional] |
 | **descriptionNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -4033,7 +3961,7 @@ ApiResponse<Void>
 
 ## circuitsCircuitsList
 
-> CircuitsCircuitsList200Response circuitsCircuitsList(id, cid, description, installDate, terminationDate, commitRate, created, lastUpdated, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, contact, contactRole, contactGroup, providerId, provider, providerNetworkId, typeId, type, status, regionId, region, siteGroupId, siteGroup, siteId, site, idN, idLte, idLt, idGte, idGt, cidN, cidIc, cidNic, cidIew, cidNiew, cidIsw, cidNisw, cidIe, cidNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, installDateN, installDateLte, installDateLt, installDateGte, installDateGt, terminationDateN, terminationDateLte, terminationDateLt, terminationDateGte, terminationDateGt, commitRateN, commitRateLte, commitRateLt, commitRateGte, commitRateGt, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, contactN, contactRoleN, contactGroupN, providerIdN, providerN, providerNetworkIdN, typeIdN, typeN, statusN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, ordering, limit, offset)
+> CircuitsCircuitsList200Response circuitsCircuitsList(id, cid, description, installDate, commitRate, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, contact, contactRole, contactGroup, providerId, provider, providerNetworkId, typeId, type, status, regionId, region, siteGroupId, siteGroup, siteId, site, idN, idLte, idLt, idGte, idGt, cidN, cidIc, cidNic, cidIew, cidNiew, cidIsw, cidNisw, cidIe, cidNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, installDateN, installDateLte, installDateLt, installDateGte, installDateGt, commitRateN, commitRateLte, commitRateLt, commitRateGte, commitRateGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, contactN, contactRoleN, contactGroupN, providerIdN, providerN, providerNetworkIdN, typeIdN, typeN, statusN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, limit, offset)
 
 
 
@@ -4066,10 +3994,13 @@ public class Example {
         String cid = "cid_example"; // String | 
         String description = "description_example"; // String | 
         String installDate = "installDate_example"; // String | 
-        String terminationDate = "terminationDate_example"; // String | 
         String commitRate = "commitRate_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String tenantGroupId = "tenantGroupId_example"; // String | 
@@ -4119,26 +4050,11 @@ public class Example {
         String installDateLt = "installDateLt_example"; // String | 
         String installDateGte = "installDateGte_example"; // String | 
         String installDateGt = "installDateGt_example"; // String | 
-        String terminationDateN = "terminationDateN_example"; // String | 
-        String terminationDateLte = "terminationDateLte_example"; // String | 
-        String terminationDateLt = "terminationDateLt_example"; // String | 
-        String terminationDateGte = "terminationDateGte_example"; // String | 
-        String terminationDateGt = "terminationDateGt_example"; // String | 
         String commitRateN = "commitRateN_example"; // String | 
         String commitRateLte = "commitRateLte_example"; // String | 
         String commitRateLt = "commitRateLt_example"; // String | 
         String commitRateGte = "commitRateGte_example"; // String | 
         String commitRateGt = "commitRateGt_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String tenantGroupIdN = "tenantGroupIdN_example"; // String | 
         String tenantGroupN = "tenantGroupN_example"; // String | 
@@ -4159,11 +4075,10 @@ public class Example {
         String siteGroupN = "siteGroupN_example"; // String | 
         String siteIdN = "siteIdN_example"; // String | 
         String siteN = "siteN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            CircuitsCircuitsList200Response result = apiInstance.circuitsCircuitsList(id, cid, description, installDate, terminationDate, commitRate, created, lastUpdated, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, contact, contactRole, contactGroup, providerId, provider, providerNetworkId, typeId, type, status, regionId, region, siteGroupId, siteGroup, siteId, site, idN, idLte, idLt, idGte, idGt, cidN, cidIc, cidNic, cidIew, cidNiew, cidIsw, cidNisw, cidIe, cidNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, installDateN, installDateLte, installDateLt, installDateGte, installDateGt, terminationDateN, terminationDateLte, terminationDateLt, terminationDateGte, terminationDateGt, commitRateN, commitRateLte, commitRateLt, commitRateGte, commitRateGt, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, contactN, contactRoleN, contactGroupN, providerIdN, providerN, providerNetworkIdN, typeIdN, typeN, statusN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, ordering, limit, offset);
+            CircuitsCircuitsList200Response result = apiInstance.circuitsCircuitsList(id, cid, description, installDate, commitRate, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, contact, contactRole, contactGroup, providerId, provider, providerNetworkId, typeId, type, status, regionId, region, siteGroupId, siteGroup, siteId, site, idN, idLte, idLt, idGte, idGt, cidN, cidIc, cidNic, cidIew, cidNiew, cidIsw, cidNisw, cidIe, cidNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, installDateN, installDateLte, installDateLt, installDateGte, installDateGt, commitRateN, commitRateLte, commitRateLt, commitRateGte, commitRateGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, contactN, contactRoleN, contactGroupN, providerIdN, providerN, providerNetworkIdN, typeIdN, typeN, statusN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling CircuitsApi#circuitsCircuitsList");
@@ -4185,10 +4100,13 @@ public class Example {
 | **cid** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
 | **installDate** | **String**|  | [optional] |
-| **terminationDate** | **String**|  | [optional] |
 | **commitRate** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **tenantGroupId** | **String**|  | [optional] |
@@ -4238,26 +4156,11 @@ public class Example {
 | **installDateLt** | **String**|  | [optional] |
 | **installDateGte** | **String**|  | [optional] |
 | **installDateGt** | **String**|  | [optional] |
-| **terminationDateN** | **String**|  | [optional] |
-| **terminationDateLte** | **String**|  | [optional] |
-| **terminationDateLt** | **String**|  | [optional] |
-| **terminationDateGte** | **String**|  | [optional] |
-| **terminationDateGt** | **String**|  | [optional] |
 | **commitRateN** | **String**|  | [optional] |
 | **commitRateLte** | **String**|  | [optional] |
 | **commitRateLt** | **String**|  | [optional] |
 | **commitRateGte** | **String**|  | [optional] |
 | **commitRateGt** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **tenantGroupIdN** | **String**|  | [optional] |
 | **tenantGroupN** | **String**|  | [optional] |
@@ -4278,7 +4181,6 @@ public class Example {
 | **siteGroupN** | **String**|  | [optional] |
 | **siteIdN** | **String**|  | [optional] |
 | **siteN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -4303,7 +4205,7 @@ public class Example {
 
 ## circuitsCircuitsListWithHttpInfo
 
-> ApiResponse<CircuitsCircuitsList200Response> circuitsCircuitsList circuitsCircuitsListWithHttpInfo(id, cid, description, installDate, terminationDate, commitRate, created, lastUpdated, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, contact, contactRole, contactGroup, providerId, provider, providerNetworkId, typeId, type, status, regionId, region, siteGroupId, siteGroup, siteId, site, idN, idLte, idLt, idGte, idGt, cidN, cidIc, cidNic, cidIew, cidNiew, cidIsw, cidNisw, cidIe, cidNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, installDateN, installDateLte, installDateLt, installDateGte, installDateGt, terminationDateN, terminationDateLte, terminationDateLt, terminationDateGte, terminationDateGt, commitRateN, commitRateLte, commitRateLt, commitRateGte, commitRateGt, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, contactN, contactRoleN, contactGroupN, providerIdN, providerN, providerNetworkIdN, typeIdN, typeN, statusN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, ordering, limit, offset)
+> ApiResponse<CircuitsCircuitsList200Response> circuitsCircuitsList circuitsCircuitsListWithHttpInfo(id, cid, description, installDate, commitRate, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, contact, contactRole, contactGroup, providerId, provider, providerNetworkId, typeId, type, status, regionId, region, siteGroupId, siteGroup, siteId, site, idN, idLte, idLt, idGte, idGt, cidN, cidIc, cidNic, cidIew, cidNiew, cidIsw, cidNisw, cidIe, cidNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, installDateN, installDateLte, installDateLt, installDateGte, installDateGt, commitRateN, commitRateLte, commitRateLt, commitRateGte, commitRateGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, contactN, contactRoleN, contactGroupN, providerIdN, providerN, providerNetworkIdN, typeIdN, typeN, statusN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, limit, offset)
 
 
 
@@ -4337,10 +4239,13 @@ public class Example {
         String cid = "cid_example"; // String | 
         String description = "description_example"; // String | 
         String installDate = "installDate_example"; // String | 
-        String terminationDate = "terminationDate_example"; // String | 
         String commitRate = "commitRate_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String tenantGroupId = "tenantGroupId_example"; // String | 
@@ -4390,26 +4295,11 @@ public class Example {
         String installDateLt = "installDateLt_example"; // String | 
         String installDateGte = "installDateGte_example"; // String | 
         String installDateGt = "installDateGt_example"; // String | 
-        String terminationDateN = "terminationDateN_example"; // String | 
-        String terminationDateLte = "terminationDateLte_example"; // String | 
-        String terminationDateLt = "terminationDateLt_example"; // String | 
-        String terminationDateGte = "terminationDateGte_example"; // String | 
-        String terminationDateGt = "terminationDateGt_example"; // String | 
         String commitRateN = "commitRateN_example"; // String | 
         String commitRateLte = "commitRateLte_example"; // String | 
         String commitRateLt = "commitRateLt_example"; // String | 
         String commitRateGte = "commitRateGte_example"; // String | 
         String commitRateGt = "commitRateGt_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String tenantGroupIdN = "tenantGroupIdN_example"; // String | 
         String tenantGroupN = "tenantGroupN_example"; // String | 
@@ -4430,11 +4320,10 @@ public class Example {
         String siteGroupN = "siteGroupN_example"; // String | 
         String siteIdN = "siteIdN_example"; // String | 
         String siteN = "siteN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<CircuitsCircuitsList200Response> response = apiInstance.circuitsCircuitsListWithHttpInfo(id, cid, description, installDate, terminationDate, commitRate, created, lastUpdated, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, contact, contactRole, contactGroup, providerId, provider, providerNetworkId, typeId, type, status, regionId, region, siteGroupId, siteGroup, siteId, site, idN, idLte, idLt, idGte, idGt, cidN, cidIc, cidNic, cidIew, cidNiew, cidIsw, cidNisw, cidIe, cidNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, installDateN, installDateLte, installDateLt, installDateGte, installDateGt, terminationDateN, terminationDateLte, terminationDateLt, terminationDateGte, terminationDateGt, commitRateN, commitRateLte, commitRateLt, commitRateGte, commitRateGt, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, contactN, contactRoleN, contactGroupN, providerIdN, providerN, providerNetworkIdN, typeIdN, typeN, statusN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, ordering, limit, offset);
+            ApiResponse<CircuitsCircuitsList200Response> response = apiInstance.circuitsCircuitsListWithHttpInfo(id, cid, description, installDate, commitRate, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, contact, contactRole, contactGroup, providerId, provider, providerNetworkId, typeId, type, status, regionId, region, siteGroupId, siteGroup, siteId, site, idN, idLte, idLt, idGte, idGt, cidN, cidIc, cidNic, cidIew, cidNiew, cidIsw, cidNisw, cidIe, cidNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, installDateN, installDateLte, installDateLt, installDateGte, installDateGt, commitRateN, commitRateLte, commitRateLt, commitRateGte, commitRateGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, contactN, contactRoleN, contactGroupN, providerIdN, providerN, providerNetworkIdN, typeIdN, typeN, statusN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -4458,10 +4347,13 @@ public class Example {
 | **cid** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
 | **installDate** | **String**|  | [optional] |
-| **terminationDate** | **String**|  | [optional] |
 | **commitRate** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **tenantGroupId** | **String**|  | [optional] |
@@ -4511,26 +4403,11 @@ public class Example {
 | **installDateLt** | **String**|  | [optional] |
 | **installDateGte** | **String**|  | [optional] |
 | **installDateGt** | **String**|  | [optional] |
-| **terminationDateN** | **String**|  | [optional] |
-| **terminationDateLte** | **String**|  | [optional] |
-| **terminationDateLt** | **String**|  | [optional] |
-| **terminationDateGte** | **String**|  | [optional] |
-| **terminationDateGt** | **String**|  | [optional] |
 | **commitRateN** | **String**|  | [optional] |
 | **commitRateLte** | **String**|  | [optional] |
 | **commitRateLt** | **String**|  | [optional] |
 | **commitRateGte** | **String**|  | [optional] |
 | **commitRateGt** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **tenantGroupIdN** | **String**|  | [optional] |
 | **tenantGroupN** | **String**|  | [optional] |
@@ -4551,7 +4428,6 @@ public class Example {
 | **siteGroupN** | **String**|  | [optional] |
 | **siteIdN** | **String**|  | [optional] |
 | **siteN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -5725,7 +5601,7 @@ ApiResponse<Void>
 
 ## circuitsProviderNetworksList
 
-> CircuitsProviderNetworksList200Response circuitsProviderNetworksList(id, name, serviceId, description, created, lastUpdated, q, tag, providerId, provider, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, serviceIdN, serviceIdIc, serviceIdNic, serviceIdIew, serviceIdNiew, serviceIdIsw, serviceIdNisw, serviceIdIe, serviceIdNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, providerIdN, providerN, ordering, limit, offset)
+> CircuitsProviderNetworksList200Response circuitsProviderNetworksList(id, name, serviceId, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, providerId, provider, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, serviceIdN, serviceIdIc, serviceIdNic, serviceIdIew, serviceIdNiew, serviceIdIsw, serviceIdNisw, serviceIdIe, serviceIdNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, providerIdN, providerN, limit, offset)
 
 
 
@@ -5759,7 +5635,11 @@ public class Example {
         String serviceId = "serviceId_example"; // String | 
         String description = "description_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String providerId = "providerId_example"; // String | 
@@ -5796,24 +5676,13 @@ public class Example {
         String descriptionNisw = "descriptionNisw_example"; // String | 
         String descriptionIe = "descriptionIe_example"; // String | 
         String descriptionNie = "descriptionNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String providerIdN = "providerIdN_example"; // String | 
         String providerN = "providerN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            CircuitsProviderNetworksList200Response result = apiInstance.circuitsProviderNetworksList(id, name, serviceId, description, created, lastUpdated, q, tag, providerId, provider, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, serviceIdN, serviceIdIc, serviceIdNic, serviceIdIew, serviceIdNiew, serviceIdIsw, serviceIdNisw, serviceIdIe, serviceIdNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, providerIdN, providerN, ordering, limit, offset);
+            CircuitsProviderNetworksList200Response result = apiInstance.circuitsProviderNetworksList(id, name, serviceId, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, providerId, provider, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, serviceIdN, serviceIdIc, serviceIdNic, serviceIdIew, serviceIdNiew, serviceIdIsw, serviceIdNisw, serviceIdIe, serviceIdNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, providerIdN, providerN, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling CircuitsApi#circuitsProviderNetworksList");
@@ -5836,7 +5705,11 @@ public class Example {
 | **serviceId** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **providerId** | **String**|  | [optional] |
@@ -5873,20 +5746,9 @@ public class Example {
 | **descriptionNisw** | **String**|  | [optional] |
 | **descriptionIe** | **String**|  | [optional] |
 | **descriptionNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **providerIdN** | **String**|  | [optional] |
 | **providerN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -5911,7 +5773,7 @@ public class Example {
 
 ## circuitsProviderNetworksListWithHttpInfo
 
-> ApiResponse<CircuitsProviderNetworksList200Response> circuitsProviderNetworksList circuitsProviderNetworksListWithHttpInfo(id, name, serviceId, description, created, lastUpdated, q, tag, providerId, provider, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, serviceIdN, serviceIdIc, serviceIdNic, serviceIdIew, serviceIdNiew, serviceIdIsw, serviceIdNisw, serviceIdIe, serviceIdNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, providerIdN, providerN, ordering, limit, offset)
+> ApiResponse<CircuitsProviderNetworksList200Response> circuitsProviderNetworksList circuitsProviderNetworksListWithHttpInfo(id, name, serviceId, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, providerId, provider, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, serviceIdN, serviceIdIc, serviceIdNic, serviceIdIew, serviceIdNiew, serviceIdIsw, serviceIdNisw, serviceIdIe, serviceIdNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, providerIdN, providerN, limit, offset)
 
 
 
@@ -5946,7 +5808,11 @@ public class Example {
         String serviceId = "serviceId_example"; // String | 
         String description = "description_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String providerId = "providerId_example"; // String | 
@@ -5983,24 +5849,13 @@ public class Example {
         String descriptionNisw = "descriptionNisw_example"; // String | 
         String descriptionIe = "descriptionIe_example"; // String | 
         String descriptionNie = "descriptionNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String providerIdN = "providerIdN_example"; // String | 
         String providerN = "providerN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<CircuitsProviderNetworksList200Response> response = apiInstance.circuitsProviderNetworksListWithHttpInfo(id, name, serviceId, description, created, lastUpdated, q, tag, providerId, provider, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, serviceIdN, serviceIdIc, serviceIdNic, serviceIdIew, serviceIdNiew, serviceIdIsw, serviceIdNisw, serviceIdIe, serviceIdNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, providerIdN, providerN, ordering, limit, offset);
+            ApiResponse<CircuitsProviderNetworksList200Response> response = apiInstance.circuitsProviderNetworksListWithHttpInfo(id, name, serviceId, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, providerId, provider, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, serviceIdN, serviceIdIc, serviceIdNic, serviceIdIew, serviceIdNiew, serviceIdIsw, serviceIdNisw, serviceIdIe, serviceIdNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, providerIdN, providerN, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -6025,7 +5880,11 @@ public class Example {
 | **serviceId** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **providerId** | **String**|  | [optional] |
@@ -6062,20 +5921,9 @@ public class Example {
 | **descriptionNisw** | **String**|  | [optional] |
 | **descriptionIe** | **String**|  | [optional] |
 | **descriptionNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **providerIdN** | **String**|  | [optional] |
 | **providerN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -7249,7 +7097,7 @@ ApiResponse<Void>
 
 ## circuitsProvidersList
 
-> CircuitsProvidersList200Response circuitsProvidersList(id, name, slug, asn, account, created, lastUpdated, q, tag, contact, contactRole, contactGroup, regionId, region, siteGroupId, siteGroup, siteId, site, asnId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, asnN, asnLte, asnLt, asnGte, asnGt, accountN, accountIc, accountNic, accountIew, accountNiew, accountIsw, accountNisw, accountIe, accountNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, contactN, contactRoleN, contactGroupN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, asnIdN, ordering, limit, offset)
+> CircuitsProvidersList200Response circuitsProvidersList(id, name, slug, asn, account, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, contact, contactRole, contactGroup, regionId, region, siteGroupId, siteGroup, siteId, site, asnId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, asnN, asnLte, asnLt, asnGte, asnGt, accountN, accountIc, accountNic, accountIew, accountNiew, accountIsw, accountNisw, accountIe, accountNie, tagN, contactN, contactRoleN, contactGroupN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, asnIdN, limit, offset)
 
 
 
@@ -7284,7 +7132,11 @@ public class Example {
         String asn = "asn_example"; // String | 
         String account = "account_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String contact = "contact_example"; // String | 
@@ -7334,16 +7186,6 @@ public class Example {
         String accountNisw = "accountNisw_example"; // String | 
         String accountIe = "accountIe_example"; // String | 
         String accountNie = "accountNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String contactN = "contactN_example"; // String | 
         String contactRoleN = "contactRoleN_example"; // String | 
@@ -7355,11 +7197,10 @@ public class Example {
         String siteIdN = "siteIdN_example"; // String | 
         String siteN = "siteN_example"; // String | 
         String asnIdN = "asnIdN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            CircuitsProvidersList200Response result = apiInstance.circuitsProvidersList(id, name, slug, asn, account, created, lastUpdated, q, tag, contact, contactRole, contactGroup, regionId, region, siteGroupId, siteGroup, siteId, site, asnId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, asnN, asnLte, asnLt, asnGte, asnGt, accountN, accountIc, accountNic, accountIew, accountNiew, accountIsw, accountNisw, accountIe, accountNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, contactN, contactRoleN, contactGroupN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, asnIdN, ordering, limit, offset);
+            CircuitsProvidersList200Response result = apiInstance.circuitsProvidersList(id, name, slug, asn, account, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, contact, contactRole, contactGroup, regionId, region, siteGroupId, siteGroup, siteId, site, asnId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, asnN, asnLte, asnLt, asnGte, asnGt, accountN, accountIc, accountNic, accountIew, accountNiew, accountIsw, accountNisw, accountIe, accountNie, tagN, contactN, contactRoleN, contactGroupN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, asnIdN, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling CircuitsApi#circuitsProvidersList");
@@ -7383,7 +7224,11 @@ public class Example {
 | **asn** | **String**|  | [optional] |
 | **account** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **contact** | **String**|  | [optional] |
@@ -7433,16 +7278,6 @@ public class Example {
 | **accountNisw** | **String**|  | [optional] |
 | **accountIe** | **String**|  | [optional] |
 | **accountNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **contactN** | **String**|  | [optional] |
 | **contactRoleN** | **String**|  | [optional] |
@@ -7454,7 +7289,6 @@ public class Example {
 | **siteIdN** | **String**|  | [optional] |
 | **siteN** | **String**|  | [optional] |
 | **asnIdN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -7479,7 +7313,7 @@ public class Example {
 
 ## circuitsProvidersListWithHttpInfo
 
-> ApiResponse<CircuitsProvidersList200Response> circuitsProvidersList circuitsProvidersListWithHttpInfo(id, name, slug, asn, account, created, lastUpdated, q, tag, contact, contactRole, contactGroup, regionId, region, siteGroupId, siteGroup, siteId, site, asnId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, asnN, asnLte, asnLt, asnGte, asnGt, accountN, accountIc, accountNic, accountIew, accountNiew, accountIsw, accountNisw, accountIe, accountNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, contactN, contactRoleN, contactGroupN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, asnIdN, ordering, limit, offset)
+> ApiResponse<CircuitsProvidersList200Response> circuitsProvidersList circuitsProvidersListWithHttpInfo(id, name, slug, asn, account, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, contact, contactRole, contactGroup, regionId, region, siteGroupId, siteGroup, siteId, site, asnId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, asnN, asnLte, asnLt, asnGte, asnGt, accountN, accountIc, accountNic, accountIew, accountNiew, accountIsw, accountNisw, accountIe, accountNie, tagN, contactN, contactRoleN, contactGroupN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, asnIdN, limit, offset)
 
 
 
@@ -7515,7 +7349,11 @@ public class Example {
         String asn = "asn_example"; // String | 
         String account = "account_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String contact = "contact_example"; // String | 
@@ -7565,16 +7403,6 @@ public class Example {
         String accountNisw = "accountNisw_example"; // String | 
         String accountIe = "accountIe_example"; // String | 
         String accountNie = "accountNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String contactN = "contactN_example"; // String | 
         String contactRoleN = "contactRoleN_example"; // String | 
@@ -7586,11 +7414,10 @@ public class Example {
         String siteIdN = "siteIdN_example"; // String | 
         String siteN = "siteN_example"; // String | 
         String asnIdN = "asnIdN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<CircuitsProvidersList200Response> response = apiInstance.circuitsProvidersListWithHttpInfo(id, name, slug, asn, account, created, lastUpdated, q, tag, contact, contactRole, contactGroup, regionId, region, siteGroupId, siteGroup, siteId, site, asnId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, asnN, asnLte, asnLt, asnGte, asnGt, accountN, accountIc, accountNic, accountIew, accountNiew, accountIsw, accountNisw, accountIe, accountNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, contactN, contactRoleN, contactGroupN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, asnIdN, ordering, limit, offset);
+            ApiResponse<CircuitsProvidersList200Response> response = apiInstance.circuitsProvidersListWithHttpInfo(id, name, slug, asn, account, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, contact, contactRole, contactGroup, regionId, region, siteGroupId, siteGroup, siteId, site, asnId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, asnN, asnLte, asnLt, asnGte, asnGt, accountN, accountIc, accountNic, accountIew, accountNiew, accountIsw, accountNisw, accountIe, accountNie, tagN, contactN, contactRoleN, contactGroupN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, asnIdN, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -7616,7 +7443,11 @@ public class Example {
 | **asn** | **String**|  | [optional] |
 | **account** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **contact** | **String**|  | [optional] |
@@ -7666,16 +7497,6 @@ public class Example {
 | **accountNisw** | **String**|  | [optional] |
 | **accountIe** | **String**|  | [optional] |
 | **accountNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **contactN** | **String**|  | [optional] |
 | **contactRoleN** | **String**|  | [optional] |
@@ -7687,7 +7508,6 @@ public class Example {
 | **siteIdN** | **String**|  | [optional] |
 | **siteN** | **String**|  | [optional] |
 | **asnIdN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 

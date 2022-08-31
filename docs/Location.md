@@ -14,7 +14,6 @@
 |**slug** | **String** |  |  |
 |**site** | [**NestedSite**](NestedSite.md) |  |  |
 |**parent** | [**NestedLocation**](NestedLocation.md) |  |  [optional] |
-|**status** | [**Status3**](Status3.md) |  |  [optional] |
 |**tenant** | [**NestedTenant**](NestedTenant.md) |  |  [optional] |
 |**description** | **String** |  |  [optional] |
 |**tags** | [**List&lt;NestedTag&gt;**](NestedTag.md) |  |  [optional] |

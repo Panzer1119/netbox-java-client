@@ -16,11 +16,9 @@
 |**dataType** | **String** |  |  [optional] [readonly] |
 |**name** | **String** | Internal field name |  |
 |**label** | **String** | Name of the field as displayed to users (if not provided, the field&#39;s name will be used) |  [optional] |
-|**groupName** | **String** | Custom fields within the same group will be displayed together |  [optional] |
 |**description** | **String** |  |  [optional] |
 |**required** | **Boolean** | If true, this field is required when creating new objects or editing an existing object. |  [optional] |
 |**filterLogic** | [**FilterLogicEnum**](#FilterLogicEnum) | Loose matches any instance of a given string; exact matches the entire field. |  [optional] |
-|**uiVisibility** | [**UiVisibilityEnum**](#UiVisibilityEnum) | Specifies the visibility of custom field in the UI |  [optional] |
 |**_default** | **String** | Default value for the field (must be a JSON value). Encapsulate strings with double quotes (e.g. \&quot;Foo\&quot;). |  [optional] |
 |**weight** | **Integer** | Fields with higher weights appear lower in a form. |  [optional] |
 |**validationMinimum** | **Integer** | Minimum allowed value (for numeric fields) |  [optional] |
@@ -58,17 +56,6 @@
 | DISABLED | &quot;disabled&quot; |
 | LOOSE | &quot;loose&quot; |
 | EXACT | &quot;exact&quot; |
-| UNKNOWN_DEFAULT_OPEN_API | &quot;unknown_default_open_api&quot; |
-
-
-
-## Enum: UiVisibilityEnum
-
-| Name | Value |
-|---- | -----|
-| READ_WRITE | &quot;read-write&quot; |
-| READ_ONLY | &quot;read-only&quot; |
-| HIDDEN | &quot;hidden&quot; |
 | UNKNOWN_DEFAULT_OPEN_API | &quot;unknown_default_open_api&quot; |
 
 

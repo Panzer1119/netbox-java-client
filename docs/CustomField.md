@@ -16,11 +16,9 @@
 |**dataType** | **String** |  |  [optional] [readonly] |
 |**name** | **String** | Internal field name |  |
 |**label** | **String** | Name of the field as displayed to users (if not provided, the field&#39;s name will be used) |  [optional] |
-|**groupName** | **String** | Custom fields within the same group will be displayed together |  [optional] |
 |**description** | **String** |  |  [optional] |
 |**required** | **Boolean** | If true, this field is required when creating new objects or editing an existing object. |  [optional] |
 |**filterLogic** | [**FilterLogic**](FilterLogic.md) |  |  [optional] |
-|**uiVisibility** | [**UiVisibility**](UiVisibility.md) |  |  [optional] |
 |**_default** | **String** | Default value for the field (must be a JSON value). Encapsulate strings with double quotes (e.g. \&quot;Foo\&quot;). |  [optional] |
 |**weight** | **Integer** | Fields with higher weights appear lower in a form. |  [optional] |
 |**validationMinimum** | **Integer** | Minimum allowed value (for numeric fields) |  [optional] |
