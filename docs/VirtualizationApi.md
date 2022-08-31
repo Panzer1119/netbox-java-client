@@ -807,7 +807,7 @@ ApiResponse<Void>
 
 ## virtualizationClusterGroupsList
 
-> VirtualizationClusterGroupsList200Response virtualizationClusterGroupsList(id, name, slug, description, created, lastUpdated, q, tag, contact, contactRole, contactGroup, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, contactN, contactRoleN, contactGroupN, ordering, limit, offset)
+> VirtualizationClusterGroupsList200Response virtualizationClusterGroupsList(id, name, slug, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, contact, contactRole, contactGroup, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, contactN, contactRoleN, contactGroupN, limit, offset)
 
 
 
@@ -841,7 +841,11 @@ public class Example {
         String slug = "slug_example"; // String | 
         String description = "description_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String contact = "contact_example"; // String | 
@@ -879,25 +883,14 @@ public class Example {
         String descriptionNisw = "descriptionNisw_example"; // String | 
         String descriptionIe = "descriptionIe_example"; // String | 
         String descriptionNie = "descriptionNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String contactN = "contactN_example"; // String | 
         String contactRoleN = "contactRoleN_example"; // String | 
         String contactGroupN = "contactGroupN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            VirtualizationClusterGroupsList200Response result = apiInstance.virtualizationClusterGroupsList(id, name, slug, description, created, lastUpdated, q, tag, contact, contactRole, contactGroup, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, contactN, contactRoleN, contactGroupN, ordering, limit, offset);
+            VirtualizationClusterGroupsList200Response result = apiInstance.virtualizationClusterGroupsList(id, name, slug, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, contact, contactRole, contactGroup, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, contactN, contactRoleN, contactGroupN, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling VirtualizationApi#virtualizationClusterGroupsList");
@@ -920,7 +913,11 @@ public class Example {
 | **slug** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **contact** | **String**|  | [optional] |
@@ -958,21 +955,10 @@ public class Example {
 | **descriptionNisw** | **String**|  | [optional] |
 | **descriptionIe** | **String**|  | [optional] |
 | **descriptionNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **contactN** | **String**|  | [optional] |
 | **contactRoleN** | **String**|  | [optional] |
 | **contactGroupN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -997,7 +983,7 @@ public class Example {
 
 ## virtualizationClusterGroupsListWithHttpInfo
 
-> ApiResponse<VirtualizationClusterGroupsList200Response> virtualizationClusterGroupsList virtualizationClusterGroupsListWithHttpInfo(id, name, slug, description, created, lastUpdated, q, tag, contact, contactRole, contactGroup, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, contactN, contactRoleN, contactGroupN, ordering, limit, offset)
+> ApiResponse<VirtualizationClusterGroupsList200Response> virtualizationClusterGroupsList virtualizationClusterGroupsListWithHttpInfo(id, name, slug, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, contact, contactRole, contactGroup, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, contactN, contactRoleN, contactGroupN, limit, offset)
 
 
 
@@ -1032,7 +1018,11 @@ public class Example {
         String slug = "slug_example"; // String | 
         String description = "description_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String contact = "contact_example"; // String | 
@@ -1070,25 +1060,14 @@ public class Example {
         String descriptionNisw = "descriptionNisw_example"; // String | 
         String descriptionIe = "descriptionIe_example"; // String | 
         String descriptionNie = "descriptionNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String contactN = "contactN_example"; // String | 
         String contactRoleN = "contactRoleN_example"; // String | 
         String contactGroupN = "contactGroupN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<VirtualizationClusterGroupsList200Response> response = apiInstance.virtualizationClusterGroupsListWithHttpInfo(id, name, slug, description, created, lastUpdated, q, tag, contact, contactRole, contactGroup, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, contactN, contactRoleN, contactGroupN, ordering, limit, offset);
+            ApiResponse<VirtualizationClusterGroupsList200Response> response = apiInstance.virtualizationClusterGroupsListWithHttpInfo(id, name, slug, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, contact, contactRole, contactGroup, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, contactN, contactRoleN, contactGroupN, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -1113,7 +1092,11 @@ public class Example {
 | **slug** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **contact** | **String**|  | [optional] |
@@ -1151,21 +1134,10 @@ public class Example {
 | **descriptionNisw** | **String**|  | [optional] |
 | **descriptionIe** | **String**|  | [optional] |
 | **descriptionNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **contactN** | **String**|  | [optional] |
 | **contactRoleN** | **String**|  | [optional] |
 | **contactGroupN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -2339,7 +2311,7 @@ ApiResponse<Void>
 
 ## virtualizationClusterTypesList
 
-> VirtualizationClusterTypesList200Response virtualizationClusterTypesList(id, name, slug, description, created, lastUpdated, q, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, ordering, limit, offset)
+> VirtualizationClusterTypesList200Response virtualizationClusterTypesList(id, name, slug, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, limit, offset)
 
 
 
@@ -2373,7 +2345,11 @@ public class Example {
         String slug = "slug_example"; // String | 
         String description = "description_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String idN = "idN_example"; // String | 
@@ -2408,22 +2384,11 @@ public class Example {
         String descriptionNisw = "descriptionNisw_example"; // String | 
         String descriptionIe = "descriptionIe_example"; // String | 
         String descriptionNie = "descriptionNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            VirtualizationClusterTypesList200Response result = apiInstance.virtualizationClusterTypesList(id, name, slug, description, created, lastUpdated, q, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, ordering, limit, offset);
+            VirtualizationClusterTypesList200Response result = apiInstance.virtualizationClusterTypesList(id, name, slug, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling VirtualizationApi#virtualizationClusterTypesList");
@@ -2446,7 +2411,11 @@ public class Example {
 | **slug** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **idN** | **String**|  | [optional] |
@@ -2481,18 +2450,7 @@ public class Example {
 | **descriptionNisw** | **String**|  | [optional] |
 | **descriptionIe** | **String**|  | [optional] |
 | **descriptionNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -2517,7 +2475,7 @@ public class Example {
 
 ## virtualizationClusterTypesListWithHttpInfo
 
-> ApiResponse<VirtualizationClusterTypesList200Response> virtualizationClusterTypesList virtualizationClusterTypesListWithHttpInfo(id, name, slug, description, created, lastUpdated, q, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, ordering, limit, offset)
+> ApiResponse<VirtualizationClusterTypesList200Response> virtualizationClusterTypesList virtualizationClusterTypesListWithHttpInfo(id, name, slug, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, limit, offset)
 
 
 
@@ -2552,7 +2510,11 @@ public class Example {
         String slug = "slug_example"; // String | 
         String description = "description_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String idN = "idN_example"; // String | 
@@ -2587,22 +2549,11 @@ public class Example {
         String descriptionNisw = "descriptionNisw_example"; // String | 
         String descriptionIe = "descriptionIe_example"; // String | 
         String descriptionNie = "descriptionNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<VirtualizationClusterTypesList200Response> response = apiInstance.virtualizationClusterTypesListWithHttpInfo(id, name, slug, description, created, lastUpdated, q, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, ordering, limit, offset);
+            ApiResponse<VirtualizationClusterTypesList200Response> response = apiInstance.virtualizationClusterTypesListWithHttpInfo(id, name, slug, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -2627,7 +2578,11 @@ public class Example {
 | **slug** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **idN** | **String**|  | [optional] |
@@ -2662,18 +2617,7 @@ public class Example {
 | **descriptionNisw** | **String**|  | [optional] |
 | **descriptionIe** | **String**|  | [optional] |
 | **descriptionNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -3847,7 +3791,7 @@ ApiResponse<Void>
 
 ## virtualizationClustersList
 
-> VirtualizationClustersList200Response virtualizationClustersList(id, name, created, lastUpdated, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, contact, contactRole, contactGroup, regionId, region, siteGroupId, siteGroup, siteId, site, groupId, group, typeId, type, status, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, contactN, contactRoleN, contactGroupN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, groupIdN, groupN, typeIdN, typeN, statusN, ordering, limit, offset)
+> VirtualizationClustersList200Response virtualizationClustersList(id, name, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, contact, contactRole, contactGroup, regionId, region, siteGroupId, siteGroup, siteId, site, groupId, group, typeId, type, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, contactN, contactRoleN, contactGroupN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, groupIdN, groupN, typeIdN, typeN, limit, offset)
 
 
 
@@ -3879,7 +3823,11 @@ public class Example {
         String id = "id_example"; // String | 
         String name = "name_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String tenantGroupId = "tenantGroupId_example"; // String | 
@@ -3899,7 +3847,6 @@ public class Example {
         String group = "group_example"; // String | 
         String typeId = "typeId_example"; // String | 
         String type = "type_example"; // String | 
-        String status = "status_example"; // String | 
         String idN = "idN_example"; // String | 
         String idLte = "idLte_example"; // String | 
         String idLt = "idLt_example"; // String | 
@@ -3914,16 +3861,6 @@ public class Example {
         String nameNisw = "nameNisw_example"; // String | 
         String nameIe = "nameIe_example"; // String | 
         String nameNie = "nameNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String tenantGroupIdN = "tenantGroupIdN_example"; // String | 
         String tenantGroupN = "tenantGroupN_example"; // String | 
@@ -3942,12 +3879,10 @@ public class Example {
         String groupN = "groupN_example"; // String | 
         String typeIdN = "typeIdN_example"; // String | 
         String typeN = "typeN_example"; // String | 
-        String statusN = "statusN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            VirtualizationClustersList200Response result = apiInstance.virtualizationClustersList(id, name, created, lastUpdated, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, contact, contactRole, contactGroup, regionId, region, siteGroupId, siteGroup, siteId, site, groupId, group, typeId, type, status, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, contactN, contactRoleN, contactGroupN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, groupIdN, groupN, typeIdN, typeN, statusN, ordering, limit, offset);
+            VirtualizationClustersList200Response result = apiInstance.virtualizationClustersList(id, name, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, contact, contactRole, contactGroup, regionId, region, siteGroupId, siteGroup, siteId, site, groupId, group, typeId, type, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, contactN, contactRoleN, contactGroupN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, groupIdN, groupN, typeIdN, typeN, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling VirtualizationApi#virtualizationClustersList");
@@ -3968,7 +3903,11 @@ public class Example {
 | **id** | **String**|  | [optional] |
 | **name** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **tenantGroupId** | **String**|  | [optional] |
@@ -3988,7 +3927,6 @@ public class Example {
 | **group** | **String**|  | [optional] |
 | **typeId** | **String**|  | [optional] |
 | **type** | **String**|  | [optional] |
-| **status** | **String**|  | [optional] |
 | **idN** | **String**|  | [optional] |
 | **idLte** | **String**|  | [optional] |
 | **idLt** | **String**|  | [optional] |
@@ -4003,16 +3941,6 @@ public class Example {
 | **nameNisw** | **String**|  | [optional] |
 | **nameIe** | **String**|  | [optional] |
 | **nameNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **tenantGroupIdN** | **String**|  | [optional] |
 | **tenantGroupN** | **String**|  | [optional] |
@@ -4031,8 +3959,6 @@ public class Example {
 | **groupN** | **String**|  | [optional] |
 | **typeIdN** | **String**|  | [optional] |
 | **typeN** | **String**|  | [optional] |
-| **statusN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -4057,7 +3983,7 @@ public class Example {
 
 ## virtualizationClustersListWithHttpInfo
 
-> ApiResponse<VirtualizationClustersList200Response> virtualizationClustersList virtualizationClustersListWithHttpInfo(id, name, created, lastUpdated, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, contact, contactRole, contactGroup, regionId, region, siteGroupId, siteGroup, siteId, site, groupId, group, typeId, type, status, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, contactN, contactRoleN, contactGroupN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, groupIdN, groupN, typeIdN, typeN, statusN, ordering, limit, offset)
+> ApiResponse<VirtualizationClustersList200Response> virtualizationClustersList virtualizationClustersListWithHttpInfo(id, name, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, contact, contactRole, contactGroup, regionId, region, siteGroupId, siteGroup, siteId, site, groupId, group, typeId, type, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, contactN, contactRoleN, contactGroupN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, groupIdN, groupN, typeIdN, typeN, limit, offset)
 
 
 
@@ -4090,7 +4016,11 @@ public class Example {
         String id = "id_example"; // String | 
         String name = "name_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String tenantGroupId = "tenantGroupId_example"; // String | 
@@ -4110,7 +4040,6 @@ public class Example {
         String group = "group_example"; // String | 
         String typeId = "typeId_example"; // String | 
         String type = "type_example"; // String | 
-        String status = "status_example"; // String | 
         String idN = "idN_example"; // String | 
         String idLte = "idLte_example"; // String | 
         String idLt = "idLt_example"; // String | 
@@ -4125,16 +4054,6 @@ public class Example {
         String nameNisw = "nameNisw_example"; // String | 
         String nameIe = "nameIe_example"; // String | 
         String nameNie = "nameNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String tenantGroupIdN = "tenantGroupIdN_example"; // String | 
         String tenantGroupN = "tenantGroupN_example"; // String | 
@@ -4153,12 +4072,10 @@ public class Example {
         String groupN = "groupN_example"; // String | 
         String typeIdN = "typeIdN_example"; // String | 
         String typeN = "typeN_example"; // String | 
-        String statusN = "statusN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<VirtualizationClustersList200Response> response = apiInstance.virtualizationClustersListWithHttpInfo(id, name, created, lastUpdated, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, contact, contactRole, contactGroup, regionId, region, siteGroupId, siteGroup, siteId, site, groupId, group, typeId, type, status, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, contactN, contactRoleN, contactGroupN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, groupIdN, groupN, typeIdN, typeN, statusN, ordering, limit, offset);
+            ApiResponse<VirtualizationClustersList200Response> response = apiInstance.virtualizationClustersListWithHttpInfo(id, name, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, contact, contactRole, contactGroup, regionId, region, siteGroupId, siteGroup, siteId, site, groupId, group, typeId, type, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, contactN, contactRoleN, contactGroupN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, groupIdN, groupN, typeIdN, typeN, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -4181,7 +4098,11 @@ public class Example {
 | **id** | **String**|  | [optional] |
 | **name** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **tenantGroupId** | **String**|  | [optional] |
@@ -4201,7 +4122,6 @@ public class Example {
 | **group** | **String**|  | [optional] |
 | **typeId** | **String**|  | [optional] |
 | **type** | **String**|  | [optional] |
-| **status** | **String**|  | [optional] |
 | **idN** | **String**|  | [optional] |
 | **idLte** | **String**|  | [optional] |
 | **idLt** | **String**|  | [optional] |
@@ -4216,16 +4136,6 @@ public class Example {
 | **nameNisw** | **String**|  | [optional] |
 | **nameIe** | **String**|  | [optional] |
 | **nameNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **tenantGroupIdN** | **String**|  | [optional] |
 | **tenantGroupN** | **String**|  | [optional] |
@@ -4244,8 +4154,6 @@ public class Example {
 | **groupN** | **String**|  | [optional] |
 | **typeIdN** | **String**|  | [optional] |
 | **typeN** | **String**|  | [optional] |
-| **statusN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -5419,7 +5327,7 @@ ApiResponse<Void>
 
 ## virtualizationInterfacesList
 
-> VirtualizationInterfacesList200Response virtualizationInterfacesList(id, name, enabled, mtu, description, created, lastUpdated, q, tag, clusterId, cluster, virtualMachineId, virtualMachine, parentId, bridgeId, macAddress, vrfId, vrf, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, mtuN, mtuLte, mtuLt, mtuGte, mtuGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, clusterIdN, clusterN, virtualMachineIdN, virtualMachineN, parentIdN, bridgeIdN, macAddressN, macAddressIc, macAddressNic, macAddressIew, macAddressNiew, macAddressIsw, macAddressNisw, macAddressIe, macAddressNie, vrfIdN, vrfN, ordering, limit, offset)
+> VirtualizationInterfacesList200Response virtualizationInterfacesList(id, name, enabled, mtu, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, clusterId, cluster, virtualMachineId, virtualMachine, parentId, bridgeId, macAddress, vrfId, vrf, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, mtuN, mtuLte, mtuLt, mtuGte, mtuGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, clusterIdN, clusterN, virtualMachineIdN, virtualMachineN, parentIdN, bridgeIdN, macAddressN, macAddressIc, macAddressNic, macAddressIew, macAddressNiew, macAddressIsw, macAddressNisw, macAddressIe, macAddressNie, vrfIdN, vrfN, limit, offset)
 
 
 
@@ -5454,7 +5362,11 @@ public class Example {
         String mtu = "mtu_example"; // String | 
         String description = "description_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String clusterId = "clusterId_example"; // String | 
@@ -5494,16 +5406,6 @@ public class Example {
         String descriptionNisw = "descriptionNisw_example"; // String | 
         String descriptionIe = "descriptionIe_example"; // String | 
         String descriptionNie = "descriptionNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String clusterIdN = "clusterIdN_example"; // String | 
         String clusterN = "clusterN_example"; // String | 
@@ -5522,11 +5424,10 @@ public class Example {
         String macAddressNie = "macAddressNie_example"; // String | 
         String vrfIdN = "vrfIdN_example"; // String | 
         String vrfN = "vrfN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            VirtualizationInterfacesList200Response result = apiInstance.virtualizationInterfacesList(id, name, enabled, mtu, description, created, lastUpdated, q, tag, clusterId, cluster, virtualMachineId, virtualMachine, parentId, bridgeId, macAddress, vrfId, vrf, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, mtuN, mtuLte, mtuLt, mtuGte, mtuGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, clusterIdN, clusterN, virtualMachineIdN, virtualMachineN, parentIdN, bridgeIdN, macAddressN, macAddressIc, macAddressNic, macAddressIew, macAddressNiew, macAddressIsw, macAddressNisw, macAddressIe, macAddressNie, vrfIdN, vrfN, ordering, limit, offset);
+            VirtualizationInterfacesList200Response result = apiInstance.virtualizationInterfacesList(id, name, enabled, mtu, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, clusterId, cluster, virtualMachineId, virtualMachine, parentId, bridgeId, macAddress, vrfId, vrf, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, mtuN, mtuLte, mtuLt, mtuGte, mtuGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, clusterIdN, clusterN, virtualMachineIdN, virtualMachineN, parentIdN, bridgeIdN, macAddressN, macAddressIc, macAddressNic, macAddressIew, macAddressNiew, macAddressIsw, macAddressNisw, macAddressIe, macAddressNie, vrfIdN, vrfN, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling VirtualizationApi#virtualizationInterfacesList");
@@ -5550,7 +5451,11 @@ public class Example {
 | **mtu** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **clusterId** | **String**|  | [optional] |
@@ -5590,16 +5495,6 @@ public class Example {
 | **descriptionNisw** | **String**|  | [optional] |
 | **descriptionIe** | **String**|  | [optional] |
 | **descriptionNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **clusterIdN** | **String**|  | [optional] |
 | **clusterN** | **String**|  | [optional] |
@@ -5618,7 +5513,6 @@ public class Example {
 | **macAddressNie** | **String**|  | [optional] |
 | **vrfIdN** | **String**|  | [optional] |
 | **vrfN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -5643,7 +5537,7 @@ public class Example {
 
 ## virtualizationInterfacesListWithHttpInfo
 
-> ApiResponse<VirtualizationInterfacesList200Response> virtualizationInterfacesList virtualizationInterfacesListWithHttpInfo(id, name, enabled, mtu, description, created, lastUpdated, q, tag, clusterId, cluster, virtualMachineId, virtualMachine, parentId, bridgeId, macAddress, vrfId, vrf, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, mtuN, mtuLte, mtuLt, mtuGte, mtuGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, clusterIdN, clusterN, virtualMachineIdN, virtualMachineN, parentIdN, bridgeIdN, macAddressN, macAddressIc, macAddressNic, macAddressIew, macAddressNiew, macAddressIsw, macAddressNisw, macAddressIe, macAddressNie, vrfIdN, vrfN, ordering, limit, offset)
+> ApiResponse<VirtualizationInterfacesList200Response> virtualizationInterfacesList virtualizationInterfacesListWithHttpInfo(id, name, enabled, mtu, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, clusterId, cluster, virtualMachineId, virtualMachine, parentId, bridgeId, macAddress, vrfId, vrf, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, mtuN, mtuLte, mtuLt, mtuGte, mtuGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, clusterIdN, clusterN, virtualMachineIdN, virtualMachineN, parentIdN, bridgeIdN, macAddressN, macAddressIc, macAddressNic, macAddressIew, macAddressNiew, macAddressIsw, macAddressNisw, macAddressIe, macAddressNie, vrfIdN, vrfN, limit, offset)
 
 
 
@@ -5679,7 +5573,11 @@ public class Example {
         String mtu = "mtu_example"; // String | 
         String description = "description_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String clusterId = "clusterId_example"; // String | 
@@ -5719,16 +5617,6 @@ public class Example {
         String descriptionNisw = "descriptionNisw_example"; // String | 
         String descriptionIe = "descriptionIe_example"; // String | 
         String descriptionNie = "descriptionNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String clusterIdN = "clusterIdN_example"; // String | 
         String clusterN = "clusterN_example"; // String | 
@@ -5747,11 +5635,10 @@ public class Example {
         String macAddressNie = "macAddressNie_example"; // String | 
         String vrfIdN = "vrfIdN_example"; // String | 
         String vrfN = "vrfN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<VirtualizationInterfacesList200Response> response = apiInstance.virtualizationInterfacesListWithHttpInfo(id, name, enabled, mtu, description, created, lastUpdated, q, tag, clusterId, cluster, virtualMachineId, virtualMachine, parentId, bridgeId, macAddress, vrfId, vrf, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, mtuN, mtuLte, mtuLt, mtuGte, mtuGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, clusterIdN, clusterN, virtualMachineIdN, virtualMachineN, parentIdN, bridgeIdN, macAddressN, macAddressIc, macAddressNic, macAddressIew, macAddressNiew, macAddressIsw, macAddressNisw, macAddressIe, macAddressNie, vrfIdN, vrfN, ordering, limit, offset);
+            ApiResponse<VirtualizationInterfacesList200Response> response = apiInstance.virtualizationInterfacesListWithHttpInfo(id, name, enabled, mtu, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, clusterId, cluster, virtualMachineId, virtualMachine, parentId, bridgeId, macAddress, vrfId, vrf, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, mtuN, mtuLte, mtuLt, mtuGte, mtuGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, clusterIdN, clusterN, virtualMachineIdN, virtualMachineN, parentIdN, bridgeIdN, macAddressN, macAddressIc, macAddressNic, macAddressIew, macAddressNiew, macAddressIsw, macAddressNisw, macAddressIe, macAddressNie, vrfIdN, vrfN, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -5777,7 +5664,11 @@ public class Example {
 | **mtu** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **clusterId** | **String**|  | [optional] |
@@ -5817,16 +5708,6 @@ public class Example {
 | **descriptionNisw** | **String**|  | [optional] |
 | **descriptionIe** | **String**|  | [optional] |
 | **descriptionNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **clusterIdN** | **String**|  | [optional] |
 | **clusterN** | **String**|  | [optional] |
@@ -5845,7 +5726,6 @@ public class Example {
 | **macAddressNie** | **String**|  | [optional] |
 | **vrfIdN** | **String**|  | [optional] |
 | **vrfN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -7019,7 +6899,7 @@ ApiResponse<Void>
 
 ## virtualizationVirtualMachinesList
 
-> VirtualizationVirtualMachinesList200Response virtualizationVirtualMachinesList(id, name, cluster, vcpus, memory, disk, created, lastUpdated, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, contact, contactRole, contactGroup, localContextData, status, clusterGroupId, clusterGroup, clusterTypeId, clusterType, clusterId, deviceId, device, regionId, region, siteGroupId, siteGroup, siteId, site, roleId, role, platformId, platform, macAddress, hasPrimaryIp, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, clusterN, vcpusN, vcpusLte, vcpusLt, vcpusGte, vcpusGt, memoryN, memoryLte, memoryLt, memoryGte, memoryGt, diskN, diskLte, diskLt, diskGte, diskGt, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, contactN, contactRoleN, contactGroupN, statusN, clusterGroupIdN, clusterGroupN, clusterTypeIdN, clusterTypeN, clusterIdN, deviceIdN, deviceN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, roleIdN, roleN, platformIdN, platformN, macAddressN, macAddressIc, macAddressNic, macAddressIew, macAddressNiew, macAddressIsw, macAddressNisw, macAddressIe, macAddressNie, ordering, limit, offset)
+> VirtualizationVirtualMachinesList200Response virtualizationVirtualMachinesList(id, name, cluster, vcpus, memory, disk, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, contact, contactRole, contactGroup, localContextData, status, clusterGroupId, clusterGroup, clusterTypeId, clusterType, clusterId, regionId, region, siteGroupId, siteGroup, siteId, site, roleId, role, platformId, platform, macAddress, hasPrimaryIp, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, clusterN, vcpusN, vcpusLte, vcpusLt, vcpusGte, vcpusGt, memoryN, memoryLte, memoryLt, memoryGte, memoryGt, diskN, diskLte, diskLt, diskGte, diskGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, contactN, contactRoleN, contactGroupN, statusN, clusterGroupIdN, clusterGroupN, clusterTypeIdN, clusterTypeN, clusterIdN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, roleIdN, roleN, platformIdN, platformN, macAddressN, macAddressIc, macAddressNic, macAddressIew, macAddressNiew, macAddressIsw, macAddressNisw, macAddressIe, macAddressNie, limit, offset)
 
 
 
@@ -7055,7 +6935,11 @@ public class Example {
         String memory = "memory_example"; // String | 
         String disk = "disk_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String tenantGroupId = "tenantGroupId_example"; // String | 
@@ -7072,8 +6956,6 @@ public class Example {
         String clusterTypeId = "clusterTypeId_example"; // String | 
         String clusterType = "clusterType_example"; // String | 
         String clusterId = "clusterId_example"; // String | 
-        String deviceId = "deviceId_example"; // String | 
-        String device = "device_example"; // String | 
         String regionId = "regionId_example"; // String | 
         String region = "region_example"; // String | 
         String siteGroupId = "siteGroupId_example"; // String | 
@@ -7116,16 +6998,6 @@ public class Example {
         String diskLt = "diskLt_example"; // String | 
         String diskGte = "diskGte_example"; // String | 
         String diskGt = "diskGt_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String tenantGroupIdN = "tenantGroupIdN_example"; // String | 
         String tenantGroupN = "tenantGroupN_example"; // String | 
@@ -7140,8 +7012,6 @@ public class Example {
         String clusterTypeIdN = "clusterTypeIdN_example"; // String | 
         String clusterTypeN = "clusterTypeN_example"; // String | 
         String clusterIdN = "clusterIdN_example"; // String | 
-        String deviceIdN = "deviceIdN_example"; // String | 
-        String deviceN = "deviceN_example"; // String | 
         String regionIdN = "regionIdN_example"; // String | 
         String regionN = "regionN_example"; // String | 
         String siteGroupIdN = "siteGroupIdN_example"; // String | 
@@ -7161,11 +7031,10 @@ public class Example {
         String macAddressNisw = "macAddressNisw_example"; // String | 
         String macAddressIe = "macAddressIe_example"; // String | 
         String macAddressNie = "macAddressNie_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            VirtualizationVirtualMachinesList200Response result = apiInstance.virtualizationVirtualMachinesList(id, name, cluster, vcpus, memory, disk, created, lastUpdated, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, contact, contactRole, contactGroup, localContextData, status, clusterGroupId, clusterGroup, clusterTypeId, clusterType, clusterId, deviceId, device, regionId, region, siteGroupId, siteGroup, siteId, site, roleId, role, platformId, platform, macAddress, hasPrimaryIp, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, clusterN, vcpusN, vcpusLte, vcpusLt, vcpusGte, vcpusGt, memoryN, memoryLte, memoryLt, memoryGte, memoryGt, diskN, diskLte, diskLt, diskGte, diskGt, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, contactN, contactRoleN, contactGroupN, statusN, clusterGroupIdN, clusterGroupN, clusterTypeIdN, clusterTypeN, clusterIdN, deviceIdN, deviceN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, roleIdN, roleN, platformIdN, platformN, macAddressN, macAddressIc, macAddressNic, macAddressIew, macAddressNiew, macAddressIsw, macAddressNisw, macAddressIe, macAddressNie, ordering, limit, offset);
+            VirtualizationVirtualMachinesList200Response result = apiInstance.virtualizationVirtualMachinesList(id, name, cluster, vcpus, memory, disk, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, contact, contactRole, contactGroup, localContextData, status, clusterGroupId, clusterGroup, clusterTypeId, clusterType, clusterId, regionId, region, siteGroupId, siteGroup, siteId, site, roleId, role, platformId, platform, macAddress, hasPrimaryIp, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, clusterN, vcpusN, vcpusLte, vcpusLt, vcpusGte, vcpusGt, memoryN, memoryLte, memoryLt, memoryGte, memoryGt, diskN, diskLte, diskLt, diskGte, diskGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, contactN, contactRoleN, contactGroupN, statusN, clusterGroupIdN, clusterGroupN, clusterTypeIdN, clusterTypeN, clusterIdN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, roleIdN, roleN, platformIdN, platformN, macAddressN, macAddressIc, macAddressNic, macAddressIew, macAddressNiew, macAddressIsw, macAddressNisw, macAddressIe, macAddressNie, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling VirtualizationApi#virtualizationVirtualMachinesList");
@@ -7190,7 +7059,11 @@ public class Example {
 | **memory** | **String**|  | [optional] |
 | **disk** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **tenantGroupId** | **String**|  | [optional] |
@@ -7207,8 +7080,6 @@ public class Example {
 | **clusterTypeId** | **String**|  | [optional] |
 | **clusterType** | **String**|  | [optional] |
 | **clusterId** | **String**|  | [optional] |
-| **deviceId** | **String**|  | [optional] |
-| **device** | **String**|  | [optional] |
 | **regionId** | **String**|  | [optional] |
 | **region** | **String**|  | [optional] |
 | **siteGroupId** | **String**|  | [optional] |
@@ -7251,16 +7122,6 @@ public class Example {
 | **diskLt** | **String**|  | [optional] |
 | **diskGte** | **String**|  | [optional] |
 | **diskGt** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **tenantGroupIdN** | **String**|  | [optional] |
 | **tenantGroupN** | **String**|  | [optional] |
@@ -7275,8 +7136,6 @@ public class Example {
 | **clusterTypeIdN** | **String**|  | [optional] |
 | **clusterTypeN** | **String**|  | [optional] |
 | **clusterIdN** | **String**|  | [optional] |
-| **deviceIdN** | **String**|  | [optional] |
-| **deviceN** | **String**|  | [optional] |
 | **regionIdN** | **String**|  | [optional] |
 | **regionN** | **String**|  | [optional] |
 | **siteGroupIdN** | **String**|  | [optional] |
@@ -7296,7 +7155,6 @@ public class Example {
 | **macAddressNisw** | **String**|  | [optional] |
 | **macAddressIe** | **String**|  | [optional] |
 | **macAddressNie** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -7321,7 +7179,7 @@ public class Example {
 
 ## virtualizationVirtualMachinesListWithHttpInfo
 
-> ApiResponse<VirtualizationVirtualMachinesList200Response> virtualizationVirtualMachinesList virtualizationVirtualMachinesListWithHttpInfo(id, name, cluster, vcpus, memory, disk, created, lastUpdated, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, contact, contactRole, contactGroup, localContextData, status, clusterGroupId, clusterGroup, clusterTypeId, clusterType, clusterId, deviceId, device, regionId, region, siteGroupId, siteGroup, siteId, site, roleId, role, platformId, platform, macAddress, hasPrimaryIp, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, clusterN, vcpusN, vcpusLte, vcpusLt, vcpusGte, vcpusGt, memoryN, memoryLte, memoryLt, memoryGte, memoryGt, diskN, diskLte, diskLt, diskGte, diskGt, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, contactN, contactRoleN, contactGroupN, statusN, clusterGroupIdN, clusterGroupN, clusterTypeIdN, clusterTypeN, clusterIdN, deviceIdN, deviceN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, roleIdN, roleN, platformIdN, platformN, macAddressN, macAddressIc, macAddressNic, macAddressIew, macAddressNiew, macAddressIsw, macAddressNisw, macAddressIe, macAddressNie, ordering, limit, offset)
+> ApiResponse<VirtualizationVirtualMachinesList200Response> virtualizationVirtualMachinesList virtualizationVirtualMachinesListWithHttpInfo(id, name, cluster, vcpus, memory, disk, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, contact, contactRole, contactGroup, localContextData, status, clusterGroupId, clusterGroup, clusterTypeId, clusterType, clusterId, regionId, region, siteGroupId, siteGroup, siteId, site, roleId, role, platformId, platform, macAddress, hasPrimaryIp, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, clusterN, vcpusN, vcpusLte, vcpusLt, vcpusGte, vcpusGt, memoryN, memoryLte, memoryLt, memoryGte, memoryGt, diskN, diskLte, diskLt, diskGte, diskGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, contactN, contactRoleN, contactGroupN, statusN, clusterGroupIdN, clusterGroupN, clusterTypeIdN, clusterTypeN, clusterIdN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, roleIdN, roleN, platformIdN, platformN, macAddressN, macAddressIc, macAddressNic, macAddressIew, macAddressNiew, macAddressIsw, macAddressNisw, macAddressIe, macAddressNie, limit, offset)
 
 
 
@@ -7358,7 +7216,11 @@ public class Example {
         String memory = "memory_example"; // String | 
         String disk = "disk_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String tenantGroupId = "tenantGroupId_example"; // String | 
@@ -7375,8 +7237,6 @@ public class Example {
         String clusterTypeId = "clusterTypeId_example"; // String | 
         String clusterType = "clusterType_example"; // String | 
         String clusterId = "clusterId_example"; // String | 
-        String deviceId = "deviceId_example"; // String | 
-        String device = "device_example"; // String | 
         String regionId = "regionId_example"; // String | 
         String region = "region_example"; // String | 
         String siteGroupId = "siteGroupId_example"; // String | 
@@ -7419,16 +7279,6 @@ public class Example {
         String diskLt = "diskLt_example"; // String | 
         String diskGte = "diskGte_example"; // String | 
         String diskGt = "diskGt_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String tenantGroupIdN = "tenantGroupIdN_example"; // String | 
         String tenantGroupN = "tenantGroupN_example"; // String | 
@@ -7443,8 +7293,6 @@ public class Example {
         String clusterTypeIdN = "clusterTypeIdN_example"; // String | 
         String clusterTypeN = "clusterTypeN_example"; // String | 
         String clusterIdN = "clusterIdN_example"; // String | 
-        String deviceIdN = "deviceIdN_example"; // String | 
-        String deviceN = "deviceN_example"; // String | 
         String regionIdN = "regionIdN_example"; // String | 
         String regionN = "regionN_example"; // String | 
         String siteGroupIdN = "siteGroupIdN_example"; // String | 
@@ -7464,11 +7312,10 @@ public class Example {
         String macAddressNisw = "macAddressNisw_example"; // String | 
         String macAddressIe = "macAddressIe_example"; // String | 
         String macAddressNie = "macAddressNie_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<VirtualizationVirtualMachinesList200Response> response = apiInstance.virtualizationVirtualMachinesListWithHttpInfo(id, name, cluster, vcpus, memory, disk, created, lastUpdated, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, contact, contactRole, contactGroup, localContextData, status, clusterGroupId, clusterGroup, clusterTypeId, clusterType, clusterId, deviceId, device, regionId, region, siteGroupId, siteGroup, siteId, site, roleId, role, platformId, platform, macAddress, hasPrimaryIp, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, clusterN, vcpusN, vcpusLte, vcpusLt, vcpusGte, vcpusGt, memoryN, memoryLte, memoryLt, memoryGte, memoryGt, diskN, diskLte, diskLt, diskGte, diskGt, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, contactN, contactRoleN, contactGroupN, statusN, clusterGroupIdN, clusterGroupN, clusterTypeIdN, clusterTypeN, clusterIdN, deviceIdN, deviceN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, roleIdN, roleN, platformIdN, platformN, macAddressN, macAddressIc, macAddressNic, macAddressIew, macAddressNiew, macAddressIsw, macAddressNisw, macAddressIe, macAddressNie, ordering, limit, offset);
+            ApiResponse<VirtualizationVirtualMachinesList200Response> response = apiInstance.virtualizationVirtualMachinesListWithHttpInfo(id, name, cluster, vcpus, memory, disk, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, contact, contactRole, contactGroup, localContextData, status, clusterGroupId, clusterGroup, clusterTypeId, clusterType, clusterId, regionId, region, siteGroupId, siteGroup, siteId, site, roleId, role, platformId, platform, macAddress, hasPrimaryIp, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, clusterN, vcpusN, vcpusLte, vcpusLt, vcpusGte, vcpusGt, memoryN, memoryLte, memoryLt, memoryGte, memoryGt, diskN, diskLte, diskLt, diskGte, diskGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, contactN, contactRoleN, contactGroupN, statusN, clusterGroupIdN, clusterGroupN, clusterTypeIdN, clusterTypeN, clusterIdN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, roleIdN, roleN, platformIdN, platformN, macAddressN, macAddressIc, macAddressNic, macAddressIew, macAddressNiew, macAddressIsw, macAddressNisw, macAddressIe, macAddressNie, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -7495,7 +7342,11 @@ public class Example {
 | **memory** | **String**|  | [optional] |
 | **disk** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **tenantGroupId** | **String**|  | [optional] |
@@ -7512,8 +7363,6 @@ public class Example {
 | **clusterTypeId** | **String**|  | [optional] |
 | **clusterType** | **String**|  | [optional] |
 | **clusterId** | **String**|  | [optional] |
-| **deviceId** | **String**|  | [optional] |
-| **device** | **String**|  | [optional] |
 | **regionId** | **String**|  | [optional] |
 | **region** | **String**|  | [optional] |
 | **siteGroupId** | **String**|  | [optional] |
@@ -7556,16 +7405,6 @@ public class Example {
 | **diskLt** | **String**|  | [optional] |
 | **diskGte** | **String**|  | [optional] |
 | **diskGt** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **tenantGroupIdN** | **String**|  | [optional] |
 | **tenantGroupN** | **String**|  | [optional] |
@@ -7580,8 +7419,6 @@ public class Example {
 | **clusterTypeIdN** | **String**|  | [optional] |
 | **clusterTypeN** | **String**|  | [optional] |
 | **clusterIdN** | **String**|  | [optional] |
-| **deviceIdN** | **String**|  | [optional] |
-| **deviceN** | **String**|  | [optional] |
 | **regionIdN** | **String**|  | [optional] |
 | **regionN** | **String**|  | [optional] |
 | **siteGroupIdN** | **String**|  | [optional] |
@@ -7601,7 +7438,6 @@ public class Example {
 | **macAddressNisw** | **String**|  | [optional] |
 | **macAddressIe** | **String**|  | [optional] |
 | **macAddressNie** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 

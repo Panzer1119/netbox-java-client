@@ -14,11 +14,10 @@
 |**interfaceB** | **Integer** |  |  |
 |**ssid** | **String** |  |  [optional] |
 |**status** | [**StatusEnum**](#StatusEnum) |  |  [optional] |
-|**tenant** | **Integer** |  |  [optional] |
+|**description** | **String** |  |  [optional] |
 |**authType** | [**AuthTypeEnum**](#AuthTypeEnum) |  |  [optional] |
 |**authCipher** | [**AuthCipherEnum**](#AuthCipherEnum) |  |  [optional] |
 |**authPsk** | **String** |  |  [optional] |
-|**description** | **String** |  |  [optional] |
 |**tags** | [**List&lt;NestedTag&gt;**](NestedTag.md) |  |  [optional] |
 |**customFields** | **Object** |  |  [optional] |
 |**created** | **OffsetDateTime** |  |  [optional] [readonly] |

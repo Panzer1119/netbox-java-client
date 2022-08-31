@@ -18,7 +18,6 @@
 |**status** | [**Status8**](Status8.md) |  |  [optional] |
 |**role** | [**NestedRole**](NestedRole.md) |  |  [optional] |
 |**description** | **String** |  |  [optional] |
-|**l2vpnTermination** | [**NestedL2VPNTermination**](NestedL2VPNTermination.md) |  |  [optional] |
 |**tags** | [**List&lt;NestedTag&gt;**](NestedTag.md) |  |  [optional] |
 |**customFields** | **Object** |  |  [optional] |
 |**created** | **OffsetDateTime** |  |  [optional] [readonly] |

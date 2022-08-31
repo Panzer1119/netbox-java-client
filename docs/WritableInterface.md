@@ -29,8 +29,6 @@
 |**mode** | [**ModeEnum**](#ModeEnum) |  |  [optional] |
 |**rfRole** | [**RfRoleEnum**](#RfRoleEnum) |  |  [optional] |
 |**rfChannel** | [**RfChannelEnum**](#RfChannelEnum) |  |  [optional] |
-|**poeMode** | [**PoeModeEnum**](#PoeModeEnum) |  |  [optional] |
-|**poeType** | [**PoeTypeEnum**](#PoeTypeEnum) |  |  [optional] |
 |**rfChannelFrequency** | **BigDecimal** |  |  [optional] |
 |**rfChannelWidth** | **BigDecimal** |  |  [optional] |
 |**txPower** | **Integer** |  |  [optional] |
@@ -38,16 +36,14 @@
 |**taggedVlans** | **Set&lt;Integer&gt;** |  |  [optional] |
 |**markConnected** | **Boolean** | Treat as if a cable is connected |  [optional] |
 |**cable** | [**NestedCable**](NestedCable.md) |  |  [optional] |
-|**cableEnd** | **String** |  |  [optional] [readonly] |
 |**wirelessLink** | **Integer** |  |  [optional] |
-|**linkPeers** | **List&lt;String&gt;** |  Return the appropriate serializer for the link termination model.  |  [optional] [readonly] |
-|**linkPeersType** | **String** |  |  [optional] [readonly] |
+|**linkPeer** | **Map&lt;String, String&gt;** |  Return the appropriate serializer for the link termination model.  |  [optional] [readonly] |
+|**linkPeerType** | **String** |  |  [optional] [readonly] |
 |**wirelessLans** | **Set&lt;Integer&gt;** |  |  [optional] |
 |**vrf** | **Integer** |  |  [optional] |
-|**l2vpnTermination** | **String** |  |  [optional] [readonly] |
-|**connectedEndpoints** | **List&lt;String&gt;** |  Return the appropriate serializer for the type of connected object.  |  [optional] [readonly] |
-|**connectedEndpointsType** | **String** |  |  [optional] [readonly] |
-|**connectedEndpointsReachable** | **Boolean** |  |  [optional] [readonly] |
+|**connectedEndpoint** | **Map&lt;String, String&gt;** |  Return the appropriate serializer for the type of connected object.  |  [optional] [readonly] |
+|**connectedEndpointType** | **String** |  |  [optional] [readonly] |
+|**connectedEndpointReachable** | **Boolean** |  |  [optional] [readonly] |
 |**tags** | [**List&lt;NestedTag&gt;**](NestedTag.md) |  |  [optional] |
 |**customFields** | **Object** |  |  [optional] |
 |**created** | **OffsetDateTime** |  |  [optional] [readonly] |
@@ -96,9 +92,7 @@
 | IEEE802_11AC | &quot;ieee802.11ac&quot; |
 | IEEE802_11AD | &quot;ieee802.11ad&quot; |
 | IEEE802_11AX | &quot;ieee802.11ax&quot; |
-| IEEE802_11AY | &quot;ieee802.11ay&quot; |
 | IEEE802_15_1 | &quot;ieee802.15.1&quot; |
-| OTHER_WIRELESS | &quot;other-wireless&quot; |
 | GSM | &quot;gsm&quot; |
 | CDMA | &quot;cdma&quot; |
 | LTE | &quot;lte&quot; |
@@ -389,31 +383,6 @@
 | _60G_25_61560_6480 | &quot;60g-25-61560-6480&quot; |
 | _60G_26_63720_6480 | &quot;60g-26-63720-6480&quot; |
 | _60G_27_65880_6480 | &quot;60g-27-65880-6480&quot; |
-| UNKNOWN_DEFAULT_OPEN_API | &quot;unknown_default_open_api&quot; |
-
-
-
-## Enum: PoeModeEnum
-
-| Name | Value |
-|---- | -----|
-| PD | &quot;pd&quot; |
-| PSE | &quot;pse&quot; |
-| UNKNOWN_DEFAULT_OPEN_API | &quot;unknown_default_open_api&quot; |
-
-
-
-## Enum: PoeTypeEnum
-
-| Name | Value |
-|---- | -----|
-| TYPE1_IEEE802_3AF | &quot;type1-ieee802.3af&quot; |
-| TYPE2_IEEE802_3AT | &quot;type2-ieee802.3at&quot; |
-| TYPE3_IEEE802_3BT | &quot;type3-ieee802.3bt&quot; |
-| TYPE4_IEEE802_3BT | &quot;type4-ieee802.3bt&quot; |
-| PASSIVE_24V_2PAIR | &quot;passive-24v-2pair&quot; |
-| PASSIVE_24V_4PAIR | &quot;passive-24v-4pair&quot; |
-| PASSIVE_48V_2PAIR | &quot;passive-48v-2pair&quot; |
 | UNKNOWN_DEFAULT_OPEN_API | &quot;unknown_default_open_api&quot; |
 
 

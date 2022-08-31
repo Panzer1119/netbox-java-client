@@ -13,11 +13,9 @@
 |**user** | [**NestedUser**](NestedUser.md) |  |  |
 |**created** | **OffsetDateTime** |  |  [optional] [readonly] |
 |**expires** | **OffsetDateTime** |  |  [optional] |
-|**lastUsed** | **OffsetDateTime** |  |  [optional] |
 |**key** | **String** |  |  [optional] |
 |**writeEnabled** | **Boolean** | Permit create/update/delete operations using this key |  [optional] |
 |**description** | **String** |  |  [optional] |
-|**allowedIps** | **List&lt;Object&gt;** |  |  [optional] |
 
 
 

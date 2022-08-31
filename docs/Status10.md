@@ -16,11 +16,12 @@
 
 | Name | Value |
 |---- | -----|
-| PLANNED | &quot;Planned&quot; |
-| STAGING | &quot;Staging&quot; |
-| ACTIVE | &quot;Active&quot; |
-| DECOMMISSIONING | &quot;Decommissioning&quot; |
 | OFFLINE | &quot;Offline&quot; |
+| ACTIVE | &quot;Active&quot; |
+| PLANNED | &quot;Planned&quot; |
+| STAGED | &quot;Staged&quot; |
+| FAILED | &quot;Failed&quot; |
+| DECOMMISSIONING | &quot;Decommissioning&quot; |
 | UNKNOWN_DEFAULT_OPEN_API | &quot;unknown_default_open_api&quot; |
 
 
@@ -29,11 +30,12 @@
 
 | Name | Value |
 |---- | -----|
-| PLANNED | &quot;planned&quot; |
-| STAGING | &quot;staging&quot; |
-| ACTIVE | &quot;active&quot; |
-| DECOMMISSIONING | &quot;decommissioning&quot; |
 | OFFLINE | &quot;offline&quot; |
+| ACTIVE | &quot;active&quot; |
+| PLANNED | &quot;planned&quot; |
+| STAGED | &quot;staged&quot; |
+| FAILED | &quot;failed&quot; |
+| DECOMMISSIONING | &quot;decommissioning&quot; |
 | UNKNOWN_DEFAULT_OPEN_API | &quot;unknown_default_open_api&quot; |
 
 

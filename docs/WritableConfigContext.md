@@ -17,7 +17,6 @@
 |**regions** | **Set&lt;Integer&gt;** |  |  [optional] |
 |**siteGroups** | **Set&lt;Integer&gt;** |  |  [optional] |
 |**sites** | **Set&lt;Integer&gt;** |  |  [optional] |
-|**locations** | **Set&lt;Integer&gt;** |  |  [optional] |
 |**deviceTypes** | **Set&lt;Integer&gt;** |  |  [optional] |
 |**roles** | **Set&lt;Integer&gt;** |  |  [optional] |
 |**platforms** | **Set&lt;Integer&gt;** |  |  [optional] |

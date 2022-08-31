@@ -14,7 +14,6 @@
 |**description** | **String** |  |  [optional] |
 |**group** | [**NestedWirelessLANGroup**](NestedWirelessLANGroup.md) |  |  [optional] |
 |**vlan** | [**NestedVLAN**](NestedVLAN.md) |  |  [optional] |
-|**tenant** | [**NestedTenant**](NestedTenant.md) |  |  [optional] |
 |**authType** | [**AuthType**](AuthType.md) |  |  [optional] |
 |**authCipher** | [**AuthCipher**](AuthCipher.md) |  |  [optional] |
 |**authPsk** | **String** |  |  [optional] |

@@ -22,7 +22,6 @@
 |**untaggedVlan** | [**NestedVLAN**](NestedVLAN.md) |  |  [optional] |
 |**taggedVlans** | [**Set&lt;NestedVLAN&gt;**](NestedVLAN.md) |  |  [optional] |
 |**vrf** | [**NestedVRF**](NestedVRF.md) |  |  [optional] |
-|**l2vpnTermination** | [**NestedL2VPNTermination**](NestedL2VPNTermination.md) |  |  [optional] |
 |**tags** | [**List&lt;NestedTag&gt;**](NestedTag.md) |  |  [optional] |
 |**customFields** | **Object** |  |  [optional] |
 |**created** | **OffsetDateTime** |  |  [optional] [readonly] |

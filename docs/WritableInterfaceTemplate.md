@@ -17,8 +17,6 @@
 |**type** | [**TypeEnum**](#TypeEnum) |  |  |
 |**mgmtOnly** | **Boolean** |  |  [optional] |
 |**description** | **String** |  |  [optional] |
-|**poeMode** | [**PoeModeEnum**](#PoeModeEnum) |  |  [optional] |
-|**poeType** | [**PoeTypeEnum**](#PoeTypeEnum) |  |  [optional] |
 |**created** | **OffsetDateTime** |  |  [optional] [readonly] |
 |**lastUpdated** | **OffsetDateTime** |  |  [optional] [readonly] |
 
@@ -62,9 +60,7 @@
 | IEEE802_11AC | &quot;ieee802.11ac&quot; |
 | IEEE802_11AD | &quot;ieee802.11ad&quot; |
 | IEEE802_11AX | &quot;ieee802.11ax&quot; |
-| IEEE802_11AY | &quot;ieee802.11ay&quot; |
 | IEEE802_15_1 | &quot;ieee802.15.1&quot; |
-| OTHER_WIRELESS | &quot;other-wireless&quot; |
 | GSM | &quot;gsm&quot; |
 | CDMA | &quot;cdma&quot; |
 | LTE | &quot;lte&quot; |
@@ -118,31 +114,6 @@
 | EXTREME_SUMMITSTACK_256 | &quot;extreme-summitstack-256&quot; |
 | EXTREME_SUMMITSTACK_512 | &quot;extreme-summitstack-512&quot; |
 | OTHER | &quot;other&quot; |
-| UNKNOWN_DEFAULT_OPEN_API | &quot;unknown_default_open_api&quot; |
-
-
-
-## Enum: PoeModeEnum
-
-| Name | Value |
-|---- | -----|
-| PD | &quot;pd&quot; |
-| PSE | &quot;pse&quot; |
-| UNKNOWN_DEFAULT_OPEN_API | &quot;unknown_default_open_api&quot; |
-
-
-
-## Enum: PoeTypeEnum
-
-| Name | Value |
-|---- | -----|
-| TYPE1_IEEE802_3AF | &quot;type1-ieee802.3af&quot; |
-| TYPE2_IEEE802_3AT | &quot;type2-ieee802.3at&quot; |
-| TYPE3_IEEE802_3BT | &quot;type3-ieee802.3bt&quot; |
-| TYPE4_IEEE802_3BT | &quot;type4-ieee802.3bt&quot; |
-| PASSIVE_24V_2PAIR | &quot;passive-24v-2pair&quot; |
-| PASSIVE_24V_4PAIR | &quot;passive-24v-4pair&quot; |
-| PASSIVE_48V_2PAIR | &quot;passive-48v-2pair&quot; |
 | UNKNOWN_DEFAULT_OPEN_API | &quot;unknown_default_open_api&quot; |
 
 

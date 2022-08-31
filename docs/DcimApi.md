@@ -4,24 +4,6 @@ All URIs are relative to *https://demo.netbox.dev/api*
 
 | Method | HTTP request | Description |
 |------------- | ------------- | -------------|
-| [**dcimCableTerminationsBulkDelete**](DcimApi.md#dcimCableTerminationsBulkDelete) | **DELETE** /dcim/cable-terminations/ |  |
-| [**dcimCableTerminationsBulkDeleteWithHttpInfo**](DcimApi.md#dcimCableTerminationsBulkDeleteWithHttpInfo) | **DELETE** /dcim/cable-terminations/ |  |
-| [**dcimCableTerminationsBulkPartialUpdate**](DcimApi.md#dcimCableTerminationsBulkPartialUpdate) | **PATCH** /dcim/cable-terminations/ |  |
-| [**dcimCableTerminationsBulkPartialUpdateWithHttpInfo**](DcimApi.md#dcimCableTerminationsBulkPartialUpdateWithHttpInfo) | **PATCH** /dcim/cable-terminations/ |  |
-| [**dcimCableTerminationsBulkUpdate**](DcimApi.md#dcimCableTerminationsBulkUpdate) | **PUT** /dcim/cable-terminations/ |  |
-| [**dcimCableTerminationsBulkUpdateWithHttpInfo**](DcimApi.md#dcimCableTerminationsBulkUpdateWithHttpInfo) | **PUT** /dcim/cable-terminations/ |  |
-| [**dcimCableTerminationsCreate**](DcimApi.md#dcimCableTerminationsCreate) | **POST** /dcim/cable-terminations/ |  |
-| [**dcimCableTerminationsCreateWithHttpInfo**](DcimApi.md#dcimCableTerminationsCreateWithHttpInfo) | **POST** /dcim/cable-terminations/ |  |
-| [**dcimCableTerminationsDelete**](DcimApi.md#dcimCableTerminationsDelete) | **DELETE** /dcim/cable-terminations/{id}/ |  |
-| [**dcimCableTerminationsDeleteWithHttpInfo**](DcimApi.md#dcimCableTerminationsDeleteWithHttpInfo) | **DELETE** /dcim/cable-terminations/{id}/ |  |
-| [**dcimCableTerminationsList**](DcimApi.md#dcimCableTerminationsList) | **GET** /dcim/cable-terminations/ |  |
-| [**dcimCableTerminationsListWithHttpInfo**](DcimApi.md#dcimCableTerminationsListWithHttpInfo) | **GET** /dcim/cable-terminations/ |  |
-| [**dcimCableTerminationsPartialUpdate**](DcimApi.md#dcimCableTerminationsPartialUpdate) | **PATCH** /dcim/cable-terminations/{id}/ |  |
-| [**dcimCableTerminationsPartialUpdateWithHttpInfo**](DcimApi.md#dcimCableTerminationsPartialUpdateWithHttpInfo) | **PATCH** /dcim/cable-terminations/{id}/ |  |
-| [**dcimCableTerminationsRead**](DcimApi.md#dcimCableTerminationsRead) | **GET** /dcim/cable-terminations/{id}/ |  |
-| [**dcimCableTerminationsReadWithHttpInfo**](DcimApi.md#dcimCableTerminationsReadWithHttpInfo) | **GET** /dcim/cable-terminations/{id}/ |  |
-| [**dcimCableTerminationsUpdate**](DcimApi.md#dcimCableTerminationsUpdate) | **PUT** /dcim/cable-terminations/{id}/ |  |
-| [**dcimCableTerminationsUpdateWithHttpInfo**](DcimApi.md#dcimCableTerminationsUpdateWithHttpInfo) | **PUT** /dcim/cable-terminations/{id}/ |  |
 | [**dcimCablesBulkDelete**](DcimApi.md#dcimCablesBulkDelete) | **DELETE** /dcim/cables/ |  |
 | [**dcimCablesBulkDeleteWithHttpInfo**](DcimApi.md#dcimCablesBulkDeleteWithHttpInfo) | **DELETE** /dcim/cables/ |  |
 | [**dcimCablesBulkPartialUpdate**](DcimApi.md#dcimCablesBulkPartialUpdate) | **PATCH** /dcim/cables/ |  |
@@ -282,8 +264,8 @@ All URIs are relative to *https://demo.netbox.dev/api*
 | [**dcimInterfacesPartialUpdateWithHttpInfo**](DcimApi.md#dcimInterfacesPartialUpdateWithHttpInfo) | **PATCH** /dcim/interfaces/{id}/ |  |
 | [**dcimInterfacesRead**](DcimApi.md#dcimInterfacesRead) | **GET** /dcim/interfaces/{id}/ |  |
 | [**dcimInterfacesReadWithHttpInfo**](DcimApi.md#dcimInterfacesReadWithHttpInfo) | **GET** /dcim/interfaces/{id}/ |  |
-| [**dcimInterfacesTraceRead**](DcimApi.md#dcimInterfacesTraceRead) | **GET** /dcim/interfaces/{id}/trace/ |  |
-| [**dcimInterfacesTraceReadWithHttpInfo**](DcimApi.md#dcimInterfacesTraceReadWithHttpInfo) | **GET** /dcim/interfaces/{id}/trace/ |  |
+| [**dcimInterfacesTrace**](DcimApi.md#dcimInterfacesTrace) | **GET** /dcim/interfaces/{id}/trace/ |  |
+| [**dcimInterfacesTraceWithHttpInfo**](DcimApi.md#dcimInterfacesTraceWithHttpInfo) | **GET** /dcim/interfaces/{id}/trace/ |  |
 | [**dcimInterfacesUpdate**](DcimApi.md#dcimInterfacesUpdate) | **PUT** /dcim/interfaces/{id}/ |  |
 | [**dcimInterfacesUpdateWithHttpInfo**](DcimApi.md#dcimInterfacesUpdateWithHttpInfo) | **PUT** /dcim/interfaces/{id}/ |  |
 | [**dcimInventoryItemRolesBulkDelete**](DcimApi.md#dcimInventoryItemRolesBulkDelete) | **DELETE** /dcim/inventory-item-roles/ |  |
@@ -626,8 +608,8 @@ All URIs are relative to *https://demo.netbox.dev/api*
 | [**dcimRacksCreateWithHttpInfo**](DcimApi.md#dcimRacksCreateWithHttpInfo) | **POST** /dcim/racks/ |  |
 | [**dcimRacksDelete**](DcimApi.md#dcimRacksDelete) | **DELETE** /dcim/racks/{id}/ |  |
 | [**dcimRacksDeleteWithHttpInfo**](DcimApi.md#dcimRacksDeleteWithHttpInfo) | **DELETE** /dcim/racks/{id}/ |  |
-| [**dcimRacksElevationRead**](DcimApi.md#dcimRacksElevationRead) | **GET** /dcim/racks/{id}/elevation/ |  |
-| [**dcimRacksElevationReadWithHttpInfo**](DcimApi.md#dcimRacksElevationReadWithHttpInfo) | **GET** /dcim/racks/{id}/elevation/ |  |
+| [**dcimRacksElevation**](DcimApi.md#dcimRacksElevation) | **GET** /dcim/racks/{id}/elevation/ |  |
+| [**dcimRacksElevationWithHttpInfo**](DcimApi.md#dcimRacksElevationWithHttpInfo) | **GET** /dcim/racks/{id}/elevation/ |  |
 | [**dcimRacksList**](DcimApi.md#dcimRacksList) | **GET** /dcim/racks/ |  |
 | [**dcimRacksListWithHttpInfo**](DcimApi.md#dcimRacksListWithHttpInfo) | **GET** /dcim/racks/ |  |
 | [**dcimRacksPartialUpdate**](DcimApi.md#dcimRacksPartialUpdate) | **PATCH** /dcim/racks/{id}/ |  |
@@ -747,1382 +729,6 @@ All URIs are relative to *https://demo.netbox.dev/api*
 | [**dcimVirtualChassisUpdate**](DcimApi.md#dcimVirtualChassisUpdate) | **PUT** /dcim/virtual-chassis/{id}/ |  |
 | [**dcimVirtualChassisUpdateWithHttpInfo**](DcimApi.md#dcimVirtualChassisUpdateWithHttpInfo) | **PUT** /dcim/virtual-chassis/{id}/ |  |
 
-
-
-## dcimCableTerminationsBulkDelete
-
-> void dcimCableTerminationsBulkDelete()
-
-
-
-### Example
-
-```java
-// Import classes:
-import de.codemakers.netbox.client.ApiClient;
-import de.codemakers.netbox.client.ApiException;
-import de.codemakers.netbox.client.Configuration;
-import de.codemakers.netbox.client.auth.*;
-import de.codemakers.netbox.client.models.*;
-import de.codemakers.netbox.client.api.DcimApi;
-
-public class Example {
-    public static void main(String[] args) {
-        ApiClient defaultClient = Configuration.getDefaultApiClient();
-        defaultClient.setBasePath("https://demo.netbox.dev/api");
-        
-        // Configure API key authorization: Bearer
-        ApiKeyAuth Bearer = (ApiKeyAuth) defaultClient.getAuthentication("Bearer");
-        Bearer.setApiKey("YOUR API KEY");
-        // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-        //Bearer.setApiKeyPrefix("Token");
-
-        DcimApi apiInstance = new DcimApi(defaultClient);
-        try {
-            apiInstance.dcimCableTerminationsBulkDelete();
-        } catch (ApiException e) {
-            System.err.println("Exception when calling DcimApi#dcimCableTerminationsBulkDelete");
-            System.err.println("Status code: " + e.getCode());
-            System.err.println("Reason: " + e.getResponseBody());
-            System.err.println("Response headers: " + e.getResponseHeaders());
-            e.printStackTrace();
-        }
-    }
-}
-```
-
-### Parameters
-
-This endpoint does not need any parameter.
-
-### Return type
-
-
-null (empty response body)
-
-### Authorization
-
-[Bearer](../README.md#Bearer)
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: Not defined
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **204** |  |  -  |
-
-## dcimCableTerminationsBulkDeleteWithHttpInfo
-
-> ApiResponse<Void> dcimCableTerminationsBulkDelete dcimCableTerminationsBulkDeleteWithHttpInfo()
-
-
-
-### Example
-
-```java
-// Import classes:
-import de.codemakers.netbox.client.ApiClient;
-import de.codemakers.netbox.client.ApiException;
-import de.codemakers.netbox.client.ApiResponse;
-import de.codemakers.netbox.client.Configuration;
-import de.codemakers.netbox.client.auth.*;
-import de.codemakers.netbox.client.models.*;
-import de.codemakers.netbox.client.api.DcimApi;
-
-public class Example {
-    public static void main(String[] args) {
-        ApiClient defaultClient = Configuration.getDefaultApiClient();
-        defaultClient.setBasePath("https://demo.netbox.dev/api");
-        
-        // Configure API key authorization: Bearer
-        ApiKeyAuth Bearer = (ApiKeyAuth) defaultClient.getAuthentication("Bearer");
-        Bearer.setApiKey("YOUR API KEY");
-        // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-        //Bearer.setApiKeyPrefix("Token");
-
-        DcimApi apiInstance = new DcimApi(defaultClient);
-        try {
-            ApiResponse<Void> response = apiInstance.dcimCableTerminationsBulkDeleteWithHttpInfo();
-            System.out.println("Status code: " + response.getStatusCode());
-            System.out.println("Response headers: " + response.getHeaders());
-        } catch (ApiException e) {
-            System.err.println("Exception when calling DcimApi#dcimCableTerminationsBulkDelete");
-            System.err.println("Status code: " + e.getCode());
-            System.err.println("Response headers: " + e.getResponseHeaders());
-            System.err.println("Reason: " + e.getResponseBody());
-            e.printStackTrace();
-        }
-    }
-}
-```
-
-### Parameters
-
-This endpoint does not need any parameter.
-
-### Return type
-
-
-ApiResponse<Void>
-
-### Authorization
-
-[Bearer](../README.md#Bearer)
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: Not defined
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **204** |  |  -  |
-
-
-## dcimCableTerminationsBulkPartialUpdate
-
-> CableTermination dcimCableTerminationsBulkPartialUpdate(data)
-
-
-
-### Example
-
-```java
-// Import classes:
-import de.codemakers.netbox.client.ApiClient;
-import de.codemakers.netbox.client.ApiException;
-import de.codemakers.netbox.client.Configuration;
-import de.codemakers.netbox.client.auth.*;
-import de.codemakers.netbox.client.models.*;
-import de.codemakers.netbox.client.api.DcimApi;
-
-public class Example {
-    public static void main(String[] args) {
-        ApiClient defaultClient = Configuration.getDefaultApiClient();
-        defaultClient.setBasePath("https://demo.netbox.dev/api");
-        
-        // Configure API key authorization: Bearer
-        ApiKeyAuth Bearer = (ApiKeyAuth) defaultClient.getAuthentication("Bearer");
-        Bearer.setApiKey("YOUR API KEY");
-        // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-        //Bearer.setApiKeyPrefix("Token");
-
-        DcimApi apiInstance = new DcimApi(defaultClient);
-        CableTermination data = new CableTermination(); // CableTermination | 
-        try {
-            CableTermination result = apiInstance.dcimCableTerminationsBulkPartialUpdate(data);
-            System.out.println(result);
-        } catch (ApiException e) {
-            System.err.println("Exception when calling DcimApi#dcimCableTerminationsBulkPartialUpdate");
-            System.err.println("Status code: " + e.getCode());
-            System.err.println("Reason: " + e.getResponseBody());
-            System.err.println("Response headers: " + e.getResponseHeaders());
-            e.printStackTrace();
-        }
-    }
-}
-```
-
-### Parameters
-
-
-| Name | Type | Description  | Notes |
-|------------- | ------------- | ------------- | -------------|
-| **data** | [**CableTermination**](CableTermination.md)|  | |
-
-### Return type
-
-[**CableTermination**](CableTermination.md)
-
-
-### Authorization
-
-[Bearer](../README.md#Bearer)
-
-### HTTP request headers
-
-- **Content-Type**: application/json
-- **Accept**: application/json
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **200** |  |  -  |
-
-## dcimCableTerminationsBulkPartialUpdateWithHttpInfo
-
-> ApiResponse<CableTermination> dcimCableTerminationsBulkPartialUpdate dcimCableTerminationsBulkPartialUpdateWithHttpInfo(data)
-
-
-
-### Example
-
-```java
-// Import classes:
-import de.codemakers.netbox.client.ApiClient;
-import de.codemakers.netbox.client.ApiException;
-import de.codemakers.netbox.client.ApiResponse;
-import de.codemakers.netbox.client.Configuration;
-import de.codemakers.netbox.client.auth.*;
-import de.codemakers.netbox.client.models.*;
-import de.codemakers.netbox.client.api.DcimApi;
-
-public class Example {
-    public static void main(String[] args) {
-        ApiClient defaultClient = Configuration.getDefaultApiClient();
-        defaultClient.setBasePath("https://demo.netbox.dev/api");
-        
-        // Configure API key authorization: Bearer
-        ApiKeyAuth Bearer = (ApiKeyAuth) defaultClient.getAuthentication("Bearer");
-        Bearer.setApiKey("YOUR API KEY");
-        // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-        //Bearer.setApiKeyPrefix("Token");
-
-        DcimApi apiInstance = new DcimApi(defaultClient);
-        CableTermination data = new CableTermination(); // CableTermination | 
-        try {
-            ApiResponse<CableTermination> response = apiInstance.dcimCableTerminationsBulkPartialUpdateWithHttpInfo(data);
-            System.out.println("Status code: " + response.getStatusCode());
-            System.out.println("Response headers: " + response.getHeaders());
-            System.out.println("Response body: " + response.getData());
-        } catch (ApiException e) {
-            System.err.println("Exception when calling DcimApi#dcimCableTerminationsBulkPartialUpdate");
-            System.err.println("Status code: " + e.getCode());
-            System.err.println("Response headers: " + e.getResponseHeaders());
-            System.err.println("Reason: " + e.getResponseBody());
-            e.printStackTrace();
-        }
-    }
-}
-```
-
-### Parameters
-
-
-| Name | Type | Description  | Notes |
-|------------- | ------------- | ------------- | -------------|
-| **data** | [**CableTermination**](CableTermination.md)|  | |
-
-### Return type
-
-ApiResponse<[**CableTermination**](CableTermination.md)>
-
-
-### Authorization
-
-[Bearer](../README.md#Bearer)
-
-### HTTP request headers
-
-- **Content-Type**: application/json
-- **Accept**: application/json
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **200** |  |  -  |
-
-
-## dcimCableTerminationsBulkUpdate
-
-> CableTermination dcimCableTerminationsBulkUpdate(data)
-
-
-
-### Example
-
-```java
-// Import classes:
-import de.codemakers.netbox.client.ApiClient;
-import de.codemakers.netbox.client.ApiException;
-import de.codemakers.netbox.client.Configuration;
-import de.codemakers.netbox.client.auth.*;
-import de.codemakers.netbox.client.models.*;
-import de.codemakers.netbox.client.api.DcimApi;
-
-public class Example {
-    public static void main(String[] args) {
-        ApiClient defaultClient = Configuration.getDefaultApiClient();
-        defaultClient.setBasePath("https://demo.netbox.dev/api");
-        
-        // Configure API key authorization: Bearer
-        ApiKeyAuth Bearer = (ApiKeyAuth) defaultClient.getAuthentication("Bearer");
-        Bearer.setApiKey("YOUR API KEY");
-        // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-        //Bearer.setApiKeyPrefix("Token");
-
-        DcimApi apiInstance = new DcimApi(defaultClient);
-        CableTermination data = new CableTermination(); // CableTermination | 
-        try {
-            CableTermination result = apiInstance.dcimCableTerminationsBulkUpdate(data);
-            System.out.println(result);
-        } catch (ApiException e) {
-            System.err.println("Exception when calling DcimApi#dcimCableTerminationsBulkUpdate");
-            System.err.println("Status code: " + e.getCode());
-            System.err.println("Reason: " + e.getResponseBody());
-            System.err.println("Response headers: " + e.getResponseHeaders());
-            e.printStackTrace();
-        }
-    }
-}
-```
-
-### Parameters
-
-
-| Name | Type | Description  | Notes |
-|------------- | ------------- | ------------- | -------------|
-| **data** | [**CableTermination**](CableTermination.md)|  | |
-
-### Return type
-
-[**CableTermination**](CableTermination.md)
-
-
-### Authorization
-
-[Bearer](../README.md#Bearer)
-
-### HTTP request headers
-
-- **Content-Type**: application/json
-- **Accept**: application/json
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **200** |  |  -  |
-
-## dcimCableTerminationsBulkUpdateWithHttpInfo
-
-> ApiResponse<CableTermination> dcimCableTerminationsBulkUpdate dcimCableTerminationsBulkUpdateWithHttpInfo(data)
-
-
-
-### Example
-
-```java
-// Import classes:
-import de.codemakers.netbox.client.ApiClient;
-import de.codemakers.netbox.client.ApiException;
-import de.codemakers.netbox.client.ApiResponse;
-import de.codemakers.netbox.client.Configuration;
-import de.codemakers.netbox.client.auth.*;
-import de.codemakers.netbox.client.models.*;
-import de.codemakers.netbox.client.api.DcimApi;
-
-public class Example {
-    public static void main(String[] args) {
-        ApiClient defaultClient = Configuration.getDefaultApiClient();
-        defaultClient.setBasePath("https://demo.netbox.dev/api");
-        
-        // Configure API key authorization: Bearer
-        ApiKeyAuth Bearer = (ApiKeyAuth) defaultClient.getAuthentication("Bearer");
-        Bearer.setApiKey("YOUR API KEY");
-        // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-        //Bearer.setApiKeyPrefix("Token");
-
-        DcimApi apiInstance = new DcimApi(defaultClient);
-        CableTermination data = new CableTermination(); // CableTermination | 
-        try {
-            ApiResponse<CableTermination> response = apiInstance.dcimCableTerminationsBulkUpdateWithHttpInfo(data);
-            System.out.println("Status code: " + response.getStatusCode());
-            System.out.println("Response headers: " + response.getHeaders());
-            System.out.println("Response body: " + response.getData());
-        } catch (ApiException e) {
-            System.err.println("Exception when calling DcimApi#dcimCableTerminationsBulkUpdate");
-            System.err.println("Status code: " + e.getCode());
-            System.err.println("Response headers: " + e.getResponseHeaders());
-            System.err.println("Reason: " + e.getResponseBody());
-            e.printStackTrace();
-        }
-    }
-}
-```
-
-### Parameters
-
-
-| Name | Type | Description  | Notes |
-|------------- | ------------- | ------------- | -------------|
-| **data** | [**CableTermination**](CableTermination.md)|  | |
-
-### Return type
-
-ApiResponse<[**CableTermination**](CableTermination.md)>
-
-
-### Authorization
-
-[Bearer](../README.md#Bearer)
-
-### HTTP request headers
-
-- **Content-Type**: application/json
-- **Accept**: application/json
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **200** |  |  -  |
-
-
-## dcimCableTerminationsCreate
-
-> CableTermination dcimCableTerminationsCreate(data)
-
-
-
-### Example
-
-```java
-// Import classes:
-import de.codemakers.netbox.client.ApiClient;
-import de.codemakers.netbox.client.ApiException;
-import de.codemakers.netbox.client.Configuration;
-import de.codemakers.netbox.client.auth.*;
-import de.codemakers.netbox.client.models.*;
-import de.codemakers.netbox.client.api.DcimApi;
-
-public class Example {
-    public static void main(String[] args) {
-        ApiClient defaultClient = Configuration.getDefaultApiClient();
-        defaultClient.setBasePath("https://demo.netbox.dev/api");
-        
-        // Configure API key authorization: Bearer
-        ApiKeyAuth Bearer = (ApiKeyAuth) defaultClient.getAuthentication("Bearer");
-        Bearer.setApiKey("YOUR API KEY");
-        // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-        //Bearer.setApiKeyPrefix("Token");
-
-        DcimApi apiInstance = new DcimApi(defaultClient);
-        CableTermination data = new CableTermination(); // CableTermination | 
-        try {
-            CableTermination result = apiInstance.dcimCableTerminationsCreate(data);
-            System.out.println(result);
-        } catch (ApiException e) {
-            System.err.println("Exception when calling DcimApi#dcimCableTerminationsCreate");
-            System.err.println("Status code: " + e.getCode());
-            System.err.println("Reason: " + e.getResponseBody());
-            System.err.println("Response headers: " + e.getResponseHeaders());
-            e.printStackTrace();
-        }
-    }
-}
-```
-
-### Parameters
-
-
-| Name | Type | Description  | Notes |
-|------------- | ------------- | ------------- | -------------|
-| **data** | [**CableTermination**](CableTermination.md)|  | |
-
-### Return type
-
-[**CableTermination**](CableTermination.md)
-
-
-### Authorization
-
-[Bearer](../README.md#Bearer)
-
-### HTTP request headers
-
-- **Content-Type**: application/json
-- **Accept**: application/json
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **201** |  |  -  |
-
-## dcimCableTerminationsCreateWithHttpInfo
-
-> ApiResponse<CableTermination> dcimCableTerminationsCreate dcimCableTerminationsCreateWithHttpInfo(data)
-
-
-
-### Example
-
-```java
-// Import classes:
-import de.codemakers.netbox.client.ApiClient;
-import de.codemakers.netbox.client.ApiException;
-import de.codemakers.netbox.client.ApiResponse;
-import de.codemakers.netbox.client.Configuration;
-import de.codemakers.netbox.client.auth.*;
-import de.codemakers.netbox.client.models.*;
-import de.codemakers.netbox.client.api.DcimApi;
-
-public class Example {
-    public static void main(String[] args) {
-        ApiClient defaultClient = Configuration.getDefaultApiClient();
-        defaultClient.setBasePath("https://demo.netbox.dev/api");
-        
-        // Configure API key authorization: Bearer
-        ApiKeyAuth Bearer = (ApiKeyAuth) defaultClient.getAuthentication("Bearer");
-        Bearer.setApiKey("YOUR API KEY");
-        // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-        //Bearer.setApiKeyPrefix("Token");
-
-        DcimApi apiInstance = new DcimApi(defaultClient);
-        CableTermination data = new CableTermination(); // CableTermination | 
-        try {
-            ApiResponse<CableTermination> response = apiInstance.dcimCableTerminationsCreateWithHttpInfo(data);
-            System.out.println("Status code: " + response.getStatusCode());
-            System.out.println("Response headers: " + response.getHeaders());
-            System.out.println("Response body: " + response.getData());
-        } catch (ApiException e) {
-            System.err.println("Exception when calling DcimApi#dcimCableTerminationsCreate");
-            System.err.println("Status code: " + e.getCode());
-            System.err.println("Response headers: " + e.getResponseHeaders());
-            System.err.println("Reason: " + e.getResponseBody());
-            e.printStackTrace();
-        }
-    }
-}
-```
-
-### Parameters
-
-
-| Name | Type | Description  | Notes |
-|------------- | ------------- | ------------- | -------------|
-| **data** | [**CableTermination**](CableTermination.md)|  | |
-
-### Return type
-
-ApiResponse<[**CableTermination**](CableTermination.md)>
-
-
-### Authorization
-
-[Bearer](../README.md#Bearer)
-
-### HTTP request headers
-
-- **Content-Type**: application/json
-- **Accept**: application/json
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **201** |  |  -  |
-
-
-## dcimCableTerminationsDelete
-
-> void dcimCableTerminationsDelete(id)
-
-
-
-### Example
-
-```java
-// Import classes:
-import de.codemakers.netbox.client.ApiClient;
-import de.codemakers.netbox.client.ApiException;
-import de.codemakers.netbox.client.Configuration;
-import de.codemakers.netbox.client.auth.*;
-import de.codemakers.netbox.client.models.*;
-import de.codemakers.netbox.client.api.DcimApi;
-
-public class Example {
-    public static void main(String[] args) {
-        ApiClient defaultClient = Configuration.getDefaultApiClient();
-        defaultClient.setBasePath("https://demo.netbox.dev/api");
-        
-        // Configure API key authorization: Bearer
-        ApiKeyAuth Bearer = (ApiKeyAuth) defaultClient.getAuthentication("Bearer");
-        Bearer.setApiKey("YOUR API KEY");
-        // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-        //Bearer.setApiKeyPrefix("Token");
-
-        DcimApi apiInstance = new DcimApi(defaultClient);
-        Integer id = 56; // Integer | A unique integer value identifying this cable termination.
-        try {
-            apiInstance.dcimCableTerminationsDelete(id);
-        } catch (ApiException e) {
-            System.err.println("Exception when calling DcimApi#dcimCableTerminationsDelete");
-            System.err.println("Status code: " + e.getCode());
-            System.err.println("Reason: " + e.getResponseBody());
-            System.err.println("Response headers: " + e.getResponseHeaders());
-            e.printStackTrace();
-        }
-    }
-}
-```
-
-### Parameters
-
-
-| Name | Type | Description  | Notes |
-|------------- | ------------- | ------------- | -------------|
-| **id** | **Integer**| A unique integer value identifying this cable termination. | |
-
-### Return type
-
-
-null (empty response body)
-
-### Authorization
-
-[Bearer](../README.md#Bearer)
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: Not defined
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **204** |  |  -  |
-
-## dcimCableTerminationsDeleteWithHttpInfo
-
-> ApiResponse<Void> dcimCableTerminationsDelete dcimCableTerminationsDeleteWithHttpInfo(id)
-
-
-
-### Example
-
-```java
-// Import classes:
-import de.codemakers.netbox.client.ApiClient;
-import de.codemakers.netbox.client.ApiException;
-import de.codemakers.netbox.client.ApiResponse;
-import de.codemakers.netbox.client.Configuration;
-import de.codemakers.netbox.client.auth.*;
-import de.codemakers.netbox.client.models.*;
-import de.codemakers.netbox.client.api.DcimApi;
-
-public class Example {
-    public static void main(String[] args) {
-        ApiClient defaultClient = Configuration.getDefaultApiClient();
-        defaultClient.setBasePath("https://demo.netbox.dev/api");
-        
-        // Configure API key authorization: Bearer
-        ApiKeyAuth Bearer = (ApiKeyAuth) defaultClient.getAuthentication("Bearer");
-        Bearer.setApiKey("YOUR API KEY");
-        // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-        //Bearer.setApiKeyPrefix("Token");
-
-        DcimApi apiInstance = new DcimApi(defaultClient);
-        Integer id = 56; // Integer | A unique integer value identifying this cable termination.
-        try {
-            ApiResponse<Void> response = apiInstance.dcimCableTerminationsDeleteWithHttpInfo(id);
-            System.out.println("Status code: " + response.getStatusCode());
-            System.out.println("Response headers: " + response.getHeaders());
-        } catch (ApiException e) {
-            System.err.println("Exception when calling DcimApi#dcimCableTerminationsDelete");
-            System.err.println("Status code: " + e.getCode());
-            System.err.println("Response headers: " + e.getResponseHeaders());
-            System.err.println("Reason: " + e.getResponseBody());
-            e.printStackTrace();
-        }
-    }
-}
-```
-
-### Parameters
-
-
-| Name | Type | Description  | Notes |
-|------------- | ------------- | ------------- | -------------|
-| **id** | **Integer**| A unique integer value identifying this cable termination. | |
-
-### Return type
-
-
-ApiResponse<Void>
-
-### Authorization
-
-[Bearer](../README.md#Bearer)
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: Not defined
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **204** |  |  -  |
-
-
-## dcimCableTerminationsList
-
-> DcimCableTerminationsList200Response dcimCableTerminationsList(id, cable, cableEnd, terminationType, terminationId, idN, idLte, idLt, idGte, idGt, cableN, cableEndN, terminationTypeN, terminationIdN, terminationIdLte, terminationIdLt, terminationIdGte, terminationIdGt, ordering, limit, offset)
-
-
-
-Overrides ListModelMixin to allow processing ExportTemplates.
-
-### Example
-
-```java
-// Import classes:
-import de.codemakers.netbox.client.ApiClient;
-import de.codemakers.netbox.client.ApiException;
-import de.codemakers.netbox.client.Configuration;
-import de.codemakers.netbox.client.auth.*;
-import de.codemakers.netbox.client.models.*;
-import de.codemakers.netbox.client.api.DcimApi;
-
-public class Example {
-    public static void main(String[] args) {
-        ApiClient defaultClient = Configuration.getDefaultApiClient();
-        defaultClient.setBasePath("https://demo.netbox.dev/api");
-        
-        // Configure API key authorization: Bearer
-        ApiKeyAuth Bearer = (ApiKeyAuth) defaultClient.getAuthentication("Bearer");
-        Bearer.setApiKey("YOUR API KEY");
-        // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-        //Bearer.setApiKeyPrefix("Token");
-
-        DcimApi apiInstance = new DcimApi(defaultClient);
-        String id = "id_example"; // String | 
-        String cable = "cable_example"; // String | 
-        String cableEnd = "cableEnd_example"; // String | 
-        String terminationType = "terminationType_example"; // String | 
-        String terminationId = "terminationId_example"; // String | 
-        String idN = "idN_example"; // String | 
-        String idLte = "idLte_example"; // String | 
-        String idLt = "idLt_example"; // String | 
-        String idGte = "idGte_example"; // String | 
-        String idGt = "idGt_example"; // String | 
-        String cableN = "cableN_example"; // String | 
-        String cableEndN = "cableEndN_example"; // String | 
-        String terminationTypeN = "terminationTypeN_example"; // String | 
-        String terminationIdN = "terminationIdN_example"; // String | 
-        String terminationIdLte = "terminationIdLte_example"; // String | 
-        String terminationIdLt = "terminationIdLt_example"; // String | 
-        String terminationIdGte = "terminationIdGte_example"; // String | 
-        String terminationIdGt = "terminationIdGt_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
-        Integer limit = 56; // Integer | Number of results to return per page.
-        Integer offset = 56; // Integer | The initial index from which to return the results.
-        try {
-            DcimCableTerminationsList200Response result = apiInstance.dcimCableTerminationsList(id, cable, cableEnd, terminationType, terminationId, idN, idLte, idLt, idGte, idGt, cableN, cableEndN, terminationTypeN, terminationIdN, terminationIdLte, terminationIdLt, terminationIdGte, terminationIdGt, ordering, limit, offset);
-            System.out.println(result);
-        } catch (ApiException e) {
-            System.err.println("Exception when calling DcimApi#dcimCableTerminationsList");
-            System.err.println("Status code: " + e.getCode());
-            System.err.println("Reason: " + e.getResponseBody());
-            System.err.println("Response headers: " + e.getResponseHeaders());
-            e.printStackTrace();
-        }
-    }
-}
-```
-
-### Parameters
-
-
-| Name | Type | Description  | Notes |
-|------------- | ------------- | ------------- | -------------|
-| **id** | **String**|  | [optional] |
-| **cable** | **String**|  | [optional] |
-| **cableEnd** | **String**|  | [optional] |
-| **terminationType** | **String**|  | [optional] |
-| **terminationId** | **String**|  | [optional] |
-| **idN** | **String**|  | [optional] |
-| **idLte** | **String**|  | [optional] |
-| **idLt** | **String**|  | [optional] |
-| **idGte** | **String**|  | [optional] |
-| **idGt** | **String**|  | [optional] |
-| **cableN** | **String**|  | [optional] |
-| **cableEndN** | **String**|  | [optional] |
-| **terminationTypeN** | **String**|  | [optional] |
-| **terminationIdN** | **String**|  | [optional] |
-| **terminationIdLte** | **String**|  | [optional] |
-| **terminationIdLt** | **String**|  | [optional] |
-| **terminationIdGte** | **String**|  | [optional] |
-| **terminationIdGt** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
-| **limit** | **Integer**| Number of results to return per page. | [optional] |
-| **offset** | **Integer**| The initial index from which to return the results. | [optional] |
-
-### Return type
-
-[**DcimCableTerminationsList200Response**](DcimCableTerminationsList200Response.md)
-
-
-### Authorization
-
-[Bearer](../README.md#Bearer)
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/json
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **200** |  |  -  |
-
-## dcimCableTerminationsListWithHttpInfo
-
-> ApiResponse<DcimCableTerminationsList200Response> dcimCableTerminationsList dcimCableTerminationsListWithHttpInfo(id, cable, cableEnd, terminationType, terminationId, idN, idLte, idLt, idGte, idGt, cableN, cableEndN, terminationTypeN, terminationIdN, terminationIdLte, terminationIdLt, terminationIdGte, terminationIdGt, ordering, limit, offset)
-
-
-
-Overrides ListModelMixin to allow processing ExportTemplates.
-
-### Example
-
-```java
-// Import classes:
-import de.codemakers.netbox.client.ApiClient;
-import de.codemakers.netbox.client.ApiException;
-import de.codemakers.netbox.client.ApiResponse;
-import de.codemakers.netbox.client.Configuration;
-import de.codemakers.netbox.client.auth.*;
-import de.codemakers.netbox.client.models.*;
-import de.codemakers.netbox.client.api.DcimApi;
-
-public class Example {
-    public static void main(String[] args) {
-        ApiClient defaultClient = Configuration.getDefaultApiClient();
-        defaultClient.setBasePath("https://demo.netbox.dev/api");
-        
-        // Configure API key authorization: Bearer
-        ApiKeyAuth Bearer = (ApiKeyAuth) defaultClient.getAuthentication("Bearer");
-        Bearer.setApiKey("YOUR API KEY");
-        // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-        //Bearer.setApiKeyPrefix("Token");
-
-        DcimApi apiInstance = new DcimApi(defaultClient);
-        String id = "id_example"; // String | 
-        String cable = "cable_example"; // String | 
-        String cableEnd = "cableEnd_example"; // String | 
-        String terminationType = "terminationType_example"; // String | 
-        String terminationId = "terminationId_example"; // String | 
-        String idN = "idN_example"; // String | 
-        String idLte = "idLte_example"; // String | 
-        String idLt = "idLt_example"; // String | 
-        String idGte = "idGte_example"; // String | 
-        String idGt = "idGt_example"; // String | 
-        String cableN = "cableN_example"; // String | 
-        String cableEndN = "cableEndN_example"; // String | 
-        String terminationTypeN = "terminationTypeN_example"; // String | 
-        String terminationIdN = "terminationIdN_example"; // String | 
-        String terminationIdLte = "terminationIdLte_example"; // String | 
-        String terminationIdLt = "terminationIdLt_example"; // String | 
-        String terminationIdGte = "terminationIdGte_example"; // String | 
-        String terminationIdGt = "terminationIdGt_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
-        Integer limit = 56; // Integer | Number of results to return per page.
-        Integer offset = 56; // Integer | The initial index from which to return the results.
-        try {
-            ApiResponse<DcimCableTerminationsList200Response> response = apiInstance.dcimCableTerminationsListWithHttpInfo(id, cable, cableEnd, terminationType, terminationId, idN, idLte, idLt, idGte, idGt, cableN, cableEndN, terminationTypeN, terminationIdN, terminationIdLte, terminationIdLt, terminationIdGte, terminationIdGt, ordering, limit, offset);
-            System.out.println("Status code: " + response.getStatusCode());
-            System.out.println("Response headers: " + response.getHeaders());
-            System.out.println("Response body: " + response.getData());
-        } catch (ApiException e) {
-            System.err.println("Exception when calling DcimApi#dcimCableTerminationsList");
-            System.err.println("Status code: " + e.getCode());
-            System.err.println("Response headers: " + e.getResponseHeaders());
-            System.err.println("Reason: " + e.getResponseBody());
-            e.printStackTrace();
-        }
-    }
-}
-```
-
-### Parameters
-
-
-| Name | Type | Description  | Notes |
-|------------- | ------------- | ------------- | -------------|
-| **id** | **String**|  | [optional] |
-| **cable** | **String**|  | [optional] |
-| **cableEnd** | **String**|  | [optional] |
-| **terminationType** | **String**|  | [optional] |
-| **terminationId** | **String**|  | [optional] |
-| **idN** | **String**|  | [optional] |
-| **idLte** | **String**|  | [optional] |
-| **idLt** | **String**|  | [optional] |
-| **idGte** | **String**|  | [optional] |
-| **idGt** | **String**|  | [optional] |
-| **cableN** | **String**|  | [optional] |
-| **cableEndN** | **String**|  | [optional] |
-| **terminationTypeN** | **String**|  | [optional] |
-| **terminationIdN** | **String**|  | [optional] |
-| **terminationIdLte** | **String**|  | [optional] |
-| **terminationIdLt** | **String**|  | [optional] |
-| **terminationIdGte** | **String**|  | [optional] |
-| **terminationIdGt** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
-| **limit** | **Integer**| Number of results to return per page. | [optional] |
-| **offset** | **Integer**| The initial index from which to return the results. | [optional] |
-
-### Return type
-
-ApiResponse<[**DcimCableTerminationsList200Response**](DcimCableTerminationsList200Response.md)>
-
-
-### Authorization
-
-[Bearer](../README.md#Bearer)
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/json
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **200** |  |  -  |
-
-
-## dcimCableTerminationsPartialUpdate
-
-> CableTermination dcimCableTerminationsPartialUpdate(id, data)
-
-
-
-### Example
-
-```java
-// Import classes:
-import de.codemakers.netbox.client.ApiClient;
-import de.codemakers.netbox.client.ApiException;
-import de.codemakers.netbox.client.Configuration;
-import de.codemakers.netbox.client.auth.*;
-import de.codemakers.netbox.client.models.*;
-import de.codemakers.netbox.client.api.DcimApi;
-
-public class Example {
-    public static void main(String[] args) {
-        ApiClient defaultClient = Configuration.getDefaultApiClient();
-        defaultClient.setBasePath("https://demo.netbox.dev/api");
-        
-        // Configure API key authorization: Bearer
-        ApiKeyAuth Bearer = (ApiKeyAuth) defaultClient.getAuthentication("Bearer");
-        Bearer.setApiKey("YOUR API KEY");
-        // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-        //Bearer.setApiKeyPrefix("Token");
-
-        DcimApi apiInstance = new DcimApi(defaultClient);
-        Integer id = 56; // Integer | A unique integer value identifying this cable termination.
-        CableTermination data = new CableTermination(); // CableTermination | 
-        try {
-            CableTermination result = apiInstance.dcimCableTerminationsPartialUpdate(id, data);
-            System.out.println(result);
-        } catch (ApiException e) {
-            System.err.println("Exception when calling DcimApi#dcimCableTerminationsPartialUpdate");
-            System.err.println("Status code: " + e.getCode());
-            System.err.println("Reason: " + e.getResponseBody());
-            System.err.println("Response headers: " + e.getResponseHeaders());
-            e.printStackTrace();
-        }
-    }
-}
-```
-
-### Parameters
-
-
-| Name | Type | Description  | Notes |
-|------------- | ------------- | ------------- | -------------|
-| **id** | **Integer**| A unique integer value identifying this cable termination. | |
-| **data** | [**CableTermination**](CableTermination.md)|  | |
-
-### Return type
-
-[**CableTermination**](CableTermination.md)
-
-
-### Authorization
-
-[Bearer](../README.md#Bearer)
-
-### HTTP request headers
-
-- **Content-Type**: application/json
-- **Accept**: application/json
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **200** |  |  -  |
-
-## dcimCableTerminationsPartialUpdateWithHttpInfo
-
-> ApiResponse<CableTermination> dcimCableTerminationsPartialUpdate dcimCableTerminationsPartialUpdateWithHttpInfo(id, data)
-
-
-
-### Example
-
-```java
-// Import classes:
-import de.codemakers.netbox.client.ApiClient;
-import de.codemakers.netbox.client.ApiException;
-import de.codemakers.netbox.client.ApiResponse;
-import de.codemakers.netbox.client.Configuration;
-import de.codemakers.netbox.client.auth.*;
-import de.codemakers.netbox.client.models.*;
-import de.codemakers.netbox.client.api.DcimApi;
-
-public class Example {
-    public static void main(String[] args) {
-        ApiClient defaultClient = Configuration.getDefaultApiClient();
-        defaultClient.setBasePath("https://demo.netbox.dev/api");
-        
-        // Configure API key authorization: Bearer
-        ApiKeyAuth Bearer = (ApiKeyAuth) defaultClient.getAuthentication("Bearer");
-        Bearer.setApiKey("YOUR API KEY");
-        // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-        //Bearer.setApiKeyPrefix("Token");
-
-        DcimApi apiInstance = new DcimApi(defaultClient);
-        Integer id = 56; // Integer | A unique integer value identifying this cable termination.
-        CableTermination data = new CableTermination(); // CableTermination | 
-        try {
-            ApiResponse<CableTermination> response = apiInstance.dcimCableTerminationsPartialUpdateWithHttpInfo(id, data);
-            System.out.println("Status code: " + response.getStatusCode());
-            System.out.println("Response headers: " + response.getHeaders());
-            System.out.println("Response body: " + response.getData());
-        } catch (ApiException e) {
-            System.err.println("Exception when calling DcimApi#dcimCableTerminationsPartialUpdate");
-            System.err.println("Status code: " + e.getCode());
-            System.err.println("Response headers: " + e.getResponseHeaders());
-            System.err.println("Reason: " + e.getResponseBody());
-            e.printStackTrace();
-        }
-    }
-}
-```
-
-### Parameters
-
-
-| Name | Type | Description  | Notes |
-|------------- | ------------- | ------------- | -------------|
-| **id** | **Integer**| A unique integer value identifying this cable termination. | |
-| **data** | [**CableTermination**](CableTermination.md)|  | |
-
-### Return type
-
-ApiResponse<[**CableTermination**](CableTermination.md)>
-
-
-### Authorization
-
-[Bearer](../README.md#Bearer)
-
-### HTTP request headers
-
-- **Content-Type**: application/json
-- **Accept**: application/json
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **200** |  |  -  |
-
-
-## dcimCableTerminationsRead
-
-> CableTermination dcimCableTerminationsRead(id)
-
-
-
-### Example
-
-```java
-// Import classes:
-import de.codemakers.netbox.client.ApiClient;
-import de.codemakers.netbox.client.ApiException;
-import de.codemakers.netbox.client.Configuration;
-import de.codemakers.netbox.client.auth.*;
-import de.codemakers.netbox.client.models.*;
-import de.codemakers.netbox.client.api.DcimApi;
-
-public class Example {
-    public static void main(String[] args) {
-        ApiClient defaultClient = Configuration.getDefaultApiClient();
-        defaultClient.setBasePath("https://demo.netbox.dev/api");
-        
-        // Configure API key authorization: Bearer
-        ApiKeyAuth Bearer = (ApiKeyAuth) defaultClient.getAuthentication("Bearer");
-        Bearer.setApiKey("YOUR API KEY");
-        // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-        //Bearer.setApiKeyPrefix("Token");
-
-        DcimApi apiInstance = new DcimApi(defaultClient);
-        Integer id = 56; // Integer | A unique integer value identifying this cable termination.
-        try {
-            CableTermination result = apiInstance.dcimCableTerminationsRead(id);
-            System.out.println(result);
-        } catch (ApiException e) {
-            System.err.println("Exception when calling DcimApi#dcimCableTerminationsRead");
-            System.err.println("Status code: " + e.getCode());
-            System.err.println("Reason: " + e.getResponseBody());
-            System.err.println("Response headers: " + e.getResponseHeaders());
-            e.printStackTrace();
-        }
-    }
-}
-```
-
-### Parameters
-
-
-| Name | Type | Description  | Notes |
-|------------- | ------------- | ------------- | -------------|
-| **id** | **Integer**| A unique integer value identifying this cable termination. | |
-
-### Return type
-
-[**CableTermination**](CableTermination.md)
-
-
-### Authorization
-
-[Bearer](../README.md#Bearer)
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/json
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **200** |  |  -  |
-
-## dcimCableTerminationsReadWithHttpInfo
-
-> ApiResponse<CableTermination> dcimCableTerminationsRead dcimCableTerminationsReadWithHttpInfo(id)
-
-
-
-### Example
-
-```java
-// Import classes:
-import de.codemakers.netbox.client.ApiClient;
-import de.codemakers.netbox.client.ApiException;
-import de.codemakers.netbox.client.ApiResponse;
-import de.codemakers.netbox.client.Configuration;
-import de.codemakers.netbox.client.auth.*;
-import de.codemakers.netbox.client.models.*;
-import de.codemakers.netbox.client.api.DcimApi;
-
-public class Example {
-    public static void main(String[] args) {
-        ApiClient defaultClient = Configuration.getDefaultApiClient();
-        defaultClient.setBasePath("https://demo.netbox.dev/api");
-        
-        // Configure API key authorization: Bearer
-        ApiKeyAuth Bearer = (ApiKeyAuth) defaultClient.getAuthentication("Bearer");
-        Bearer.setApiKey("YOUR API KEY");
-        // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-        //Bearer.setApiKeyPrefix("Token");
-
-        DcimApi apiInstance = new DcimApi(defaultClient);
-        Integer id = 56; // Integer | A unique integer value identifying this cable termination.
-        try {
-            ApiResponse<CableTermination> response = apiInstance.dcimCableTerminationsReadWithHttpInfo(id);
-            System.out.println("Status code: " + response.getStatusCode());
-            System.out.println("Response headers: " + response.getHeaders());
-            System.out.println("Response body: " + response.getData());
-        } catch (ApiException e) {
-            System.err.println("Exception when calling DcimApi#dcimCableTerminationsRead");
-            System.err.println("Status code: " + e.getCode());
-            System.err.println("Response headers: " + e.getResponseHeaders());
-            System.err.println("Reason: " + e.getResponseBody());
-            e.printStackTrace();
-        }
-    }
-}
-```
-
-### Parameters
-
-
-| Name | Type | Description  | Notes |
-|------------- | ------------- | ------------- | -------------|
-| **id** | **Integer**| A unique integer value identifying this cable termination. | |
-
-### Return type
-
-ApiResponse<[**CableTermination**](CableTermination.md)>
-
-
-### Authorization
-
-[Bearer](../README.md#Bearer)
-
-### HTTP request headers
-
-- **Content-Type**: Not defined
-- **Accept**: application/json
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **200** |  |  -  |
-
-
-## dcimCableTerminationsUpdate
-
-> CableTermination dcimCableTerminationsUpdate(id, data)
-
-
-
-### Example
-
-```java
-// Import classes:
-import de.codemakers.netbox.client.ApiClient;
-import de.codemakers.netbox.client.ApiException;
-import de.codemakers.netbox.client.Configuration;
-import de.codemakers.netbox.client.auth.*;
-import de.codemakers.netbox.client.models.*;
-import de.codemakers.netbox.client.api.DcimApi;
-
-public class Example {
-    public static void main(String[] args) {
-        ApiClient defaultClient = Configuration.getDefaultApiClient();
-        defaultClient.setBasePath("https://demo.netbox.dev/api");
-        
-        // Configure API key authorization: Bearer
-        ApiKeyAuth Bearer = (ApiKeyAuth) defaultClient.getAuthentication("Bearer");
-        Bearer.setApiKey("YOUR API KEY");
-        // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-        //Bearer.setApiKeyPrefix("Token");
-
-        DcimApi apiInstance = new DcimApi(defaultClient);
-        Integer id = 56; // Integer | A unique integer value identifying this cable termination.
-        CableTermination data = new CableTermination(); // CableTermination | 
-        try {
-            CableTermination result = apiInstance.dcimCableTerminationsUpdate(id, data);
-            System.out.println(result);
-        } catch (ApiException e) {
-            System.err.println("Exception when calling DcimApi#dcimCableTerminationsUpdate");
-            System.err.println("Status code: " + e.getCode());
-            System.err.println("Reason: " + e.getResponseBody());
-            System.err.println("Response headers: " + e.getResponseHeaders());
-            e.printStackTrace();
-        }
-    }
-}
-```
-
-### Parameters
-
-
-| Name | Type | Description  | Notes |
-|------------- | ------------- | ------------- | -------------|
-| **id** | **Integer**| A unique integer value identifying this cable termination. | |
-| **data** | [**CableTermination**](CableTermination.md)|  | |
-
-### Return type
-
-[**CableTermination**](CableTermination.md)
-
-
-### Authorization
-
-[Bearer](../README.md#Bearer)
-
-### HTTP request headers
-
-- **Content-Type**: application/json
-- **Accept**: application/json
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **200** |  |  -  |
-
-## dcimCableTerminationsUpdateWithHttpInfo
-
-> ApiResponse<CableTermination> dcimCableTerminationsUpdate dcimCableTerminationsUpdateWithHttpInfo(id, data)
-
-
-
-### Example
-
-```java
-// Import classes:
-import de.codemakers.netbox.client.ApiClient;
-import de.codemakers.netbox.client.ApiException;
-import de.codemakers.netbox.client.ApiResponse;
-import de.codemakers.netbox.client.Configuration;
-import de.codemakers.netbox.client.auth.*;
-import de.codemakers.netbox.client.models.*;
-import de.codemakers.netbox.client.api.DcimApi;
-
-public class Example {
-    public static void main(String[] args) {
-        ApiClient defaultClient = Configuration.getDefaultApiClient();
-        defaultClient.setBasePath("https://demo.netbox.dev/api");
-        
-        // Configure API key authorization: Bearer
-        ApiKeyAuth Bearer = (ApiKeyAuth) defaultClient.getAuthentication("Bearer");
-        Bearer.setApiKey("YOUR API KEY");
-        // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-        //Bearer.setApiKeyPrefix("Token");
-
-        DcimApi apiInstance = new DcimApi(defaultClient);
-        Integer id = 56; // Integer | A unique integer value identifying this cable termination.
-        CableTermination data = new CableTermination(); // CableTermination | 
-        try {
-            ApiResponse<CableTermination> response = apiInstance.dcimCableTerminationsUpdateWithHttpInfo(id, data);
-            System.out.println("Status code: " + response.getStatusCode());
-            System.out.println("Response headers: " + response.getHeaders());
-            System.out.println("Response body: " + response.getData());
-        } catch (ApiException e) {
-            System.err.println("Exception when calling DcimApi#dcimCableTerminationsUpdate");
-            System.err.println("Status code: " + e.getCode());
-            System.err.println("Response headers: " + e.getResponseHeaders());
-            System.err.println("Reason: " + e.getResponseBody());
-            e.printStackTrace();
-        }
-    }
-}
-```
-
-### Parameters
-
-
-| Name | Type | Description  | Notes |
-|------------- | ------------- | ------------- | -------------|
-| **id** | **Integer**| A unique integer value identifying this cable termination. | |
-| **data** | [**CableTermination**](CableTermination.md)|  | |
-
-### Return type
-
-ApiResponse<[**CableTermination**](CableTermination.md)>
-
-
-### Authorization
-
-[Bearer](../README.md#Bearer)
-
-### HTTP request headers
-
-- **Content-Type**: application/json
-- **Accept**: application/json
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-| **200** |  |  -  |
 
 
 ## dcimCablesBulkDelete
@@ -2835,7 +1441,7 @@ ApiResponse<Void>
 
 ## dcimCablesList
 
-> DcimCablesList200Response dcimCablesList(id, label, length, lengthUnit, tenantGroupId, tenantGroup, tenantId, tenant, created, lastUpdated, q, tag, terminationAType, terminationAId, terminationBType, terminationBId, type, status, color, deviceId, device, rackId, rack, locationId, location, siteId, site, idN, idLte, idLt, idGte, idGt, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, lengthN, lengthLte, lengthLt, lengthGte, lengthGt, lengthUnitN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, terminationATypeN, terminationAIdN, terminationAIdLte, terminationAIdLt, terminationAIdGte, terminationAIdGt, terminationBTypeN, terminationBIdN, terminationBIdLte, terminationBIdLt, terminationBIdGte, terminationBIdGt, typeN, statusN, colorN, ordering, limit, offset)
+> DcimCablesList200Response dcimCablesList(id, label, length, lengthUnit, terminationAId, terminationBId, tenantGroupId, tenantGroup, tenantId, tenant, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, terminationAType, terminationBType, type, status, color, deviceId, device, rackId, rack, siteId, site, idN, idLte, idLt, idGte, idGt, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, lengthN, lengthLte, lengthLt, lengthGte, lengthGt, lengthUnitN, terminationAIdN, terminationAIdLte, terminationAIdLt, terminationAIdGte, terminationAIdGt, terminationBIdN, terminationBIdLte, terminationBIdLt, terminationBIdGte, terminationBIdGt, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, tagN, terminationATypeN, terminationBTypeN, typeN, statusN, colorN, limit, offset)
 
 
 
@@ -2868,18 +1474,22 @@ public class Example {
         String label = "label_example"; // String | 
         String length = "length_example"; // String | 
         String lengthUnit = "lengthUnit_example"; // String | 
+        String terminationAId = "terminationAId_example"; // String | 
+        String terminationBId = "terminationBId_example"; // String | 
         String tenantGroupId = "tenantGroupId_example"; // String | 
         String tenantGroup = "tenantGroup_example"; // String | 
         String tenantId = "tenantId_example"; // String | 
         String tenant = "tenant_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String terminationAType = "terminationAType_example"; // String | 
-        String terminationAId = "terminationAId_example"; // String | 
         String terminationBType = "terminationBType_example"; // String | 
-        String terminationBId = "terminationBId_example"; // String | 
         String type = "type_example"; // String | 
         String status = "status_example"; // String | 
         String color = "color_example"; // String | 
@@ -2887,8 +1497,6 @@ public class Example {
         String device = "device_example"; // String | 
         String rackId = "rackId_example"; // String | 
         String rack = "rack_example"; // String | 
-        String locationId = "locationId_example"; // String | 
-        String location = "location_example"; // String | 
         String siteId = "siteId_example"; // String | 
         String site = "site_example"; // String | 
         String idN = "idN_example"; // String | 
@@ -2911,41 +1519,30 @@ public class Example {
         String lengthGte = "lengthGte_example"; // String | 
         String lengthGt = "lengthGt_example"; // String | 
         String lengthUnitN = "lengthUnitN_example"; // String | 
-        String tenantGroupIdN = "tenantGroupIdN_example"; // String | 
-        String tenantGroupN = "tenantGroupN_example"; // String | 
-        String tenantIdN = "tenantIdN_example"; // String | 
-        String tenantN = "tenantN_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
-        String tagN = "tagN_example"; // String | 
-        String terminationATypeN = "terminationATypeN_example"; // String | 
         String terminationAIdN = "terminationAIdN_example"; // String | 
         String terminationAIdLte = "terminationAIdLte_example"; // String | 
         String terminationAIdLt = "terminationAIdLt_example"; // String | 
         String terminationAIdGte = "terminationAIdGte_example"; // String | 
         String terminationAIdGt = "terminationAIdGt_example"; // String | 
-        String terminationBTypeN = "terminationBTypeN_example"; // String | 
         String terminationBIdN = "terminationBIdN_example"; // String | 
         String terminationBIdLte = "terminationBIdLte_example"; // String | 
         String terminationBIdLt = "terminationBIdLt_example"; // String | 
         String terminationBIdGte = "terminationBIdGte_example"; // String | 
         String terminationBIdGt = "terminationBIdGt_example"; // String | 
+        String tenantGroupIdN = "tenantGroupIdN_example"; // String | 
+        String tenantGroupN = "tenantGroupN_example"; // String | 
+        String tenantIdN = "tenantIdN_example"; // String | 
+        String tenantN = "tenantN_example"; // String | 
+        String tagN = "tagN_example"; // String | 
+        String terminationATypeN = "terminationATypeN_example"; // String | 
+        String terminationBTypeN = "terminationBTypeN_example"; // String | 
         String typeN = "typeN_example"; // String | 
         String statusN = "statusN_example"; // String | 
         String colorN = "colorN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            DcimCablesList200Response result = apiInstance.dcimCablesList(id, label, length, lengthUnit, tenantGroupId, tenantGroup, tenantId, tenant, created, lastUpdated, q, tag, terminationAType, terminationAId, terminationBType, terminationBId, type, status, color, deviceId, device, rackId, rack, locationId, location, siteId, site, idN, idLte, idLt, idGte, idGt, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, lengthN, lengthLte, lengthLt, lengthGte, lengthGt, lengthUnitN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, terminationATypeN, terminationAIdN, terminationAIdLte, terminationAIdLt, terminationAIdGte, terminationAIdGt, terminationBTypeN, terminationBIdN, terminationBIdLte, terminationBIdLt, terminationBIdGte, terminationBIdGt, typeN, statusN, colorN, ordering, limit, offset);
+            DcimCablesList200Response result = apiInstance.dcimCablesList(id, label, length, lengthUnit, terminationAId, terminationBId, tenantGroupId, tenantGroup, tenantId, tenant, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, terminationAType, terminationBType, type, status, color, deviceId, device, rackId, rack, siteId, site, idN, idLte, idLt, idGte, idGt, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, lengthN, lengthLte, lengthLt, lengthGte, lengthGt, lengthUnitN, terminationAIdN, terminationAIdLte, terminationAIdLt, terminationAIdGte, terminationAIdGt, terminationBIdN, terminationBIdLte, terminationBIdLt, terminationBIdGte, terminationBIdGt, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, tagN, terminationATypeN, terminationBTypeN, typeN, statusN, colorN, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling DcimApi#dcimCablesList");
@@ -2967,18 +1564,22 @@ public class Example {
 | **label** | **String**|  | [optional] |
 | **length** | **String**|  | [optional] |
 | **lengthUnit** | **String**|  | [optional] |
+| **terminationAId** | **String**|  | [optional] |
+| **terminationBId** | **String**|  | [optional] |
 | **tenantGroupId** | **String**|  | [optional] |
 | **tenantGroup** | **String**|  | [optional] |
 | **tenantId** | **String**|  | [optional] |
 | **tenant** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **terminationAType** | **String**|  | [optional] |
-| **terminationAId** | **String**|  | [optional] |
 | **terminationBType** | **String**|  | [optional] |
-| **terminationBId** | **String**|  | [optional] |
 | **type** | **String**|  | [optional] |
 | **status** | **String**|  | [optional] |
 | **color** | **String**|  | [optional] |
@@ -2986,8 +1587,6 @@ public class Example {
 | **device** | **String**|  | [optional] |
 | **rackId** | **String**|  | [optional] |
 | **rack** | **String**|  | [optional] |
-| **locationId** | **String**|  | [optional] |
-| **location** | **String**|  | [optional] |
 | **siteId** | **String**|  | [optional] |
 | **site** | **String**|  | [optional] |
 | **idN** | **String**|  | [optional] |
@@ -3010,37 +1609,26 @@ public class Example {
 | **lengthGte** | **String**|  | [optional] |
 | **lengthGt** | **String**|  | [optional] |
 | **lengthUnitN** | **String**|  | [optional] |
-| **tenantGroupIdN** | **String**|  | [optional] |
-| **tenantGroupN** | **String**|  | [optional] |
-| **tenantIdN** | **String**|  | [optional] |
-| **tenantN** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
-| **tagN** | **String**|  | [optional] |
-| **terminationATypeN** | **String**|  | [optional] |
 | **terminationAIdN** | **String**|  | [optional] |
 | **terminationAIdLte** | **String**|  | [optional] |
 | **terminationAIdLt** | **String**|  | [optional] |
 | **terminationAIdGte** | **String**|  | [optional] |
 | **terminationAIdGt** | **String**|  | [optional] |
-| **terminationBTypeN** | **String**|  | [optional] |
 | **terminationBIdN** | **String**|  | [optional] |
 | **terminationBIdLte** | **String**|  | [optional] |
 | **terminationBIdLt** | **String**|  | [optional] |
 | **terminationBIdGte** | **String**|  | [optional] |
 | **terminationBIdGt** | **String**|  | [optional] |
+| **tenantGroupIdN** | **String**|  | [optional] |
+| **tenantGroupN** | **String**|  | [optional] |
+| **tenantIdN** | **String**|  | [optional] |
+| **tenantN** | **String**|  | [optional] |
+| **tagN** | **String**|  | [optional] |
+| **terminationATypeN** | **String**|  | [optional] |
+| **terminationBTypeN** | **String**|  | [optional] |
 | **typeN** | **String**|  | [optional] |
 | **statusN** | **String**|  | [optional] |
 | **colorN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -3065,7 +1653,7 @@ public class Example {
 
 ## dcimCablesListWithHttpInfo
 
-> ApiResponse<DcimCablesList200Response> dcimCablesList dcimCablesListWithHttpInfo(id, label, length, lengthUnit, tenantGroupId, tenantGroup, tenantId, tenant, created, lastUpdated, q, tag, terminationAType, terminationAId, terminationBType, terminationBId, type, status, color, deviceId, device, rackId, rack, locationId, location, siteId, site, idN, idLte, idLt, idGte, idGt, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, lengthN, lengthLte, lengthLt, lengthGte, lengthGt, lengthUnitN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, terminationATypeN, terminationAIdN, terminationAIdLte, terminationAIdLt, terminationAIdGte, terminationAIdGt, terminationBTypeN, terminationBIdN, terminationBIdLte, terminationBIdLt, terminationBIdGte, terminationBIdGt, typeN, statusN, colorN, ordering, limit, offset)
+> ApiResponse<DcimCablesList200Response> dcimCablesList dcimCablesListWithHttpInfo(id, label, length, lengthUnit, terminationAId, terminationBId, tenantGroupId, tenantGroup, tenantId, tenant, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, terminationAType, terminationBType, type, status, color, deviceId, device, rackId, rack, siteId, site, idN, idLte, idLt, idGte, idGt, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, lengthN, lengthLte, lengthLt, lengthGte, lengthGt, lengthUnitN, terminationAIdN, terminationAIdLte, terminationAIdLt, terminationAIdGte, terminationAIdGt, terminationBIdN, terminationBIdLte, terminationBIdLt, terminationBIdGte, terminationBIdGt, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, tagN, terminationATypeN, terminationBTypeN, typeN, statusN, colorN, limit, offset)
 
 
 
@@ -3099,18 +1687,22 @@ public class Example {
         String label = "label_example"; // String | 
         String length = "length_example"; // String | 
         String lengthUnit = "lengthUnit_example"; // String | 
+        String terminationAId = "terminationAId_example"; // String | 
+        String terminationBId = "terminationBId_example"; // String | 
         String tenantGroupId = "tenantGroupId_example"; // String | 
         String tenantGroup = "tenantGroup_example"; // String | 
         String tenantId = "tenantId_example"; // String | 
         String tenant = "tenant_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String terminationAType = "terminationAType_example"; // String | 
-        String terminationAId = "terminationAId_example"; // String | 
         String terminationBType = "terminationBType_example"; // String | 
-        String terminationBId = "terminationBId_example"; // String | 
         String type = "type_example"; // String | 
         String status = "status_example"; // String | 
         String color = "color_example"; // String | 
@@ -3118,8 +1710,6 @@ public class Example {
         String device = "device_example"; // String | 
         String rackId = "rackId_example"; // String | 
         String rack = "rack_example"; // String | 
-        String locationId = "locationId_example"; // String | 
-        String location = "location_example"; // String | 
         String siteId = "siteId_example"; // String | 
         String site = "site_example"; // String | 
         String idN = "idN_example"; // String | 
@@ -3142,41 +1732,30 @@ public class Example {
         String lengthGte = "lengthGte_example"; // String | 
         String lengthGt = "lengthGt_example"; // String | 
         String lengthUnitN = "lengthUnitN_example"; // String | 
-        String tenantGroupIdN = "tenantGroupIdN_example"; // String | 
-        String tenantGroupN = "tenantGroupN_example"; // String | 
-        String tenantIdN = "tenantIdN_example"; // String | 
-        String tenantN = "tenantN_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
-        String tagN = "tagN_example"; // String | 
-        String terminationATypeN = "terminationATypeN_example"; // String | 
         String terminationAIdN = "terminationAIdN_example"; // String | 
         String terminationAIdLte = "terminationAIdLte_example"; // String | 
         String terminationAIdLt = "terminationAIdLt_example"; // String | 
         String terminationAIdGte = "terminationAIdGte_example"; // String | 
         String terminationAIdGt = "terminationAIdGt_example"; // String | 
-        String terminationBTypeN = "terminationBTypeN_example"; // String | 
         String terminationBIdN = "terminationBIdN_example"; // String | 
         String terminationBIdLte = "terminationBIdLte_example"; // String | 
         String terminationBIdLt = "terminationBIdLt_example"; // String | 
         String terminationBIdGte = "terminationBIdGte_example"; // String | 
         String terminationBIdGt = "terminationBIdGt_example"; // String | 
+        String tenantGroupIdN = "tenantGroupIdN_example"; // String | 
+        String tenantGroupN = "tenantGroupN_example"; // String | 
+        String tenantIdN = "tenantIdN_example"; // String | 
+        String tenantN = "tenantN_example"; // String | 
+        String tagN = "tagN_example"; // String | 
+        String terminationATypeN = "terminationATypeN_example"; // String | 
+        String terminationBTypeN = "terminationBTypeN_example"; // String | 
         String typeN = "typeN_example"; // String | 
         String statusN = "statusN_example"; // String | 
         String colorN = "colorN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<DcimCablesList200Response> response = apiInstance.dcimCablesListWithHttpInfo(id, label, length, lengthUnit, tenantGroupId, tenantGroup, tenantId, tenant, created, lastUpdated, q, tag, terminationAType, terminationAId, terminationBType, terminationBId, type, status, color, deviceId, device, rackId, rack, locationId, location, siteId, site, idN, idLte, idLt, idGte, idGt, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, lengthN, lengthLte, lengthLt, lengthGte, lengthGt, lengthUnitN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, terminationATypeN, terminationAIdN, terminationAIdLte, terminationAIdLt, terminationAIdGte, terminationAIdGt, terminationBTypeN, terminationBIdN, terminationBIdLte, terminationBIdLt, terminationBIdGte, terminationBIdGt, typeN, statusN, colorN, ordering, limit, offset);
+            ApiResponse<DcimCablesList200Response> response = apiInstance.dcimCablesListWithHttpInfo(id, label, length, lengthUnit, terminationAId, terminationBId, tenantGroupId, tenantGroup, tenantId, tenant, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, terminationAType, terminationBType, type, status, color, deviceId, device, rackId, rack, siteId, site, idN, idLte, idLt, idGte, idGt, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, lengthN, lengthLte, lengthLt, lengthGte, lengthGt, lengthUnitN, terminationAIdN, terminationAIdLte, terminationAIdLt, terminationAIdGte, terminationAIdGt, terminationBIdN, terminationBIdLte, terminationBIdLt, terminationBIdGte, terminationBIdGt, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, tagN, terminationATypeN, terminationBTypeN, typeN, statusN, colorN, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -3200,18 +1779,22 @@ public class Example {
 | **label** | **String**|  | [optional] |
 | **length** | **String**|  | [optional] |
 | **lengthUnit** | **String**|  | [optional] |
+| **terminationAId** | **String**|  | [optional] |
+| **terminationBId** | **String**|  | [optional] |
 | **tenantGroupId** | **String**|  | [optional] |
 | **tenantGroup** | **String**|  | [optional] |
 | **tenantId** | **String**|  | [optional] |
 | **tenant** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **terminationAType** | **String**|  | [optional] |
-| **terminationAId** | **String**|  | [optional] |
 | **terminationBType** | **String**|  | [optional] |
-| **terminationBId** | **String**|  | [optional] |
 | **type** | **String**|  | [optional] |
 | **status** | **String**|  | [optional] |
 | **color** | **String**|  | [optional] |
@@ -3219,8 +1802,6 @@ public class Example {
 | **device** | **String**|  | [optional] |
 | **rackId** | **String**|  | [optional] |
 | **rack** | **String**|  | [optional] |
-| **locationId** | **String**|  | [optional] |
-| **location** | **String**|  | [optional] |
 | **siteId** | **String**|  | [optional] |
 | **site** | **String**|  | [optional] |
 | **idN** | **String**|  | [optional] |
@@ -3243,37 +1824,26 @@ public class Example {
 | **lengthGte** | **String**|  | [optional] |
 | **lengthGt** | **String**|  | [optional] |
 | **lengthUnitN** | **String**|  | [optional] |
-| **tenantGroupIdN** | **String**|  | [optional] |
-| **tenantGroupN** | **String**|  | [optional] |
-| **tenantIdN** | **String**|  | [optional] |
-| **tenantN** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
-| **tagN** | **String**|  | [optional] |
-| **terminationATypeN** | **String**|  | [optional] |
 | **terminationAIdN** | **String**|  | [optional] |
 | **terminationAIdLte** | **String**|  | [optional] |
 | **terminationAIdLt** | **String**|  | [optional] |
 | **terminationAIdGte** | **String**|  | [optional] |
 | **terminationAIdGt** | **String**|  | [optional] |
-| **terminationBTypeN** | **String**|  | [optional] |
 | **terminationBIdN** | **String**|  | [optional] |
 | **terminationBIdLte** | **String**|  | [optional] |
 | **terminationBIdLt** | **String**|  | [optional] |
 | **terminationBIdGte** | **String**|  | [optional] |
 | **terminationBIdGt** | **String**|  | [optional] |
+| **tenantGroupIdN** | **String**|  | [optional] |
+| **tenantGroupN** | **String**|  | [optional] |
+| **tenantIdN** | **String**|  | [optional] |
+| **tenantN** | **String**|  | [optional] |
+| **tagN** | **String**|  | [optional] |
+| **terminationATypeN** | **String**|  | [optional] |
+| **terminationBTypeN** | **String**|  | [optional] |
 | **typeN** | **String**|  | [optional] |
 | **statusN** | **String**|  | [optional] |
 | **colorN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -4599,7 +3169,7 @@ ApiResponse<Void>
 
 ## dcimConsolePortTemplatesList
 
-> DcimConsolePortTemplatesList200Response dcimConsolePortTemplatesList(id, name, type, created, lastUpdated, q, devicetypeId, moduletypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, typeN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, devicetypeIdN, moduletypeIdN, ordering, limit, offset)
+> DcimConsolePortTemplatesList200Response dcimConsolePortTemplatesList(id, name, type, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, devicetypeId, moduletypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, typeN, devicetypeIdN, moduletypeIdN, limit, offset)
 
 
 
@@ -4632,7 +3202,11 @@ public class Example {
         String name = "name_example"; // String | 
         String type = "type_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String devicetypeId = "devicetypeId_example"; // String | 
         String moduletypeId = "moduletypeId_example"; // String | 
@@ -4651,23 +3225,12 @@ public class Example {
         String nameIe = "nameIe_example"; // String | 
         String nameNie = "nameNie_example"; // String | 
         String typeN = "typeN_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String devicetypeIdN = "devicetypeIdN_example"; // String | 
         String moduletypeIdN = "moduletypeIdN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            DcimConsolePortTemplatesList200Response result = apiInstance.dcimConsolePortTemplatesList(id, name, type, created, lastUpdated, q, devicetypeId, moduletypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, typeN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, devicetypeIdN, moduletypeIdN, ordering, limit, offset);
+            DcimConsolePortTemplatesList200Response result = apiInstance.dcimConsolePortTemplatesList(id, name, type, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, devicetypeId, moduletypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, typeN, devicetypeIdN, moduletypeIdN, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling DcimApi#dcimConsolePortTemplatesList");
@@ -4689,7 +3252,11 @@ public class Example {
 | **name** | **String**|  | [optional] |
 | **type** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **devicetypeId** | **String**|  | [optional] |
 | **moduletypeId** | **String**|  | [optional] |
@@ -4708,19 +3275,8 @@ public class Example {
 | **nameIe** | **String**|  | [optional] |
 | **nameNie** | **String**|  | [optional] |
 | **typeN** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **devicetypeIdN** | **String**|  | [optional] |
 | **moduletypeIdN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -4745,7 +3301,7 @@ public class Example {
 
 ## dcimConsolePortTemplatesListWithHttpInfo
 
-> ApiResponse<DcimConsolePortTemplatesList200Response> dcimConsolePortTemplatesList dcimConsolePortTemplatesListWithHttpInfo(id, name, type, created, lastUpdated, q, devicetypeId, moduletypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, typeN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, devicetypeIdN, moduletypeIdN, ordering, limit, offset)
+> ApiResponse<DcimConsolePortTemplatesList200Response> dcimConsolePortTemplatesList dcimConsolePortTemplatesListWithHttpInfo(id, name, type, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, devicetypeId, moduletypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, typeN, devicetypeIdN, moduletypeIdN, limit, offset)
 
 
 
@@ -4779,7 +3335,11 @@ public class Example {
         String name = "name_example"; // String | 
         String type = "type_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String devicetypeId = "devicetypeId_example"; // String | 
         String moduletypeId = "moduletypeId_example"; // String | 
@@ -4798,23 +3358,12 @@ public class Example {
         String nameIe = "nameIe_example"; // String | 
         String nameNie = "nameNie_example"; // String | 
         String typeN = "typeN_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String devicetypeIdN = "devicetypeIdN_example"; // String | 
         String moduletypeIdN = "moduletypeIdN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<DcimConsolePortTemplatesList200Response> response = apiInstance.dcimConsolePortTemplatesListWithHttpInfo(id, name, type, created, lastUpdated, q, devicetypeId, moduletypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, typeN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, devicetypeIdN, moduletypeIdN, ordering, limit, offset);
+            ApiResponse<DcimConsolePortTemplatesList200Response> response = apiInstance.dcimConsolePortTemplatesListWithHttpInfo(id, name, type, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, devicetypeId, moduletypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, typeN, devicetypeIdN, moduletypeIdN, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -4838,7 +3387,11 @@ public class Example {
 | **name** | **String**|  | [optional] |
 | **type** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **devicetypeId** | **String**|  | [optional] |
 | **moduletypeId** | **String**|  | [optional] |
@@ -4857,19 +3410,8 @@ public class Example {
 | **nameIe** | **String**|  | [optional] |
 | **nameNie** | **String**|  | [optional] |
 | **typeN** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **devicetypeIdN** | **String**|  | [optional] |
 | **moduletypeIdN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -6043,7 +4585,7 @@ ApiResponse<Void>
 
 ## dcimConsolePortsList
 
-> DcimConsolePortsList200Response dcimConsolePortsList(id, name, label, description, cableEnd, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, moduleId, created, lastUpdated, tag, cabled, connected, type, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, cableEndN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, deviceIdN, deviceN, virtualChassisIdN, virtualChassisN, moduleIdN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, typeN, ordering, limit, offset)
+> DcimConsolePortsList200Response dcimConsolePortsList(id, name, label, description, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, moduleId, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, tag, cabled, connected, type, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, deviceIdN, deviceN, virtualChassisIdN, virtualChassisN, moduleIdN, tagN, typeN, limit, offset)
 
 
 
@@ -6076,7 +4618,6 @@ public class Example {
         String name = "name_example"; // String | 
         String label = "label_example"; // String | 
         String description = "description_example"; // String | 
-        String cableEnd = "cableEnd_example"; // String | 
         String q = "q_example"; // String | 
         String regionId = "regionId_example"; // String | 
         String region = "region_example"; // String | 
@@ -6092,7 +4633,11 @@ public class Example {
         String virtualChassis = "virtualChassis_example"; // String | 
         String moduleId = "moduleId_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String tag = "tag_example"; // String | 
         String cabled = "cabled_example"; // String | 
         String connected = "connected_example"; // String | 
@@ -6129,7 +4674,6 @@ public class Example {
         String descriptionNisw = "descriptionNisw_example"; // String | 
         String descriptionIe = "descriptionIe_example"; // String | 
         String descriptionNie = "descriptionNie_example"; // String | 
-        String cableEndN = "cableEndN_example"; // String | 
         String regionIdN = "regionIdN_example"; // String | 
         String regionN = "regionN_example"; // String | 
         String siteGroupIdN = "siteGroupIdN_example"; // String | 
@@ -6143,23 +4687,12 @@ public class Example {
         String virtualChassisIdN = "virtualChassisIdN_example"; // String | 
         String virtualChassisN = "virtualChassisN_example"; // String | 
         String moduleIdN = "moduleIdN_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String typeN = "typeN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            DcimConsolePortsList200Response result = apiInstance.dcimConsolePortsList(id, name, label, description, cableEnd, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, moduleId, created, lastUpdated, tag, cabled, connected, type, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, cableEndN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, deviceIdN, deviceN, virtualChassisIdN, virtualChassisN, moduleIdN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, typeN, ordering, limit, offset);
+            DcimConsolePortsList200Response result = apiInstance.dcimConsolePortsList(id, name, label, description, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, moduleId, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, tag, cabled, connected, type, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, deviceIdN, deviceN, virtualChassisIdN, virtualChassisN, moduleIdN, tagN, typeN, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling DcimApi#dcimConsolePortsList");
@@ -6181,7 +4714,6 @@ public class Example {
 | **name** | **String**|  | [optional] |
 | **label** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
-| **cableEnd** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **regionId** | **String**|  | [optional] |
 | **region** | **String**|  | [optional] |
@@ -6197,7 +4729,11 @@ public class Example {
 | **virtualChassis** | **String**|  | [optional] |
 | **moduleId** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **cabled** | **String**|  | [optional] |
 | **connected** | **String**|  | [optional] |
@@ -6234,7 +4770,6 @@ public class Example {
 | **descriptionNisw** | **String**|  | [optional] |
 | **descriptionIe** | **String**|  | [optional] |
 | **descriptionNie** | **String**|  | [optional] |
-| **cableEndN** | **String**|  | [optional] |
 | **regionIdN** | **String**|  | [optional] |
 | **regionN** | **String**|  | [optional] |
 | **siteGroupIdN** | **String**|  | [optional] |
@@ -6248,19 +4783,8 @@ public class Example {
 | **virtualChassisIdN** | **String**|  | [optional] |
 | **virtualChassisN** | **String**|  | [optional] |
 | **moduleIdN** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **typeN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -6285,7 +4809,7 @@ public class Example {
 
 ## dcimConsolePortsListWithHttpInfo
 
-> ApiResponse<DcimConsolePortsList200Response> dcimConsolePortsList dcimConsolePortsListWithHttpInfo(id, name, label, description, cableEnd, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, moduleId, created, lastUpdated, tag, cabled, connected, type, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, cableEndN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, deviceIdN, deviceN, virtualChassisIdN, virtualChassisN, moduleIdN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, typeN, ordering, limit, offset)
+> ApiResponse<DcimConsolePortsList200Response> dcimConsolePortsList dcimConsolePortsListWithHttpInfo(id, name, label, description, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, moduleId, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, tag, cabled, connected, type, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, deviceIdN, deviceN, virtualChassisIdN, virtualChassisN, moduleIdN, tagN, typeN, limit, offset)
 
 
 
@@ -6319,7 +4843,6 @@ public class Example {
         String name = "name_example"; // String | 
         String label = "label_example"; // String | 
         String description = "description_example"; // String | 
-        String cableEnd = "cableEnd_example"; // String | 
         String q = "q_example"; // String | 
         String regionId = "regionId_example"; // String | 
         String region = "region_example"; // String | 
@@ -6335,7 +4858,11 @@ public class Example {
         String virtualChassis = "virtualChassis_example"; // String | 
         String moduleId = "moduleId_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String tag = "tag_example"; // String | 
         String cabled = "cabled_example"; // String | 
         String connected = "connected_example"; // String | 
@@ -6372,7 +4899,6 @@ public class Example {
         String descriptionNisw = "descriptionNisw_example"; // String | 
         String descriptionIe = "descriptionIe_example"; // String | 
         String descriptionNie = "descriptionNie_example"; // String | 
-        String cableEndN = "cableEndN_example"; // String | 
         String regionIdN = "regionIdN_example"; // String | 
         String regionN = "regionN_example"; // String | 
         String siteGroupIdN = "siteGroupIdN_example"; // String | 
@@ -6386,23 +4912,12 @@ public class Example {
         String virtualChassisIdN = "virtualChassisIdN_example"; // String | 
         String virtualChassisN = "virtualChassisN_example"; // String | 
         String moduleIdN = "moduleIdN_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String typeN = "typeN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<DcimConsolePortsList200Response> response = apiInstance.dcimConsolePortsListWithHttpInfo(id, name, label, description, cableEnd, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, moduleId, created, lastUpdated, tag, cabled, connected, type, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, cableEndN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, deviceIdN, deviceN, virtualChassisIdN, virtualChassisN, moduleIdN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, typeN, ordering, limit, offset);
+            ApiResponse<DcimConsolePortsList200Response> response = apiInstance.dcimConsolePortsListWithHttpInfo(id, name, label, description, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, moduleId, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, tag, cabled, connected, type, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, deviceIdN, deviceN, virtualChassisIdN, virtualChassisN, moduleIdN, tagN, typeN, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -6426,7 +4941,6 @@ public class Example {
 | **name** | **String**|  | [optional] |
 | **label** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
-| **cableEnd** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **regionId** | **String**|  | [optional] |
 | **region** | **String**|  | [optional] |
@@ -6442,7 +4956,11 @@ public class Example {
 | **virtualChassis** | **String**|  | [optional] |
 | **moduleId** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **cabled** | **String**|  | [optional] |
 | **connected** | **String**|  | [optional] |
@@ -6479,7 +4997,6 @@ public class Example {
 | **descriptionNisw** | **String**|  | [optional] |
 | **descriptionIe** | **String**|  | [optional] |
 | **descriptionNie** | **String**|  | [optional] |
-| **cableEndN** | **String**|  | [optional] |
 | **regionIdN** | **String**|  | [optional] |
 | **regionN** | **String**|  | [optional] |
 | **siteGroupIdN** | **String**|  | [optional] |
@@ -6493,19 +5010,8 @@ public class Example {
 | **virtualChassisIdN** | **String**|  | [optional] |
 | **virtualChassisN** | **String**|  | [optional] |
 | **moduleIdN** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **typeN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -7827,7 +6333,7 @@ ApiResponse<Void>
 
 ## dcimConsoleServerPortTemplatesList
 
-> DcimConsoleServerPortTemplatesList200Response dcimConsoleServerPortTemplatesList(id, name, type, created, lastUpdated, q, devicetypeId, moduletypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, typeN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, devicetypeIdN, moduletypeIdN, ordering, limit, offset)
+> DcimConsoleServerPortTemplatesList200Response dcimConsoleServerPortTemplatesList(id, name, type, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, devicetypeId, moduletypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, typeN, devicetypeIdN, moduletypeIdN, limit, offset)
 
 
 
@@ -7860,7 +6366,11 @@ public class Example {
         String name = "name_example"; // String | 
         String type = "type_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String devicetypeId = "devicetypeId_example"; // String | 
         String moduletypeId = "moduletypeId_example"; // String | 
@@ -7879,23 +6389,12 @@ public class Example {
         String nameIe = "nameIe_example"; // String | 
         String nameNie = "nameNie_example"; // String | 
         String typeN = "typeN_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String devicetypeIdN = "devicetypeIdN_example"; // String | 
         String moduletypeIdN = "moduletypeIdN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            DcimConsoleServerPortTemplatesList200Response result = apiInstance.dcimConsoleServerPortTemplatesList(id, name, type, created, lastUpdated, q, devicetypeId, moduletypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, typeN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, devicetypeIdN, moduletypeIdN, ordering, limit, offset);
+            DcimConsoleServerPortTemplatesList200Response result = apiInstance.dcimConsoleServerPortTemplatesList(id, name, type, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, devicetypeId, moduletypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, typeN, devicetypeIdN, moduletypeIdN, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling DcimApi#dcimConsoleServerPortTemplatesList");
@@ -7917,7 +6416,11 @@ public class Example {
 | **name** | **String**|  | [optional] |
 | **type** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **devicetypeId** | **String**|  | [optional] |
 | **moduletypeId** | **String**|  | [optional] |
@@ -7936,19 +6439,8 @@ public class Example {
 | **nameIe** | **String**|  | [optional] |
 | **nameNie** | **String**|  | [optional] |
 | **typeN** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **devicetypeIdN** | **String**|  | [optional] |
 | **moduletypeIdN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -7973,7 +6465,7 @@ public class Example {
 
 ## dcimConsoleServerPortTemplatesListWithHttpInfo
 
-> ApiResponse<DcimConsoleServerPortTemplatesList200Response> dcimConsoleServerPortTemplatesList dcimConsoleServerPortTemplatesListWithHttpInfo(id, name, type, created, lastUpdated, q, devicetypeId, moduletypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, typeN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, devicetypeIdN, moduletypeIdN, ordering, limit, offset)
+> ApiResponse<DcimConsoleServerPortTemplatesList200Response> dcimConsoleServerPortTemplatesList dcimConsoleServerPortTemplatesListWithHttpInfo(id, name, type, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, devicetypeId, moduletypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, typeN, devicetypeIdN, moduletypeIdN, limit, offset)
 
 
 
@@ -8007,7 +6499,11 @@ public class Example {
         String name = "name_example"; // String | 
         String type = "type_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String devicetypeId = "devicetypeId_example"; // String | 
         String moduletypeId = "moduletypeId_example"; // String | 
@@ -8026,23 +6522,12 @@ public class Example {
         String nameIe = "nameIe_example"; // String | 
         String nameNie = "nameNie_example"; // String | 
         String typeN = "typeN_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String devicetypeIdN = "devicetypeIdN_example"; // String | 
         String moduletypeIdN = "moduletypeIdN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<DcimConsoleServerPortTemplatesList200Response> response = apiInstance.dcimConsoleServerPortTemplatesListWithHttpInfo(id, name, type, created, lastUpdated, q, devicetypeId, moduletypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, typeN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, devicetypeIdN, moduletypeIdN, ordering, limit, offset);
+            ApiResponse<DcimConsoleServerPortTemplatesList200Response> response = apiInstance.dcimConsoleServerPortTemplatesListWithHttpInfo(id, name, type, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, devicetypeId, moduletypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, typeN, devicetypeIdN, moduletypeIdN, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -8066,7 +6551,11 @@ public class Example {
 | **name** | **String**|  | [optional] |
 | **type** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **devicetypeId** | **String**|  | [optional] |
 | **moduletypeId** | **String**|  | [optional] |
@@ -8085,19 +6574,8 @@ public class Example {
 | **nameIe** | **String**|  | [optional] |
 | **nameNie** | **String**|  | [optional] |
 | **typeN** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **devicetypeIdN** | **String**|  | [optional] |
 | **moduletypeIdN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -9271,7 +7749,7 @@ ApiResponse<Void>
 
 ## dcimConsoleServerPortsList
 
-> DcimConsoleServerPortsList200Response dcimConsoleServerPortsList(id, name, label, description, cableEnd, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, moduleId, created, lastUpdated, tag, cabled, connected, type, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, cableEndN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, deviceIdN, deviceN, virtualChassisIdN, virtualChassisN, moduleIdN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, typeN, ordering, limit, offset)
+> DcimConsoleServerPortsList200Response dcimConsoleServerPortsList(id, name, label, description, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, moduleId, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, tag, cabled, connected, type, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, deviceIdN, deviceN, virtualChassisIdN, virtualChassisN, moduleIdN, tagN, typeN, limit, offset)
 
 
 
@@ -9304,7 +7782,6 @@ public class Example {
         String name = "name_example"; // String | 
         String label = "label_example"; // String | 
         String description = "description_example"; // String | 
-        String cableEnd = "cableEnd_example"; // String | 
         String q = "q_example"; // String | 
         String regionId = "regionId_example"; // String | 
         String region = "region_example"; // String | 
@@ -9320,7 +7797,11 @@ public class Example {
         String virtualChassis = "virtualChassis_example"; // String | 
         String moduleId = "moduleId_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String tag = "tag_example"; // String | 
         String cabled = "cabled_example"; // String | 
         String connected = "connected_example"; // String | 
@@ -9357,7 +7838,6 @@ public class Example {
         String descriptionNisw = "descriptionNisw_example"; // String | 
         String descriptionIe = "descriptionIe_example"; // String | 
         String descriptionNie = "descriptionNie_example"; // String | 
-        String cableEndN = "cableEndN_example"; // String | 
         String regionIdN = "regionIdN_example"; // String | 
         String regionN = "regionN_example"; // String | 
         String siteGroupIdN = "siteGroupIdN_example"; // String | 
@@ -9371,23 +7851,12 @@ public class Example {
         String virtualChassisIdN = "virtualChassisIdN_example"; // String | 
         String virtualChassisN = "virtualChassisN_example"; // String | 
         String moduleIdN = "moduleIdN_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String typeN = "typeN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            DcimConsoleServerPortsList200Response result = apiInstance.dcimConsoleServerPortsList(id, name, label, description, cableEnd, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, moduleId, created, lastUpdated, tag, cabled, connected, type, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, cableEndN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, deviceIdN, deviceN, virtualChassisIdN, virtualChassisN, moduleIdN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, typeN, ordering, limit, offset);
+            DcimConsoleServerPortsList200Response result = apiInstance.dcimConsoleServerPortsList(id, name, label, description, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, moduleId, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, tag, cabled, connected, type, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, deviceIdN, deviceN, virtualChassisIdN, virtualChassisN, moduleIdN, tagN, typeN, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling DcimApi#dcimConsoleServerPortsList");
@@ -9409,7 +7878,6 @@ public class Example {
 | **name** | **String**|  | [optional] |
 | **label** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
-| **cableEnd** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **regionId** | **String**|  | [optional] |
 | **region** | **String**|  | [optional] |
@@ -9425,7 +7893,11 @@ public class Example {
 | **virtualChassis** | **String**|  | [optional] |
 | **moduleId** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **cabled** | **String**|  | [optional] |
 | **connected** | **String**|  | [optional] |
@@ -9462,7 +7934,6 @@ public class Example {
 | **descriptionNisw** | **String**|  | [optional] |
 | **descriptionIe** | **String**|  | [optional] |
 | **descriptionNie** | **String**|  | [optional] |
-| **cableEndN** | **String**|  | [optional] |
 | **regionIdN** | **String**|  | [optional] |
 | **regionN** | **String**|  | [optional] |
 | **siteGroupIdN** | **String**|  | [optional] |
@@ -9476,19 +7947,8 @@ public class Example {
 | **virtualChassisIdN** | **String**|  | [optional] |
 | **virtualChassisN** | **String**|  | [optional] |
 | **moduleIdN** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **typeN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -9513,7 +7973,7 @@ public class Example {
 
 ## dcimConsoleServerPortsListWithHttpInfo
 
-> ApiResponse<DcimConsoleServerPortsList200Response> dcimConsoleServerPortsList dcimConsoleServerPortsListWithHttpInfo(id, name, label, description, cableEnd, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, moduleId, created, lastUpdated, tag, cabled, connected, type, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, cableEndN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, deviceIdN, deviceN, virtualChassisIdN, virtualChassisN, moduleIdN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, typeN, ordering, limit, offset)
+> ApiResponse<DcimConsoleServerPortsList200Response> dcimConsoleServerPortsList dcimConsoleServerPortsListWithHttpInfo(id, name, label, description, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, moduleId, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, tag, cabled, connected, type, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, deviceIdN, deviceN, virtualChassisIdN, virtualChassisN, moduleIdN, tagN, typeN, limit, offset)
 
 
 
@@ -9547,7 +8007,6 @@ public class Example {
         String name = "name_example"; // String | 
         String label = "label_example"; // String | 
         String description = "description_example"; // String | 
-        String cableEnd = "cableEnd_example"; // String | 
         String q = "q_example"; // String | 
         String regionId = "regionId_example"; // String | 
         String region = "region_example"; // String | 
@@ -9563,7 +8022,11 @@ public class Example {
         String virtualChassis = "virtualChassis_example"; // String | 
         String moduleId = "moduleId_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String tag = "tag_example"; // String | 
         String cabled = "cabled_example"; // String | 
         String connected = "connected_example"; // String | 
@@ -9600,7 +8063,6 @@ public class Example {
         String descriptionNisw = "descriptionNisw_example"; // String | 
         String descriptionIe = "descriptionIe_example"; // String | 
         String descriptionNie = "descriptionNie_example"; // String | 
-        String cableEndN = "cableEndN_example"; // String | 
         String regionIdN = "regionIdN_example"; // String | 
         String regionN = "regionN_example"; // String | 
         String siteGroupIdN = "siteGroupIdN_example"; // String | 
@@ -9614,23 +8076,12 @@ public class Example {
         String virtualChassisIdN = "virtualChassisIdN_example"; // String | 
         String virtualChassisN = "virtualChassisN_example"; // String | 
         String moduleIdN = "moduleIdN_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String typeN = "typeN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<DcimConsoleServerPortsList200Response> response = apiInstance.dcimConsoleServerPortsListWithHttpInfo(id, name, label, description, cableEnd, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, moduleId, created, lastUpdated, tag, cabled, connected, type, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, cableEndN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, deviceIdN, deviceN, virtualChassisIdN, virtualChassisN, moduleIdN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, typeN, ordering, limit, offset);
+            ApiResponse<DcimConsoleServerPortsList200Response> response = apiInstance.dcimConsoleServerPortsListWithHttpInfo(id, name, label, description, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, moduleId, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, tag, cabled, connected, type, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, deviceIdN, deviceN, virtualChassisIdN, virtualChassisN, moduleIdN, tagN, typeN, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -9654,7 +8105,6 @@ public class Example {
 | **name** | **String**|  | [optional] |
 | **label** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
-| **cableEnd** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **regionId** | **String**|  | [optional] |
 | **region** | **String**|  | [optional] |
@@ -9670,7 +8120,11 @@ public class Example {
 | **virtualChassis** | **String**|  | [optional] |
 | **moduleId** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **cabled** | **String**|  | [optional] |
 | **connected** | **String**|  | [optional] |
@@ -9707,7 +8161,6 @@ public class Example {
 | **descriptionNisw** | **String**|  | [optional] |
 | **descriptionIe** | **String**|  | [optional] |
 | **descriptionNie** | **String**|  | [optional] |
-| **cableEndN** | **String**|  | [optional] |
 | **regionIdN** | **String**|  | [optional] |
 | **regionN** | **String**|  | [optional] |
 | **siteGroupIdN** | **String**|  | [optional] |
@@ -9721,19 +8174,8 @@ public class Example {
 | **virtualChassisIdN** | **String**|  | [optional] |
 | **virtualChassisN** | **String**|  | [optional] |
 | **moduleIdN** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **typeN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -11055,7 +9497,7 @@ ApiResponse<Void>
 
 ## dcimDeviceBayTemplatesList
 
-> DcimDeviceBayTemplatesList200Response dcimDeviceBayTemplatesList(id, name, created, lastUpdated, q, devicetypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, devicetypeIdN, ordering, limit, offset)
+> DcimDeviceBayTemplatesList200Response dcimDeviceBayTemplatesList(id, name, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, devicetypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, devicetypeIdN, limit, offset)
 
 
 
@@ -11087,7 +9529,11 @@ public class Example {
         String id = "id_example"; // String | 
         String name = "name_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String devicetypeId = "devicetypeId_example"; // String | 
         String idN = "idN_example"; // String | 
@@ -11104,22 +9550,11 @@ public class Example {
         String nameNisw = "nameNisw_example"; // String | 
         String nameIe = "nameIe_example"; // String | 
         String nameNie = "nameNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String devicetypeIdN = "devicetypeIdN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            DcimDeviceBayTemplatesList200Response result = apiInstance.dcimDeviceBayTemplatesList(id, name, created, lastUpdated, q, devicetypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, devicetypeIdN, ordering, limit, offset);
+            DcimDeviceBayTemplatesList200Response result = apiInstance.dcimDeviceBayTemplatesList(id, name, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, devicetypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, devicetypeIdN, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling DcimApi#dcimDeviceBayTemplatesList");
@@ -11140,7 +9575,11 @@ public class Example {
 | **id** | **String**|  | [optional] |
 | **name** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **devicetypeId** | **String**|  | [optional] |
 | **idN** | **String**|  | [optional] |
@@ -11157,18 +9596,7 @@ public class Example {
 | **nameNisw** | **String**|  | [optional] |
 | **nameIe** | **String**|  | [optional] |
 | **nameNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **devicetypeIdN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -11193,7 +9621,7 @@ public class Example {
 
 ## dcimDeviceBayTemplatesListWithHttpInfo
 
-> ApiResponse<DcimDeviceBayTemplatesList200Response> dcimDeviceBayTemplatesList dcimDeviceBayTemplatesListWithHttpInfo(id, name, created, lastUpdated, q, devicetypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, devicetypeIdN, ordering, limit, offset)
+> ApiResponse<DcimDeviceBayTemplatesList200Response> dcimDeviceBayTemplatesList dcimDeviceBayTemplatesListWithHttpInfo(id, name, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, devicetypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, devicetypeIdN, limit, offset)
 
 
 
@@ -11226,7 +9654,11 @@ public class Example {
         String id = "id_example"; // String | 
         String name = "name_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String devicetypeId = "devicetypeId_example"; // String | 
         String idN = "idN_example"; // String | 
@@ -11243,22 +9675,11 @@ public class Example {
         String nameNisw = "nameNisw_example"; // String | 
         String nameIe = "nameIe_example"; // String | 
         String nameNie = "nameNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String devicetypeIdN = "devicetypeIdN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<DcimDeviceBayTemplatesList200Response> response = apiInstance.dcimDeviceBayTemplatesListWithHttpInfo(id, name, created, lastUpdated, q, devicetypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, devicetypeIdN, ordering, limit, offset);
+            ApiResponse<DcimDeviceBayTemplatesList200Response> response = apiInstance.dcimDeviceBayTemplatesListWithHttpInfo(id, name, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, devicetypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, devicetypeIdN, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -11281,7 +9702,11 @@ public class Example {
 | **id** | **String**|  | [optional] |
 | **name** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **devicetypeId** | **String**|  | [optional] |
 | **idN** | **String**|  | [optional] |
@@ -11298,18 +9723,7 @@ public class Example {
 | **nameNisw** | **String**|  | [optional] |
 | **nameIe** | **String**|  | [optional] |
 | **nameNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **devicetypeIdN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -12483,7 +10897,7 @@ ApiResponse<Void>
 
 ## dcimDeviceBaysList
 
-> DcimDeviceBaysList200Response dcimDeviceBaysList(id, name, label, description, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, created, lastUpdated, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, deviceIdN, deviceN, virtualChassisIdN, virtualChassisN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, ordering, limit, offset)
+> DcimDeviceBaysList200Response dcimDeviceBaysList(id, name, label, description, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, deviceIdN, deviceN, virtualChassisIdN, virtualChassisN, tagN, limit, offset)
 
 
 
@@ -12530,7 +10944,11 @@ public class Example {
         String virtualChassisId = "virtualChassisId_example"; // String | 
         String virtualChassis = "virtualChassis_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String tag = "tag_example"; // String | 
         String idN = "idN_example"; // String | 
         String idLte = "idLte_example"; // String | 
@@ -12576,22 +10994,11 @@ public class Example {
         String deviceN = "deviceN_example"; // String | 
         String virtualChassisIdN = "virtualChassisIdN_example"; // String | 
         String virtualChassisN = "virtualChassisN_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            DcimDeviceBaysList200Response result = apiInstance.dcimDeviceBaysList(id, name, label, description, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, created, lastUpdated, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, deviceIdN, deviceN, virtualChassisIdN, virtualChassisN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, ordering, limit, offset);
+            DcimDeviceBaysList200Response result = apiInstance.dcimDeviceBaysList(id, name, label, description, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, deviceIdN, deviceN, virtualChassisIdN, virtualChassisN, tagN, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling DcimApi#dcimDeviceBaysList");
@@ -12627,7 +11034,11 @@ public class Example {
 | **virtualChassisId** | **String**|  | [optional] |
 | **virtualChassis** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **idN** | **String**|  | [optional] |
 | **idLte** | **String**|  | [optional] |
@@ -12673,18 +11084,7 @@ public class Example {
 | **deviceN** | **String**|  | [optional] |
 | **virtualChassisIdN** | **String**|  | [optional] |
 | **virtualChassisN** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -12709,7 +11109,7 @@ public class Example {
 
 ## dcimDeviceBaysListWithHttpInfo
 
-> ApiResponse<DcimDeviceBaysList200Response> dcimDeviceBaysList dcimDeviceBaysListWithHttpInfo(id, name, label, description, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, created, lastUpdated, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, deviceIdN, deviceN, virtualChassisIdN, virtualChassisN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, ordering, limit, offset)
+> ApiResponse<DcimDeviceBaysList200Response> dcimDeviceBaysList dcimDeviceBaysListWithHttpInfo(id, name, label, description, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, deviceIdN, deviceN, virtualChassisIdN, virtualChassisN, tagN, limit, offset)
 
 
 
@@ -12757,7 +11157,11 @@ public class Example {
         String virtualChassisId = "virtualChassisId_example"; // String | 
         String virtualChassis = "virtualChassis_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String tag = "tag_example"; // String | 
         String idN = "idN_example"; // String | 
         String idLte = "idLte_example"; // String | 
@@ -12803,22 +11207,11 @@ public class Example {
         String deviceN = "deviceN_example"; // String | 
         String virtualChassisIdN = "virtualChassisIdN_example"; // String | 
         String virtualChassisN = "virtualChassisN_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<DcimDeviceBaysList200Response> response = apiInstance.dcimDeviceBaysListWithHttpInfo(id, name, label, description, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, created, lastUpdated, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, deviceIdN, deviceN, virtualChassisIdN, virtualChassisN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, ordering, limit, offset);
+            ApiResponse<DcimDeviceBaysList200Response> response = apiInstance.dcimDeviceBaysListWithHttpInfo(id, name, label, description, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, deviceIdN, deviceN, virtualChassisIdN, virtualChassisN, tagN, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -12856,7 +11249,11 @@ public class Example {
 | **virtualChassisId** | **String**|  | [optional] |
 | **virtualChassis** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **idN** | **String**|  | [optional] |
 | **idLte** | **String**|  | [optional] |
@@ -12902,18 +11299,7 @@ public class Example {
 | **deviceN** | **String**|  | [optional] |
 | **virtualChassisIdN** | **String**|  | [optional] |
 | **virtualChassisN** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -14087,7 +12473,7 @@ ApiResponse<Void>
 
 ## dcimDeviceRolesList
 
-> DcimDeviceRolesList200Response dcimDeviceRolesList(id, name, slug, color, vmRole, description, created, lastUpdated, q, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, colorN, colorIc, colorNic, colorIew, colorNiew, colorIsw, colorNisw, colorIe, colorNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, ordering, limit, offset)
+> DcimDeviceRolesList200Response dcimDeviceRolesList(id, name, slug, color, vmRole, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, colorN, colorIc, colorNic, colorIew, colorNiew, colorIsw, colorNisw, colorIe, colorNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, limit, offset)
 
 
 
@@ -14123,7 +12509,11 @@ public class Example {
         String vmRole = "vmRole_example"; // String | 
         String description = "description_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String idN = "idN_example"; // String | 
@@ -14167,22 +12557,11 @@ public class Example {
         String descriptionNisw = "descriptionNisw_example"; // String | 
         String descriptionIe = "descriptionIe_example"; // String | 
         String descriptionNie = "descriptionNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            DcimDeviceRolesList200Response result = apiInstance.dcimDeviceRolesList(id, name, slug, color, vmRole, description, created, lastUpdated, q, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, colorN, colorIc, colorNic, colorIew, colorNiew, colorIsw, colorNisw, colorIe, colorNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, ordering, limit, offset);
+            DcimDeviceRolesList200Response result = apiInstance.dcimDeviceRolesList(id, name, slug, color, vmRole, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, colorN, colorIc, colorNic, colorIew, colorNiew, colorIsw, colorNisw, colorIe, colorNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling DcimApi#dcimDeviceRolesList");
@@ -14207,7 +12586,11 @@ public class Example {
 | **vmRole** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **idN** | **String**|  | [optional] |
@@ -14251,18 +12634,7 @@ public class Example {
 | **descriptionNisw** | **String**|  | [optional] |
 | **descriptionIe** | **String**|  | [optional] |
 | **descriptionNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -14287,7 +12659,7 @@ public class Example {
 
 ## dcimDeviceRolesListWithHttpInfo
 
-> ApiResponse<DcimDeviceRolesList200Response> dcimDeviceRolesList dcimDeviceRolesListWithHttpInfo(id, name, slug, color, vmRole, description, created, lastUpdated, q, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, colorN, colorIc, colorNic, colorIew, colorNiew, colorIsw, colorNisw, colorIe, colorNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, ordering, limit, offset)
+> ApiResponse<DcimDeviceRolesList200Response> dcimDeviceRolesList dcimDeviceRolesListWithHttpInfo(id, name, slug, color, vmRole, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, colorN, colorIc, colorNic, colorIew, colorNiew, colorIsw, colorNisw, colorIe, colorNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, limit, offset)
 
 
 
@@ -14324,7 +12696,11 @@ public class Example {
         String vmRole = "vmRole_example"; // String | 
         String description = "description_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String idN = "idN_example"; // String | 
@@ -14368,22 +12744,11 @@ public class Example {
         String descriptionNisw = "descriptionNisw_example"; // String | 
         String descriptionIe = "descriptionIe_example"; // String | 
         String descriptionNie = "descriptionNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<DcimDeviceRolesList200Response> response = apiInstance.dcimDeviceRolesListWithHttpInfo(id, name, slug, color, vmRole, description, created, lastUpdated, q, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, colorN, colorIc, colorNic, colorIew, colorNiew, colorIsw, colorNisw, colorIe, colorNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, ordering, limit, offset);
+            ApiResponse<DcimDeviceRolesList200Response> response = apiInstance.dcimDeviceRolesListWithHttpInfo(id, name, slug, color, vmRole, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, colorN, colorIc, colorNic, colorIew, colorNiew, colorIsw, colorNisw, colorIe, colorNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -14410,7 +12775,11 @@ public class Example {
 | **vmRole** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **idN** | **String**|  | [optional] |
@@ -14454,18 +12823,7 @@ public class Example {
 | **descriptionNisw** | **String**|  | [optional] |
 | **descriptionIe** | **String**|  | [optional] |
 | **descriptionNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -15639,7 +13997,7 @@ ApiResponse<Void>
 
 ## dcimDeviceTypesList
 
-> DcimDeviceTypesList200Response dcimDeviceTypesList(id, model, slug, partNumber, uHeight, isFullDepth, subdeviceRole, airflow, created, lastUpdated, q, tag, manufacturerId, manufacturer, consolePorts, consoleServerPorts, powerPorts, powerOutlets, interfaces, passThroughPorts, moduleBays, deviceBays, inventoryItems, idN, idLte, idLt, idGte, idGt, modelN, modelIc, modelNic, modelIew, modelNiew, modelIsw, modelNisw, modelIe, modelNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, partNumberN, partNumberIc, partNumberNic, partNumberIew, partNumberNiew, partNumberIsw, partNumberNisw, partNumberIe, partNumberNie, uHeightN, uHeightLte, uHeightLt, uHeightGte, uHeightGt, subdeviceRoleN, airflowN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, manufacturerIdN, manufacturerN, ordering, limit, offset)
+> DcimDeviceTypesList200Response dcimDeviceTypesList(id, model, slug, partNumber, uHeight, isFullDepth, subdeviceRole, airflow, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, manufacturerId, manufacturer, consolePorts, consoleServerPorts, powerPorts, powerOutlets, interfaces, passThroughPorts, moduleBays, deviceBays, inventoryItems, idN, idLte, idLt, idGte, idGt, modelN, modelIc, modelNic, modelIew, modelNiew, modelIsw, modelNisw, modelIe, modelNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, partNumberN, partNumberIc, partNumberNic, partNumberIew, partNumberNiew, partNumberIsw, partNumberNisw, partNumberIe, partNumberNie, uHeightN, uHeightLte, uHeightLt, uHeightGte, uHeightGt, subdeviceRoleN, airflowN, tagN, manufacturerIdN, manufacturerN, limit, offset)
 
 
 
@@ -15677,7 +14035,11 @@ public class Example {
         String subdeviceRole = "subdeviceRole_example"; // String | 
         String airflow = "airflow_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String manufacturerId = "manufacturerId_example"; // String | 
@@ -15730,24 +14092,13 @@ public class Example {
         String uHeightGt = "uHeightGt_example"; // String | 
         String subdeviceRoleN = "subdeviceRoleN_example"; // String | 
         String airflowN = "airflowN_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String manufacturerIdN = "manufacturerIdN_example"; // String | 
         String manufacturerN = "manufacturerN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            DcimDeviceTypesList200Response result = apiInstance.dcimDeviceTypesList(id, model, slug, partNumber, uHeight, isFullDepth, subdeviceRole, airflow, created, lastUpdated, q, tag, manufacturerId, manufacturer, consolePorts, consoleServerPorts, powerPorts, powerOutlets, interfaces, passThroughPorts, moduleBays, deviceBays, inventoryItems, idN, idLte, idLt, idGte, idGt, modelN, modelIc, modelNic, modelIew, modelNiew, modelIsw, modelNisw, modelIe, modelNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, partNumberN, partNumberIc, partNumberNic, partNumberIew, partNumberNiew, partNumberIsw, partNumberNisw, partNumberIe, partNumberNie, uHeightN, uHeightLte, uHeightLt, uHeightGte, uHeightGt, subdeviceRoleN, airflowN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, manufacturerIdN, manufacturerN, ordering, limit, offset);
+            DcimDeviceTypesList200Response result = apiInstance.dcimDeviceTypesList(id, model, slug, partNumber, uHeight, isFullDepth, subdeviceRole, airflow, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, manufacturerId, manufacturer, consolePorts, consoleServerPorts, powerPorts, powerOutlets, interfaces, passThroughPorts, moduleBays, deviceBays, inventoryItems, idN, idLte, idLt, idGte, idGt, modelN, modelIc, modelNic, modelIew, modelNiew, modelIsw, modelNisw, modelIe, modelNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, partNumberN, partNumberIc, partNumberNic, partNumberIew, partNumberNiew, partNumberIsw, partNumberNisw, partNumberIe, partNumberNie, uHeightN, uHeightLte, uHeightLt, uHeightGte, uHeightGt, subdeviceRoleN, airflowN, tagN, manufacturerIdN, manufacturerN, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling DcimApi#dcimDeviceTypesList");
@@ -15774,7 +14125,11 @@ public class Example {
 | **subdeviceRole** | **String**|  | [optional] |
 | **airflow** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **manufacturerId** | **String**|  | [optional] |
@@ -15827,20 +14182,9 @@ public class Example {
 | **uHeightGt** | **String**|  | [optional] |
 | **subdeviceRoleN** | **String**|  | [optional] |
 | **airflowN** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **manufacturerIdN** | **String**|  | [optional] |
 | **manufacturerN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -15865,7 +14209,7 @@ public class Example {
 
 ## dcimDeviceTypesListWithHttpInfo
 
-> ApiResponse<DcimDeviceTypesList200Response> dcimDeviceTypesList dcimDeviceTypesListWithHttpInfo(id, model, slug, partNumber, uHeight, isFullDepth, subdeviceRole, airflow, created, lastUpdated, q, tag, manufacturerId, manufacturer, consolePorts, consoleServerPorts, powerPorts, powerOutlets, interfaces, passThroughPorts, moduleBays, deviceBays, inventoryItems, idN, idLte, idLt, idGte, idGt, modelN, modelIc, modelNic, modelIew, modelNiew, modelIsw, modelNisw, modelIe, modelNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, partNumberN, partNumberIc, partNumberNic, partNumberIew, partNumberNiew, partNumberIsw, partNumberNisw, partNumberIe, partNumberNie, uHeightN, uHeightLte, uHeightLt, uHeightGte, uHeightGt, subdeviceRoleN, airflowN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, manufacturerIdN, manufacturerN, ordering, limit, offset)
+> ApiResponse<DcimDeviceTypesList200Response> dcimDeviceTypesList dcimDeviceTypesListWithHttpInfo(id, model, slug, partNumber, uHeight, isFullDepth, subdeviceRole, airflow, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, manufacturerId, manufacturer, consolePorts, consoleServerPorts, powerPorts, powerOutlets, interfaces, passThroughPorts, moduleBays, deviceBays, inventoryItems, idN, idLte, idLt, idGte, idGt, modelN, modelIc, modelNic, modelIew, modelNiew, modelIsw, modelNisw, modelIe, modelNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, partNumberN, partNumberIc, partNumberNic, partNumberIew, partNumberNiew, partNumberIsw, partNumberNisw, partNumberIe, partNumberNie, uHeightN, uHeightLte, uHeightLt, uHeightGte, uHeightGt, subdeviceRoleN, airflowN, tagN, manufacturerIdN, manufacturerN, limit, offset)
 
 
 
@@ -15904,7 +14248,11 @@ public class Example {
         String subdeviceRole = "subdeviceRole_example"; // String | 
         String airflow = "airflow_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String manufacturerId = "manufacturerId_example"; // String | 
@@ -15957,24 +14305,13 @@ public class Example {
         String uHeightGt = "uHeightGt_example"; // String | 
         String subdeviceRoleN = "subdeviceRoleN_example"; // String | 
         String airflowN = "airflowN_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String manufacturerIdN = "manufacturerIdN_example"; // String | 
         String manufacturerN = "manufacturerN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<DcimDeviceTypesList200Response> response = apiInstance.dcimDeviceTypesListWithHttpInfo(id, model, slug, partNumber, uHeight, isFullDepth, subdeviceRole, airflow, created, lastUpdated, q, tag, manufacturerId, manufacturer, consolePorts, consoleServerPorts, powerPorts, powerOutlets, interfaces, passThroughPorts, moduleBays, deviceBays, inventoryItems, idN, idLte, idLt, idGte, idGt, modelN, modelIc, modelNic, modelIew, modelNiew, modelIsw, modelNisw, modelIe, modelNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, partNumberN, partNumberIc, partNumberNic, partNumberIew, partNumberNiew, partNumberIsw, partNumberNisw, partNumberIe, partNumberNie, uHeightN, uHeightLte, uHeightLt, uHeightGte, uHeightGt, subdeviceRoleN, airflowN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, manufacturerIdN, manufacturerN, ordering, limit, offset);
+            ApiResponse<DcimDeviceTypesList200Response> response = apiInstance.dcimDeviceTypesListWithHttpInfo(id, model, slug, partNumber, uHeight, isFullDepth, subdeviceRole, airflow, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, manufacturerId, manufacturer, consolePorts, consoleServerPorts, powerPorts, powerOutlets, interfaces, passThroughPorts, moduleBays, deviceBays, inventoryItems, idN, idLte, idLt, idGte, idGt, modelN, modelIc, modelNic, modelIew, modelNiew, modelIsw, modelNisw, modelIe, modelNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, partNumberN, partNumberIc, partNumberNic, partNumberIew, partNumberNiew, partNumberIsw, partNumberNisw, partNumberIe, partNumberNie, uHeightN, uHeightLte, uHeightLt, uHeightGte, uHeightGt, subdeviceRoleN, airflowN, tagN, manufacturerIdN, manufacturerN, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -16003,7 +14340,11 @@ public class Example {
 | **subdeviceRole** | **String**|  | [optional] |
 | **airflow** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **manufacturerId** | **String**|  | [optional] |
@@ -16056,20 +14397,9 @@ public class Example {
 | **uHeightGt** | **String**|  | [optional] |
 | **subdeviceRoleN** | **String**|  | [optional] |
 | **airflowN** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **manufacturerIdN** | **String**|  | [optional] |
 | **manufacturerN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -17243,7 +15573,7 @@ ApiResponse<Void>
 
 ## dcimDevicesList
 
-> DcimDevicesList200Response dcimDevicesList(id, name, assetTag, face, position, airflow, vcPosition, vcPriority, created, lastUpdated, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, contact, contactRole, contactGroup, localContextData, manufacturerId, manufacturer, deviceTypeId, roleId, role, parentDeviceId, platformId, platform, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, rackId, clusterId, model, status, isFullDepth, macAddress, serial, hasPrimaryIp, virtualChassisId, virtualChassisMember, consolePorts, consoleServerPorts, powerPorts, powerOutlets, interfaces, passThroughPorts, moduleBays, deviceBays, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, assetTagN, assetTagIc, assetTagNic, assetTagIew, assetTagNiew, assetTagIsw, assetTagNisw, assetTagIe, assetTagNie, faceN, positionN, positionLte, positionLt, positionGte, positionGt, airflowN, vcPositionN, vcPositionLte, vcPositionLt, vcPositionGte, vcPositionGt, vcPriorityN, vcPriorityLte, vcPriorityLt, vcPriorityGte, vcPriorityGt, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, contactN, contactRoleN, contactGroupN, manufacturerIdN, manufacturerN, deviceTypeIdN, roleIdN, roleN, parentDeviceIdN, platformIdN, platformN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, rackIdN, clusterIdN, modelN, statusN, macAddressN, macAddressIc, macAddressNic, macAddressIew, macAddressNiew, macAddressIsw, macAddressNisw, macAddressIe, macAddressNie, serialN, serialIc, serialNic, serialIew, serialNiew, serialIsw, serialNisw, serialIe, serialNie, virtualChassisIdN, ordering, limit, offset)
+> DcimDevicesList200Response dcimDevicesList(id, name, assetTag, face, position, airflow, vcPosition, vcPriority, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, contact, contactRole, contactGroup, localContextData, manufacturerId, manufacturer, deviceTypeId, roleId, role, parentDeviceId, platformId, platform, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, rackId, clusterId, model, status, isFullDepth, macAddress, serial, hasPrimaryIp, virtualChassisId, virtualChassisMember, consolePorts, consoleServerPorts, powerPorts, powerOutlets, interfaces, passThroughPorts, moduleBays, deviceBays, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, assetTagN, assetTagIc, assetTagNic, assetTagIew, assetTagNiew, assetTagIsw, assetTagNisw, assetTagIe, assetTagNie, faceN, positionN, positionLte, positionLt, positionGte, positionGt, airflowN, vcPositionN, vcPositionLte, vcPositionLt, vcPositionGte, vcPositionGt, vcPriorityN, vcPriorityLte, vcPriorityLt, vcPriorityGte, vcPriorityGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, contactN, contactRoleN, contactGroupN, manufacturerIdN, manufacturerN, deviceTypeIdN, roleIdN, roleN, parentDeviceIdN, platformIdN, platformN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, rackIdN, clusterIdN, modelN, statusN, macAddressN, macAddressIc, macAddressNic, macAddressIew, macAddressNiew, macAddressIsw, macAddressNisw, macAddressIe, macAddressNie, serialN, serialIc, serialNic, serialIew, serialNiew, serialIsw, serialNisw, serialIe, serialNie, virtualChassisIdN, limit, offset)
 
 
 
@@ -17281,7 +15611,11 @@ public class Example {
         String vcPosition = "vcPosition_example"; // String | 
         String vcPriority = "vcPriority_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String tenantGroupId = "tenantGroupId_example"; // String | 
@@ -17365,16 +15699,6 @@ public class Example {
         String vcPriorityLt = "vcPriorityLt_example"; // String | 
         String vcPriorityGte = "vcPriorityGte_example"; // String | 
         String vcPriorityGt = "vcPriorityGt_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String tenantGroupIdN = "tenantGroupIdN_example"; // String | 
         String tenantGroupN = "tenantGroupN_example"; // String | 
@@ -17421,11 +15745,10 @@ public class Example {
         String serialIe = "serialIe_example"; // String | 
         String serialNie = "serialNie_example"; // String | 
         String virtualChassisIdN = "virtualChassisIdN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            DcimDevicesList200Response result = apiInstance.dcimDevicesList(id, name, assetTag, face, position, airflow, vcPosition, vcPriority, created, lastUpdated, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, contact, contactRole, contactGroup, localContextData, manufacturerId, manufacturer, deviceTypeId, roleId, role, parentDeviceId, platformId, platform, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, rackId, clusterId, model, status, isFullDepth, macAddress, serial, hasPrimaryIp, virtualChassisId, virtualChassisMember, consolePorts, consoleServerPorts, powerPorts, powerOutlets, interfaces, passThroughPorts, moduleBays, deviceBays, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, assetTagN, assetTagIc, assetTagNic, assetTagIew, assetTagNiew, assetTagIsw, assetTagNisw, assetTagIe, assetTagNie, faceN, positionN, positionLte, positionLt, positionGte, positionGt, airflowN, vcPositionN, vcPositionLte, vcPositionLt, vcPositionGte, vcPositionGt, vcPriorityN, vcPriorityLte, vcPriorityLt, vcPriorityGte, vcPriorityGt, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, contactN, contactRoleN, contactGroupN, manufacturerIdN, manufacturerN, deviceTypeIdN, roleIdN, roleN, parentDeviceIdN, platformIdN, platformN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, rackIdN, clusterIdN, modelN, statusN, macAddressN, macAddressIc, macAddressNic, macAddressIew, macAddressNiew, macAddressIsw, macAddressNisw, macAddressIe, macAddressNie, serialN, serialIc, serialNic, serialIew, serialNiew, serialIsw, serialNisw, serialIe, serialNie, virtualChassisIdN, ordering, limit, offset);
+            DcimDevicesList200Response result = apiInstance.dcimDevicesList(id, name, assetTag, face, position, airflow, vcPosition, vcPriority, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, contact, contactRole, contactGroup, localContextData, manufacturerId, manufacturer, deviceTypeId, roleId, role, parentDeviceId, platformId, platform, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, rackId, clusterId, model, status, isFullDepth, macAddress, serial, hasPrimaryIp, virtualChassisId, virtualChassisMember, consolePorts, consoleServerPorts, powerPorts, powerOutlets, interfaces, passThroughPorts, moduleBays, deviceBays, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, assetTagN, assetTagIc, assetTagNic, assetTagIew, assetTagNiew, assetTagIsw, assetTagNisw, assetTagIe, assetTagNie, faceN, positionN, positionLte, positionLt, positionGte, positionGt, airflowN, vcPositionN, vcPositionLte, vcPositionLt, vcPositionGte, vcPositionGt, vcPriorityN, vcPriorityLte, vcPriorityLt, vcPriorityGte, vcPriorityGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, contactN, contactRoleN, contactGroupN, manufacturerIdN, manufacturerN, deviceTypeIdN, roleIdN, roleN, parentDeviceIdN, platformIdN, platformN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, rackIdN, clusterIdN, modelN, statusN, macAddressN, macAddressIc, macAddressNic, macAddressIew, macAddressNiew, macAddressIsw, macAddressNisw, macAddressIe, macAddressNie, serialN, serialIc, serialNic, serialIew, serialNiew, serialIsw, serialNisw, serialIe, serialNie, virtualChassisIdN, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling DcimApi#dcimDevicesList");
@@ -17452,7 +15775,11 @@ public class Example {
 | **vcPosition** | **String**|  | [optional] |
 | **vcPriority** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **tenantGroupId** | **String**|  | [optional] |
@@ -17536,16 +15863,6 @@ public class Example {
 | **vcPriorityLt** | **String**|  | [optional] |
 | **vcPriorityGte** | **String**|  | [optional] |
 | **vcPriorityGt** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **tenantGroupIdN** | **String**|  | [optional] |
 | **tenantGroupN** | **String**|  | [optional] |
@@ -17592,7 +15909,6 @@ public class Example {
 | **serialIe** | **String**|  | [optional] |
 | **serialNie** | **String**|  | [optional] |
 | **virtualChassisIdN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -17617,7 +15933,7 @@ public class Example {
 
 ## dcimDevicesListWithHttpInfo
 
-> ApiResponse<DcimDevicesList200Response> dcimDevicesList dcimDevicesListWithHttpInfo(id, name, assetTag, face, position, airflow, vcPosition, vcPriority, created, lastUpdated, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, contact, contactRole, contactGroup, localContextData, manufacturerId, manufacturer, deviceTypeId, roleId, role, parentDeviceId, platformId, platform, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, rackId, clusterId, model, status, isFullDepth, macAddress, serial, hasPrimaryIp, virtualChassisId, virtualChassisMember, consolePorts, consoleServerPorts, powerPorts, powerOutlets, interfaces, passThroughPorts, moduleBays, deviceBays, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, assetTagN, assetTagIc, assetTagNic, assetTagIew, assetTagNiew, assetTagIsw, assetTagNisw, assetTagIe, assetTagNie, faceN, positionN, positionLte, positionLt, positionGte, positionGt, airflowN, vcPositionN, vcPositionLte, vcPositionLt, vcPositionGte, vcPositionGt, vcPriorityN, vcPriorityLte, vcPriorityLt, vcPriorityGte, vcPriorityGt, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, contactN, contactRoleN, contactGroupN, manufacturerIdN, manufacturerN, deviceTypeIdN, roleIdN, roleN, parentDeviceIdN, platformIdN, platformN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, rackIdN, clusterIdN, modelN, statusN, macAddressN, macAddressIc, macAddressNic, macAddressIew, macAddressNiew, macAddressIsw, macAddressNisw, macAddressIe, macAddressNie, serialN, serialIc, serialNic, serialIew, serialNiew, serialIsw, serialNisw, serialIe, serialNie, virtualChassisIdN, ordering, limit, offset)
+> ApiResponse<DcimDevicesList200Response> dcimDevicesList dcimDevicesListWithHttpInfo(id, name, assetTag, face, position, airflow, vcPosition, vcPriority, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, contact, contactRole, contactGroup, localContextData, manufacturerId, manufacturer, deviceTypeId, roleId, role, parentDeviceId, platformId, platform, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, rackId, clusterId, model, status, isFullDepth, macAddress, serial, hasPrimaryIp, virtualChassisId, virtualChassisMember, consolePorts, consoleServerPorts, powerPorts, powerOutlets, interfaces, passThroughPorts, moduleBays, deviceBays, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, assetTagN, assetTagIc, assetTagNic, assetTagIew, assetTagNiew, assetTagIsw, assetTagNisw, assetTagIe, assetTagNie, faceN, positionN, positionLte, positionLt, positionGte, positionGt, airflowN, vcPositionN, vcPositionLte, vcPositionLt, vcPositionGte, vcPositionGt, vcPriorityN, vcPriorityLte, vcPriorityLt, vcPriorityGte, vcPriorityGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, contactN, contactRoleN, contactGroupN, manufacturerIdN, manufacturerN, deviceTypeIdN, roleIdN, roleN, parentDeviceIdN, platformIdN, platformN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, rackIdN, clusterIdN, modelN, statusN, macAddressN, macAddressIc, macAddressNic, macAddressIew, macAddressNiew, macAddressIsw, macAddressNisw, macAddressIe, macAddressNie, serialN, serialIc, serialNic, serialIew, serialNiew, serialIsw, serialNisw, serialIe, serialNie, virtualChassisIdN, limit, offset)
 
 
 
@@ -17656,7 +15972,11 @@ public class Example {
         String vcPosition = "vcPosition_example"; // String | 
         String vcPriority = "vcPriority_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String tenantGroupId = "tenantGroupId_example"; // String | 
@@ -17740,16 +16060,6 @@ public class Example {
         String vcPriorityLt = "vcPriorityLt_example"; // String | 
         String vcPriorityGte = "vcPriorityGte_example"; // String | 
         String vcPriorityGt = "vcPriorityGt_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String tenantGroupIdN = "tenantGroupIdN_example"; // String | 
         String tenantGroupN = "tenantGroupN_example"; // String | 
@@ -17796,11 +16106,10 @@ public class Example {
         String serialIe = "serialIe_example"; // String | 
         String serialNie = "serialNie_example"; // String | 
         String virtualChassisIdN = "virtualChassisIdN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<DcimDevicesList200Response> response = apiInstance.dcimDevicesListWithHttpInfo(id, name, assetTag, face, position, airflow, vcPosition, vcPriority, created, lastUpdated, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, contact, contactRole, contactGroup, localContextData, manufacturerId, manufacturer, deviceTypeId, roleId, role, parentDeviceId, platformId, platform, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, rackId, clusterId, model, status, isFullDepth, macAddress, serial, hasPrimaryIp, virtualChassisId, virtualChassisMember, consolePorts, consoleServerPorts, powerPorts, powerOutlets, interfaces, passThroughPorts, moduleBays, deviceBays, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, assetTagN, assetTagIc, assetTagNic, assetTagIew, assetTagNiew, assetTagIsw, assetTagNisw, assetTagIe, assetTagNie, faceN, positionN, positionLte, positionLt, positionGte, positionGt, airflowN, vcPositionN, vcPositionLte, vcPositionLt, vcPositionGte, vcPositionGt, vcPriorityN, vcPriorityLte, vcPriorityLt, vcPriorityGte, vcPriorityGt, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, contactN, contactRoleN, contactGroupN, manufacturerIdN, manufacturerN, deviceTypeIdN, roleIdN, roleN, parentDeviceIdN, platformIdN, platformN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, rackIdN, clusterIdN, modelN, statusN, macAddressN, macAddressIc, macAddressNic, macAddressIew, macAddressNiew, macAddressIsw, macAddressNisw, macAddressIe, macAddressNie, serialN, serialIc, serialNic, serialIew, serialNiew, serialIsw, serialNisw, serialIe, serialNie, virtualChassisIdN, ordering, limit, offset);
+            ApiResponse<DcimDevicesList200Response> response = apiInstance.dcimDevicesListWithHttpInfo(id, name, assetTag, face, position, airflow, vcPosition, vcPriority, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, contact, contactRole, contactGroup, localContextData, manufacturerId, manufacturer, deviceTypeId, roleId, role, parentDeviceId, platformId, platform, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, rackId, clusterId, model, status, isFullDepth, macAddress, serial, hasPrimaryIp, virtualChassisId, virtualChassisMember, consolePorts, consoleServerPorts, powerPorts, powerOutlets, interfaces, passThroughPorts, moduleBays, deviceBays, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, assetTagN, assetTagIc, assetTagNic, assetTagIew, assetTagNiew, assetTagIsw, assetTagNisw, assetTagIe, assetTagNie, faceN, positionN, positionLte, positionLt, positionGte, positionGt, airflowN, vcPositionN, vcPositionLte, vcPositionLt, vcPositionGte, vcPositionGt, vcPriorityN, vcPriorityLte, vcPriorityLt, vcPriorityGte, vcPriorityGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, contactN, contactRoleN, contactGroupN, manufacturerIdN, manufacturerN, deviceTypeIdN, roleIdN, roleN, parentDeviceIdN, platformIdN, platformN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, rackIdN, clusterIdN, modelN, statusN, macAddressN, macAddressIc, macAddressNic, macAddressIew, macAddressNiew, macAddressIsw, macAddressNisw, macAddressIe, macAddressNie, serialN, serialIc, serialNic, serialIew, serialNiew, serialIsw, serialNisw, serialIe, serialNie, virtualChassisIdN, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -17829,7 +16138,11 @@ public class Example {
 | **vcPosition** | **String**|  | [optional] |
 | **vcPriority** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **tenantGroupId** | **String**|  | [optional] |
@@ -17913,16 +16226,6 @@ public class Example {
 | **vcPriorityLt** | **String**|  | [optional] |
 | **vcPriorityGte** | **String**|  | [optional] |
 | **vcPriorityGt** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **tenantGroupIdN** | **String**|  | [optional] |
 | **tenantGroupN** | **String**|  | [optional] |
@@ -17969,7 +16272,6 @@ public class Example {
 | **serialIe** | **String**|  | [optional] |
 | **serialNie** | **String**|  | [optional] |
 | **virtualChassisIdN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -19295,7 +17597,7 @@ ApiResponse<Void>
 
 ## dcimFrontPortTemplatesList
 
-> DcimFrontPortTemplatesList200Response dcimFrontPortTemplatesList(id, name, type, color, created, lastUpdated, q, devicetypeId, moduletypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, typeN, colorN, colorIc, colorNic, colorIew, colorNiew, colorIsw, colorNisw, colorIe, colorNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, devicetypeIdN, moduletypeIdN, ordering, limit, offset)
+> DcimFrontPortTemplatesList200Response dcimFrontPortTemplatesList(id, name, type, color, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, devicetypeId, moduletypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, typeN, colorN, colorIc, colorNic, colorIew, colorNiew, colorIsw, colorNisw, colorIe, colorNie, devicetypeIdN, moduletypeIdN, limit, offset)
 
 
 
@@ -19329,7 +17631,11 @@ public class Example {
         String type = "type_example"; // String | 
         String color = "color_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String devicetypeId = "devicetypeId_example"; // String | 
         String moduletypeId = "moduletypeId_example"; // String | 
@@ -19357,23 +17663,12 @@ public class Example {
         String colorNisw = "colorNisw_example"; // String | 
         String colorIe = "colorIe_example"; // String | 
         String colorNie = "colorNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String devicetypeIdN = "devicetypeIdN_example"; // String | 
         String moduletypeIdN = "moduletypeIdN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            DcimFrontPortTemplatesList200Response result = apiInstance.dcimFrontPortTemplatesList(id, name, type, color, created, lastUpdated, q, devicetypeId, moduletypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, typeN, colorN, colorIc, colorNic, colorIew, colorNiew, colorIsw, colorNisw, colorIe, colorNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, devicetypeIdN, moduletypeIdN, ordering, limit, offset);
+            DcimFrontPortTemplatesList200Response result = apiInstance.dcimFrontPortTemplatesList(id, name, type, color, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, devicetypeId, moduletypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, typeN, colorN, colorIc, colorNic, colorIew, colorNiew, colorIsw, colorNisw, colorIe, colorNie, devicetypeIdN, moduletypeIdN, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling DcimApi#dcimFrontPortTemplatesList");
@@ -19396,7 +17691,11 @@ public class Example {
 | **type** | **String**|  | [optional] |
 | **color** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **devicetypeId** | **String**|  | [optional] |
 | **moduletypeId** | **String**|  | [optional] |
@@ -19424,19 +17723,8 @@ public class Example {
 | **colorNisw** | **String**|  | [optional] |
 | **colorIe** | **String**|  | [optional] |
 | **colorNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **devicetypeIdN** | **String**|  | [optional] |
 | **moduletypeIdN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -19461,7 +17749,7 @@ public class Example {
 
 ## dcimFrontPortTemplatesListWithHttpInfo
 
-> ApiResponse<DcimFrontPortTemplatesList200Response> dcimFrontPortTemplatesList dcimFrontPortTemplatesListWithHttpInfo(id, name, type, color, created, lastUpdated, q, devicetypeId, moduletypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, typeN, colorN, colorIc, colorNic, colorIew, colorNiew, colorIsw, colorNisw, colorIe, colorNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, devicetypeIdN, moduletypeIdN, ordering, limit, offset)
+> ApiResponse<DcimFrontPortTemplatesList200Response> dcimFrontPortTemplatesList dcimFrontPortTemplatesListWithHttpInfo(id, name, type, color, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, devicetypeId, moduletypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, typeN, colorN, colorIc, colorNic, colorIew, colorNiew, colorIsw, colorNisw, colorIe, colorNie, devicetypeIdN, moduletypeIdN, limit, offset)
 
 
 
@@ -19496,7 +17784,11 @@ public class Example {
         String type = "type_example"; // String | 
         String color = "color_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String devicetypeId = "devicetypeId_example"; // String | 
         String moduletypeId = "moduletypeId_example"; // String | 
@@ -19524,23 +17816,12 @@ public class Example {
         String colorNisw = "colorNisw_example"; // String | 
         String colorIe = "colorIe_example"; // String | 
         String colorNie = "colorNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String devicetypeIdN = "devicetypeIdN_example"; // String | 
         String moduletypeIdN = "moduletypeIdN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<DcimFrontPortTemplatesList200Response> response = apiInstance.dcimFrontPortTemplatesListWithHttpInfo(id, name, type, color, created, lastUpdated, q, devicetypeId, moduletypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, typeN, colorN, colorIc, colorNic, colorIew, colorNiew, colorIsw, colorNisw, colorIe, colorNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, devicetypeIdN, moduletypeIdN, ordering, limit, offset);
+            ApiResponse<DcimFrontPortTemplatesList200Response> response = apiInstance.dcimFrontPortTemplatesListWithHttpInfo(id, name, type, color, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, devicetypeId, moduletypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, typeN, colorN, colorIc, colorNic, colorIew, colorNiew, colorIsw, colorNisw, colorIe, colorNie, devicetypeIdN, moduletypeIdN, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -19565,7 +17846,11 @@ public class Example {
 | **type** | **String**|  | [optional] |
 | **color** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **devicetypeId** | **String**|  | [optional] |
 | **moduletypeId** | **String**|  | [optional] |
@@ -19593,19 +17878,8 @@ public class Example {
 | **colorNisw** | **String**|  | [optional] |
 | **colorIe** | **String**|  | [optional] |
 | **colorNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **devicetypeIdN** | **String**|  | [optional] |
 | **moduletypeIdN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -20779,7 +19053,7 @@ ApiResponse<Void>
 
 ## dcimFrontPortsList
 
-> DcimFrontPortsList200Response dcimFrontPortsList(id, name, label, type, color, description, cableEnd, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, moduleId, created, lastUpdated, tag, cabled, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, typeN, colorN, colorIc, colorNic, colorIew, colorNiew, colorIsw, colorNisw, colorIe, colorNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, cableEndN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, deviceIdN, deviceN, virtualChassisIdN, virtualChassisN, moduleIdN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, ordering, limit, offset)
+> DcimFrontPortsList200Response dcimFrontPortsList(id, name, label, type, color, description, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, moduleId, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, tag, cabled, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, typeN, colorN, colorIc, colorNic, colorIew, colorNiew, colorIsw, colorNisw, colorIe, colorNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, deviceIdN, deviceN, virtualChassisIdN, virtualChassisN, moduleIdN, tagN, limit, offset)
 
 
 
@@ -20814,7 +19088,6 @@ public class Example {
         String type = "type_example"; // String | 
         String color = "color_example"; // String | 
         String description = "description_example"; // String | 
-        String cableEnd = "cableEnd_example"; // String | 
         String q = "q_example"; // String | 
         String regionId = "regionId_example"; // String | 
         String region = "region_example"; // String | 
@@ -20830,7 +19103,11 @@ public class Example {
         String virtualChassis = "virtualChassis_example"; // String | 
         String moduleId = "moduleId_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String tag = "tag_example"; // String | 
         String cabled = "cabled_example"; // String | 
         String idN = "idN_example"; // String | 
@@ -20875,7 +19152,6 @@ public class Example {
         String descriptionNisw = "descriptionNisw_example"; // String | 
         String descriptionIe = "descriptionIe_example"; // String | 
         String descriptionNie = "descriptionNie_example"; // String | 
-        String cableEndN = "cableEndN_example"; // String | 
         String regionIdN = "regionIdN_example"; // String | 
         String regionN = "regionN_example"; // String | 
         String siteGroupIdN = "siteGroupIdN_example"; // String | 
@@ -20889,22 +19165,11 @@ public class Example {
         String virtualChassisIdN = "virtualChassisIdN_example"; // String | 
         String virtualChassisN = "virtualChassisN_example"; // String | 
         String moduleIdN = "moduleIdN_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            DcimFrontPortsList200Response result = apiInstance.dcimFrontPortsList(id, name, label, type, color, description, cableEnd, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, moduleId, created, lastUpdated, tag, cabled, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, typeN, colorN, colorIc, colorNic, colorIew, colorNiew, colorIsw, colorNisw, colorIe, colorNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, cableEndN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, deviceIdN, deviceN, virtualChassisIdN, virtualChassisN, moduleIdN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, ordering, limit, offset);
+            DcimFrontPortsList200Response result = apiInstance.dcimFrontPortsList(id, name, label, type, color, description, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, moduleId, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, tag, cabled, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, typeN, colorN, colorIc, colorNic, colorIew, colorNiew, colorIsw, colorNisw, colorIe, colorNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, deviceIdN, deviceN, virtualChassisIdN, virtualChassisN, moduleIdN, tagN, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling DcimApi#dcimFrontPortsList");
@@ -20928,7 +19193,6 @@ public class Example {
 | **type** | **String**|  | [optional] |
 | **color** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
-| **cableEnd** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **regionId** | **String**|  | [optional] |
 | **region** | **String**|  | [optional] |
@@ -20944,7 +19208,11 @@ public class Example {
 | **virtualChassis** | **String**|  | [optional] |
 | **moduleId** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **cabled** | **String**|  | [optional] |
 | **idN** | **String**|  | [optional] |
@@ -20989,7 +19257,6 @@ public class Example {
 | **descriptionNisw** | **String**|  | [optional] |
 | **descriptionIe** | **String**|  | [optional] |
 | **descriptionNie** | **String**|  | [optional] |
-| **cableEndN** | **String**|  | [optional] |
 | **regionIdN** | **String**|  | [optional] |
 | **regionN** | **String**|  | [optional] |
 | **siteGroupIdN** | **String**|  | [optional] |
@@ -21003,18 +19270,7 @@ public class Example {
 | **virtualChassisIdN** | **String**|  | [optional] |
 | **virtualChassisN** | **String**|  | [optional] |
 | **moduleIdN** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -21039,7 +19295,7 @@ public class Example {
 
 ## dcimFrontPortsListWithHttpInfo
 
-> ApiResponse<DcimFrontPortsList200Response> dcimFrontPortsList dcimFrontPortsListWithHttpInfo(id, name, label, type, color, description, cableEnd, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, moduleId, created, lastUpdated, tag, cabled, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, typeN, colorN, colorIc, colorNic, colorIew, colorNiew, colorIsw, colorNisw, colorIe, colorNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, cableEndN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, deviceIdN, deviceN, virtualChassisIdN, virtualChassisN, moduleIdN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, ordering, limit, offset)
+> ApiResponse<DcimFrontPortsList200Response> dcimFrontPortsList dcimFrontPortsListWithHttpInfo(id, name, label, type, color, description, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, moduleId, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, tag, cabled, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, typeN, colorN, colorIc, colorNic, colorIew, colorNiew, colorIsw, colorNisw, colorIe, colorNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, deviceIdN, deviceN, virtualChassisIdN, virtualChassisN, moduleIdN, tagN, limit, offset)
 
 
 
@@ -21075,7 +19331,6 @@ public class Example {
         String type = "type_example"; // String | 
         String color = "color_example"; // String | 
         String description = "description_example"; // String | 
-        String cableEnd = "cableEnd_example"; // String | 
         String q = "q_example"; // String | 
         String regionId = "regionId_example"; // String | 
         String region = "region_example"; // String | 
@@ -21091,7 +19346,11 @@ public class Example {
         String virtualChassis = "virtualChassis_example"; // String | 
         String moduleId = "moduleId_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String tag = "tag_example"; // String | 
         String cabled = "cabled_example"; // String | 
         String idN = "idN_example"; // String | 
@@ -21136,7 +19395,6 @@ public class Example {
         String descriptionNisw = "descriptionNisw_example"; // String | 
         String descriptionIe = "descriptionIe_example"; // String | 
         String descriptionNie = "descriptionNie_example"; // String | 
-        String cableEndN = "cableEndN_example"; // String | 
         String regionIdN = "regionIdN_example"; // String | 
         String regionN = "regionN_example"; // String | 
         String siteGroupIdN = "siteGroupIdN_example"; // String | 
@@ -21150,22 +19408,11 @@ public class Example {
         String virtualChassisIdN = "virtualChassisIdN_example"; // String | 
         String virtualChassisN = "virtualChassisN_example"; // String | 
         String moduleIdN = "moduleIdN_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<DcimFrontPortsList200Response> response = apiInstance.dcimFrontPortsListWithHttpInfo(id, name, label, type, color, description, cableEnd, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, moduleId, created, lastUpdated, tag, cabled, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, typeN, colorN, colorIc, colorNic, colorIew, colorNiew, colorIsw, colorNisw, colorIe, colorNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, cableEndN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, deviceIdN, deviceN, virtualChassisIdN, virtualChassisN, moduleIdN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, ordering, limit, offset);
+            ApiResponse<DcimFrontPortsList200Response> response = apiInstance.dcimFrontPortsListWithHttpInfo(id, name, label, type, color, description, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, moduleId, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, tag, cabled, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, typeN, colorN, colorIc, colorNic, colorIew, colorNiew, colorIsw, colorNisw, colorIe, colorNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, deviceIdN, deviceN, virtualChassisIdN, virtualChassisN, moduleIdN, tagN, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -21191,7 +19438,6 @@ public class Example {
 | **type** | **String**|  | [optional] |
 | **color** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
-| **cableEnd** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **regionId** | **String**|  | [optional] |
 | **region** | **String**|  | [optional] |
@@ -21207,7 +19453,11 @@ public class Example {
 | **virtualChassis** | **String**|  | [optional] |
 | **moduleId** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **cabled** | **String**|  | [optional] |
 | **idN** | **String**|  | [optional] |
@@ -21252,7 +19502,6 @@ public class Example {
 | **descriptionNisw** | **String**|  | [optional] |
 | **descriptionIe** | **String**|  | [optional] |
 | **descriptionNie** | **String**|  | [optional] |
-| **cableEndN** | **String**|  | [optional] |
 | **regionIdN** | **String**|  | [optional] |
 | **regionN** | **String**|  | [optional] |
 | **siteGroupIdN** | **String**|  | [optional] |
@@ -21266,18 +19515,7 @@ public class Example {
 | **virtualChassisIdN** | **String**|  | [optional] |
 | **virtualChassisN** | **String**|  | [optional] |
 | **moduleIdN** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -22599,7 +20837,7 @@ ApiResponse<Void>
 
 ## dcimInterfaceTemplatesList
 
-> DcimInterfaceTemplatesList200Response dcimInterfaceTemplatesList(id, name, type, mgmtOnly, created, lastUpdated, q, devicetypeId, moduletypeId, poeMode, poeType, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, typeN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, devicetypeIdN, moduletypeIdN, poeModeN, poeTypeN, ordering, limit, offset)
+> DcimInterfaceTemplatesList200Response dcimInterfaceTemplatesList(id, name, type, mgmtOnly, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, devicetypeId, moduletypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, typeN, devicetypeIdN, moduletypeIdN, limit, offset)
 
 
 
@@ -22633,12 +20871,14 @@ public class Example {
         String type = "type_example"; // String | 
         String mgmtOnly = "mgmtOnly_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String devicetypeId = "devicetypeId_example"; // String | 
         String moduletypeId = "moduletypeId_example"; // String | 
-        String poeMode = "poeMode_example"; // String | 
-        String poeType = "poeType_example"; // String | 
         String idN = "idN_example"; // String | 
         String idLte = "idLte_example"; // String | 
         String idLt = "idLt_example"; // String | 
@@ -22654,25 +20894,12 @@ public class Example {
         String nameIe = "nameIe_example"; // String | 
         String nameNie = "nameNie_example"; // String | 
         String typeN = "typeN_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String devicetypeIdN = "devicetypeIdN_example"; // String | 
         String moduletypeIdN = "moduletypeIdN_example"; // String | 
-        String poeModeN = "poeModeN_example"; // String | 
-        String poeTypeN = "poeTypeN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            DcimInterfaceTemplatesList200Response result = apiInstance.dcimInterfaceTemplatesList(id, name, type, mgmtOnly, created, lastUpdated, q, devicetypeId, moduletypeId, poeMode, poeType, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, typeN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, devicetypeIdN, moduletypeIdN, poeModeN, poeTypeN, ordering, limit, offset);
+            DcimInterfaceTemplatesList200Response result = apiInstance.dcimInterfaceTemplatesList(id, name, type, mgmtOnly, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, devicetypeId, moduletypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, typeN, devicetypeIdN, moduletypeIdN, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling DcimApi#dcimInterfaceTemplatesList");
@@ -22695,12 +20922,14 @@ public class Example {
 | **type** | **String**|  | [optional] |
 | **mgmtOnly** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **devicetypeId** | **String**|  | [optional] |
 | **moduletypeId** | **String**|  | [optional] |
-| **poeMode** | **String**|  | [optional] |
-| **poeType** | **String**|  | [optional] |
 | **idN** | **String**|  | [optional] |
 | **idLte** | **String**|  | [optional] |
 | **idLt** | **String**|  | [optional] |
@@ -22716,21 +20945,8 @@ public class Example {
 | **nameIe** | **String**|  | [optional] |
 | **nameNie** | **String**|  | [optional] |
 | **typeN** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **devicetypeIdN** | **String**|  | [optional] |
 | **moduletypeIdN** | **String**|  | [optional] |
-| **poeModeN** | **String**|  | [optional] |
-| **poeTypeN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -22755,7 +20971,7 @@ public class Example {
 
 ## dcimInterfaceTemplatesListWithHttpInfo
 
-> ApiResponse<DcimInterfaceTemplatesList200Response> dcimInterfaceTemplatesList dcimInterfaceTemplatesListWithHttpInfo(id, name, type, mgmtOnly, created, lastUpdated, q, devicetypeId, moduletypeId, poeMode, poeType, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, typeN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, devicetypeIdN, moduletypeIdN, poeModeN, poeTypeN, ordering, limit, offset)
+> ApiResponse<DcimInterfaceTemplatesList200Response> dcimInterfaceTemplatesList dcimInterfaceTemplatesListWithHttpInfo(id, name, type, mgmtOnly, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, devicetypeId, moduletypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, typeN, devicetypeIdN, moduletypeIdN, limit, offset)
 
 
 
@@ -22790,12 +21006,14 @@ public class Example {
         String type = "type_example"; // String | 
         String mgmtOnly = "mgmtOnly_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String devicetypeId = "devicetypeId_example"; // String | 
         String moduletypeId = "moduletypeId_example"; // String | 
-        String poeMode = "poeMode_example"; // String | 
-        String poeType = "poeType_example"; // String | 
         String idN = "idN_example"; // String | 
         String idLte = "idLte_example"; // String | 
         String idLt = "idLt_example"; // String | 
@@ -22811,25 +21029,12 @@ public class Example {
         String nameIe = "nameIe_example"; // String | 
         String nameNie = "nameNie_example"; // String | 
         String typeN = "typeN_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String devicetypeIdN = "devicetypeIdN_example"; // String | 
         String moduletypeIdN = "moduletypeIdN_example"; // String | 
-        String poeModeN = "poeModeN_example"; // String | 
-        String poeTypeN = "poeTypeN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<DcimInterfaceTemplatesList200Response> response = apiInstance.dcimInterfaceTemplatesListWithHttpInfo(id, name, type, mgmtOnly, created, lastUpdated, q, devicetypeId, moduletypeId, poeMode, poeType, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, typeN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, devicetypeIdN, moduletypeIdN, poeModeN, poeTypeN, ordering, limit, offset);
+            ApiResponse<DcimInterfaceTemplatesList200Response> response = apiInstance.dcimInterfaceTemplatesListWithHttpInfo(id, name, type, mgmtOnly, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, devicetypeId, moduletypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, typeN, devicetypeIdN, moduletypeIdN, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -22854,12 +21059,14 @@ public class Example {
 | **type** | **String**|  | [optional] |
 | **mgmtOnly** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **devicetypeId** | **String**|  | [optional] |
 | **moduletypeId** | **String**|  | [optional] |
-| **poeMode** | **String**|  | [optional] |
-| **poeType** | **String**|  | [optional] |
 | **idN** | **String**|  | [optional] |
 | **idLte** | **String**|  | [optional] |
 | **idLt** | **String**|  | [optional] |
@@ -22875,21 +21082,8 @@ public class Example {
 | **nameIe** | **String**|  | [optional] |
 | **nameNie** | **String**|  | [optional] |
 | **typeN** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **devicetypeIdN** | **String**|  | [optional] |
 | **moduletypeIdN** | **String**|  | [optional] |
-| **poeModeN** | **String**|  | [optional] |
-| **poeTypeN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -24063,7 +22257,7 @@ ApiResponse<Void>
 
 ## dcimInterfacesList
 
-> DcimInterfacesList200Response dcimInterfacesList(id, name, label, type, enabled, mtu, mgmtOnly, poeMode, poeType, mode, rfRole, rfChannel, rfChannelFrequency, rfChannelWidth, txPower, description, cableEnd, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, moduleId, created, lastUpdated, tag, cabled, connected, kind, parentId, bridgeId, lagId, speed, duplex, macAddress, wwn, vlanId, vlan, vrfId, vrf, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, typeN, mtuN, mtuLte, mtuLt, mtuGte, mtuGt, poeModeN, poeTypeN, modeN, rfRoleN, rfChannelN, rfChannelFrequencyN, rfChannelFrequencyLte, rfChannelFrequencyLt, rfChannelFrequencyGte, rfChannelFrequencyGt, rfChannelWidthN, rfChannelWidthLte, rfChannelWidthLt, rfChannelWidthGte, rfChannelWidthGt, txPowerN, txPowerLte, txPowerLt, txPowerGte, txPowerGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, cableEndN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, virtualChassisIdN, virtualChassisN, moduleIdN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, parentIdN, bridgeIdN, lagIdN, speedN, speedLte, speedLt, speedGte, speedGt, duplexN, macAddressN, macAddressIc, macAddressNic, macAddressIew, macAddressNiew, macAddressIsw, macAddressNisw, macAddressIe, macAddressNie, wwnN, wwnIc, wwnNic, wwnIew, wwnNiew, wwnIsw, wwnNisw, wwnIe, wwnNie, vrfIdN, vrfN, ordering, limit, offset)
+> DcimInterfacesList200Response dcimInterfacesList(id, name, label, type, enabled, mtu, mgmtOnly, mode, rfRole, rfChannel, rfChannelFrequency, rfChannelWidth, txPower, description, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, moduleId, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, tag, cabled, connected, kind, parentId, bridgeId, lagId, speed, duplex, macAddress, wwn, vlanId, vlan, vrfId, vrf, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, typeN, mtuN, mtuLte, mtuLt, mtuGte, mtuGt, modeN, rfRoleN, rfChannelN, rfChannelFrequencyN, rfChannelFrequencyLte, rfChannelFrequencyLt, rfChannelFrequencyGte, rfChannelFrequencyGt, rfChannelWidthN, rfChannelWidthLte, rfChannelWidthLt, rfChannelWidthGte, rfChannelWidthGt, txPowerN, txPowerLte, txPowerLt, txPowerGte, txPowerGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, virtualChassisIdN, virtualChassisN, moduleIdN, tagN, parentIdN, bridgeIdN, lagIdN, speedN, speedLte, speedLt, speedGte, speedGt, duplexN, macAddressN, macAddressIc, macAddressNic, macAddressIew, macAddressNiew, macAddressIsw, macAddressNisw, macAddressIe, macAddressNie, wwnN, wwnIc, wwnNic, wwnIew, wwnNiew, wwnIsw, wwnNisw, wwnIe, wwnNie, vrfIdN, vrfN, limit, offset)
 
 
 
@@ -24099,8 +22293,6 @@ public class Example {
         String enabled = "enabled_example"; // String | 
         String mtu = "mtu_example"; // String | 
         String mgmtOnly = "mgmtOnly_example"; // String | 
-        String poeMode = "poeMode_example"; // String | 
-        String poeType = "poeType_example"; // String | 
         String mode = "mode_example"; // String | 
         String rfRole = "rfRole_example"; // String | 
         String rfChannel = "rfChannel_example"; // String | 
@@ -24108,7 +22300,6 @@ public class Example {
         String rfChannelWidth = "rfChannelWidth_example"; // String | 
         String txPower = "txPower_example"; // String | 
         String description = "description_example"; // String | 
-        String cableEnd = "cableEnd_example"; // String | 
         String q = "q_example"; // String | 
         String regionId = "regionId_example"; // String | 
         String region = "region_example"; // String | 
@@ -24124,7 +22315,11 @@ public class Example {
         String virtualChassis = "virtualChassis_example"; // String | 
         String moduleId = "moduleId_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String tag = "tag_example"; // String | 
         String cabled = "cabled_example"; // String | 
         String connected = "connected_example"; // String | 
@@ -24169,8 +22364,6 @@ public class Example {
         String mtuLt = "mtuLt_example"; // String | 
         String mtuGte = "mtuGte_example"; // String | 
         String mtuGt = "mtuGt_example"; // String | 
-        String poeModeN = "poeModeN_example"; // String | 
-        String poeTypeN = "poeTypeN_example"; // String | 
         String modeN = "modeN_example"; // String | 
         String rfRoleN = "rfRoleN_example"; // String | 
         String rfChannelN = "rfChannelN_example"; // String | 
@@ -24198,7 +22391,6 @@ public class Example {
         String descriptionNisw = "descriptionNisw_example"; // String | 
         String descriptionIe = "descriptionIe_example"; // String | 
         String descriptionNie = "descriptionNie_example"; // String | 
-        String cableEndN = "cableEndN_example"; // String | 
         String regionIdN = "regionIdN_example"; // String | 
         String regionN = "regionN_example"; // String | 
         String siteGroupIdN = "siteGroupIdN_example"; // String | 
@@ -24210,16 +22402,6 @@ public class Example {
         String virtualChassisIdN = "virtualChassisIdN_example"; // String | 
         String virtualChassisN = "virtualChassisN_example"; // String | 
         String moduleIdN = "moduleIdN_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String parentIdN = "parentIdN_example"; // String | 
         String bridgeIdN = "bridgeIdN_example"; // String | 
@@ -24250,11 +22432,10 @@ public class Example {
         String wwnNie = "wwnNie_example"; // String | 
         String vrfIdN = "vrfIdN_example"; // String | 
         String vrfN = "vrfN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            DcimInterfacesList200Response result = apiInstance.dcimInterfacesList(id, name, label, type, enabled, mtu, mgmtOnly, poeMode, poeType, mode, rfRole, rfChannel, rfChannelFrequency, rfChannelWidth, txPower, description, cableEnd, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, moduleId, created, lastUpdated, tag, cabled, connected, kind, parentId, bridgeId, lagId, speed, duplex, macAddress, wwn, vlanId, vlan, vrfId, vrf, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, typeN, mtuN, mtuLte, mtuLt, mtuGte, mtuGt, poeModeN, poeTypeN, modeN, rfRoleN, rfChannelN, rfChannelFrequencyN, rfChannelFrequencyLte, rfChannelFrequencyLt, rfChannelFrequencyGte, rfChannelFrequencyGt, rfChannelWidthN, rfChannelWidthLte, rfChannelWidthLt, rfChannelWidthGte, rfChannelWidthGt, txPowerN, txPowerLte, txPowerLt, txPowerGte, txPowerGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, cableEndN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, virtualChassisIdN, virtualChassisN, moduleIdN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, parentIdN, bridgeIdN, lagIdN, speedN, speedLte, speedLt, speedGte, speedGt, duplexN, macAddressN, macAddressIc, macAddressNic, macAddressIew, macAddressNiew, macAddressIsw, macAddressNisw, macAddressIe, macAddressNie, wwnN, wwnIc, wwnNic, wwnIew, wwnNiew, wwnIsw, wwnNisw, wwnIe, wwnNie, vrfIdN, vrfN, ordering, limit, offset);
+            DcimInterfacesList200Response result = apiInstance.dcimInterfacesList(id, name, label, type, enabled, mtu, mgmtOnly, mode, rfRole, rfChannel, rfChannelFrequency, rfChannelWidth, txPower, description, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, moduleId, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, tag, cabled, connected, kind, parentId, bridgeId, lagId, speed, duplex, macAddress, wwn, vlanId, vlan, vrfId, vrf, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, typeN, mtuN, mtuLte, mtuLt, mtuGte, mtuGt, modeN, rfRoleN, rfChannelN, rfChannelFrequencyN, rfChannelFrequencyLte, rfChannelFrequencyLt, rfChannelFrequencyGte, rfChannelFrequencyGt, rfChannelWidthN, rfChannelWidthLte, rfChannelWidthLt, rfChannelWidthGte, rfChannelWidthGt, txPowerN, txPowerLte, txPowerLt, txPowerGte, txPowerGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, virtualChassisIdN, virtualChassisN, moduleIdN, tagN, parentIdN, bridgeIdN, lagIdN, speedN, speedLte, speedLt, speedGte, speedGt, duplexN, macAddressN, macAddressIc, macAddressNic, macAddressIew, macAddressNiew, macAddressIsw, macAddressNisw, macAddressIe, macAddressNie, wwnN, wwnIc, wwnNic, wwnIew, wwnNiew, wwnIsw, wwnNisw, wwnIe, wwnNie, vrfIdN, vrfN, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling DcimApi#dcimInterfacesList");
@@ -24279,8 +22460,6 @@ public class Example {
 | **enabled** | **String**|  | [optional] |
 | **mtu** | **String**|  | [optional] |
 | **mgmtOnly** | **String**|  | [optional] |
-| **poeMode** | **String**|  | [optional] |
-| **poeType** | **String**|  | [optional] |
 | **mode** | **String**|  | [optional] |
 | **rfRole** | **String**|  | [optional] |
 | **rfChannel** | **String**|  | [optional] |
@@ -24288,7 +22467,6 @@ public class Example {
 | **rfChannelWidth** | **String**|  | [optional] |
 | **txPower** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
-| **cableEnd** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **regionId** | **String**|  | [optional] |
 | **region** | **String**|  | [optional] |
@@ -24304,7 +22482,11 @@ public class Example {
 | **virtualChassis** | **String**|  | [optional] |
 | **moduleId** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **cabled** | **String**|  | [optional] |
 | **connected** | **String**|  | [optional] |
@@ -24349,8 +22531,6 @@ public class Example {
 | **mtuLt** | **String**|  | [optional] |
 | **mtuGte** | **String**|  | [optional] |
 | **mtuGt** | **String**|  | [optional] |
-| **poeModeN** | **String**|  | [optional] |
-| **poeTypeN** | **String**|  | [optional] |
 | **modeN** | **String**|  | [optional] |
 | **rfRoleN** | **String**|  | [optional] |
 | **rfChannelN** | **String**|  | [optional] |
@@ -24378,7 +22558,6 @@ public class Example {
 | **descriptionNisw** | **String**|  | [optional] |
 | **descriptionIe** | **String**|  | [optional] |
 | **descriptionNie** | **String**|  | [optional] |
-| **cableEndN** | **String**|  | [optional] |
 | **regionIdN** | **String**|  | [optional] |
 | **regionN** | **String**|  | [optional] |
 | **siteGroupIdN** | **String**|  | [optional] |
@@ -24390,16 +22569,6 @@ public class Example {
 | **virtualChassisIdN** | **String**|  | [optional] |
 | **virtualChassisN** | **String**|  | [optional] |
 | **moduleIdN** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **parentIdN** | **String**|  | [optional] |
 | **bridgeIdN** | **String**|  | [optional] |
@@ -24430,7 +22599,6 @@ public class Example {
 | **wwnNie** | **String**|  | [optional] |
 | **vrfIdN** | **String**|  | [optional] |
 | **vrfN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -24455,7 +22623,7 @@ public class Example {
 
 ## dcimInterfacesListWithHttpInfo
 
-> ApiResponse<DcimInterfacesList200Response> dcimInterfacesList dcimInterfacesListWithHttpInfo(id, name, label, type, enabled, mtu, mgmtOnly, poeMode, poeType, mode, rfRole, rfChannel, rfChannelFrequency, rfChannelWidth, txPower, description, cableEnd, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, moduleId, created, lastUpdated, tag, cabled, connected, kind, parentId, bridgeId, lagId, speed, duplex, macAddress, wwn, vlanId, vlan, vrfId, vrf, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, typeN, mtuN, mtuLte, mtuLt, mtuGte, mtuGt, poeModeN, poeTypeN, modeN, rfRoleN, rfChannelN, rfChannelFrequencyN, rfChannelFrequencyLte, rfChannelFrequencyLt, rfChannelFrequencyGte, rfChannelFrequencyGt, rfChannelWidthN, rfChannelWidthLte, rfChannelWidthLt, rfChannelWidthGte, rfChannelWidthGt, txPowerN, txPowerLte, txPowerLt, txPowerGte, txPowerGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, cableEndN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, virtualChassisIdN, virtualChassisN, moduleIdN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, parentIdN, bridgeIdN, lagIdN, speedN, speedLte, speedLt, speedGte, speedGt, duplexN, macAddressN, macAddressIc, macAddressNic, macAddressIew, macAddressNiew, macAddressIsw, macAddressNisw, macAddressIe, macAddressNie, wwnN, wwnIc, wwnNic, wwnIew, wwnNiew, wwnIsw, wwnNisw, wwnIe, wwnNie, vrfIdN, vrfN, ordering, limit, offset)
+> ApiResponse<DcimInterfacesList200Response> dcimInterfacesList dcimInterfacesListWithHttpInfo(id, name, label, type, enabled, mtu, mgmtOnly, mode, rfRole, rfChannel, rfChannelFrequency, rfChannelWidth, txPower, description, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, moduleId, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, tag, cabled, connected, kind, parentId, bridgeId, lagId, speed, duplex, macAddress, wwn, vlanId, vlan, vrfId, vrf, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, typeN, mtuN, mtuLte, mtuLt, mtuGte, mtuGt, modeN, rfRoleN, rfChannelN, rfChannelFrequencyN, rfChannelFrequencyLte, rfChannelFrequencyLt, rfChannelFrequencyGte, rfChannelFrequencyGt, rfChannelWidthN, rfChannelWidthLte, rfChannelWidthLt, rfChannelWidthGte, rfChannelWidthGt, txPowerN, txPowerLte, txPowerLt, txPowerGte, txPowerGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, virtualChassisIdN, virtualChassisN, moduleIdN, tagN, parentIdN, bridgeIdN, lagIdN, speedN, speedLte, speedLt, speedGte, speedGt, duplexN, macAddressN, macAddressIc, macAddressNic, macAddressIew, macAddressNiew, macAddressIsw, macAddressNisw, macAddressIe, macAddressNie, wwnN, wwnIc, wwnNic, wwnIew, wwnNiew, wwnIsw, wwnNisw, wwnIe, wwnNie, vrfIdN, vrfN, limit, offset)
 
 
 
@@ -24492,8 +22660,6 @@ public class Example {
         String enabled = "enabled_example"; // String | 
         String mtu = "mtu_example"; // String | 
         String mgmtOnly = "mgmtOnly_example"; // String | 
-        String poeMode = "poeMode_example"; // String | 
-        String poeType = "poeType_example"; // String | 
         String mode = "mode_example"; // String | 
         String rfRole = "rfRole_example"; // String | 
         String rfChannel = "rfChannel_example"; // String | 
@@ -24501,7 +22667,6 @@ public class Example {
         String rfChannelWidth = "rfChannelWidth_example"; // String | 
         String txPower = "txPower_example"; // String | 
         String description = "description_example"; // String | 
-        String cableEnd = "cableEnd_example"; // String | 
         String q = "q_example"; // String | 
         String regionId = "regionId_example"; // String | 
         String region = "region_example"; // String | 
@@ -24517,7 +22682,11 @@ public class Example {
         String virtualChassis = "virtualChassis_example"; // String | 
         String moduleId = "moduleId_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String tag = "tag_example"; // String | 
         String cabled = "cabled_example"; // String | 
         String connected = "connected_example"; // String | 
@@ -24562,8 +22731,6 @@ public class Example {
         String mtuLt = "mtuLt_example"; // String | 
         String mtuGte = "mtuGte_example"; // String | 
         String mtuGt = "mtuGt_example"; // String | 
-        String poeModeN = "poeModeN_example"; // String | 
-        String poeTypeN = "poeTypeN_example"; // String | 
         String modeN = "modeN_example"; // String | 
         String rfRoleN = "rfRoleN_example"; // String | 
         String rfChannelN = "rfChannelN_example"; // String | 
@@ -24591,7 +22758,6 @@ public class Example {
         String descriptionNisw = "descriptionNisw_example"; // String | 
         String descriptionIe = "descriptionIe_example"; // String | 
         String descriptionNie = "descriptionNie_example"; // String | 
-        String cableEndN = "cableEndN_example"; // String | 
         String regionIdN = "regionIdN_example"; // String | 
         String regionN = "regionN_example"; // String | 
         String siteGroupIdN = "siteGroupIdN_example"; // String | 
@@ -24603,16 +22769,6 @@ public class Example {
         String virtualChassisIdN = "virtualChassisIdN_example"; // String | 
         String virtualChassisN = "virtualChassisN_example"; // String | 
         String moduleIdN = "moduleIdN_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String parentIdN = "parentIdN_example"; // String | 
         String bridgeIdN = "bridgeIdN_example"; // String | 
@@ -24643,11 +22799,10 @@ public class Example {
         String wwnNie = "wwnNie_example"; // String | 
         String vrfIdN = "vrfIdN_example"; // String | 
         String vrfN = "vrfN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<DcimInterfacesList200Response> response = apiInstance.dcimInterfacesListWithHttpInfo(id, name, label, type, enabled, mtu, mgmtOnly, poeMode, poeType, mode, rfRole, rfChannel, rfChannelFrequency, rfChannelWidth, txPower, description, cableEnd, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, moduleId, created, lastUpdated, tag, cabled, connected, kind, parentId, bridgeId, lagId, speed, duplex, macAddress, wwn, vlanId, vlan, vrfId, vrf, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, typeN, mtuN, mtuLte, mtuLt, mtuGte, mtuGt, poeModeN, poeTypeN, modeN, rfRoleN, rfChannelN, rfChannelFrequencyN, rfChannelFrequencyLte, rfChannelFrequencyLt, rfChannelFrequencyGte, rfChannelFrequencyGt, rfChannelWidthN, rfChannelWidthLte, rfChannelWidthLt, rfChannelWidthGte, rfChannelWidthGt, txPowerN, txPowerLte, txPowerLt, txPowerGte, txPowerGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, cableEndN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, virtualChassisIdN, virtualChassisN, moduleIdN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, parentIdN, bridgeIdN, lagIdN, speedN, speedLte, speedLt, speedGte, speedGt, duplexN, macAddressN, macAddressIc, macAddressNic, macAddressIew, macAddressNiew, macAddressIsw, macAddressNisw, macAddressIe, macAddressNie, wwnN, wwnIc, wwnNic, wwnIew, wwnNiew, wwnIsw, wwnNisw, wwnIe, wwnNie, vrfIdN, vrfN, ordering, limit, offset);
+            ApiResponse<DcimInterfacesList200Response> response = apiInstance.dcimInterfacesListWithHttpInfo(id, name, label, type, enabled, mtu, mgmtOnly, mode, rfRole, rfChannel, rfChannelFrequency, rfChannelWidth, txPower, description, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, moduleId, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, tag, cabled, connected, kind, parentId, bridgeId, lagId, speed, duplex, macAddress, wwn, vlanId, vlan, vrfId, vrf, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, typeN, mtuN, mtuLte, mtuLt, mtuGte, mtuGt, modeN, rfRoleN, rfChannelN, rfChannelFrequencyN, rfChannelFrequencyLte, rfChannelFrequencyLt, rfChannelFrequencyGte, rfChannelFrequencyGt, rfChannelWidthN, rfChannelWidthLte, rfChannelWidthLt, rfChannelWidthGte, rfChannelWidthGt, txPowerN, txPowerLte, txPowerLt, txPowerGte, txPowerGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, virtualChassisIdN, virtualChassisN, moduleIdN, tagN, parentIdN, bridgeIdN, lagIdN, speedN, speedLte, speedLt, speedGte, speedGt, duplexN, macAddressN, macAddressIc, macAddressNic, macAddressIew, macAddressNiew, macAddressIsw, macAddressNisw, macAddressIe, macAddressNie, wwnN, wwnIc, wwnNic, wwnIew, wwnNiew, wwnIsw, wwnNisw, wwnIe, wwnNie, vrfIdN, vrfN, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -24674,8 +22829,6 @@ public class Example {
 | **enabled** | **String**|  | [optional] |
 | **mtu** | **String**|  | [optional] |
 | **mgmtOnly** | **String**|  | [optional] |
-| **poeMode** | **String**|  | [optional] |
-| **poeType** | **String**|  | [optional] |
 | **mode** | **String**|  | [optional] |
 | **rfRole** | **String**|  | [optional] |
 | **rfChannel** | **String**|  | [optional] |
@@ -24683,7 +22836,6 @@ public class Example {
 | **rfChannelWidth** | **String**|  | [optional] |
 | **txPower** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
-| **cableEnd** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **regionId** | **String**|  | [optional] |
 | **region** | **String**|  | [optional] |
@@ -24699,7 +22851,11 @@ public class Example {
 | **virtualChassis** | **String**|  | [optional] |
 | **moduleId** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **cabled** | **String**|  | [optional] |
 | **connected** | **String**|  | [optional] |
@@ -24744,8 +22900,6 @@ public class Example {
 | **mtuLt** | **String**|  | [optional] |
 | **mtuGte** | **String**|  | [optional] |
 | **mtuGt** | **String**|  | [optional] |
-| **poeModeN** | **String**|  | [optional] |
-| **poeTypeN** | **String**|  | [optional] |
 | **modeN** | **String**|  | [optional] |
 | **rfRoleN** | **String**|  | [optional] |
 | **rfChannelN** | **String**|  | [optional] |
@@ -24773,7 +22927,6 @@ public class Example {
 | **descriptionNisw** | **String**|  | [optional] |
 | **descriptionIe** | **String**|  | [optional] |
 | **descriptionNie** | **String**|  | [optional] |
-| **cableEndN** | **String**|  | [optional] |
 | **regionIdN** | **String**|  | [optional] |
 | **regionN** | **String**|  | [optional] |
 | **siteGroupIdN** | **String**|  | [optional] |
@@ -24785,16 +22938,6 @@ public class Example {
 | **virtualChassisIdN** | **String**|  | [optional] |
 | **virtualChassisN** | **String**|  | [optional] |
 | **moduleIdN** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **parentIdN** | **String**|  | [optional] |
 | **bridgeIdN** | **String**|  | [optional] |
@@ -24825,7 +22968,6 @@ public class Example {
 | **wwnNie** | **String**|  | [optional] |
 | **vrfIdN** | **String**|  | [optional] |
 | **vrfN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -25141,9 +23283,9 @@ ApiResponse<[**ModelInterface**](ModelInterface.md)>
 | **200** |  |  -  |
 
 
-## dcimInterfacesTraceRead
+## dcimInterfacesTrace
 
-> ModelInterface dcimInterfacesTraceRead(id)
+> ModelInterface dcimInterfacesTrace(id)
 
 
 
@@ -25174,10 +23316,10 @@ public class Example {
         DcimApi apiInstance = new DcimApi(defaultClient);
         Integer id = 56; // Integer | A unique integer value identifying this interface.
         try {
-            ModelInterface result = apiInstance.dcimInterfacesTraceRead(id);
+            ModelInterface result = apiInstance.dcimInterfacesTrace(id);
             System.out.println(result);
         } catch (ApiException e) {
-            System.err.println("Exception when calling DcimApi#dcimInterfacesTraceRead");
+            System.err.println("Exception when calling DcimApi#dcimInterfacesTrace");
             System.err.println("Status code: " + e.getCode());
             System.err.println("Reason: " + e.getResponseBody());
             System.err.println("Response headers: " + e.getResponseHeaders());
@@ -25213,9 +23355,9 @@ public class Example {
 |-------------|-------------|------------------|
 | **200** |  |  -  |
 
-## dcimInterfacesTraceReadWithHttpInfo
+## dcimInterfacesTraceWithHttpInfo
 
-> ApiResponse<ModelInterface> dcimInterfacesTraceRead dcimInterfacesTraceReadWithHttpInfo(id)
+> ApiResponse<ModelInterface> dcimInterfacesTrace dcimInterfacesTraceWithHttpInfo(id)
 
 
 
@@ -25247,12 +23389,12 @@ public class Example {
         DcimApi apiInstance = new DcimApi(defaultClient);
         Integer id = 56; // Integer | A unique integer value identifying this interface.
         try {
-            ApiResponse<ModelInterface> response = apiInstance.dcimInterfacesTraceReadWithHttpInfo(id);
+            ApiResponse<ModelInterface> response = apiInstance.dcimInterfacesTraceWithHttpInfo(id);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
         } catch (ApiException e) {
-            System.err.println("Exception when calling DcimApi#dcimInterfacesTraceRead");
+            System.err.println("Exception when calling DcimApi#dcimInterfacesTrace");
             System.err.println("Status code: " + e.getCode());
             System.err.println("Response headers: " + e.getResponseHeaders());
             System.err.println("Reason: " + e.getResponseBody());
@@ -26147,7 +24289,7 @@ ApiResponse<Void>
 
 ## dcimInventoryItemRolesList
 
-> DcimInventoryItemRolesList200Response dcimInventoryItemRolesList(id, name, slug, color, created, lastUpdated, q, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, colorN, colorIc, colorNic, colorIew, colorNiew, colorIsw, colorNisw, colorIe, colorNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, ordering, limit, offset)
+> DcimInventoryItemRolesList200Response dcimInventoryItemRolesList(id, name, slug, color, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, colorN, colorIc, colorNic, colorIew, colorNiew, colorIsw, colorNisw, colorIe, colorNie, tagN, limit, offset)
 
 
 
@@ -26181,7 +24323,11 @@ public class Example {
         String slug = "slug_example"; // String | 
         String color = "color_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String idN = "idN_example"; // String | 
@@ -26216,22 +24362,11 @@ public class Example {
         String colorNisw = "colorNisw_example"; // String | 
         String colorIe = "colorIe_example"; // String | 
         String colorNie = "colorNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            DcimInventoryItemRolesList200Response result = apiInstance.dcimInventoryItemRolesList(id, name, slug, color, created, lastUpdated, q, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, colorN, colorIc, colorNic, colorIew, colorNiew, colorIsw, colorNisw, colorIe, colorNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, ordering, limit, offset);
+            DcimInventoryItemRolesList200Response result = apiInstance.dcimInventoryItemRolesList(id, name, slug, color, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, colorN, colorIc, colorNic, colorIew, colorNiew, colorIsw, colorNisw, colorIe, colorNie, tagN, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling DcimApi#dcimInventoryItemRolesList");
@@ -26254,7 +24389,11 @@ public class Example {
 | **slug** | **String**|  | [optional] |
 | **color** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **idN** | **String**|  | [optional] |
@@ -26289,18 +24428,7 @@ public class Example {
 | **colorNisw** | **String**|  | [optional] |
 | **colorIe** | **String**|  | [optional] |
 | **colorNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -26325,7 +24453,7 @@ public class Example {
 
 ## dcimInventoryItemRolesListWithHttpInfo
 
-> ApiResponse<DcimInventoryItemRolesList200Response> dcimInventoryItemRolesList dcimInventoryItemRolesListWithHttpInfo(id, name, slug, color, created, lastUpdated, q, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, colorN, colorIc, colorNic, colorIew, colorNiew, colorIsw, colorNisw, colorIe, colorNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, ordering, limit, offset)
+> ApiResponse<DcimInventoryItemRolesList200Response> dcimInventoryItemRolesList dcimInventoryItemRolesListWithHttpInfo(id, name, slug, color, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, colorN, colorIc, colorNic, colorIew, colorNiew, colorIsw, colorNisw, colorIe, colorNie, tagN, limit, offset)
 
 
 
@@ -26360,7 +24488,11 @@ public class Example {
         String slug = "slug_example"; // String | 
         String color = "color_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String idN = "idN_example"; // String | 
@@ -26395,22 +24527,11 @@ public class Example {
         String colorNisw = "colorNisw_example"; // String | 
         String colorIe = "colorIe_example"; // String | 
         String colorNie = "colorNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<DcimInventoryItemRolesList200Response> response = apiInstance.dcimInventoryItemRolesListWithHttpInfo(id, name, slug, color, created, lastUpdated, q, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, colorN, colorIc, colorNic, colorIew, colorNiew, colorIsw, colorNisw, colorIe, colorNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, ordering, limit, offset);
+            ApiResponse<DcimInventoryItemRolesList200Response> response = apiInstance.dcimInventoryItemRolesListWithHttpInfo(id, name, slug, color, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, colorN, colorIc, colorNic, colorIew, colorNiew, colorIsw, colorNisw, colorIe, colorNie, tagN, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -26435,7 +24556,11 @@ public class Example {
 | **slug** | **String**|  | [optional] |
 | **color** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **idN** | **String**|  | [optional] |
@@ -26470,18 +24595,7 @@ public class Example {
 | **colorNisw** | **String**|  | [optional] |
 | **colorIe** | **String**|  | [optional] |
 | **colorNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -27655,7 +25769,7 @@ ApiResponse<Void>
 
 ## dcimInventoryItemTemplatesList
 
-> DcimInventoryItemTemplatesList200Response dcimInventoryItemTemplatesList(id, name, label, partId, created, lastUpdated, q, devicetypeId, parentId, manufacturerId, manufacturer, roleId, role, componentType, componentId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, partIdN, partIdIc, partIdNic, partIdIew, partIdNiew, partIdIsw, partIdNisw, partIdIe, partIdNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, devicetypeIdN, parentIdN, manufacturerIdN, manufacturerN, roleIdN, roleN, componentTypeN, componentIdN, componentIdLte, componentIdLt, componentIdGte, componentIdGt, ordering, limit, offset)
+> DcimInventoryItemTemplatesList200Response dcimInventoryItemTemplatesList(id, name, label, partId, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, devicetypeId, parentId, manufacturerId, manufacturer, roleId, role, componentType, componentId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, partIdN, partIdIc, partIdNic, partIdIew, partIdNiew, partIdIsw, partIdNisw, partIdIe, partIdNie, devicetypeIdN, parentIdN, manufacturerIdN, manufacturerN, roleIdN, roleN, componentTypeN, componentIdN, componentIdLte, componentIdLt, componentIdGte, componentIdGt, limit, offset)
 
 
 
@@ -27689,7 +25803,11 @@ public class Example {
         String label = "label_example"; // String | 
         String partId = "partId_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String devicetypeId = "devicetypeId_example"; // String | 
         String parentId = "parentId_example"; // String | 
@@ -27731,16 +25849,6 @@ public class Example {
         String partIdNisw = "partIdNisw_example"; // String | 
         String partIdIe = "partIdIe_example"; // String | 
         String partIdNie = "partIdNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String devicetypeIdN = "devicetypeIdN_example"; // String | 
         String parentIdN = "parentIdN_example"; // String | 
         String manufacturerIdN = "manufacturerIdN_example"; // String | 
@@ -27753,11 +25861,10 @@ public class Example {
         String componentIdLt = "componentIdLt_example"; // String | 
         String componentIdGte = "componentIdGte_example"; // String | 
         String componentIdGt = "componentIdGt_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            DcimInventoryItemTemplatesList200Response result = apiInstance.dcimInventoryItemTemplatesList(id, name, label, partId, created, lastUpdated, q, devicetypeId, parentId, manufacturerId, manufacturer, roleId, role, componentType, componentId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, partIdN, partIdIc, partIdNic, partIdIew, partIdNiew, partIdIsw, partIdNisw, partIdIe, partIdNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, devicetypeIdN, parentIdN, manufacturerIdN, manufacturerN, roleIdN, roleN, componentTypeN, componentIdN, componentIdLte, componentIdLt, componentIdGte, componentIdGt, ordering, limit, offset);
+            DcimInventoryItemTemplatesList200Response result = apiInstance.dcimInventoryItemTemplatesList(id, name, label, partId, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, devicetypeId, parentId, manufacturerId, manufacturer, roleId, role, componentType, componentId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, partIdN, partIdIc, partIdNic, partIdIew, partIdNiew, partIdIsw, partIdNisw, partIdIe, partIdNie, devicetypeIdN, parentIdN, manufacturerIdN, manufacturerN, roleIdN, roleN, componentTypeN, componentIdN, componentIdLte, componentIdLt, componentIdGte, componentIdGt, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling DcimApi#dcimInventoryItemTemplatesList");
@@ -27780,7 +25887,11 @@ public class Example {
 | **label** | **String**|  | [optional] |
 | **partId** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **devicetypeId** | **String**|  | [optional] |
 | **parentId** | **String**|  | [optional] |
@@ -27822,16 +25933,6 @@ public class Example {
 | **partIdNisw** | **String**|  | [optional] |
 | **partIdIe** | **String**|  | [optional] |
 | **partIdNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **devicetypeIdN** | **String**|  | [optional] |
 | **parentIdN** | **String**|  | [optional] |
 | **manufacturerIdN** | **String**|  | [optional] |
@@ -27844,7 +25945,6 @@ public class Example {
 | **componentIdLt** | **String**|  | [optional] |
 | **componentIdGte** | **String**|  | [optional] |
 | **componentIdGt** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -27869,7 +25969,7 @@ public class Example {
 
 ## dcimInventoryItemTemplatesListWithHttpInfo
 
-> ApiResponse<DcimInventoryItemTemplatesList200Response> dcimInventoryItemTemplatesList dcimInventoryItemTemplatesListWithHttpInfo(id, name, label, partId, created, lastUpdated, q, devicetypeId, parentId, manufacturerId, manufacturer, roleId, role, componentType, componentId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, partIdN, partIdIc, partIdNic, partIdIew, partIdNiew, partIdIsw, partIdNisw, partIdIe, partIdNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, devicetypeIdN, parentIdN, manufacturerIdN, manufacturerN, roleIdN, roleN, componentTypeN, componentIdN, componentIdLte, componentIdLt, componentIdGte, componentIdGt, ordering, limit, offset)
+> ApiResponse<DcimInventoryItemTemplatesList200Response> dcimInventoryItemTemplatesList dcimInventoryItemTemplatesListWithHttpInfo(id, name, label, partId, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, devicetypeId, parentId, manufacturerId, manufacturer, roleId, role, componentType, componentId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, partIdN, partIdIc, partIdNic, partIdIew, partIdNiew, partIdIsw, partIdNisw, partIdIe, partIdNie, devicetypeIdN, parentIdN, manufacturerIdN, manufacturerN, roleIdN, roleN, componentTypeN, componentIdN, componentIdLte, componentIdLt, componentIdGte, componentIdGt, limit, offset)
 
 
 
@@ -27904,7 +26004,11 @@ public class Example {
         String label = "label_example"; // String | 
         String partId = "partId_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String devicetypeId = "devicetypeId_example"; // String | 
         String parentId = "parentId_example"; // String | 
@@ -27946,16 +26050,6 @@ public class Example {
         String partIdNisw = "partIdNisw_example"; // String | 
         String partIdIe = "partIdIe_example"; // String | 
         String partIdNie = "partIdNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String devicetypeIdN = "devicetypeIdN_example"; // String | 
         String parentIdN = "parentIdN_example"; // String | 
         String manufacturerIdN = "manufacturerIdN_example"; // String | 
@@ -27968,11 +26062,10 @@ public class Example {
         String componentIdLt = "componentIdLt_example"; // String | 
         String componentIdGte = "componentIdGte_example"; // String | 
         String componentIdGt = "componentIdGt_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<DcimInventoryItemTemplatesList200Response> response = apiInstance.dcimInventoryItemTemplatesListWithHttpInfo(id, name, label, partId, created, lastUpdated, q, devicetypeId, parentId, manufacturerId, manufacturer, roleId, role, componentType, componentId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, partIdN, partIdIc, partIdNic, partIdIew, partIdNiew, partIdIsw, partIdNisw, partIdIe, partIdNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, devicetypeIdN, parentIdN, manufacturerIdN, manufacturerN, roleIdN, roleN, componentTypeN, componentIdN, componentIdLte, componentIdLt, componentIdGte, componentIdGt, ordering, limit, offset);
+            ApiResponse<DcimInventoryItemTemplatesList200Response> response = apiInstance.dcimInventoryItemTemplatesListWithHttpInfo(id, name, label, partId, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, devicetypeId, parentId, manufacturerId, manufacturer, roleId, role, componentType, componentId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, partIdN, partIdIc, partIdNic, partIdIew, partIdNiew, partIdIsw, partIdNisw, partIdIe, partIdNie, devicetypeIdN, parentIdN, manufacturerIdN, manufacturerN, roleIdN, roleN, componentTypeN, componentIdN, componentIdLte, componentIdLt, componentIdGte, componentIdGt, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -27997,7 +26090,11 @@ public class Example {
 | **label** | **String**|  | [optional] |
 | **partId** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **devicetypeId** | **String**|  | [optional] |
 | **parentId** | **String**|  | [optional] |
@@ -28039,16 +26136,6 @@ public class Example {
 | **partIdNisw** | **String**|  | [optional] |
 | **partIdIe** | **String**|  | [optional] |
 | **partIdNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **devicetypeIdN** | **String**|  | [optional] |
 | **parentIdN** | **String**|  | [optional] |
 | **manufacturerIdN** | **String**|  | [optional] |
@@ -28061,7 +26148,6 @@ public class Example {
 | **componentIdLt** | **String**|  | [optional] |
 | **componentIdGte** | **String**|  | [optional] |
 | **componentIdGt** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -29235,7 +27321,7 @@ ApiResponse<Void>
 
 ## dcimInventoryItemsList
 
-> DcimInventoryItemsList200Response dcimInventoryItemsList(id, name, label, partId, assetTag, discovered, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, created, lastUpdated, tag, parentId, manufacturerId, manufacturer, roleId, role, componentType, componentId, serial, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, partIdN, partIdIc, partIdNic, partIdIew, partIdNiew, partIdIsw, partIdNisw, partIdIe, partIdNie, assetTagN, assetTagIc, assetTagNic, assetTagIew, assetTagNiew, assetTagIsw, assetTagNisw, assetTagIe, assetTagNie, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, deviceIdN, deviceN, virtualChassisIdN, virtualChassisN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, parentIdN, manufacturerIdN, manufacturerN, roleIdN, roleN, componentTypeN, componentIdN, componentIdLte, componentIdLt, componentIdGte, componentIdGt, serialN, serialIc, serialNic, serialIew, serialNiew, serialIsw, serialNisw, serialIe, serialNie, ordering, limit, offset)
+> DcimInventoryItemsList200Response dcimInventoryItemsList(id, name, label, partId, assetTag, discovered, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, tag, parentId, manufacturerId, manufacturer, roleId, role, componentType, componentId, serial, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, partIdN, partIdIc, partIdNic, partIdIew, partIdNiew, partIdIsw, partIdNisw, partIdIe, partIdNie, assetTagN, assetTagIc, assetTagNic, assetTagIew, assetTagNiew, assetTagIsw, assetTagNisw, assetTagIe, assetTagNie, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, deviceIdN, deviceN, virtualChassisIdN, virtualChassisN, tagN, parentIdN, manufacturerIdN, manufacturerN, roleIdN, roleN, componentTypeN, componentIdN, componentIdLte, componentIdLt, componentIdGte, componentIdGt, serialN, serialIc, serialNic, serialIew, serialNiew, serialIsw, serialNisw, serialIe, serialNie, limit, offset)
 
 
 
@@ -29284,7 +27370,11 @@ public class Example {
         String virtualChassisId = "virtualChassisId_example"; // String | 
         String virtualChassis = "virtualChassis_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String tag = "tag_example"; // String | 
         String parentId = "parentId_example"; // String | 
         String manufacturerId = "manufacturerId_example"; // String | 
@@ -29347,16 +27437,6 @@ public class Example {
         String deviceN = "deviceN_example"; // String | 
         String virtualChassisIdN = "virtualChassisIdN_example"; // String | 
         String virtualChassisN = "virtualChassisN_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String parentIdN = "parentIdN_example"; // String | 
         String manufacturerIdN = "manufacturerIdN_example"; // String | 
@@ -29378,11 +27458,10 @@ public class Example {
         String serialNisw = "serialNisw_example"; // String | 
         String serialIe = "serialIe_example"; // String | 
         String serialNie = "serialNie_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            DcimInventoryItemsList200Response result = apiInstance.dcimInventoryItemsList(id, name, label, partId, assetTag, discovered, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, created, lastUpdated, tag, parentId, manufacturerId, manufacturer, roleId, role, componentType, componentId, serial, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, partIdN, partIdIc, partIdNic, partIdIew, partIdNiew, partIdIsw, partIdNisw, partIdIe, partIdNie, assetTagN, assetTagIc, assetTagNic, assetTagIew, assetTagNiew, assetTagIsw, assetTagNisw, assetTagIe, assetTagNie, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, deviceIdN, deviceN, virtualChassisIdN, virtualChassisN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, parentIdN, manufacturerIdN, manufacturerN, roleIdN, roleN, componentTypeN, componentIdN, componentIdLte, componentIdLt, componentIdGte, componentIdGt, serialN, serialIc, serialNic, serialIew, serialNiew, serialIsw, serialNisw, serialIe, serialNie, ordering, limit, offset);
+            DcimInventoryItemsList200Response result = apiInstance.dcimInventoryItemsList(id, name, label, partId, assetTag, discovered, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, tag, parentId, manufacturerId, manufacturer, roleId, role, componentType, componentId, serial, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, partIdN, partIdIc, partIdNic, partIdIew, partIdNiew, partIdIsw, partIdNisw, partIdIe, partIdNie, assetTagN, assetTagIc, assetTagNic, assetTagIew, assetTagNiew, assetTagIsw, assetTagNisw, assetTagIe, assetTagNie, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, deviceIdN, deviceN, virtualChassisIdN, virtualChassisN, tagN, parentIdN, manufacturerIdN, manufacturerN, roleIdN, roleN, componentTypeN, componentIdN, componentIdLte, componentIdLt, componentIdGte, componentIdGt, serialN, serialIc, serialNic, serialIew, serialNiew, serialIsw, serialNisw, serialIe, serialNie, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling DcimApi#dcimInventoryItemsList");
@@ -29420,7 +27499,11 @@ public class Example {
 | **virtualChassisId** | **String**|  | [optional] |
 | **virtualChassis** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **parentId** | **String**|  | [optional] |
 | **manufacturerId** | **String**|  | [optional] |
@@ -29483,16 +27566,6 @@ public class Example {
 | **deviceN** | **String**|  | [optional] |
 | **virtualChassisIdN** | **String**|  | [optional] |
 | **virtualChassisN** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **parentIdN** | **String**|  | [optional] |
 | **manufacturerIdN** | **String**|  | [optional] |
@@ -29514,7 +27587,6 @@ public class Example {
 | **serialNisw** | **String**|  | [optional] |
 | **serialIe** | **String**|  | [optional] |
 | **serialNie** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -29539,7 +27611,7 @@ public class Example {
 
 ## dcimInventoryItemsListWithHttpInfo
 
-> ApiResponse<DcimInventoryItemsList200Response> dcimInventoryItemsList dcimInventoryItemsListWithHttpInfo(id, name, label, partId, assetTag, discovered, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, created, lastUpdated, tag, parentId, manufacturerId, manufacturer, roleId, role, componentType, componentId, serial, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, partIdN, partIdIc, partIdNic, partIdIew, partIdNiew, partIdIsw, partIdNisw, partIdIe, partIdNie, assetTagN, assetTagIc, assetTagNic, assetTagIew, assetTagNiew, assetTagIsw, assetTagNisw, assetTagIe, assetTagNie, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, deviceIdN, deviceN, virtualChassisIdN, virtualChassisN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, parentIdN, manufacturerIdN, manufacturerN, roleIdN, roleN, componentTypeN, componentIdN, componentIdLte, componentIdLt, componentIdGte, componentIdGt, serialN, serialIc, serialNic, serialIew, serialNiew, serialIsw, serialNisw, serialIe, serialNie, ordering, limit, offset)
+> ApiResponse<DcimInventoryItemsList200Response> dcimInventoryItemsList dcimInventoryItemsListWithHttpInfo(id, name, label, partId, assetTag, discovered, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, tag, parentId, manufacturerId, manufacturer, roleId, role, componentType, componentId, serial, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, partIdN, partIdIc, partIdNic, partIdIew, partIdNiew, partIdIsw, partIdNisw, partIdIe, partIdNie, assetTagN, assetTagIc, assetTagNic, assetTagIew, assetTagNiew, assetTagIsw, assetTagNisw, assetTagIe, assetTagNie, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, deviceIdN, deviceN, virtualChassisIdN, virtualChassisN, tagN, parentIdN, manufacturerIdN, manufacturerN, roleIdN, roleN, componentTypeN, componentIdN, componentIdLte, componentIdLt, componentIdGte, componentIdGt, serialN, serialIc, serialNic, serialIew, serialNiew, serialIsw, serialNisw, serialIe, serialNie, limit, offset)
 
 
 
@@ -29589,7 +27661,11 @@ public class Example {
         String virtualChassisId = "virtualChassisId_example"; // String | 
         String virtualChassis = "virtualChassis_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String tag = "tag_example"; // String | 
         String parentId = "parentId_example"; // String | 
         String manufacturerId = "manufacturerId_example"; // String | 
@@ -29652,16 +27728,6 @@ public class Example {
         String deviceN = "deviceN_example"; // String | 
         String virtualChassisIdN = "virtualChassisIdN_example"; // String | 
         String virtualChassisN = "virtualChassisN_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String parentIdN = "parentIdN_example"; // String | 
         String manufacturerIdN = "manufacturerIdN_example"; // String | 
@@ -29683,11 +27749,10 @@ public class Example {
         String serialNisw = "serialNisw_example"; // String | 
         String serialIe = "serialIe_example"; // String | 
         String serialNie = "serialNie_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<DcimInventoryItemsList200Response> response = apiInstance.dcimInventoryItemsListWithHttpInfo(id, name, label, partId, assetTag, discovered, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, created, lastUpdated, tag, parentId, manufacturerId, manufacturer, roleId, role, componentType, componentId, serial, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, partIdN, partIdIc, partIdNic, partIdIew, partIdNiew, partIdIsw, partIdNisw, partIdIe, partIdNie, assetTagN, assetTagIc, assetTagNic, assetTagIew, assetTagNiew, assetTagIsw, assetTagNisw, assetTagIe, assetTagNie, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, deviceIdN, deviceN, virtualChassisIdN, virtualChassisN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, parentIdN, manufacturerIdN, manufacturerN, roleIdN, roleN, componentTypeN, componentIdN, componentIdLte, componentIdLt, componentIdGte, componentIdGt, serialN, serialIc, serialNic, serialIew, serialNiew, serialIsw, serialNisw, serialIe, serialNie, ordering, limit, offset);
+            ApiResponse<DcimInventoryItemsList200Response> response = apiInstance.dcimInventoryItemsListWithHttpInfo(id, name, label, partId, assetTag, discovered, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, tag, parentId, manufacturerId, manufacturer, roleId, role, componentType, componentId, serial, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, partIdN, partIdIc, partIdNic, partIdIew, partIdNiew, partIdIsw, partIdNisw, partIdIe, partIdNie, assetTagN, assetTagIc, assetTagNic, assetTagIew, assetTagNiew, assetTagIsw, assetTagNisw, assetTagIe, assetTagNie, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, deviceIdN, deviceN, virtualChassisIdN, virtualChassisN, tagN, parentIdN, manufacturerIdN, manufacturerN, roleIdN, roleN, componentTypeN, componentIdN, componentIdLte, componentIdLt, componentIdGte, componentIdGt, serialN, serialIc, serialNic, serialIew, serialNiew, serialIsw, serialNisw, serialIe, serialNie, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -29727,7 +27792,11 @@ public class Example {
 | **virtualChassisId** | **String**|  | [optional] |
 | **virtualChassis** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **parentId** | **String**|  | [optional] |
 | **manufacturerId** | **String**|  | [optional] |
@@ -29790,16 +27859,6 @@ public class Example {
 | **deviceN** | **String**|  | [optional] |
 | **virtualChassisIdN** | **String**|  | [optional] |
 | **virtualChassisN** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **parentIdN** | **String**|  | [optional] |
 | **manufacturerIdN** | **String**|  | [optional] |
@@ -29821,7 +27880,6 @@ public class Example {
 | **serialNisw** | **String**|  | [optional] |
 | **serialIe** | **String**|  | [optional] |
 | **serialNie** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -30995,7 +29053,7 @@ ApiResponse<Void>
 
 ## dcimLocationsList
 
-> DcimLocationsList200Response dcimLocationsList(id, name, slug, status, description, tenantGroupId, tenantGroup, tenantId, tenant, contact, contactRole, contactGroup, created, lastUpdated, q, tag, regionId, region, siteGroupId, siteGroup, siteId, site, parentId, parent, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, statusN, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, contactN, contactRoleN, contactGroupN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, parentIdN, parentN, ordering, limit, offset)
+> DcimLocationsList200Response dcimLocationsList(id, name, slug, description, tenantGroupId, tenantGroup, tenantId, tenant, contact, contactRole, contactGroup, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, regionId, region, siteGroupId, siteGroup, siteId, site, parentId, parent, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, contactN, contactRoleN, contactGroupN, tagN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, parentIdN, parentN, limit, offset)
 
 
 
@@ -31027,7 +29085,6 @@ public class Example {
         String id = "id_example"; // String | 
         String name = "name_example"; // String | 
         String slug = "slug_example"; // String | 
-        String status = "status_example"; // String | 
         String description = "description_example"; // String | 
         String tenantGroupId = "tenantGroupId_example"; // String | 
         String tenantGroup = "tenantGroup_example"; // String | 
@@ -31037,7 +29094,11 @@ public class Example {
         String contactRole = "contactRole_example"; // String | 
         String contactGroup = "contactGroup_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String regionId = "regionId_example"; // String | 
@@ -31071,7 +29132,6 @@ public class Example {
         String slugNisw = "slugNisw_example"; // String | 
         String slugIe = "slugIe_example"; // String | 
         String slugNie = "slugNie_example"; // String | 
-        String statusN = "statusN_example"; // String | 
         String descriptionN = "descriptionN_example"; // String | 
         String descriptionIc = "descriptionIc_example"; // String | 
         String descriptionNic = "descriptionNic_example"; // String | 
@@ -31088,16 +29148,6 @@ public class Example {
         String contactN = "contactN_example"; // String | 
         String contactRoleN = "contactRoleN_example"; // String | 
         String contactGroupN = "contactGroupN_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String regionIdN = "regionIdN_example"; // String | 
         String regionN = "regionN_example"; // String | 
@@ -31107,11 +29157,10 @@ public class Example {
         String siteN = "siteN_example"; // String | 
         String parentIdN = "parentIdN_example"; // String | 
         String parentN = "parentN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            DcimLocationsList200Response result = apiInstance.dcimLocationsList(id, name, slug, status, description, tenantGroupId, tenantGroup, tenantId, tenant, contact, contactRole, contactGroup, created, lastUpdated, q, tag, regionId, region, siteGroupId, siteGroup, siteId, site, parentId, parent, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, statusN, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, contactN, contactRoleN, contactGroupN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, parentIdN, parentN, ordering, limit, offset);
+            DcimLocationsList200Response result = apiInstance.dcimLocationsList(id, name, slug, description, tenantGroupId, tenantGroup, tenantId, tenant, contact, contactRole, contactGroup, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, regionId, region, siteGroupId, siteGroup, siteId, site, parentId, parent, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, contactN, contactRoleN, contactGroupN, tagN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, parentIdN, parentN, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling DcimApi#dcimLocationsList");
@@ -31132,7 +29181,6 @@ public class Example {
 | **id** | **String**|  | [optional] |
 | **name** | **String**|  | [optional] |
 | **slug** | **String**|  | [optional] |
-| **status** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
 | **tenantGroupId** | **String**|  | [optional] |
 | **tenantGroup** | **String**|  | [optional] |
@@ -31142,7 +29190,11 @@ public class Example {
 | **contactRole** | **String**|  | [optional] |
 | **contactGroup** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **regionId** | **String**|  | [optional] |
@@ -31176,7 +29228,6 @@ public class Example {
 | **slugNisw** | **String**|  | [optional] |
 | **slugIe** | **String**|  | [optional] |
 | **slugNie** | **String**|  | [optional] |
-| **statusN** | **String**|  | [optional] |
 | **descriptionN** | **String**|  | [optional] |
 | **descriptionIc** | **String**|  | [optional] |
 | **descriptionNic** | **String**|  | [optional] |
@@ -31193,16 +29244,6 @@ public class Example {
 | **contactN** | **String**|  | [optional] |
 | **contactRoleN** | **String**|  | [optional] |
 | **contactGroupN** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **regionIdN** | **String**|  | [optional] |
 | **regionN** | **String**|  | [optional] |
@@ -31212,7 +29253,6 @@ public class Example {
 | **siteN** | **String**|  | [optional] |
 | **parentIdN** | **String**|  | [optional] |
 | **parentN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -31237,7 +29277,7 @@ public class Example {
 
 ## dcimLocationsListWithHttpInfo
 
-> ApiResponse<DcimLocationsList200Response> dcimLocationsList dcimLocationsListWithHttpInfo(id, name, slug, status, description, tenantGroupId, tenantGroup, tenantId, tenant, contact, contactRole, contactGroup, created, lastUpdated, q, tag, regionId, region, siteGroupId, siteGroup, siteId, site, parentId, parent, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, statusN, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, contactN, contactRoleN, contactGroupN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, parentIdN, parentN, ordering, limit, offset)
+> ApiResponse<DcimLocationsList200Response> dcimLocationsList dcimLocationsListWithHttpInfo(id, name, slug, description, tenantGroupId, tenantGroup, tenantId, tenant, contact, contactRole, contactGroup, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, regionId, region, siteGroupId, siteGroup, siteId, site, parentId, parent, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, contactN, contactRoleN, contactGroupN, tagN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, parentIdN, parentN, limit, offset)
 
 
 
@@ -31270,7 +29310,6 @@ public class Example {
         String id = "id_example"; // String | 
         String name = "name_example"; // String | 
         String slug = "slug_example"; // String | 
-        String status = "status_example"; // String | 
         String description = "description_example"; // String | 
         String tenantGroupId = "tenantGroupId_example"; // String | 
         String tenantGroup = "tenantGroup_example"; // String | 
@@ -31280,7 +29319,11 @@ public class Example {
         String contactRole = "contactRole_example"; // String | 
         String contactGroup = "contactGroup_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String regionId = "regionId_example"; // String | 
@@ -31314,7 +29357,6 @@ public class Example {
         String slugNisw = "slugNisw_example"; // String | 
         String slugIe = "slugIe_example"; // String | 
         String slugNie = "slugNie_example"; // String | 
-        String statusN = "statusN_example"; // String | 
         String descriptionN = "descriptionN_example"; // String | 
         String descriptionIc = "descriptionIc_example"; // String | 
         String descriptionNic = "descriptionNic_example"; // String | 
@@ -31331,16 +29373,6 @@ public class Example {
         String contactN = "contactN_example"; // String | 
         String contactRoleN = "contactRoleN_example"; // String | 
         String contactGroupN = "contactGroupN_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String regionIdN = "regionIdN_example"; // String | 
         String regionN = "regionN_example"; // String | 
@@ -31350,11 +29382,10 @@ public class Example {
         String siteN = "siteN_example"; // String | 
         String parentIdN = "parentIdN_example"; // String | 
         String parentN = "parentN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<DcimLocationsList200Response> response = apiInstance.dcimLocationsListWithHttpInfo(id, name, slug, status, description, tenantGroupId, tenantGroup, tenantId, tenant, contact, contactRole, contactGroup, created, lastUpdated, q, tag, regionId, region, siteGroupId, siteGroup, siteId, site, parentId, parent, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, statusN, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, contactN, contactRoleN, contactGroupN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, parentIdN, parentN, ordering, limit, offset);
+            ApiResponse<DcimLocationsList200Response> response = apiInstance.dcimLocationsListWithHttpInfo(id, name, slug, description, tenantGroupId, tenantGroup, tenantId, tenant, contact, contactRole, contactGroup, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, regionId, region, siteGroupId, siteGroup, siteId, site, parentId, parent, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, contactN, contactRoleN, contactGroupN, tagN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, parentIdN, parentN, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -31377,7 +29408,6 @@ public class Example {
 | **id** | **String**|  | [optional] |
 | **name** | **String**|  | [optional] |
 | **slug** | **String**|  | [optional] |
-| **status** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
 | **tenantGroupId** | **String**|  | [optional] |
 | **tenantGroup** | **String**|  | [optional] |
@@ -31387,7 +29417,11 @@ public class Example {
 | **contactRole** | **String**|  | [optional] |
 | **contactGroup** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **regionId** | **String**|  | [optional] |
@@ -31421,7 +29455,6 @@ public class Example {
 | **slugNisw** | **String**|  | [optional] |
 | **slugIe** | **String**|  | [optional] |
 | **slugNie** | **String**|  | [optional] |
-| **statusN** | **String**|  | [optional] |
 | **descriptionN** | **String**|  | [optional] |
 | **descriptionIc** | **String**|  | [optional] |
 | **descriptionNic** | **String**|  | [optional] |
@@ -31438,16 +29471,6 @@ public class Example {
 | **contactN** | **String**|  | [optional] |
 | **contactRoleN** | **String**|  | [optional] |
 | **contactGroupN** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **regionIdN** | **String**|  | [optional] |
 | **regionN** | **String**|  | [optional] |
@@ -31457,7 +29480,6 @@ public class Example {
 | **siteN** | **String**|  | [optional] |
 | **parentIdN** | **String**|  | [optional] |
 | **parentN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -32631,7 +30653,7 @@ ApiResponse<Void>
 
 ## dcimManufacturersList
 
-> DcimManufacturersList200Response dcimManufacturersList(id, name, slug, description, created, lastUpdated, q, tag, contact, contactRole, contactGroup, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, contactN, contactRoleN, contactGroupN, ordering, limit, offset)
+> DcimManufacturersList200Response dcimManufacturersList(id, name, slug, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, contact, contactRole, contactGroup, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, contactN, contactRoleN, contactGroupN, limit, offset)
 
 
 
@@ -32665,7 +30687,11 @@ public class Example {
         String slug = "slug_example"; // String | 
         String description = "description_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String contact = "contact_example"; // String | 
@@ -32703,25 +30729,14 @@ public class Example {
         String descriptionNisw = "descriptionNisw_example"; // String | 
         String descriptionIe = "descriptionIe_example"; // String | 
         String descriptionNie = "descriptionNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String contactN = "contactN_example"; // String | 
         String contactRoleN = "contactRoleN_example"; // String | 
         String contactGroupN = "contactGroupN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            DcimManufacturersList200Response result = apiInstance.dcimManufacturersList(id, name, slug, description, created, lastUpdated, q, tag, contact, contactRole, contactGroup, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, contactN, contactRoleN, contactGroupN, ordering, limit, offset);
+            DcimManufacturersList200Response result = apiInstance.dcimManufacturersList(id, name, slug, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, contact, contactRole, contactGroup, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, contactN, contactRoleN, contactGroupN, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling DcimApi#dcimManufacturersList");
@@ -32744,7 +30759,11 @@ public class Example {
 | **slug** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **contact** | **String**|  | [optional] |
@@ -32782,21 +30801,10 @@ public class Example {
 | **descriptionNisw** | **String**|  | [optional] |
 | **descriptionIe** | **String**|  | [optional] |
 | **descriptionNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **contactN** | **String**|  | [optional] |
 | **contactRoleN** | **String**|  | [optional] |
 | **contactGroupN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -32821,7 +30829,7 @@ public class Example {
 
 ## dcimManufacturersListWithHttpInfo
 
-> ApiResponse<DcimManufacturersList200Response> dcimManufacturersList dcimManufacturersListWithHttpInfo(id, name, slug, description, created, lastUpdated, q, tag, contact, contactRole, contactGroup, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, contactN, contactRoleN, contactGroupN, ordering, limit, offset)
+> ApiResponse<DcimManufacturersList200Response> dcimManufacturersList dcimManufacturersListWithHttpInfo(id, name, slug, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, contact, contactRole, contactGroup, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, contactN, contactRoleN, contactGroupN, limit, offset)
 
 
 
@@ -32856,7 +30864,11 @@ public class Example {
         String slug = "slug_example"; // String | 
         String description = "description_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String contact = "contact_example"; // String | 
@@ -32894,25 +30906,14 @@ public class Example {
         String descriptionNisw = "descriptionNisw_example"; // String | 
         String descriptionIe = "descriptionIe_example"; // String | 
         String descriptionNie = "descriptionNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String contactN = "contactN_example"; // String | 
         String contactRoleN = "contactRoleN_example"; // String | 
         String contactGroupN = "contactGroupN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<DcimManufacturersList200Response> response = apiInstance.dcimManufacturersListWithHttpInfo(id, name, slug, description, created, lastUpdated, q, tag, contact, contactRole, contactGroup, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, contactN, contactRoleN, contactGroupN, ordering, limit, offset);
+            ApiResponse<DcimManufacturersList200Response> response = apiInstance.dcimManufacturersListWithHttpInfo(id, name, slug, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, contact, contactRole, contactGroup, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, contactN, contactRoleN, contactGroupN, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -32937,7 +30938,11 @@ public class Example {
 | **slug** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **contact** | **String**|  | [optional] |
@@ -32975,21 +30980,10 @@ public class Example {
 | **descriptionNisw** | **String**|  | [optional] |
 | **descriptionIe** | **String**|  | [optional] |
 | **descriptionNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **contactN** | **String**|  | [optional] |
 | **contactRoleN** | **String**|  | [optional] |
 | **contactGroupN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -34163,7 +32157,7 @@ ApiResponse<Void>
 
 ## dcimModuleBayTemplatesList
 
-> DcimModuleBayTemplatesList200Response dcimModuleBayTemplatesList(id, name, created, lastUpdated, q, devicetypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, devicetypeIdN, ordering, limit, offset)
+> DcimModuleBayTemplatesList200Response dcimModuleBayTemplatesList(id, name, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, devicetypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, devicetypeIdN, limit, offset)
 
 
 
@@ -34195,7 +32189,11 @@ public class Example {
         String id = "id_example"; // String | 
         String name = "name_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String devicetypeId = "devicetypeId_example"; // String | 
         String idN = "idN_example"; // String | 
@@ -34212,22 +32210,11 @@ public class Example {
         String nameNisw = "nameNisw_example"; // String | 
         String nameIe = "nameIe_example"; // String | 
         String nameNie = "nameNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String devicetypeIdN = "devicetypeIdN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            DcimModuleBayTemplatesList200Response result = apiInstance.dcimModuleBayTemplatesList(id, name, created, lastUpdated, q, devicetypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, devicetypeIdN, ordering, limit, offset);
+            DcimModuleBayTemplatesList200Response result = apiInstance.dcimModuleBayTemplatesList(id, name, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, devicetypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, devicetypeIdN, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling DcimApi#dcimModuleBayTemplatesList");
@@ -34248,7 +32235,11 @@ public class Example {
 | **id** | **String**|  | [optional] |
 | **name** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **devicetypeId** | **String**|  | [optional] |
 | **idN** | **String**|  | [optional] |
@@ -34265,18 +32256,7 @@ public class Example {
 | **nameNisw** | **String**|  | [optional] |
 | **nameIe** | **String**|  | [optional] |
 | **nameNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **devicetypeIdN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -34301,7 +32281,7 @@ public class Example {
 
 ## dcimModuleBayTemplatesListWithHttpInfo
 
-> ApiResponse<DcimModuleBayTemplatesList200Response> dcimModuleBayTemplatesList dcimModuleBayTemplatesListWithHttpInfo(id, name, created, lastUpdated, q, devicetypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, devicetypeIdN, ordering, limit, offset)
+> ApiResponse<DcimModuleBayTemplatesList200Response> dcimModuleBayTemplatesList dcimModuleBayTemplatesListWithHttpInfo(id, name, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, devicetypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, devicetypeIdN, limit, offset)
 
 
 
@@ -34334,7 +32314,11 @@ public class Example {
         String id = "id_example"; // String | 
         String name = "name_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String devicetypeId = "devicetypeId_example"; // String | 
         String idN = "idN_example"; // String | 
@@ -34351,22 +32335,11 @@ public class Example {
         String nameNisw = "nameNisw_example"; // String | 
         String nameIe = "nameIe_example"; // String | 
         String nameNie = "nameNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String devicetypeIdN = "devicetypeIdN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<DcimModuleBayTemplatesList200Response> response = apiInstance.dcimModuleBayTemplatesListWithHttpInfo(id, name, created, lastUpdated, q, devicetypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, devicetypeIdN, ordering, limit, offset);
+            ApiResponse<DcimModuleBayTemplatesList200Response> response = apiInstance.dcimModuleBayTemplatesListWithHttpInfo(id, name, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, devicetypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, devicetypeIdN, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -34389,7 +32362,11 @@ public class Example {
 | **id** | **String**|  | [optional] |
 | **name** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **devicetypeId** | **String**|  | [optional] |
 | **idN** | **String**|  | [optional] |
@@ -34406,18 +32383,7 @@ public class Example {
 | **nameNisw** | **String**|  | [optional] |
 | **nameIe** | **String**|  | [optional] |
 | **nameNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **devicetypeIdN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -35591,7 +33557,7 @@ ApiResponse<Void>
 
 ## dcimModuleBaysList
 
-> DcimModuleBaysList200Response dcimModuleBaysList(id, name, label, description, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, created, lastUpdated, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, deviceIdN, deviceN, virtualChassisIdN, virtualChassisN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, ordering, limit, offset)
+> DcimModuleBaysList200Response dcimModuleBaysList(id, name, label, description, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, deviceIdN, deviceN, virtualChassisIdN, virtualChassisN, tagN, limit, offset)
 
 
 
@@ -35638,7 +33604,11 @@ public class Example {
         String virtualChassisId = "virtualChassisId_example"; // String | 
         String virtualChassis = "virtualChassis_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String tag = "tag_example"; // String | 
         String idN = "idN_example"; // String | 
         String idLte = "idLte_example"; // String | 
@@ -35684,22 +33654,11 @@ public class Example {
         String deviceN = "deviceN_example"; // String | 
         String virtualChassisIdN = "virtualChassisIdN_example"; // String | 
         String virtualChassisN = "virtualChassisN_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            DcimModuleBaysList200Response result = apiInstance.dcimModuleBaysList(id, name, label, description, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, created, lastUpdated, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, deviceIdN, deviceN, virtualChassisIdN, virtualChassisN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, ordering, limit, offset);
+            DcimModuleBaysList200Response result = apiInstance.dcimModuleBaysList(id, name, label, description, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, deviceIdN, deviceN, virtualChassisIdN, virtualChassisN, tagN, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling DcimApi#dcimModuleBaysList");
@@ -35735,7 +33694,11 @@ public class Example {
 | **virtualChassisId** | **String**|  | [optional] |
 | **virtualChassis** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **idN** | **String**|  | [optional] |
 | **idLte** | **String**|  | [optional] |
@@ -35781,18 +33744,7 @@ public class Example {
 | **deviceN** | **String**|  | [optional] |
 | **virtualChassisIdN** | **String**|  | [optional] |
 | **virtualChassisN** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -35817,7 +33769,7 @@ public class Example {
 
 ## dcimModuleBaysListWithHttpInfo
 
-> ApiResponse<DcimModuleBaysList200Response> dcimModuleBaysList dcimModuleBaysListWithHttpInfo(id, name, label, description, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, created, lastUpdated, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, deviceIdN, deviceN, virtualChassisIdN, virtualChassisN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, ordering, limit, offset)
+> ApiResponse<DcimModuleBaysList200Response> dcimModuleBaysList dcimModuleBaysListWithHttpInfo(id, name, label, description, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, deviceIdN, deviceN, virtualChassisIdN, virtualChassisN, tagN, limit, offset)
 
 
 
@@ -35865,7 +33817,11 @@ public class Example {
         String virtualChassisId = "virtualChassisId_example"; // String | 
         String virtualChassis = "virtualChassis_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String tag = "tag_example"; // String | 
         String idN = "idN_example"; // String | 
         String idLte = "idLte_example"; // String | 
@@ -35911,22 +33867,11 @@ public class Example {
         String deviceN = "deviceN_example"; // String | 
         String virtualChassisIdN = "virtualChassisIdN_example"; // String | 
         String virtualChassisN = "virtualChassisN_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<DcimModuleBaysList200Response> response = apiInstance.dcimModuleBaysListWithHttpInfo(id, name, label, description, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, created, lastUpdated, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, deviceIdN, deviceN, virtualChassisIdN, virtualChassisN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, ordering, limit, offset);
+            ApiResponse<DcimModuleBaysList200Response> response = apiInstance.dcimModuleBaysListWithHttpInfo(id, name, label, description, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, deviceIdN, deviceN, virtualChassisIdN, virtualChassisN, tagN, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -35964,7 +33909,11 @@ public class Example {
 | **virtualChassisId** | **String**|  | [optional] |
 | **virtualChassis** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **idN** | **String**|  | [optional] |
 | **idLte** | **String**|  | [optional] |
@@ -36010,18 +33959,7 @@ public class Example {
 | **deviceN** | **String**|  | [optional] |
 | **virtualChassisIdN** | **String**|  | [optional] |
 | **virtualChassisN** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -37195,7 +35133,7 @@ ApiResponse<Void>
 
 ## dcimModuleTypesList
 
-> DcimModuleTypesList200Response dcimModuleTypesList(id, model, partNumber, created, lastUpdated, q, tag, manufacturerId, manufacturer, consolePorts, consoleServerPorts, powerPorts, powerOutlets, interfaces, passThroughPorts, idN, idLte, idLt, idGte, idGt, modelN, modelIc, modelNic, modelIew, modelNiew, modelIsw, modelNisw, modelIe, modelNie, partNumberN, partNumberIc, partNumberNic, partNumberIew, partNumberNiew, partNumberIsw, partNumberNisw, partNumberIe, partNumberNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, manufacturerIdN, manufacturerN, ordering, limit, offset)
+> DcimModuleTypesList200Response dcimModuleTypesList(id, model, partNumber, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, manufacturerId, manufacturer, consolePorts, consoleServerPorts, powerPorts, powerOutlets, interfaces, passThroughPorts, idN, idLte, idLt, idGte, idGt, modelN, modelIc, modelNic, modelIew, modelNiew, modelIsw, modelNisw, modelIe, modelNie, partNumberN, partNumberIc, partNumberNic, partNumberIew, partNumberNiew, partNumberIsw, partNumberNisw, partNumberIe, partNumberNie, tagN, manufacturerIdN, manufacturerN, limit, offset)
 
 
 
@@ -37228,7 +35166,11 @@ public class Example {
         String model = "model_example"; // String | 
         String partNumber = "partNumber_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String manufacturerId = "manufacturerId_example"; // String | 
@@ -37262,24 +35204,13 @@ public class Example {
         String partNumberNisw = "partNumberNisw_example"; // String | 
         String partNumberIe = "partNumberIe_example"; // String | 
         String partNumberNie = "partNumberNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String manufacturerIdN = "manufacturerIdN_example"; // String | 
         String manufacturerN = "manufacturerN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            DcimModuleTypesList200Response result = apiInstance.dcimModuleTypesList(id, model, partNumber, created, lastUpdated, q, tag, manufacturerId, manufacturer, consolePorts, consoleServerPorts, powerPorts, powerOutlets, interfaces, passThroughPorts, idN, idLte, idLt, idGte, idGt, modelN, modelIc, modelNic, modelIew, modelNiew, modelIsw, modelNisw, modelIe, modelNie, partNumberN, partNumberIc, partNumberNic, partNumberIew, partNumberNiew, partNumberIsw, partNumberNisw, partNumberIe, partNumberNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, manufacturerIdN, manufacturerN, ordering, limit, offset);
+            DcimModuleTypesList200Response result = apiInstance.dcimModuleTypesList(id, model, partNumber, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, manufacturerId, manufacturer, consolePorts, consoleServerPorts, powerPorts, powerOutlets, interfaces, passThroughPorts, idN, idLte, idLt, idGte, idGt, modelN, modelIc, modelNic, modelIew, modelNiew, modelIsw, modelNisw, modelIe, modelNie, partNumberN, partNumberIc, partNumberNic, partNumberIew, partNumberNiew, partNumberIsw, partNumberNisw, partNumberIe, partNumberNie, tagN, manufacturerIdN, manufacturerN, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling DcimApi#dcimModuleTypesList");
@@ -37301,7 +35232,11 @@ public class Example {
 | **model** | **String**|  | [optional] |
 | **partNumber** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **manufacturerId** | **String**|  | [optional] |
@@ -37335,20 +35270,9 @@ public class Example {
 | **partNumberNisw** | **String**|  | [optional] |
 | **partNumberIe** | **String**|  | [optional] |
 | **partNumberNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **manufacturerIdN** | **String**|  | [optional] |
 | **manufacturerN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -37373,7 +35297,7 @@ public class Example {
 
 ## dcimModuleTypesListWithHttpInfo
 
-> ApiResponse<DcimModuleTypesList200Response> dcimModuleTypesList dcimModuleTypesListWithHttpInfo(id, model, partNumber, created, lastUpdated, q, tag, manufacturerId, manufacturer, consolePorts, consoleServerPorts, powerPorts, powerOutlets, interfaces, passThroughPorts, idN, idLte, idLt, idGte, idGt, modelN, modelIc, modelNic, modelIew, modelNiew, modelIsw, modelNisw, modelIe, modelNie, partNumberN, partNumberIc, partNumberNic, partNumberIew, partNumberNiew, partNumberIsw, partNumberNisw, partNumberIe, partNumberNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, manufacturerIdN, manufacturerN, ordering, limit, offset)
+> ApiResponse<DcimModuleTypesList200Response> dcimModuleTypesList dcimModuleTypesListWithHttpInfo(id, model, partNumber, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, manufacturerId, manufacturer, consolePorts, consoleServerPorts, powerPorts, powerOutlets, interfaces, passThroughPorts, idN, idLte, idLt, idGte, idGt, modelN, modelIc, modelNic, modelIew, modelNiew, modelIsw, modelNisw, modelIe, modelNie, partNumberN, partNumberIc, partNumberNic, partNumberIew, partNumberNiew, partNumberIsw, partNumberNisw, partNumberIe, partNumberNie, tagN, manufacturerIdN, manufacturerN, limit, offset)
 
 
 
@@ -37407,7 +35331,11 @@ public class Example {
         String model = "model_example"; // String | 
         String partNumber = "partNumber_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String manufacturerId = "manufacturerId_example"; // String | 
@@ -37441,24 +35369,13 @@ public class Example {
         String partNumberNisw = "partNumberNisw_example"; // String | 
         String partNumberIe = "partNumberIe_example"; // String | 
         String partNumberNie = "partNumberNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String manufacturerIdN = "manufacturerIdN_example"; // String | 
         String manufacturerN = "manufacturerN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<DcimModuleTypesList200Response> response = apiInstance.dcimModuleTypesListWithHttpInfo(id, model, partNumber, created, lastUpdated, q, tag, manufacturerId, manufacturer, consolePorts, consoleServerPorts, powerPorts, powerOutlets, interfaces, passThroughPorts, idN, idLte, idLt, idGte, idGt, modelN, modelIc, modelNic, modelIew, modelNiew, modelIsw, modelNisw, modelIe, modelNie, partNumberN, partNumberIc, partNumberNic, partNumberIew, partNumberNiew, partNumberIsw, partNumberNisw, partNumberIe, partNumberNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, manufacturerIdN, manufacturerN, ordering, limit, offset);
+            ApiResponse<DcimModuleTypesList200Response> response = apiInstance.dcimModuleTypesListWithHttpInfo(id, model, partNumber, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, manufacturerId, manufacturer, consolePorts, consoleServerPorts, powerPorts, powerOutlets, interfaces, passThroughPorts, idN, idLte, idLt, idGte, idGt, modelN, modelIc, modelNic, modelIew, modelNiew, modelIsw, modelNisw, modelIe, modelNie, partNumberN, partNumberIc, partNumberNic, partNumberIew, partNumberNiew, partNumberIsw, partNumberNisw, partNumberIe, partNumberNie, tagN, manufacturerIdN, manufacturerN, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -37482,7 +35399,11 @@ public class Example {
 | **model** | **String**|  | [optional] |
 | **partNumber** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **manufacturerId** | **String**|  | [optional] |
@@ -37516,20 +35437,9 @@ public class Example {
 | **partNumberNisw** | **String**|  | [optional] |
 | **partNumberIe** | **String**|  | [optional] |
 | **partNumberNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **manufacturerIdN** | **String**|  | [optional] |
 | **manufacturerN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -38703,7 +36613,7 @@ ApiResponse<Void>
 
 ## dcimModulesList
 
-> DcimModulesList200Response dcimModulesList(id, assetTag, created, lastUpdated, q, tag, manufacturerId, manufacturer, moduleTypeId, moduleType, moduleBayId, deviceId, serial, idN, idLte, idLt, idGte, idGt, assetTagN, assetTagIc, assetTagNic, assetTagIew, assetTagNiew, assetTagIsw, assetTagNisw, assetTagIe, assetTagNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, manufacturerIdN, manufacturerN, moduleTypeIdN, moduleTypeN, moduleBayIdN, deviceIdN, serialN, serialIc, serialNic, serialIew, serialNiew, serialIsw, serialNisw, serialIe, serialNie, ordering, limit, offset)
+> DcimModulesList200Response dcimModulesList(id, assetTag, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, manufacturerId, manufacturer, moduleTypeId, moduleType, moduleBayId, deviceId, serial, idN, idLte, idLt, idGte, idGt, assetTagN, assetTagIc, assetTagNic, assetTagIew, assetTagNiew, assetTagIsw, assetTagNisw, assetTagIe, assetTagNie, tagN, manufacturerIdN, manufacturerN, moduleTypeIdN, moduleTypeN, moduleBayIdN, deviceIdN, serialN, serialIc, serialNic, serialIew, serialNiew, serialIsw, serialNisw, serialIe, serialNie, limit, offset)
 
 
 
@@ -38735,7 +36645,11 @@ public class Example {
         String id = "id_example"; // String | 
         String assetTag = "assetTag_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String manufacturerId = "manufacturerId_example"; // String | 
@@ -38759,16 +36673,6 @@ public class Example {
         String assetTagNisw = "assetTagNisw_example"; // String | 
         String assetTagIe = "assetTagIe_example"; // String | 
         String assetTagNie = "assetTagNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String manufacturerIdN = "manufacturerIdN_example"; // String | 
         String manufacturerN = "manufacturerN_example"; // String | 
@@ -38785,11 +36689,10 @@ public class Example {
         String serialNisw = "serialNisw_example"; // String | 
         String serialIe = "serialIe_example"; // String | 
         String serialNie = "serialNie_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            DcimModulesList200Response result = apiInstance.dcimModulesList(id, assetTag, created, lastUpdated, q, tag, manufacturerId, manufacturer, moduleTypeId, moduleType, moduleBayId, deviceId, serial, idN, idLte, idLt, idGte, idGt, assetTagN, assetTagIc, assetTagNic, assetTagIew, assetTagNiew, assetTagIsw, assetTagNisw, assetTagIe, assetTagNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, manufacturerIdN, manufacturerN, moduleTypeIdN, moduleTypeN, moduleBayIdN, deviceIdN, serialN, serialIc, serialNic, serialIew, serialNiew, serialIsw, serialNisw, serialIe, serialNie, ordering, limit, offset);
+            DcimModulesList200Response result = apiInstance.dcimModulesList(id, assetTag, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, manufacturerId, manufacturer, moduleTypeId, moduleType, moduleBayId, deviceId, serial, idN, idLte, idLt, idGte, idGt, assetTagN, assetTagIc, assetTagNic, assetTagIew, assetTagNiew, assetTagIsw, assetTagNisw, assetTagIe, assetTagNie, tagN, manufacturerIdN, manufacturerN, moduleTypeIdN, moduleTypeN, moduleBayIdN, deviceIdN, serialN, serialIc, serialNic, serialIew, serialNiew, serialIsw, serialNisw, serialIe, serialNie, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling DcimApi#dcimModulesList");
@@ -38810,7 +36713,11 @@ public class Example {
 | **id** | **String**|  | [optional] |
 | **assetTag** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **manufacturerId** | **String**|  | [optional] |
@@ -38834,16 +36741,6 @@ public class Example {
 | **assetTagNisw** | **String**|  | [optional] |
 | **assetTagIe** | **String**|  | [optional] |
 | **assetTagNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **manufacturerIdN** | **String**|  | [optional] |
 | **manufacturerN** | **String**|  | [optional] |
@@ -38860,7 +36757,6 @@ public class Example {
 | **serialNisw** | **String**|  | [optional] |
 | **serialIe** | **String**|  | [optional] |
 | **serialNie** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -38885,7 +36781,7 @@ public class Example {
 
 ## dcimModulesListWithHttpInfo
 
-> ApiResponse<DcimModulesList200Response> dcimModulesList dcimModulesListWithHttpInfo(id, assetTag, created, lastUpdated, q, tag, manufacturerId, manufacturer, moduleTypeId, moduleType, moduleBayId, deviceId, serial, idN, idLte, idLt, idGte, idGt, assetTagN, assetTagIc, assetTagNic, assetTagIew, assetTagNiew, assetTagIsw, assetTagNisw, assetTagIe, assetTagNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, manufacturerIdN, manufacturerN, moduleTypeIdN, moduleTypeN, moduleBayIdN, deviceIdN, serialN, serialIc, serialNic, serialIew, serialNiew, serialIsw, serialNisw, serialIe, serialNie, ordering, limit, offset)
+> ApiResponse<DcimModulesList200Response> dcimModulesList dcimModulesListWithHttpInfo(id, assetTag, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, manufacturerId, manufacturer, moduleTypeId, moduleType, moduleBayId, deviceId, serial, idN, idLte, idLt, idGte, idGt, assetTagN, assetTagIc, assetTagNic, assetTagIew, assetTagNiew, assetTagIsw, assetTagNisw, assetTagIe, assetTagNie, tagN, manufacturerIdN, manufacturerN, moduleTypeIdN, moduleTypeN, moduleBayIdN, deviceIdN, serialN, serialIc, serialNic, serialIew, serialNiew, serialIsw, serialNisw, serialIe, serialNie, limit, offset)
 
 
 
@@ -38918,7 +36814,11 @@ public class Example {
         String id = "id_example"; // String | 
         String assetTag = "assetTag_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String manufacturerId = "manufacturerId_example"; // String | 
@@ -38942,16 +36842,6 @@ public class Example {
         String assetTagNisw = "assetTagNisw_example"; // String | 
         String assetTagIe = "assetTagIe_example"; // String | 
         String assetTagNie = "assetTagNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String manufacturerIdN = "manufacturerIdN_example"; // String | 
         String manufacturerN = "manufacturerN_example"; // String | 
@@ -38968,11 +36858,10 @@ public class Example {
         String serialNisw = "serialNisw_example"; // String | 
         String serialIe = "serialIe_example"; // String | 
         String serialNie = "serialNie_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<DcimModulesList200Response> response = apiInstance.dcimModulesListWithHttpInfo(id, assetTag, created, lastUpdated, q, tag, manufacturerId, manufacturer, moduleTypeId, moduleType, moduleBayId, deviceId, serial, idN, idLte, idLt, idGte, idGt, assetTagN, assetTagIc, assetTagNic, assetTagIew, assetTagNiew, assetTagIsw, assetTagNisw, assetTagIe, assetTagNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, manufacturerIdN, manufacturerN, moduleTypeIdN, moduleTypeN, moduleBayIdN, deviceIdN, serialN, serialIc, serialNic, serialIew, serialNiew, serialIsw, serialNisw, serialIe, serialNie, ordering, limit, offset);
+            ApiResponse<DcimModulesList200Response> response = apiInstance.dcimModulesListWithHttpInfo(id, assetTag, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, manufacturerId, manufacturer, moduleTypeId, moduleType, moduleBayId, deviceId, serial, idN, idLte, idLt, idGte, idGt, assetTagN, assetTagIc, assetTagNic, assetTagIew, assetTagNiew, assetTagIsw, assetTagNisw, assetTagIe, assetTagNie, tagN, manufacturerIdN, manufacturerN, moduleTypeIdN, moduleTypeN, moduleBayIdN, deviceIdN, serialN, serialIc, serialNic, serialIew, serialNiew, serialIsw, serialNisw, serialIe, serialNie, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -38995,7 +36884,11 @@ public class Example {
 | **id** | **String**|  | [optional] |
 | **assetTag** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **manufacturerId** | **String**|  | [optional] |
@@ -39019,16 +36912,6 @@ public class Example {
 | **assetTagNisw** | **String**|  | [optional] |
 | **assetTagIe** | **String**|  | [optional] |
 | **assetTagNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **manufacturerIdN** | **String**|  | [optional] |
 | **manufacturerN** | **String**|  | [optional] |
@@ -39045,7 +36928,6 @@ public class Example {
 | **serialNisw** | **String**|  | [optional] |
 | **serialIe** | **String**|  | [optional] |
 | **serialNie** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -40219,7 +38101,7 @@ ApiResponse<Void>
 
 ## dcimPlatformsList
 
-> DcimPlatformsList200Response dcimPlatformsList(id, name, slug, napalmDriver, description, created, lastUpdated, q, tag, manufacturerId, manufacturer, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, napalmDriverN, napalmDriverIc, napalmDriverNic, napalmDriverIew, napalmDriverNiew, napalmDriverIsw, napalmDriverNisw, napalmDriverIe, napalmDriverNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, manufacturerIdN, manufacturerN, ordering, limit, offset)
+> DcimPlatformsList200Response dcimPlatformsList(id, name, slug, napalmDriver, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, manufacturerId, manufacturer, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, napalmDriverN, napalmDriverIc, napalmDriverNic, napalmDriverIew, napalmDriverNiew, napalmDriverIsw, napalmDriverNisw, napalmDriverIe, napalmDriverNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, manufacturerIdN, manufacturerN, limit, offset)
 
 
 
@@ -40254,7 +38136,11 @@ public class Example {
         String napalmDriver = "napalmDriver_example"; // String | 
         String description = "description_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String manufacturerId = "manufacturerId_example"; // String | 
@@ -40300,24 +38186,13 @@ public class Example {
         String descriptionNisw = "descriptionNisw_example"; // String | 
         String descriptionIe = "descriptionIe_example"; // String | 
         String descriptionNie = "descriptionNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String manufacturerIdN = "manufacturerIdN_example"; // String | 
         String manufacturerN = "manufacturerN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            DcimPlatformsList200Response result = apiInstance.dcimPlatformsList(id, name, slug, napalmDriver, description, created, lastUpdated, q, tag, manufacturerId, manufacturer, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, napalmDriverN, napalmDriverIc, napalmDriverNic, napalmDriverIew, napalmDriverNiew, napalmDriverIsw, napalmDriverNisw, napalmDriverIe, napalmDriverNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, manufacturerIdN, manufacturerN, ordering, limit, offset);
+            DcimPlatformsList200Response result = apiInstance.dcimPlatformsList(id, name, slug, napalmDriver, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, manufacturerId, manufacturer, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, napalmDriverN, napalmDriverIc, napalmDriverNic, napalmDriverIew, napalmDriverNiew, napalmDriverIsw, napalmDriverNisw, napalmDriverIe, napalmDriverNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, manufacturerIdN, manufacturerN, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling DcimApi#dcimPlatformsList");
@@ -40341,7 +38216,11 @@ public class Example {
 | **napalmDriver** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **manufacturerId** | **String**|  | [optional] |
@@ -40387,20 +38266,9 @@ public class Example {
 | **descriptionNisw** | **String**|  | [optional] |
 | **descriptionIe** | **String**|  | [optional] |
 | **descriptionNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **manufacturerIdN** | **String**|  | [optional] |
 | **manufacturerN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -40425,7 +38293,7 @@ public class Example {
 
 ## dcimPlatformsListWithHttpInfo
 
-> ApiResponse<DcimPlatformsList200Response> dcimPlatformsList dcimPlatformsListWithHttpInfo(id, name, slug, napalmDriver, description, created, lastUpdated, q, tag, manufacturerId, manufacturer, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, napalmDriverN, napalmDriverIc, napalmDriverNic, napalmDriverIew, napalmDriverNiew, napalmDriverIsw, napalmDriverNisw, napalmDriverIe, napalmDriverNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, manufacturerIdN, manufacturerN, ordering, limit, offset)
+> ApiResponse<DcimPlatformsList200Response> dcimPlatformsList dcimPlatformsListWithHttpInfo(id, name, slug, napalmDriver, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, manufacturerId, manufacturer, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, napalmDriverN, napalmDriverIc, napalmDriverNic, napalmDriverIew, napalmDriverNiew, napalmDriverIsw, napalmDriverNisw, napalmDriverIe, napalmDriverNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, manufacturerIdN, manufacturerN, limit, offset)
 
 
 
@@ -40461,7 +38329,11 @@ public class Example {
         String napalmDriver = "napalmDriver_example"; // String | 
         String description = "description_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String manufacturerId = "manufacturerId_example"; // String | 
@@ -40507,24 +38379,13 @@ public class Example {
         String descriptionNisw = "descriptionNisw_example"; // String | 
         String descriptionIe = "descriptionIe_example"; // String | 
         String descriptionNie = "descriptionNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String manufacturerIdN = "manufacturerIdN_example"; // String | 
         String manufacturerN = "manufacturerN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<DcimPlatformsList200Response> response = apiInstance.dcimPlatformsListWithHttpInfo(id, name, slug, napalmDriver, description, created, lastUpdated, q, tag, manufacturerId, manufacturer, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, napalmDriverN, napalmDriverIc, napalmDriverNic, napalmDriverIew, napalmDriverNiew, napalmDriverIsw, napalmDriverNisw, napalmDriverIe, napalmDriverNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, manufacturerIdN, manufacturerN, ordering, limit, offset);
+            ApiResponse<DcimPlatformsList200Response> response = apiInstance.dcimPlatformsListWithHttpInfo(id, name, slug, napalmDriver, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, manufacturerId, manufacturer, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, napalmDriverN, napalmDriverIc, napalmDriverNic, napalmDriverIew, napalmDriverNiew, napalmDriverIsw, napalmDriverNisw, napalmDriverIe, napalmDriverNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, manufacturerIdN, manufacturerN, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -40550,7 +38411,11 @@ public class Example {
 | **napalmDriver** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **manufacturerId** | **String**|  | [optional] |
@@ -40596,20 +38461,9 @@ public class Example {
 | **descriptionNisw** | **String**|  | [optional] |
 | **descriptionIe** | **String**|  | [optional] |
 | **descriptionNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **manufacturerIdN** | **String**|  | [optional] |
 | **manufacturerN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -41783,7 +39637,7 @@ ApiResponse<Void>
 
 ## dcimPowerFeedsList
 
-> DcimPowerFeedsList200Response dcimPowerFeedsList(id, name, status, type, supply, phase, voltage, amperage, maxUtilization, cableEnd, created, lastUpdated, q, tag, cabled, connected, regionId, region, siteGroupId, siteGroup, siteId, site, powerPanelId, rackId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, statusN, typeN, supplyN, phaseN, voltageN, voltageLte, voltageLt, voltageGte, voltageGt, amperageN, amperageLte, amperageLt, amperageGte, amperageGt, maxUtilizationN, maxUtilizationLte, maxUtilizationLt, maxUtilizationGte, maxUtilizationGt, cableEndN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, powerPanelIdN, rackIdN, ordering, limit, offset)
+> DcimPowerFeedsList200Response dcimPowerFeedsList(id, name, status, type, supply, phase, voltage, amperage, maxUtilization, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, cabled, connected, regionId, region, siteGroupId, siteGroup, siteId, site, powerPanelId, rackId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, statusN, typeN, supplyN, phaseN, voltageN, voltageLte, voltageLt, voltageGte, voltageGt, amperageN, amperageLte, amperageLt, amperageGte, amperageGt, maxUtilizationN, maxUtilizationLte, maxUtilizationLt, maxUtilizationGte, maxUtilizationGt, tagN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, powerPanelIdN, rackIdN, limit, offset)
 
 
 
@@ -41821,9 +39675,12 @@ public class Example {
         String voltage = "voltage_example"; // String | 
         String amperage = "amperage_example"; // String | 
         String maxUtilization = "maxUtilization_example"; // String | 
-        String cableEnd = "cableEnd_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String cabled = "cabled_example"; // String | 
@@ -41869,17 +39726,6 @@ public class Example {
         String maxUtilizationLt = "maxUtilizationLt_example"; // String | 
         String maxUtilizationGte = "maxUtilizationGte_example"; // String | 
         String maxUtilizationGt = "maxUtilizationGt_example"; // String | 
-        String cableEndN = "cableEndN_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String regionIdN = "regionIdN_example"; // String | 
         String regionN = "regionN_example"; // String | 
@@ -41889,11 +39735,10 @@ public class Example {
         String siteN = "siteN_example"; // String | 
         String powerPanelIdN = "powerPanelIdN_example"; // String | 
         String rackIdN = "rackIdN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            DcimPowerFeedsList200Response result = apiInstance.dcimPowerFeedsList(id, name, status, type, supply, phase, voltage, amperage, maxUtilization, cableEnd, created, lastUpdated, q, tag, cabled, connected, regionId, region, siteGroupId, siteGroup, siteId, site, powerPanelId, rackId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, statusN, typeN, supplyN, phaseN, voltageN, voltageLte, voltageLt, voltageGte, voltageGt, amperageN, amperageLte, amperageLt, amperageGte, amperageGt, maxUtilizationN, maxUtilizationLte, maxUtilizationLt, maxUtilizationGte, maxUtilizationGt, cableEndN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, powerPanelIdN, rackIdN, ordering, limit, offset);
+            DcimPowerFeedsList200Response result = apiInstance.dcimPowerFeedsList(id, name, status, type, supply, phase, voltage, amperage, maxUtilization, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, cabled, connected, regionId, region, siteGroupId, siteGroup, siteId, site, powerPanelId, rackId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, statusN, typeN, supplyN, phaseN, voltageN, voltageLte, voltageLt, voltageGte, voltageGt, amperageN, amperageLte, amperageLt, amperageGte, amperageGt, maxUtilizationN, maxUtilizationLte, maxUtilizationLt, maxUtilizationGte, maxUtilizationGt, tagN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, powerPanelIdN, rackIdN, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling DcimApi#dcimPowerFeedsList");
@@ -41920,9 +39765,12 @@ public class Example {
 | **voltage** | **String**|  | [optional] |
 | **amperage** | **String**|  | [optional] |
 | **maxUtilization** | **String**|  | [optional] |
-| **cableEnd** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **cabled** | **String**|  | [optional] |
@@ -41968,17 +39816,6 @@ public class Example {
 | **maxUtilizationLt** | **String**|  | [optional] |
 | **maxUtilizationGte** | **String**|  | [optional] |
 | **maxUtilizationGt** | **String**|  | [optional] |
-| **cableEndN** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **regionIdN** | **String**|  | [optional] |
 | **regionN** | **String**|  | [optional] |
@@ -41988,7 +39825,6 @@ public class Example {
 | **siteN** | **String**|  | [optional] |
 | **powerPanelIdN** | **String**|  | [optional] |
 | **rackIdN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -42013,7 +39849,7 @@ public class Example {
 
 ## dcimPowerFeedsListWithHttpInfo
 
-> ApiResponse<DcimPowerFeedsList200Response> dcimPowerFeedsList dcimPowerFeedsListWithHttpInfo(id, name, status, type, supply, phase, voltage, amperage, maxUtilization, cableEnd, created, lastUpdated, q, tag, cabled, connected, regionId, region, siteGroupId, siteGroup, siteId, site, powerPanelId, rackId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, statusN, typeN, supplyN, phaseN, voltageN, voltageLte, voltageLt, voltageGte, voltageGt, amperageN, amperageLte, amperageLt, amperageGte, amperageGt, maxUtilizationN, maxUtilizationLte, maxUtilizationLt, maxUtilizationGte, maxUtilizationGt, cableEndN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, powerPanelIdN, rackIdN, ordering, limit, offset)
+> ApiResponse<DcimPowerFeedsList200Response> dcimPowerFeedsList dcimPowerFeedsListWithHttpInfo(id, name, status, type, supply, phase, voltage, amperage, maxUtilization, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, cabled, connected, regionId, region, siteGroupId, siteGroup, siteId, site, powerPanelId, rackId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, statusN, typeN, supplyN, phaseN, voltageN, voltageLte, voltageLt, voltageGte, voltageGt, amperageN, amperageLte, amperageLt, amperageGte, amperageGt, maxUtilizationN, maxUtilizationLte, maxUtilizationLt, maxUtilizationGte, maxUtilizationGt, tagN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, powerPanelIdN, rackIdN, limit, offset)
 
 
 
@@ -42052,9 +39888,12 @@ public class Example {
         String voltage = "voltage_example"; // String | 
         String amperage = "amperage_example"; // String | 
         String maxUtilization = "maxUtilization_example"; // String | 
-        String cableEnd = "cableEnd_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String cabled = "cabled_example"; // String | 
@@ -42100,17 +39939,6 @@ public class Example {
         String maxUtilizationLt = "maxUtilizationLt_example"; // String | 
         String maxUtilizationGte = "maxUtilizationGte_example"; // String | 
         String maxUtilizationGt = "maxUtilizationGt_example"; // String | 
-        String cableEndN = "cableEndN_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String regionIdN = "regionIdN_example"; // String | 
         String regionN = "regionN_example"; // String | 
@@ -42120,11 +39948,10 @@ public class Example {
         String siteN = "siteN_example"; // String | 
         String powerPanelIdN = "powerPanelIdN_example"; // String | 
         String rackIdN = "rackIdN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<DcimPowerFeedsList200Response> response = apiInstance.dcimPowerFeedsListWithHttpInfo(id, name, status, type, supply, phase, voltage, amperage, maxUtilization, cableEnd, created, lastUpdated, q, tag, cabled, connected, regionId, region, siteGroupId, siteGroup, siteId, site, powerPanelId, rackId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, statusN, typeN, supplyN, phaseN, voltageN, voltageLte, voltageLt, voltageGte, voltageGt, amperageN, amperageLte, amperageLt, amperageGte, amperageGt, maxUtilizationN, maxUtilizationLte, maxUtilizationLt, maxUtilizationGte, maxUtilizationGt, cableEndN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, powerPanelIdN, rackIdN, ordering, limit, offset);
+            ApiResponse<DcimPowerFeedsList200Response> response = apiInstance.dcimPowerFeedsListWithHttpInfo(id, name, status, type, supply, phase, voltage, amperage, maxUtilization, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, cabled, connected, regionId, region, siteGroupId, siteGroup, siteId, site, powerPanelId, rackId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, statusN, typeN, supplyN, phaseN, voltageN, voltageLte, voltageLt, voltageGte, voltageGt, amperageN, amperageLte, amperageLt, amperageGte, amperageGt, maxUtilizationN, maxUtilizationLte, maxUtilizationLt, maxUtilizationGte, maxUtilizationGt, tagN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, powerPanelIdN, rackIdN, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -42153,9 +39980,12 @@ public class Example {
 | **voltage** | **String**|  | [optional] |
 | **amperage** | **String**|  | [optional] |
 | **maxUtilization** | **String**|  | [optional] |
-| **cableEnd** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **cabled** | **String**|  | [optional] |
@@ -42201,17 +40031,6 @@ public class Example {
 | **maxUtilizationLt** | **String**|  | [optional] |
 | **maxUtilizationGte** | **String**|  | [optional] |
 | **maxUtilizationGt** | **String**|  | [optional] |
-| **cableEndN** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **regionIdN** | **String**|  | [optional] |
 | **regionN** | **String**|  | [optional] |
@@ -42221,7 +40040,6 @@ public class Example {
 | **siteN** | **String**|  | [optional] |
 | **powerPanelIdN** | **String**|  | [optional] |
 | **rackIdN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -43543,7 +41361,7 @@ ApiResponse<Void>
 
 ## dcimPowerOutletTemplatesList
 
-> DcimPowerOutletTemplatesList200Response dcimPowerOutletTemplatesList(id, name, type, feedLeg, created, lastUpdated, q, devicetypeId, moduletypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, typeN, feedLegN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, devicetypeIdN, moduletypeIdN, ordering, limit, offset)
+> DcimPowerOutletTemplatesList200Response dcimPowerOutletTemplatesList(id, name, type, feedLeg, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, devicetypeId, moduletypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, typeN, feedLegN, devicetypeIdN, moduletypeIdN, limit, offset)
 
 
 
@@ -43577,7 +41395,11 @@ public class Example {
         String type = "type_example"; // String | 
         String feedLeg = "feedLeg_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String devicetypeId = "devicetypeId_example"; // String | 
         String moduletypeId = "moduletypeId_example"; // String | 
@@ -43597,23 +41419,12 @@ public class Example {
         String nameNie = "nameNie_example"; // String | 
         String typeN = "typeN_example"; // String | 
         String feedLegN = "feedLegN_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String devicetypeIdN = "devicetypeIdN_example"; // String | 
         String moduletypeIdN = "moduletypeIdN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            DcimPowerOutletTemplatesList200Response result = apiInstance.dcimPowerOutletTemplatesList(id, name, type, feedLeg, created, lastUpdated, q, devicetypeId, moduletypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, typeN, feedLegN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, devicetypeIdN, moduletypeIdN, ordering, limit, offset);
+            DcimPowerOutletTemplatesList200Response result = apiInstance.dcimPowerOutletTemplatesList(id, name, type, feedLeg, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, devicetypeId, moduletypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, typeN, feedLegN, devicetypeIdN, moduletypeIdN, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling DcimApi#dcimPowerOutletTemplatesList");
@@ -43636,7 +41447,11 @@ public class Example {
 | **type** | **String**|  | [optional] |
 | **feedLeg** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **devicetypeId** | **String**|  | [optional] |
 | **moduletypeId** | **String**|  | [optional] |
@@ -43656,19 +41471,8 @@ public class Example {
 | **nameNie** | **String**|  | [optional] |
 | **typeN** | **String**|  | [optional] |
 | **feedLegN** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **devicetypeIdN** | **String**|  | [optional] |
 | **moduletypeIdN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -43693,7 +41497,7 @@ public class Example {
 
 ## dcimPowerOutletTemplatesListWithHttpInfo
 
-> ApiResponse<DcimPowerOutletTemplatesList200Response> dcimPowerOutletTemplatesList dcimPowerOutletTemplatesListWithHttpInfo(id, name, type, feedLeg, created, lastUpdated, q, devicetypeId, moduletypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, typeN, feedLegN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, devicetypeIdN, moduletypeIdN, ordering, limit, offset)
+> ApiResponse<DcimPowerOutletTemplatesList200Response> dcimPowerOutletTemplatesList dcimPowerOutletTemplatesListWithHttpInfo(id, name, type, feedLeg, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, devicetypeId, moduletypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, typeN, feedLegN, devicetypeIdN, moduletypeIdN, limit, offset)
 
 
 
@@ -43728,7 +41532,11 @@ public class Example {
         String type = "type_example"; // String | 
         String feedLeg = "feedLeg_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String devicetypeId = "devicetypeId_example"; // String | 
         String moduletypeId = "moduletypeId_example"; // String | 
@@ -43748,23 +41556,12 @@ public class Example {
         String nameNie = "nameNie_example"; // String | 
         String typeN = "typeN_example"; // String | 
         String feedLegN = "feedLegN_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String devicetypeIdN = "devicetypeIdN_example"; // String | 
         String moduletypeIdN = "moduletypeIdN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<DcimPowerOutletTemplatesList200Response> response = apiInstance.dcimPowerOutletTemplatesListWithHttpInfo(id, name, type, feedLeg, created, lastUpdated, q, devicetypeId, moduletypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, typeN, feedLegN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, devicetypeIdN, moduletypeIdN, ordering, limit, offset);
+            ApiResponse<DcimPowerOutletTemplatesList200Response> response = apiInstance.dcimPowerOutletTemplatesListWithHttpInfo(id, name, type, feedLeg, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, devicetypeId, moduletypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, typeN, feedLegN, devicetypeIdN, moduletypeIdN, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -43789,7 +41586,11 @@ public class Example {
 | **type** | **String**|  | [optional] |
 | **feedLeg** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **devicetypeId** | **String**|  | [optional] |
 | **moduletypeId** | **String**|  | [optional] |
@@ -43809,19 +41610,8 @@ public class Example {
 | **nameNie** | **String**|  | [optional] |
 | **typeN** | **String**|  | [optional] |
 | **feedLegN** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **devicetypeIdN** | **String**|  | [optional] |
 | **moduletypeIdN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -44995,7 +42785,7 @@ ApiResponse<Void>
 
 ## dcimPowerOutletsList
 
-> DcimPowerOutletsList200Response dcimPowerOutletsList(id, name, label, feedLeg, description, cableEnd, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, moduleId, created, lastUpdated, tag, cabled, connected, type, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, feedLegN, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, cableEndN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, deviceIdN, deviceN, virtualChassisIdN, virtualChassisN, moduleIdN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, typeN, ordering, limit, offset)
+> DcimPowerOutletsList200Response dcimPowerOutletsList(id, name, label, feedLeg, description, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, moduleId, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, tag, cabled, connected, type, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, feedLegN, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, deviceIdN, deviceN, virtualChassisIdN, virtualChassisN, moduleIdN, tagN, typeN, limit, offset)
 
 
 
@@ -45029,7 +42819,6 @@ public class Example {
         String label = "label_example"; // String | 
         String feedLeg = "feedLeg_example"; // String | 
         String description = "description_example"; // String | 
-        String cableEnd = "cableEnd_example"; // String | 
         String q = "q_example"; // String | 
         String regionId = "regionId_example"; // String | 
         String region = "region_example"; // String | 
@@ -45045,7 +42834,11 @@ public class Example {
         String virtualChassis = "virtualChassis_example"; // String | 
         String moduleId = "moduleId_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String tag = "tag_example"; // String | 
         String cabled = "cabled_example"; // String | 
         String connected = "connected_example"; // String | 
@@ -45083,7 +42876,6 @@ public class Example {
         String descriptionNisw = "descriptionNisw_example"; // String | 
         String descriptionIe = "descriptionIe_example"; // String | 
         String descriptionNie = "descriptionNie_example"; // String | 
-        String cableEndN = "cableEndN_example"; // String | 
         String regionIdN = "regionIdN_example"; // String | 
         String regionN = "regionN_example"; // String | 
         String siteGroupIdN = "siteGroupIdN_example"; // String | 
@@ -45097,23 +42889,12 @@ public class Example {
         String virtualChassisIdN = "virtualChassisIdN_example"; // String | 
         String virtualChassisN = "virtualChassisN_example"; // String | 
         String moduleIdN = "moduleIdN_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String typeN = "typeN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            DcimPowerOutletsList200Response result = apiInstance.dcimPowerOutletsList(id, name, label, feedLeg, description, cableEnd, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, moduleId, created, lastUpdated, tag, cabled, connected, type, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, feedLegN, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, cableEndN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, deviceIdN, deviceN, virtualChassisIdN, virtualChassisN, moduleIdN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, typeN, ordering, limit, offset);
+            DcimPowerOutletsList200Response result = apiInstance.dcimPowerOutletsList(id, name, label, feedLeg, description, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, moduleId, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, tag, cabled, connected, type, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, feedLegN, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, deviceIdN, deviceN, virtualChassisIdN, virtualChassisN, moduleIdN, tagN, typeN, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling DcimApi#dcimPowerOutletsList");
@@ -45136,7 +42917,6 @@ public class Example {
 | **label** | **String**|  | [optional] |
 | **feedLeg** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
-| **cableEnd** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **regionId** | **String**|  | [optional] |
 | **region** | **String**|  | [optional] |
@@ -45152,7 +42932,11 @@ public class Example {
 | **virtualChassis** | **String**|  | [optional] |
 | **moduleId** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **cabled** | **String**|  | [optional] |
 | **connected** | **String**|  | [optional] |
@@ -45190,7 +42974,6 @@ public class Example {
 | **descriptionNisw** | **String**|  | [optional] |
 | **descriptionIe** | **String**|  | [optional] |
 | **descriptionNie** | **String**|  | [optional] |
-| **cableEndN** | **String**|  | [optional] |
 | **regionIdN** | **String**|  | [optional] |
 | **regionN** | **String**|  | [optional] |
 | **siteGroupIdN** | **String**|  | [optional] |
@@ -45204,19 +42987,8 @@ public class Example {
 | **virtualChassisIdN** | **String**|  | [optional] |
 | **virtualChassisN** | **String**|  | [optional] |
 | **moduleIdN** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **typeN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -45241,7 +43013,7 @@ public class Example {
 
 ## dcimPowerOutletsListWithHttpInfo
 
-> ApiResponse<DcimPowerOutletsList200Response> dcimPowerOutletsList dcimPowerOutletsListWithHttpInfo(id, name, label, feedLeg, description, cableEnd, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, moduleId, created, lastUpdated, tag, cabled, connected, type, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, feedLegN, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, cableEndN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, deviceIdN, deviceN, virtualChassisIdN, virtualChassisN, moduleIdN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, typeN, ordering, limit, offset)
+> ApiResponse<DcimPowerOutletsList200Response> dcimPowerOutletsList dcimPowerOutletsListWithHttpInfo(id, name, label, feedLeg, description, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, moduleId, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, tag, cabled, connected, type, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, feedLegN, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, deviceIdN, deviceN, virtualChassisIdN, virtualChassisN, moduleIdN, tagN, typeN, limit, offset)
 
 
 
@@ -45276,7 +43048,6 @@ public class Example {
         String label = "label_example"; // String | 
         String feedLeg = "feedLeg_example"; // String | 
         String description = "description_example"; // String | 
-        String cableEnd = "cableEnd_example"; // String | 
         String q = "q_example"; // String | 
         String regionId = "regionId_example"; // String | 
         String region = "region_example"; // String | 
@@ -45292,7 +43063,11 @@ public class Example {
         String virtualChassis = "virtualChassis_example"; // String | 
         String moduleId = "moduleId_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String tag = "tag_example"; // String | 
         String cabled = "cabled_example"; // String | 
         String connected = "connected_example"; // String | 
@@ -45330,7 +43105,6 @@ public class Example {
         String descriptionNisw = "descriptionNisw_example"; // String | 
         String descriptionIe = "descriptionIe_example"; // String | 
         String descriptionNie = "descriptionNie_example"; // String | 
-        String cableEndN = "cableEndN_example"; // String | 
         String regionIdN = "regionIdN_example"; // String | 
         String regionN = "regionN_example"; // String | 
         String siteGroupIdN = "siteGroupIdN_example"; // String | 
@@ -45344,23 +43118,12 @@ public class Example {
         String virtualChassisIdN = "virtualChassisIdN_example"; // String | 
         String virtualChassisN = "virtualChassisN_example"; // String | 
         String moduleIdN = "moduleIdN_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String typeN = "typeN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<DcimPowerOutletsList200Response> response = apiInstance.dcimPowerOutletsListWithHttpInfo(id, name, label, feedLeg, description, cableEnd, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, moduleId, created, lastUpdated, tag, cabled, connected, type, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, feedLegN, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, cableEndN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, deviceIdN, deviceN, virtualChassisIdN, virtualChassisN, moduleIdN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, typeN, ordering, limit, offset);
+            ApiResponse<DcimPowerOutletsList200Response> response = apiInstance.dcimPowerOutletsListWithHttpInfo(id, name, label, feedLeg, description, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, moduleId, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, tag, cabled, connected, type, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, feedLegN, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, deviceIdN, deviceN, virtualChassisIdN, virtualChassisN, moduleIdN, tagN, typeN, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -45385,7 +43148,6 @@ public class Example {
 | **label** | **String**|  | [optional] |
 | **feedLeg** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
-| **cableEnd** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **regionId** | **String**|  | [optional] |
 | **region** | **String**|  | [optional] |
@@ -45401,7 +43163,11 @@ public class Example {
 | **virtualChassis** | **String**|  | [optional] |
 | **moduleId** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **cabled** | **String**|  | [optional] |
 | **connected** | **String**|  | [optional] |
@@ -45439,7 +43205,6 @@ public class Example {
 | **descriptionNisw** | **String**|  | [optional] |
 | **descriptionIe** | **String**|  | [optional] |
 | **descriptionNie** | **String**|  | [optional] |
-| **cableEndN** | **String**|  | [optional] |
 | **regionIdN** | **String**|  | [optional] |
 | **regionN** | **String**|  | [optional] |
 | **siteGroupIdN** | **String**|  | [optional] |
@@ -45453,19 +43218,8 @@ public class Example {
 | **virtualChassisIdN** | **String**|  | [optional] |
 | **virtualChassisN** | **String**|  | [optional] |
 | **moduleIdN** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **typeN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -46787,7 +44541,7 @@ ApiResponse<Void>
 
 ## dcimPowerPanelsList
 
-> DcimPowerPanelsList200Response dcimPowerPanelsList(id, name, created, lastUpdated, q, tag, contact, contactRole, contactGroup, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, contactN, contactRoleN, contactGroupN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, ordering, limit, offset)
+> DcimPowerPanelsList200Response dcimPowerPanelsList(id, name, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, contact, contactRole, contactGroup, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, tagN, contactN, contactRoleN, contactGroupN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, limit, offset)
 
 
 
@@ -46819,7 +44573,11 @@ public class Example {
         String id = "id_example"; // String | 
         String name = "name_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String contact = "contact_example"; // String | 
@@ -46846,16 +44604,6 @@ public class Example {
         String nameNisw = "nameNisw_example"; // String | 
         String nameIe = "nameIe_example"; // String | 
         String nameNie = "nameNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String contactN = "contactN_example"; // String | 
         String contactRoleN = "contactRoleN_example"; // String | 
@@ -46867,11 +44615,10 @@ public class Example {
         String siteIdN = "siteIdN_example"; // String | 
         String siteN = "siteN_example"; // String | 
         String locationIdN = "locationIdN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            DcimPowerPanelsList200Response result = apiInstance.dcimPowerPanelsList(id, name, created, lastUpdated, q, tag, contact, contactRole, contactGroup, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, contactN, contactRoleN, contactGroupN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, ordering, limit, offset);
+            DcimPowerPanelsList200Response result = apiInstance.dcimPowerPanelsList(id, name, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, contact, contactRole, contactGroup, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, tagN, contactN, contactRoleN, contactGroupN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling DcimApi#dcimPowerPanelsList");
@@ -46892,7 +44639,11 @@ public class Example {
 | **id** | **String**|  | [optional] |
 | **name** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **contact** | **String**|  | [optional] |
@@ -46919,16 +44670,6 @@ public class Example {
 | **nameNisw** | **String**|  | [optional] |
 | **nameIe** | **String**|  | [optional] |
 | **nameNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **contactN** | **String**|  | [optional] |
 | **contactRoleN** | **String**|  | [optional] |
@@ -46940,7 +44681,6 @@ public class Example {
 | **siteIdN** | **String**|  | [optional] |
 | **siteN** | **String**|  | [optional] |
 | **locationIdN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -46965,7 +44705,7 @@ public class Example {
 
 ## dcimPowerPanelsListWithHttpInfo
 
-> ApiResponse<DcimPowerPanelsList200Response> dcimPowerPanelsList dcimPowerPanelsListWithHttpInfo(id, name, created, lastUpdated, q, tag, contact, contactRole, contactGroup, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, contactN, contactRoleN, contactGroupN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, ordering, limit, offset)
+> ApiResponse<DcimPowerPanelsList200Response> dcimPowerPanelsList dcimPowerPanelsListWithHttpInfo(id, name, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, contact, contactRole, contactGroup, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, tagN, contactN, contactRoleN, contactGroupN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, limit, offset)
 
 
 
@@ -46998,7 +44738,11 @@ public class Example {
         String id = "id_example"; // String | 
         String name = "name_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String contact = "contact_example"; // String | 
@@ -47025,16 +44769,6 @@ public class Example {
         String nameNisw = "nameNisw_example"; // String | 
         String nameIe = "nameIe_example"; // String | 
         String nameNie = "nameNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String contactN = "contactN_example"; // String | 
         String contactRoleN = "contactRoleN_example"; // String | 
@@ -47046,11 +44780,10 @@ public class Example {
         String siteIdN = "siteIdN_example"; // String | 
         String siteN = "siteN_example"; // String | 
         String locationIdN = "locationIdN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<DcimPowerPanelsList200Response> response = apiInstance.dcimPowerPanelsListWithHttpInfo(id, name, created, lastUpdated, q, tag, contact, contactRole, contactGroup, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, contactN, contactRoleN, contactGroupN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, ordering, limit, offset);
+            ApiResponse<DcimPowerPanelsList200Response> response = apiInstance.dcimPowerPanelsListWithHttpInfo(id, name, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, contact, contactRole, contactGroup, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, tagN, contactN, contactRoleN, contactGroupN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -47073,7 +44806,11 @@ public class Example {
 | **id** | **String**|  | [optional] |
 | **name** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **contact** | **String**|  | [optional] |
@@ -47100,16 +44837,6 @@ public class Example {
 | **nameNisw** | **String**|  | [optional] |
 | **nameIe** | **String**|  | [optional] |
 | **nameNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **contactN** | **String**|  | [optional] |
 | **contactRoleN** | **String**|  | [optional] |
@@ -47121,7 +44848,6 @@ public class Example {
 | **siteIdN** | **String**|  | [optional] |
 | **siteN** | **String**|  | [optional] |
 | **locationIdN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -48295,7 +46021,7 @@ ApiResponse<Void>
 
 ## dcimPowerPortTemplatesList
 
-> DcimPowerPortTemplatesList200Response dcimPowerPortTemplatesList(id, name, type, maximumDraw, allocatedDraw, created, lastUpdated, q, devicetypeId, moduletypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, typeN, maximumDrawN, maximumDrawLte, maximumDrawLt, maximumDrawGte, maximumDrawGt, allocatedDrawN, allocatedDrawLte, allocatedDrawLt, allocatedDrawGte, allocatedDrawGt, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, devicetypeIdN, moduletypeIdN, ordering, limit, offset)
+> DcimPowerPortTemplatesList200Response dcimPowerPortTemplatesList(id, name, type, maximumDraw, allocatedDraw, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, devicetypeId, moduletypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, typeN, maximumDrawN, maximumDrawLte, maximumDrawLt, maximumDrawGte, maximumDrawGt, allocatedDrawN, allocatedDrawLte, allocatedDrawLt, allocatedDrawGte, allocatedDrawGt, devicetypeIdN, moduletypeIdN, limit, offset)
 
 
 
@@ -48330,7 +46056,11 @@ public class Example {
         String maximumDraw = "maximumDraw_example"; // String | 
         String allocatedDraw = "allocatedDraw_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String devicetypeId = "devicetypeId_example"; // String | 
         String moduletypeId = "moduletypeId_example"; // String | 
@@ -48359,23 +46089,12 @@ public class Example {
         String allocatedDrawLt = "allocatedDrawLt_example"; // String | 
         String allocatedDrawGte = "allocatedDrawGte_example"; // String | 
         String allocatedDrawGt = "allocatedDrawGt_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String devicetypeIdN = "devicetypeIdN_example"; // String | 
         String moduletypeIdN = "moduletypeIdN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            DcimPowerPortTemplatesList200Response result = apiInstance.dcimPowerPortTemplatesList(id, name, type, maximumDraw, allocatedDraw, created, lastUpdated, q, devicetypeId, moduletypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, typeN, maximumDrawN, maximumDrawLte, maximumDrawLt, maximumDrawGte, maximumDrawGt, allocatedDrawN, allocatedDrawLte, allocatedDrawLt, allocatedDrawGte, allocatedDrawGt, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, devicetypeIdN, moduletypeIdN, ordering, limit, offset);
+            DcimPowerPortTemplatesList200Response result = apiInstance.dcimPowerPortTemplatesList(id, name, type, maximumDraw, allocatedDraw, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, devicetypeId, moduletypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, typeN, maximumDrawN, maximumDrawLte, maximumDrawLt, maximumDrawGte, maximumDrawGt, allocatedDrawN, allocatedDrawLte, allocatedDrawLt, allocatedDrawGte, allocatedDrawGt, devicetypeIdN, moduletypeIdN, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling DcimApi#dcimPowerPortTemplatesList");
@@ -48399,7 +46118,11 @@ public class Example {
 | **maximumDraw** | **String**|  | [optional] |
 | **allocatedDraw** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **devicetypeId** | **String**|  | [optional] |
 | **moduletypeId** | **String**|  | [optional] |
@@ -48428,19 +46151,8 @@ public class Example {
 | **allocatedDrawLt** | **String**|  | [optional] |
 | **allocatedDrawGte** | **String**|  | [optional] |
 | **allocatedDrawGt** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **devicetypeIdN** | **String**|  | [optional] |
 | **moduletypeIdN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -48465,7 +46177,7 @@ public class Example {
 
 ## dcimPowerPortTemplatesListWithHttpInfo
 
-> ApiResponse<DcimPowerPortTemplatesList200Response> dcimPowerPortTemplatesList dcimPowerPortTemplatesListWithHttpInfo(id, name, type, maximumDraw, allocatedDraw, created, lastUpdated, q, devicetypeId, moduletypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, typeN, maximumDrawN, maximumDrawLte, maximumDrawLt, maximumDrawGte, maximumDrawGt, allocatedDrawN, allocatedDrawLte, allocatedDrawLt, allocatedDrawGte, allocatedDrawGt, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, devicetypeIdN, moduletypeIdN, ordering, limit, offset)
+> ApiResponse<DcimPowerPortTemplatesList200Response> dcimPowerPortTemplatesList dcimPowerPortTemplatesListWithHttpInfo(id, name, type, maximumDraw, allocatedDraw, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, devicetypeId, moduletypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, typeN, maximumDrawN, maximumDrawLte, maximumDrawLt, maximumDrawGte, maximumDrawGt, allocatedDrawN, allocatedDrawLte, allocatedDrawLt, allocatedDrawGte, allocatedDrawGt, devicetypeIdN, moduletypeIdN, limit, offset)
 
 
 
@@ -48501,7 +46213,11 @@ public class Example {
         String maximumDraw = "maximumDraw_example"; // String | 
         String allocatedDraw = "allocatedDraw_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String devicetypeId = "devicetypeId_example"; // String | 
         String moduletypeId = "moduletypeId_example"; // String | 
@@ -48530,23 +46246,12 @@ public class Example {
         String allocatedDrawLt = "allocatedDrawLt_example"; // String | 
         String allocatedDrawGte = "allocatedDrawGte_example"; // String | 
         String allocatedDrawGt = "allocatedDrawGt_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String devicetypeIdN = "devicetypeIdN_example"; // String | 
         String moduletypeIdN = "moduletypeIdN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<DcimPowerPortTemplatesList200Response> response = apiInstance.dcimPowerPortTemplatesListWithHttpInfo(id, name, type, maximumDraw, allocatedDraw, created, lastUpdated, q, devicetypeId, moduletypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, typeN, maximumDrawN, maximumDrawLte, maximumDrawLt, maximumDrawGte, maximumDrawGt, allocatedDrawN, allocatedDrawLte, allocatedDrawLt, allocatedDrawGte, allocatedDrawGt, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, devicetypeIdN, moduletypeIdN, ordering, limit, offset);
+            ApiResponse<DcimPowerPortTemplatesList200Response> response = apiInstance.dcimPowerPortTemplatesListWithHttpInfo(id, name, type, maximumDraw, allocatedDraw, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, devicetypeId, moduletypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, typeN, maximumDrawN, maximumDrawLte, maximumDrawLt, maximumDrawGte, maximumDrawGt, allocatedDrawN, allocatedDrawLte, allocatedDrawLt, allocatedDrawGte, allocatedDrawGt, devicetypeIdN, moduletypeIdN, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -48572,7 +46277,11 @@ public class Example {
 | **maximumDraw** | **String**|  | [optional] |
 | **allocatedDraw** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **devicetypeId** | **String**|  | [optional] |
 | **moduletypeId** | **String**|  | [optional] |
@@ -48601,19 +46310,8 @@ public class Example {
 | **allocatedDrawLt** | **String**|  | [optional] |
 | **allocatedDrawGte** | **String**|  | [optional] |
 | **allocatedDrawGt** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **devicetypeIdN** | **String**|  | [optional] |
 | **moduletypeIdN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -49787,7 +47485,7 @@ ApiResponse<Void>
 
 ## dcimPowerPortsList
 
-> DcimPowerPortsList200Response dcimPowerPortsList(id, name, label, maximumDraw, allocatedDraw, description, cableEnd, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, moduleId, created, lastUpdated, tag, cabled, connected, type, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, maximumDrawN, maximumDrawLte, maximumDrawLt, maximumDrawGte, maximumDrawGt, allocatedDrawN, allocatedDrawLte, allocatedDrawLt, allocatedDrawGte, allocatedDrawGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, cableEndN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, deviceIdN, deviceN, virtualChassisIdN, virtualChassisN, moduleIdN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, typeN, ordering, limit, offset)
+> DcimPowerPortsList200Response dcimPowerPortsList(id, name, label, maximumDraw, allocatedDraw, description, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, moduleId, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, tag, cabled, connected, type, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, maximumDrawN, maximumDrawLte, maximumDrawLt, maximumDrawGte, maximumDrawGt, allocatedDrawN, allocatedDrawLte, allocatedDrawLt, allocatedDrawGte, allocatedDrawGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, deviceIdN, deviceN, virtualChassisIdN, virtualChassisN, moduleIdN, tagN, typeN, limit, offset)
 
 
 
@@ -49822,7 +47520,6 @@ public class Example {
         String maximumDraw = "maximumDraw_example"; // String | 
         String allocatedDraw = "allocatedDraw_example"; // String | 
         String description = "description_example"; // String | 
-        String cableEnd = "cableEnd_example"; // String | 
         String q = "q_example"; // String | 
         String regionId = "regionId_example"; // String | 
         String region = "region_example"; // String | 
@@ -49838,7 +47535,11 @@ public class Example {
         String virtualChassis = "virtualChassis_example"; // String | 
         String moduleId = "moduleId_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String tag = "tag_example"; // String | 
         String cabled = "cabled_example"; // String | 
         String connected = "connected_example"; // String | 
@@ -49885,7 +47586,6 @@ public class Example {
         String descriptionNisw = "descriptionNisw_example"; // String | 
         String descriptionIe = "descriptionIe_example"; // String | 
         String descriptionNie = "descriptionNie_example"; // String | 
-        String cableEndN = "cableEndN_example"; // String | 
         String regionIdN = "regionIdN_example"; // String | 
         String regionN = "regionN_example"; // String | 
         String siteGroupIdN = "siteGroupIdN_example"; // String | 
@@ -49899,23 +47599,12 @@ public class Example {
         String virtualChassisIdN = "virtualChassisIdN_example"; // String | 
         String virtualChassisN = "virtualChassisN_example"; // String | 
         String moduleIdN = "moduleIdN_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String typeN = "typeN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            DcimPowerPortsList200Response result = apiInstance.dcimPowerPortsList(id, name, label, maximumDraw, allocatedDraw, description, cableEnd, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, moduleId, created, lastUpdated, tag, cabled, connected, type, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, maximumDrawN, maximumDrawLte, maximumDrawLt, maximumDrawGte, maximumDrawGt, allocatedDrawN, allocatedDrawLte, allocatedDrawLt, allocatedDrawGte, allocatedDrawGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, cableEndN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, deviceIdN, deviceN, virtualChassisIdN, virtualChassisN, moduleIdN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, typeN, ordering, limit, offset);
+            DcimPowerPortsList200Response result = apiInstance.dcimPowerPortsList(id, name, label, maximumDraw, allocatedDraw, description, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, moduleId, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, tag, cabled, connected, type, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, maximumDrawN, maximumDrawLte, maximumDrawLt, maximumDrawGte, maximumDrawGt, allocatedDrawN, allocatedDrawLte, allocatedDrawLt, allocatedDrawGte, allocatedDrawGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, deviceIdN, deviceN, virtualChassisIdN, virtualChassisN, moduleIdN, tagN, typeN, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling DcimApi#dcimPowerPortsList");
@@ -49939,7 +47628,6 @@ public class Example {
 | **maximumDraw** | **String**|  | [optional] |
 | **allocatedDraw** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
-| **cableEnd** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **regionId** | **String**|  | [optional] |
 | **region** | **String**|  | [optional] |
@@ -49955,7 +47643,11 @@ public class Example {
 | **virtualChassis** | **String**|  | [optional] |
 | **moduleId** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **cabled** | **String**|  | [optional] |
 | **connected** | **String**|  | [optional] |
@@ -50002,7 +47694,6 @@ public class Example {
 | **descriptionNisw** | **String**|  | [optional] |
 | **descriptionIe** | **String**|  | [optional] |
 | **descriptionNie** | **String**|  | [optional] |
-| **cableEndN** | **String**|  | [optional] |
 | **regionIdN** | **String**|  | [optional] |
 | **regionN** | **String**|  | [optional] |
 | **siteGroupIdN** | **String**|  | [optional] |
@@ -50016,19 +47707,8 @@ public class Example {
 | **virtualChassisIdN** | **String**|  | [optional] |
 | **virtualChassisN** | **String**|  | [optional] |
 | **moduleIdN** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **typeN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -50053,7 +47733,7 @@ public class Example {
 
 ## dcimPowerPortsListWithHttpInfo
 
-> ApiResponse<DcimPowerPortsList200Response> dcimPowerPortsList dcimPowerPortsListWithHttpInfo(id, name, label, maximumDraw, allocatedDraw, description, cableEnd, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, moduleId, created, lastUpdated, tag, cabled, connected, type, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, maximumDrawN, maximumDrawLte, maximumDrawLt, maximumDrawGte, maximumDrawGt, allocatedDrawN, allocatedDrawLte, allocatedDrawLt, allocatedDrawGte, allocatedDrawGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, cableEndN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, deviceIdN, deviceN, virtualChassisIdN, virtualChassisN, moduleIdN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, typeN, ordering, limit, offset)
+> ApiResponse<DcimPowerPortsList200Response> dcimPowerPortsList dcimPowerPortsListWithHttpInfo(id, name, label, maximumDraw, allocatedDraw, description, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, moduleId, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, tag, cabled, connected, type, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, maximumDrawN, maximumDrawLte, maximumDrawLt, maximumDrawGte, maximumDrawGt, allocatedDrawN, allocatedDrawLte, allocatedDrawLt, allocatedDrawGte, allocatedDrawGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, deviceIdN, deviceN, virtualChassisIdN, virtualChassisN, moduleIdN, tagN, typeN, limit, offset)
 
 
 
@@ -50089,7 +47769,6 @@ public class Example {
         String maximumDraw = "maximumDraw_example"; // String | 
         String allocatedDraw = "allocatedDraw_example"; // String | 
         String description = "description_example"; // String | 
-        String cableEnd = "cableEnd_example"; // String | 
         String q = "q_example"; // String | 
         String regionId = "regionId_example"; // String | 
         String region = "region_example"; // String | 
@@ -50105,7 +47784,11 @@ public class Example {
         String virtualChassis = "virtualChassis_example"; // String | 
         String moduleId = "moduleId_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String tag = "tag_example"; // String | 
         String cabled = "cabled_example"; // String | 
         String connected = "connected_example"; // String | 
@@ -50152,7 +47835,6 @@ public class Example {
         String descriptionNisw = "descriptionNisw_example"; // String | 
         String descriptionIe = "descriptionIe_example"; // String | 
         String descriptionNie = "descriptionNie_example"; // String | 
-        String cableEndN = "cableEndN_example"; // String | 
         String regionIdN = "regionIdN_example"; // String | 
         String regionN = "regionN_example"; // String | 
         String siteGroupIdN = "siteGroupIdN_example"; // String | 
@@ -50166,23 +47848,12 @@ public class Example {
         String virtualChassisIdN = "virtualChassisIdN_example"; // String | 
         String virtualChassisN = "virtualChassisN_example"; // String | 
         String moduleIdN = "moduleIdN_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String typeN = "typeN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<DcimPowerPortsList200Response> response = apiInstance.dcimPowerPortsListWithHttpInfo(id, name, label, maximumDraw, allocatedDraw, description, cableEnd, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, moduleId, created, lastUpdated, tag, cabled, connected, type, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, maximumDrawN, maximumDrawLte, maximumDrawLt, maximumDrawGte, maximumDrawGt, allocatedDrawN, allocatedDrawLte, allocatedDrawLt, allocatedDrawGte, allocatedDrawGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, cableEndN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, deviceIdN, deviceN, virtualChassisIdN, virtualChassisN, moduleIdN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, typeN, ordering, limit, offset);
+            ApiResponse<DcimPowerPortsList200Response> response = apiInstance.dcimPowerPortsListWithHttpInfo(id, name, label, maximumDraw, allocatedDraw, description, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, moduleId, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, tag, cabled, connected, type, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, maximumDrawN, maximumDrawLte, maximumDrawLt, maximumDrawGte, maximumDrawGt, allocatedDrawN, allocatedDrawLte, allocatedDrawLt, allocatedDrawGte, allocatedDrawGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, deviceIdN, deviceN, virtualChassisIdN, virtualChassisN, moduleIdN, tagN, typeN, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -50208,7 +47879,6 @@ public class Example {
 | **maximumDraw** | **String**|  | [optional] |
 | **allocatedDraw** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
-| **cableEnd** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **regionId** | **String**|  | [optional] |
 | **region** | **String**|  | [optional] |
@@ -50224,7 +47894,11 @@ public class Example {
 | **virtualChassis** | **String**|  | [optional] |
 | **moduleId** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **cabled** | **String**|  | [optional] |
 | **connected** | **String**|  | [optional] |
@@ -50271,7 +47945,6 @@ public class Example {
 | **descriptionNisw** | **String**|  | [optional] |
 | **descriptionIe** | **String**|  | [optional] |
 | **descriptionNie** | **String**|  | [optional] |
-| **cableEndN** | **String**|  | [optional] |
 | **regionIdN** | **String**|  | [optional] |
 | **regionN** | **String**|  | [optional] |
 | **siteGroupIdN** | **String**|  | [optional] |
@@ -50285,19 +47958,8 @@ public class Example {
 | **virtualChassisIdN** | **String**|  | [optional] |
 | **virtualChassisN** | **String**|  | [optional] |
 | **moduleIdN** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **typeN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -51619,7 +49281,7 @@ ApiResponse<Void>
 
 ## dcimRackReservationsList
 
-> DcimRackReservationsList200Response dcimRackReservationsList(id, created, description, lastUpdated, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, rackId, siteId, site, regionId, region, siteGroupId, siteGroup, locationId, location, userId, user, idN, idLte, idLt, idGte, idGt, createdN, createdLte, createdLt, createdGte, createdGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, rackIdN, siteIdN, siteN, regionIdN, regionN, siteGroupIdN, siteGroupN, locationIdN, locationN, userIdN, userN, ordering, limit, offset)
+> DcimRackReservationsList200Response dcimRackReservationsList(id, created, description, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, rackId, siteId, site, regionId, region, siteGroupId, siteGroup, locationId, location, userId, user, idN, idLte, idLt, idGte, idGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, rackIdN, siteIdN, siteN, regionIdN, regionN, siteGroupIdN, siteGroupN, locationIdN, locationN, userIdN, userN, limit, offset)
 
 
 
@@ -51651,7 +49313,11 @@ public class Example {
         String id = "id_example"; // String | 
         String created = "created_example"; // String | 
         String description = "description_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String tenantGroupId = "tenantGroupId_example"; // String | 
@@ -51674,11 +49340,6 @@ public class Example {
         String idLt = "idLt_example"; // String | 
         String idGte = "idGte_example"; // String | 
         String idGt = "idGt_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
         String descriptionN = "descriptionN_example"; // String | 
         String descriptionIc = "descriptionIc_example"; // String | 
         String descriptionNic = "descriptionNic_example"; // String | 
@@ -51688,11 +49349,6 @@ public class Example {
         String descriptionNisw = "descriptionNisw_example"; // String | 
         String descriptionIe = "descriptionIe_example"; // String | 
         String descriptionNie = "descriptionNie_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String tenantGroupIdN = "tenantGroupIdN_example"; // String | 
         String tenantGroupN = "tenantGroupN_example"; // String | 
@@ -51709,11 +49365,10 @@ public class Example {
         String locationN = "locationN_example"; // String | 
         String userIdN = "userIdN_example"; // String | 
         String userN = "userN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            DcimRackReservationsList200Response result = apiInstance.dcimRackReservationsList(id, created, description, lastUpdated, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, rackId, siteId, site, regionId, region, siteGroupId, siteGroup, locationId, location, userId, user, idN, idLte, idLt, idGte, idGt, createdN, createdLte, createdLt, createdGte, createdGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, rackIdN, siteIdN, siteN, regionIdN, regionN, siteGroupIdN, siteGroupN, locationIdN, locationN, userIdN, userN, ordering, limit, offset);
+            DcimRackReservationsList200Response result = apiInstance.dcimRackReservationsList(id, created, description, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, rackId, siteId, site, regionId, region, siteGroupId, siteGroup, locationId, location, userId, user, idN, idLte, idLt, idGte, idGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, rackIdN, siteIdN, siteN, regionIdN, regionN, siteGroupIdN, siteGroupN, locationIdN, locationN, userIdN, userN, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling DcimApi#dcimRackReservationsList");
@@ -51734,7 +49389,11 @@ public class Example {
 | **id** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **tenantGroupId** | **String**|  | [optional] |
@@ -51757,11 +49416,6 @@ public class Example {
 | **idLt** | **String**|  | [optional] |
 | **idGte** | **String**|  | [optional] |
 | **idGt** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
 | **descriptionN** | **String**|  | [optional] |
 | **descriptionIc** | **String**|  | [optional] |
 | **descriptionNic** | **String**|  | [optional] |
@@ -51771,11 +49425,6 @@ public class Example {
 | **descriptionNisw** | **String**|  | [optional] |
 | **descriptionIe** | **String**|  | [optional] |
 | **descriptionNie** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **tenantGroupIdN** | **String**|  | [optional] |
 | **tenantGroupN** | **String**|  | [optional] |
@@ -51792,7 +49441,6 @@ public class Example {
 | **locationN** | **String**|  | [optional] |
 | **userIdN** | **String**|  | [optional] |
 | **userN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -51817,7 +49465,7 @@ public class Example {
 
 ## dcimRackReservationsListWithHttpInfo
 
-> ApiResponse<DcimRackReservationsList200Response> dcimRackReservationsList dcimRackReservationsListWithHttpInfo(id, created, description, lastUpdated, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, rackId, siteId, site, regionId, region, siteGroupId, siteGroup, locationId, location, userId, user, idN, idLte, idLt, idGte, idGt, createdN, createdLte, createdLt, createdGte, createdGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, rackIdN, siteIdN, siteN, regionIdN, regionN, siteGroupIdN, siteGroupN, locationIdN, locationN, userIdN, userN, ordering, limit, offset)
+> ApiResponse<DcimRackReservationsList200Response> dcimRackReservationsList dcimRackReservationsListWithHttpInfo(id, created, description, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, rackId, siteId, site, regionId, region, siteGroupId, siteGroup, locationId, location, userId, user, idN, idLte, idLt, idGte, idGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, rackIdN, siteIdN, siteN, regionIdN, regionN, siteGroupIdN, siteGroupN, locationIdN, locationN, userIdN, userN, limit, offset)
 
 
 
@@ -51850,7 +49498,11 @@ public class Example {
         String id = "id_example"; // String | 
         String created = "created_example"; // String | 
         String description = "description_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String tenantGroupId = "tenantGroupId_example"; // String | 
@@ -51873,11 +49525,6 @@ public class Example {
         String idLt = "idLt_example"; // String | 
         String idGte = "idGte_example"; // String | 
         String idGt = "idGt_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
         String descriptionN = "descriptionN_example"; // String | 
         String descriptionIc = "descriptionIc_example"; // String | 
         String descriptionNic = "descriptionNic_example"; // String | 
@@ -51887,11 +49534,6 @@ public class Example {
         String descriptionNisw = "descriptionNisw_example"; // String | 
         String descriptionIe = "descriptionIe_example"; // String | 
         String descriptionNie = "descriptionNie_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String tenantGroupIdN = "tenantGroupIdN_example"; // String | 
         String tenantGroupN = "tenantGroupN_example"; // String | 
@@ -51908,11 +49550,10 @@ public class Example {
         String locationN = "locationN_example"; // String | 
         String userIdN = "userIdN_example"; // String | 
         String userN = "userN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<DcimRackReservationsList200Response> response = apiInstance.dcimRackReservationsListWithHttpInfo(id, created, description, lastUpdated, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, rackId, siteId, site, regionId, region, siteGroupId, siteGroup, locationId, location, userId, user, idN, idLte, idLt, idGte, idGt, createdN, createdLte, createdLt, createdGte, createdGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, rackIdN, siteIdN, siteN, regionIdN, regionN, siteGroupIdN, siteGroupN, locationIdN, locationN, userIdN, userN, ordering, limit, offset);
+            ApiResponse<DcimRackReservationsList200Response> response = apiInstance.dcimRackReservationsListWithHttpInfo(id, created, description, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, rackId, siteId, site, regionId, region, siteGroupId, siteGroup, locationId, location, userId, user, idN, idLte, idLt, idGte, idGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, rackIdN, siteIdN, siteN, regionIdN, regionN, siteGroupIdN, siteGroupN, locationIdN, locationN, userIdN, userN, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -51935,7 +49576,11 @@ public class Example {
 | **id** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **tenantGroupId** | **String**|  | [optional] |
@@ -51958,11 +49603,6 @@ public class Example {
 | **idLt** | **String**|  | [optional] |
 | **idGte** | **String**|  | [optional] |
 | **idGt** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
 | **descriptionN** | **String**|  | [optional] |
 | **descriptionIc** | **String**|  | [optional] |
 | **descriptionNic** | **String**|  | [optional] |
@@ -51972,11 +49612,6 @@ public class Example {
 | **descriptionNisw** | **String**|  | [optional] |
 | **descriptionIe** | **String**|  | [optional] |
 | **descriptionNie** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **tenantGroupIdN** | **String**|  | [optional] |
 | **tenantGroupN** | **String**|  | [optional] |
@@ -51993,7 +49628,6 @@ public class Example {
 | **locationN** | **String**|  | [optional] |
 | **userIdN** | **String**|  | [optional] |
 | **userN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -53167,7 +50801,7 @@ ApiResponse<Void>
 
 ## dcimRackRolesList
 
-> DcimRackRolesList200Response dcimRackRolesList(id, name, slug, color, description, created, lastUpdated, q, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, colorN, colorIc, colorNic, colorIew, colorNiew, colorIsw, colorNisw, colorIe, colorNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, ordering, limit, offset)
+> DcimRackRolesList200Response dcimRackRolesList(id, name, slug, color, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, colorN, colorIc, colorNic, colorIew, colorNiew, colorIsw, colorNisw, colorIe, colorNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, limit, offset)
 
 
 
@@ -53202,7 +50836,11 @@ public class Example {
         String color = "color_example"; // String | 
         String description = "description_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String idN = "idN_example"; // String | 
@@ -53246,22 +50884,11 @@ public class Example {
         String descriptionNisw = "descriptionNisw_example"; // String | 
         String descriptionIe = "descriptionIe_example"; // String | 
         String descriptionNie = "descriptionNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            DcimRackRolesList200Response result = apiInstance.dcimRackRolesList(id, name, slug, color, description, created, lastUpdated, q, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, colorN, colorIc, colorNic, colorIew, colorNiew, colorIsw, colorNisw, colorIe, colorNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, ordering, limit, offset);
+            DcimRackRolesList200Response result = apiInstance.dcimRackRolesList(id, name, slug, color, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, colorN, colorIc, colorNic, colorIew, colorNiew, colorIsw, colorNisw, colorIe, colorNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling DcimApi#dcimRackRolesList");
@@ -53285,7 +50912,11 @@ public class Example {
 | **color** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **idN** | **String**|  | [optional] |
@@ -53329,18 +50960,7 @@ public class Example {
 | **descriptionNisw** | **String**|  | [optional] |
 | **descriptionIe** | **String**|  | [optional] |
 | **descriptionNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -53365,7 +50985,7 @@ public class Example {
 
 ## dcimRackRolesListWithHttpInfo
 
-> ApiResponse<DcimRackRolesList200Response> dcimRackRolesList dcimRackRolesListWithHttpInfo(id, name, slug, color, description, created, lastUpdated, q, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, colorN, colorIc, colorNic, colorIew, colorNiew, colorIsw, colorNisw, colorIe, colorNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, ordering, limit, offset)
+> ApiResponse<DcimRackRolesList200Response> dcimRackRolesList dcimRackRolesListWithHttpInfo(id, name, slug, color, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, colorN, colorIc, colorNic, colorIew, colorNiew, colorIsw, colorNisw, colorIe, colorNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, limit, offset)
 
 
 
@@ -53401,7 +51021,11 @@ public class Example {
         String color = "color_example"; // String | 
         String description = "description_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String idN = "idN_example"; // String | 
@@ -53445,22 +51069,11 @@ public class Example {
         String descriptionNisw = "descriptionNisw_example"; // String | 
         String descriptionIe = "descriptionIe_example"; // String | 
         String descriptionNie = "descriptionNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<DcimRackRolesList200Response> response = apiInstance.dcimRackRolesListWithHttpInfo(id, name, slug, color, description, created, lastUpdated, q, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, colorN, colorIc, colorNic, colorIew, colorNiew, colorIsw, colorNisw, colorIe, colorNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, ordering, limit, offset);
+            ApiResponse<DcimRackRolesList200Response> response = apiInstance.dcimRackRolesListWithHttpInfo(id, name, slug, color, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, colorN, colorIc, colorNic, colorIew, colorNiew, colorIsw, colorNisw, colorIe, colorNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -53486,7 +51099,11 @@ public class Example {
 | **color** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **idN** | **String**|  | [optional] |
@@ -53530,18 +51147,7 @@ public class Example {
 | **descriptionNisw** | **String**|  | [optional] |
 | **descriptionIe** | **String**|  | [optional] |
 | **descriptionNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -54713,9 +52319,9 @@ ApiResponse<Void>
 | **204** |  |  -  |
 
 
-## dcimRacksElevationRead
+## dcimRacksElevation
 
-> List<RackUnit> dcimRacksElevationRead(id, q, face, render, unitWidth, unitHeight, legendWidth, marginWidth, exclude, expandDevices, includeImages)
+> List<RackUnit> dcimRacksElevation(id, q, face, render, unitWidth, unitHeight, legendWidth, exclude, expandDevices, includeImages)
 
 
 
@@ -54751,15 +52357,14 @@ public class Example {
         Integer unitWidth = 220; // Integer | 
         Integer unitHeight = 22; // Integer | 
         Integer legendWidth = 30; // Integer | 
-        Integer marginWidth = 15; // Integer | 
         Integer exclude = 56; // Integer | 
         Boolean expandDevices = true; // Boolean | 
         Boolean includeImages = true; // Boolean | 
         try {
-            List<RackUnit> result = apiInstance.dcimRacksElevationRead(id, q, face, render, unitWidth, unitHeight, legendWidth, marginWidth, exclude, expandDevices, includeImages);
+            List<RackUnit> result = apiInstance.dcimRacksElevation(id, q, face, render, unitWidth, unitHeight, legendWidth, exclude, expandDevices, includeImages);
             System.out.println(result);
         } catch (ApiException e) {
-            System.err.println("Exception when calling DcimApi#dcimRacksElevationRead");
+            System.err.println("Exception when calling DcimApi#dcimRacksElevation");
             System.err.println("Status code: " + e.getCode());
             System.err.println("Reason: " + e.getResponseBody());
             System.err.println("Response headers: " + e.getResponseHeaders());
@@ -54781,7 +52386,6 @@ public class Example {
 | **unitWidth** | **Integer**|  | [optional] [default to 220] |
 | **unitHeight** | **Integer**|  | [optional] [default to 22] |
 | **legendWidth** | **Integer**|  | [optional] [default to 30] |
-| **marginWidth** | **Integer**|  | [optional] [default to 15] |
 | **exclude** | **Integer**|  | [optional] |
 | **expandDevices** | **Boolean**|  | [optional] [default to true] |
 | **includeImages** | **Boolean**|  | [optional] [default to true] |
@@ -54805,9 +52409,9 @@ public class Example {
 |-------------|-------------|------------------|
 | **200** |  |  -  |
 
-## dcimRacksElevationReadWithHttpInfo
+## dcimRacksElevationWithHttpInfo
 
-> ApiResponse<List<RackUnit>> dcimRacksElevationRead dcimRacksElevationReadWithHttpInfo(id, q, face, render, unitWidth, unitHeight, legendWidth, marginWidth, exclude, expandDevices, includeImages)
+> ApiResponse<List<RackUnit>> dcimRacksElevation dcimRacksElevationWithHttpInfo(id, q, face, render, unitWidth, unitHeight, legendWidth, exclude, expandDevices, includeImages)
 
 
 
@@ -54844,17 +52448,16 @@ public class Example {
         Integer unitWidth = 220; // Integer | 
         Integer unitHeight = 22; // Integer | 
         Integer legendWidth = 30; // Integer | 
-        Integer marginWidth = 15; // Integer | 
         Integer exclude = 56; // Integer | 
         Boolean expandDevices = true; // Boolean | 
         Boolean includeImages = true; // Boolean | 
         try {
-            ApiResponse<List<RackUnit>> response = apiInstance.dcimRacksElevationReadWithHttpInfo(id, q, face, render, unitWidth, unitHeight, legendWidth, marginWidth, exclude, expandDevices, includeImages);
+            ApiResponse<List<RackUnit>> response = apiInstance.dcimRacksElevationWithHttpInfo(id, q, face, render, unitWidth, unitHeight, legendWidth, exclude, expandDevices, includeImages);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
         } catch (ApiException e) {
-            System.err.println("Exception when calling DcimApi#dcimRacksElevationRead");
+            System.err.println("Exception when calling DcimApi#dcimRacksElevation");
             System.err.println("Status code: " + e.getCode());
             System.err.println("Response headers: " + e.getResponseHeaders());
             System.err.println("Reason: " + e.getResponseBody());
@@ -54876,7 +52479,6 @@ public class Example {
 | **unitWidth** | **Integer**|  | [optional] [default to 220] |
 | **unitHeight** | **Integer**|  | [optional] [default to 22] |
 | **legendWidth** | **Integer**|  | [optional] [default to 30] |
-| **marginWidth** | **Integer**|  | [optional] [default to 15] |
 | **exclude** | **Integer**|  | [optional] |
 | **expandDevices** | **Boolean**|  | [optional] [default to true] |
 | **includeImages** | **Boolean**|  | [optional] [default to true] |
@@ -54903,7 +52505,7 @@ ApiResponse<[**List&lt;RackUnit&gt;**](RackUnit.md)>
 
 ## dcimRacksList
 
-> DcimRacksList200Response dcimRacksList(id, name, facilityId, assetTag, uHeight, descUnits, outerWidth, outerDepth, outerUnit, created, lastUpdated, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, contact, contactRole, contactGroup, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, status, type, width, roleId, role, serial, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, facilityIdN, facilityIdIc, facilityIdNic, facilityIdIew, facilityIdNiew, facilityIdIsw, facilityIdNisw, facilityIdIe, facilityIdNie, assetTagN, assetTagIc, assetTagNic, assetTagIew, assetTagNiew, assetTagIsw, assetTagNisw, assetTagIe, assetTagNie, uHeightN, uHeightLte, uHeightLt, uHeightGte, uHeightGt, outerWidthN, outerWidthLte, outerWidthLt, outerWidthGte, outerWidthGt, outerDepthN, outerDepthLte, outerDepthLt, outerDepthGte, outerDepthGt, outerUnitN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, contactN, contactRoleN, contactGroupN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, statusN, typeN, widthN, roleIdN, roleN, serialN, serialIc, serialNic, serialIew, serialNiew, serialIsw, serialNisw, serialIe, serialNie, ordering, limit, offset)
+> DcimRacksList200Response dcimRacksList(id, name, facilityId, assetTag, uHeight, descUnits, outerWidth, outerDepth, outerUnit, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, contact, contactRole, contactGroup, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, status, type, width, roleId, role, serial, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, facilityIdN, facilityIdIc, facilityIdNic, facilityIdIew, facilityIdNiew, facilityIdIsw, facilityIdNisw, facilityIdIe, facilityIdNie, assetTagN, assetTagIc, assetTagNic, assetTagIew, assetTagNiew, assetTagIsw, assetTagNisw, assetTagIe, assetTagNie, uHeightN, uHeightLte, uHeightLt, uHeightGte, uHeightGt, outerWidthN, outerWidthLte, outerWidthLt, outerWidthGte, outerWidthGt, outerDepthN, outerDepthLte, outerDepthLt, outerDepthGte, outerDepthGt, outerUnitN, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, contactN, contactRoleN, contactGroupN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, statusN, typeN, widthN, roleIdN, roleN, serialN, serialIc, serialNic, serialIew, serialNiew, serialIsw, serialNisw, serialIe, serialNie, limit, offset)
 
 
 
@@ -54942,7 +52544,11 @@ public class Example {
         String outerDepth = "outerDepth_example"; // String | 
         String outerUnit = "outerUnit_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String tenantGroupId = "tenantGroupId_example"; // String | 
@@ -55014,16 +52620,6 @@ public class Example {
         String outerDepthGte = "outerDepthGte_example"; // String | 
         String outerDepthGt = "outerDepthGt_example"; // String | 
         String outerUnitN = "outerUnitN_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String tenantGroupIdN = "tenantGroupIdN_example"; // String | 
         String tenantGroupN = "tenantGroupN_example"; // String | 
@@ -55054,11 +52650,10 @@ public class Example {
         String serialNisw = "serialNisw_example"; // String | 
         String serialIe = "serialIe_example"; // String | 
         String serialNie = "serialNie_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            DcimRacksList200Response result = apiInstance.dcimRacksList(id, name, facilityId, assetTag, uHeight, descUnits, outerWidth, outerDepth, outerUnit, created, lastUpdated, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, contact, contactRole, contactGroup, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, status, type, width, roleId, role, serial, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, facilityIdN, facilityIdIc, facilityIdNic, facilityIdIew, facilityIdNiew, facilityIdIsw, facilityIdNisw, facilityIdIe, facilityIdNie, assetTagN, assetTagIc, assetTagNic, assetTagIew, assetTagNiew, assetTagIsw, assetTagNisw, assetTagIe, assetTagNie, uHeightN, uHeightLte, uHeightLt, uHeightGte, uHeightGt, outerWidthN, outerWidthLte, outerWidthLt, outerWidthGte, outerWidthGt, outerDepthN, outerDepthLte, outerDepthLt, outerDepthGte, outerDepthGt, outerUnitN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, contactN, contactRoleN, contactGroupN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, statusN, typeN, widthN, roleIdN, roleN, serialN, serialIc, serialNic, serialIew, serialNiew, serialIsw, serialNisw, serialIe, serialNie, ordering, limit, offset);
+            DcimRacksList200Response result = apiInstance.dcimRacksList(id, name, facilityId, assetTag, uHeight, descUnits, outerWidth, outerDepth, outerUnit, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, contact, contactRole, contactGroup, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, status, type, width, roleId, role, serial, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, facilityIdN, facilityIdIc, facilityIdNic, facilityIdIew, facilityIdNiew, facilityIdIsw, facilityIdNisw, facilityIdIe, facilityIdNie, assetTagN, assetTagIc, assetTagNic, assetTagIew, assetTagNiew, assetTagIsw, assetTagNisw, assetTagIe, assetTagNie, uHeightN, uHeightLte, uHeightLt, uHeightGte, uHeightGt, outerWidthN, outerWidthLte, outerWidthLt, outerWidthGte, outerWidthGt, outerDepthN, outerDepthLte, outerDepthLt, outerDepthGte, outerDepthGt, outerUnitN, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, contactN, contactRoleN, contactGroupN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, statusN, typeN, widthN, roleIdN, roleN, serialN, serialIc, serialNic, serialIew, serialNiew, serialIsw, serialNisw, serialIe, serialNie, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling DcimApi#dcimRacksList");
@@ -55086,7 +52681,11 @@ public class Example {
 | **outerDepth** | **String**|  | [optional] |
 | **outerUnit** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **tenantGroupId** | **String**|  | [optional] |
@@ -55158,16 +52757,6 @@ public class Example {
 | **outerDepthGte** | **String**|  | [optional] |
 | **outerDepthGt** | **String**|  | [optional] |
 | **outerUnitN** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **tenantGroupIdN** | **String**|  | [optional] |
 | **tenantGroupN** | **String**|  | [optional] |
@@ -55198,7 +52787,6 @@ public class Example {
 | **serialNisw** | **String**|  | [optional] |
 | **serialIe** | **String**|  | [optional] |
 | **serialNie** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -55223,7 +52811,7 @@ public class Example {
 
 ## dcimRacksListWithHttpInfo
 
-> ApiResponse<DcimRacksList200Response> dcimRacksList dcimRacksListWithHttpInfo(id, name, facilityId, assetTag, uHeight, descUnits, outerWidth, outerDepth, outerUnit, created, lastUpdated, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, contact, contactRole, contactGroup, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, status, type, width, roleId, role, serial, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, facilityIdN, facilityIdIc, facilityIdNic, facilityIdIew, facilityIdNiew, facilityIdIsw, facilityIdNisw, facilityIdIe, facilityIdNie, assetTagN, assetTagIc, assetTagNic, assetTagIew, assetTagNiew, assetTagIsw, assetTagNisw, assetTagIe, assetTagNie, uHeightN, uHeightLte, uHeightLt, uHeightGte, uHeightGt, outerWidthN, outerWidthLte, outerWidthLt, outerWidthGte, outerWidthGt, outerDepthN, outerDepthLte, outerDepthLt, outerDepthGte, outerDepthGt, outerUnitN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, contactN, contactRoleN, contactGroupN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, statusN, typeN, widthN, roleIdN, roleN, serialN, serialIc, serialNic, serialIew, serialNiew, serialIsw, serialNisw, serialIe, serialNie, ordering, limit, offset)
+> ApiResponse<DcimRacksList200Response> dcimRacksList dcimRacksListWithHttpInfo(id, name, facilityId, assetTag, uHeight, descUnits, outerWidth, outerDepth, outerUnit, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, contact, contactRole, contactGroup, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, status, type, width, roleId, role, serial, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, facilityIdN, facilityIdIc, facilityIdNic, facilityIdIew, facilityIdNiew, facilityIdIsw, facilityIdNisw, facilityIdIe, facilityIdNie, assetTagN, assetTagIc, assetTagNic, assetTagIew, assetTagNiew, assetTagIsw, assetTagNisw, assetTagIe, assetTagNie, uHeightN, uHeightLte, uHeightLt, uHeightGte, uHeightGt, outerWidthN, outerWidthLte, outerWidthLt, outerWidthGte, outerWidthGt, outerDepthN, outerDepthLte, outerDepthLt, outerDepthGte, outerDepthGt, outerUnitN, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, contactN, contactRoleN, contactGroupN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, statusN, typeN, widthN, roleIdN, roleN, serialN, serialIc, serialNic, serialIew, serialNiew, serialIsw, serialNisw, serialIe, serialNie, limit, offset)
 
 
 
@@ -55263,7 +52851,11 @@ public class Example {
         String outerDepth = "outerDepth_example"; // String | 
         String outerUnit = "outerUnit_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String tenantGroupId = "tenantGroupId_example"; // String | 
@@ -55335,16 +52927,6 @@ public class Example {
         String outerDepthGte = "outerDepthGte_example"; // String | 
         String outerDepthGt = "outerDepthGt_example"; // String | 
         String outerUnitN = "outerUnitN_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String tenantGroupIdN = "tenantGroupIdN_example"; // String | 
         String tenantGroupN = "tenantGroupN_example"; // String | 
@@ -55375,11 +52957,10 @@ public class Example {
         String serialNisw = "serialNisw_example"; // String | 
         String serialIe = "serialIe_example"; // String | 
         String serialNie = "serialNie_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<DcimRacksList200Response> response = apiInstance.dcimRacksListWithHttpInfo(id, name, facilityId, assetTag, uHeight, descUnits, outerWidth, outerDepth, outerUnit, created, lastUpdated, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, contact, contactRole, contactGroup, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, status, type, width, roleId, role, serial, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, facilityIdN, facilityIdIc, facilityIdNic, facilityIdIew, facilityIdNiew, facilityIdIsw, facilityIdNisw, facilityIdIe, facilityIdNie, assetTagN, assetTagIc, assetTagNic, assetTagIew, assetTagNiew, assetTagIsw, assetTagNisw, assetTagIe, assetTagNie, uHeightN, uHeightLte, uHeightLt, uHeightGte, uHeightGt, outerWidthN, outerWidthLte, outerWidthLt, outerWidthGte, outerWidthGt, outerDepthN, outerDepthLte, outerDepthLt, outerDepthGte, outerDepthGt, outerUnitN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, contactN, contactRoleN, contactGroupN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, statusN, typeN, widthN, roleIdN, roleN, serialN, serialIc, serialNic, serialIew, serialNiew, serialIsw, serialNisw, serialIe, serialNie, ordering, limit, offset);
+            ApiResponse<DcimRacksList200Response> response = apiInstance.dcimRacksListWithHttpInfo(id, name, facilityId, assetTag, uHeight, descUnits, outerWidth, outerDepth, outerUnit, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, contact, contactRole, contactGroup, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, status, type, width, roleId, role, serial, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, facilityIdN, facilityIdIc, facilityIdNic, facilityIdIew, facilityIdNiew, facilityIdIsw, facilityIdNisw, facilityIdIe, facilityIdNie, assetTagN, assetTagIc, assetTagNic, assetTagIew, assetTagNiew, assetTagIsw, assetTagNisw, assetTagIe, assetTagNie, uHeightN, uHeightLte, uHeightLt, uHeightGte, uHeightGt, outerWidthN, outerWidthLte, outerWidthLt, outerWidthGte, outerWidthGt, outerDepthN, outerDepthLte, outerDepthLt, outerDepthGte, outerDepthGt, outerUnitN, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, contactN, contactRoleN, contactGroupN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, statusN, typeN, widthN, roleIdN, roleN, serialN, serialIc, serialNic, serialIew, serialNiew, serialIsw, serialNisw, serialIe, serialNie, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -55409,7 +52990,11 @@ public class Example {
 | **outerDepth** | **String**|  | [optional] |
 | **outerUnit** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **tenantGroupId** | **String**|  | [optional] |
@@ -55481,16 +53066,6 @@ public class Example {
 | **outerDepthGte** | **String**|  | [optional] |
 | **outerDepthGt** | **String**|  | [optional] |
 | **outerUnitN** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **tenantGroupIdN** | **String**|  | [optional] |
 | **tenantGroupN** | **String**|  | [optional] |
@@ -55521,7 +53096,6 @@ public class Example {
 | **serialNisw** | **String**|  | [optional] |
 | **serialIe** | **String**|  | [optional] |
 | **serialNie** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -56695,7 +54269,7 @@ ApiResponse<Void>
 
 ## dcimRearPortTemplatesList
 
-> DcimRearPortTemplatesList200Response dcimRearPortTemplatesList(id, name, type, color, positions, created, lastUpdated, q, devicetypeId, moduletypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, typeN, colorN, colorIc, colorNic, colorIew, colorNiew, colorIsw, colorNisw, colorIe, colorNie, positionsN, positionsLte, positionsLt, positionsGte, positionsGt, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, devicetypeIdN, moduletypeIdN, ordering, limit, offset)
+> DcimRearPortTemplatesList200Response dcimRearPortTemplatesList(id, name, type, color, positions, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, devicetypeId, moduletypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, typeN, colorN, colorIc, colorNic, colorIew, colorNiew, colorIsw, colorNisw, colorIe, colorNie, positionsN, positionsLte, positionsLt, positionsGte, positionsGt, devicetypeIdN, moduletypeIdN, limit, offset)
 
 
 
@@ -56730,7 +54304,11 @@ public class Example {
         String color = "color_example"; // String | 
         String positions = "positions_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String devicetypeId = "devicetypeId_example"; // String | 
         String moduletypeId = "moduletypeId_example"; // String | 
@@ -56763,23 +54341,12 @@ public class Example {
         String positionsLt = "positionsLt_example"; // String | 
         String positionsGte = "positionsGte_example"; // String | 
         String positionsGt = "positionsGt_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String devicetypeIdN = "devicetypeIdN_example"; // String | 
         String moduletypeIdN = "moduletypeIdN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            DcimRearPortTemplatesList200Response result = apiInstance.dcimRearPortTemplatesList(id, name, type, color, positions, created, lastUpdated, q, devicetypeId, moduletypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, typeN, colorN, colorIc, colorNic, colorIew, colorNiew, colorIsw, colorNisw, colorIe, colorNie, positionsN, positionsLte, positionsLt, positionsGte, positionsGt, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, devicetypeIdN, moduletypeIdN, ordering, limit, offset);
+            DcimRearPortTemplatesList200Response result = apiInstance.dcimRearPortTemplatesList(id, name, type, color, positions, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, devicetypeId, moduletypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, typeN, colorN, colorIc, colorNic, colorIew, colorNiew, colorIsw, colorNisw, colorIe, colorNie, positionsN, positionsLte, positionsLt, positionsGte, positionsGt, devicetypeIdN, moduletypeIdN, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling DcimApi#dcimRearPortTemplatesList");
@@ -56803,7 +54370,11 @@ public class Example {
 | **color** | **String**|  | [optional] |
 | **positions** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **devicetypeId** | **String**|  | [optional] |
 | **moduletypeId** | **String**|  | [optional] |
@@ -56836,19 +54407,8 @@ public class Example {
 | **positionsLt** | **String**|  | [optional] |
 | **positionsGte** | **String**|  | [optional] |
 | **positionsGt** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **devicetypeIdN** | **String**|  | [optional] |
 | **moduletypeIdN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -56873,7 +54433,7 @@ public class Example {
 
 ## dcimRearPortTemplatesListWithHttpInfo
 
-> ApiResponse<DcimRearPortTemplatesList200Response> dcimRearPortTemplatesList dcimRearPortTemplatesListWithHttpInfo(id, name, type, color, positions, created, lastUpdated, q, devicetypeId, moduletypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, typeN, colorN, colorIc, colorNic, colorIew, colorNiew, colorIsw, colorNisw, colorIe, colorNie, positionsN, positionsLte, positionsLt, positionsGte, positionsGt, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, devicetypeIdN, moduletypeIdN, ordering, limit, offset)
+> ApiResponse<DcimRearPortTemplatesList200Response> dcimRearPortTemplatesList dcimRearPortTemplatesListWithHttpInfo(id, name, type, color, positions, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, devicetypeId, moduletypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, typeN, colorN, colorIc, colorNic, colorIew, colorNiew, colorIsw, colorNisw, colorIe, colorNie, positionsN, positionsLte, positionsLt, positionsGte, positionsGt, devicetypeIdN, moduletypeIdN, limit, offset)
 
 
 
@@ -56909,7 +54469,11 @@ public class Example {
         String color = "color_example"; // String | 
         String positions = "positions_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String devicetypeId = "devicetypeId_example"; // String | 
         String moduletypeId = "moduletypeId_example"; // String | 
@@ -56942,23 +54506,12 @@ public class Example {
         String positionsLt = "positionsLt_example"; // String | 
         String positionsGte = "positionsGte_example"; // String | 
         String positionsGt = "positionsGt_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String devicetypeIdN = "devicetypeIdN_example"; // String | 
         String moduletypeIdN = "moduletypeIdN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<DcimRearPortTemplatesList200Response> response = apiInstance.dcimRearPortTemplatesListWithHttpInfo(id, name, type, color, positions, created, lastUpdated, q, devicetypeId, moduletypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, typeN, colorN, colorIc, colorNic, colorIew, colorNiew, colorIsw, colorNisw, colorIe, colorNie, positionsN, positionsLte, positionsLt, positionsGte, positionsGt, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, devicetypeIdN, moduletypeIdN, ordering, limit, offset);
+            ApiResponse<DcimRearPortTemplatesList200Response> response = apiInstance.dcimRearPortTemplatesListWithHttpInfo(id, name, type, color, positions, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, devicetypeId, moduletypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, typeN, colorN, colorIc, colorNic, colorIew, colorNiew, colorIsw, colorNisw, colorIe, colorNie, positionsN, positionsLte, positionsLt, positionsGte, positionsGt, devicetypeIdN, moduletypeIdN, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -56984,7 +54537,11 @@ public class Example {
 | **color** | **String**|  | [optional] |
 | **positions** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **devicetypeId** | **String**|  | [optional] |
 | **moduletypeId** | **String**|  | [optional] |
@@ -57017,19 +54574,8 @@ public class Example {
 | **positionsLt** | **String**|  | [optional] |
 | **positionsGte** | **String**|  | [optional] |
 | **positionsGt** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **devicetypeIdN** | **String**|  | [optional] |
 | **moduletypeIdN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -58203,7 +55749,7 @@ ApiResponse<Void>
 
 ## dcimRearPortsList
 
-> DcimRearPortsList200Response dcimRearPortsList(id, name, label, type, color, positions, description, cableEnd, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, moduleId, created, lastUpdated, tag, cabled, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, typeN, colorN, colorIc, colorNic, colorIew, colorNiew, colorIsw, colorNisw, colorIe, colorNie, positionsN, positionsLte, positionsLt, positionsGte, positionsGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, cableEndN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, deviceIdN, deviceN, virtualChassisIdN, virtualChassisN, moduleIdN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, ordering, limit, offset)
+> DcimRearPortsList200Response dcimRearPortsList(id, name, label, type, color, positions, description, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, moduleId, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, tag, cabled, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, typeN, colorN, colorIc, colorNic, colorIew, colorNiew, colorIsw, colorNisw, colorIe, colorNie, positionsN, positionsLte, positionsLt, positionsGte, positionsGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, deviceIdN, deviceN, virtualChassisIdN, virtualChassisN, moduleIdN, tagN, limit, offset)
 
 
 
@@ -58239,7 +55785,6 @@ public class Example {
         String color = "color_example"; // String | 
         String positions = "positions_example"; // String | 
         String description = "description_example"; // String | 
-        String cableEnd = "cableEnd_example"; // String | 
         String q = "q_example"; // String | 
         String regionId = "regionId_example"; // String | 
         String region = "region_example"; // String | 
@@ -58255,7 +55800,11 @@ public class Example {
         String virtualChassis = "virtualChassis_example"; // String | 
         String moduleId = "moduleId_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String tag = "tag_example"; // String | 
         String cabled = "cabled_example"; // String | 
         String idN = "idN_example"; // String | 
@@ -58305,7 +55854,6 @@ public class Example {
         String descriptionNisw = "descriptionNisw_example"; // String | 
         String descriptionIe = "descriptionIe_example"; // String | 
         String descriptionNie = "descriptionNie_example"; // String | 
-        String cableEndN = "cableEndN_example"; // String | 
         String regionIdN = "regionIdN_example"; // String | 
         String regionN = "regionN_example"; // String | 
         String siteGroupIdN = "siteGroupIdN_example"; // String | 
@@ -58319,22 +55867,11 @@ public class Example {
         String virtualChassisIdN = "virtualChassisIdN_example"; // String | 
         String virtualChassisN = "virtualChassisN_example"; // String | 
         String moduleIdN = "moduleIdN_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            DcimRearPortsList200Response result = apiInstance.dcimRearPortsList(id, name, label, type, color, positions, description, cableEnd, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, moduleId, created, lastUpdated, tag, cabled, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, typeN, colorN, colorIc, colorNic, colorIew, colorNiew, colorIsw, colorNisw, colorIe, colorNie, positionsN, positionsLte, positionsLt, positionsGte, positionsGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, cableEndN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, deviceIdN, deviceN, virtualChassisIdN, virtualChassisN, moduleIdN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, ordering, limit, offset);
+            DcimRearPortsList200Response result = apiInstance.dcimRearPortsList(id, name, label, type, color, positions, description, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, moduleId, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, tag, cabled, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, typeN, colorN, colorIc, colorNic, colorIew, colorNiew, colorIsw, colorNisw, colorIe, colorNie, positionsN, positionsLte, positionsLt, positionsGte, positionsGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, deviceIdN, deviceN, virtualChassisIdN, virtualChassisN, moduleIdN, tagN, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling DcimApi#dcimRearPortsList");
@@ -58359,7 +55896,6 @@ public class Example {
 | **color** | **String**|  | [optional] |
 | **positions** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
-| **cableEnd** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **regionId** | **String**|  | [optional] |
 | **region** | **String**|  | [optional] |
@@ -58375,7 +55911,11 @@ public class Example {
 | **virtualChassis** | **String**|  | [optional] |
 | **moduleId** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **cabled** | **String**|  | [optional] |
 | **idN** | **String**|  | [optional] |
@@ -58425,7 +55965,6 @@ public class Example {
 | **descriptionNisw** | **String**|  | [optional] |
 | **descriptionIe** | **String**|  | [optional] |
 | **descriptionNie** | **String**|  | [optional] |
-| **cableEndN** | **String**|  | [optional] |
 | **regionIdN** | **String**|  | [optional] |
 | **regionN** | **String**|  | [optional] |
 | **siteGroupIdN** | **String**|  | [optional] |
@@ -58439,18 +55978,7 @@ public class Example {
 | **virtualChassisIdN** | **String**|  | [optional] |
 | **virtualChassisN** | **String**|  | [optional] |
 | **moduleIdN** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -58475,7 +56003,7 @@ public class Example {
 
 ## dcimRearPortsListWithHttpInfo
 
-> ApiResponse<DcimRearPortsList200Response> dcimRearPortsList dcimRearPortsListWithHttpInfo(id, name, label, type, color, positions, description, cableEnd, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, moduleId, created, lastUpdated, tag, cabled, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, typeN, colorN, colorIc, colorNic, colorIew, colorNiew, colorIsw, colorNisw, colorIe, colorNie, positionsN, positionsLte, positionsLt, positionsGte, positionsGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, cableEndN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, deviceIdN, deviceN, virtualChassisIdN, virtualChassisN, moduleIdN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, ordering, limit, offset)
+> ApiResponse<DcimRearPortsList200Response> dcimRearPortsList dcimRearPortsListWithHttpInfo(id, name, label, type, color, positions, description, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, moduleId, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, tag, cabled, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, typeN, colorN, colorIc, colorNic, colorIew, colorNiew, colorIsw, colorNisw, colorIe, colorNie, positionsN, positionsLte, positionsLt, positionsGte, positionsGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, deviceIdN, deviceN, virtualChassisIdN, virtualChassisN, moduleIdN, tagN, limit, offset)
 
 
 
@@ -58512,7 +56040,6 @@ public class Example {
         String color = "color_example"; // String | 
         String positions = "positions_example"; // String | 
         String description = "description_example"; // String | 
-        String cableEnd = "cableEnd_example"; // String | 
         String q = "q_example"; // String | 
         String regionId = "regionId_example"; // String | 
         String region = "region_example"; // String | 
@@ -58528,7 +56055,11 @@ public class Example {
         String virtualChassis = "virtualChassis_example"; // String | 
         String moduleId = "moduleId_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String tag = "tag_example"; // String | 
         String cabled = "cabled_example"; // String | 
         String idN = "idN_example"; // String | 
@@ -58578,7 +56109,6 @@ public class Example {
         String descriptionNisw = "descriptionNisw_example"; // String | 
         String descriptionIe = "descriptionIe_example"; // String | 
         String descriptionNie = "descriptionNie_example"; // String | 
-        String cableEndN = "cableEndN_example"; // String | 
         String regionIdN = "regionIdN_example"; // String | 
         String regionN = "regionN_example"; // String | 
         String siteGroupIdN = "siteGroupIdN_example"; // String | 
@@ -58592,22 +56122,11 @@ public class Example {
         String virtualChassisIdN = "virtualChassisIdN_example"; // String | 
         String virtualChassisN = "virtualChassisN_example"; // String | 
         String moduleIdN = "moduleIdN_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<DcimRearPortsList200Response> response = apiInstance.dcimRearPortsListWithHttpInfo(id, name, label, type, color, positions, description, cableEnd, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, moduleId, created, lastUpdated, tag, cabled, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, typeN, colorN, colorIc, colorNic, colorIew, colorNiew, colorIsw, colorNisw, colorIe, colorNie, positionsN, positionsLte, positionsLt, positionsGte, positionsGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, cableEndN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, deviceIdN, deviceN, virtualChassisIdN, virtualChassisN, moduleIdN, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, ordering, limit, offset);
+            ApiResponse<DcimRearPortsList200Response> response = apiInstance.dcimRearPortsListWithHttpInfo(id, name, label, type, color, positions, description, q, regionId, region, siteGroupId, siteGroup, siteId, site, locationId, location, deviceId, device, virtualChassisId, virtualChassis, moduleId, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, tag, cabled, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, labelN, labelIc, labelNic, labelIew, labelNiew, labelIsw, labelNisw, labelIe, labelNie, typeN, colorN, colorIc, colorNic, colorIew, colorNiew, colorIsw, colorNisw, colorIe, colorNie, positionsN, positionsLte, positionsLt, positionsGte, positionsGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, locationIdN, locationN, deviceIdN, deviceN, virtualChassisIdN, virtualChassisN, moduleIdN, tagN, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -58634,7 +56153,6 @@ public class Example {
 | **color** | **String**|  | [optional] |
 | **positions** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
-| **cableEnd** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **regionId** | **String**|  | [optional] |
 | **region** | **String**|  | [optional] |
@@ -58650,7 +56168,11 @@ public class Example {
 | **virtualChassis** | **String**|  | [optional] |
 | **moduleId** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **cabled** | **String**|  | [optional] |
 | **idN** | **String**|  | [optional] |
@@ -58700,7 +56222,6 @@ public class Example {
 | **descriptionNisw** | **String**|  | [optional] |
 | **descriptionIe** | **String**|  | [optional] |
 | **descriptionNie** | **String**|  | [optional] |
-| **cableEndN** | **String**|  | [optional] |
 | **regionIdN** | **String**|  | [optional] |
 | **regionN** | **String**|  | [optional] |
 | **siteGroupIdN** | **String**|  | [optional] |
@@ -58714,18 +56235,7 @@ public class Example {
 | **virtualChassisIdN** | **String**|  | [optional] |
 | **virtualChassisN** | **String**|  | [optional] |
 | **moduleIdN** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -60047,7 +57557,7 @@ ApiResponse<Void>
 
 ## dcimRegionsList
 
-> DcimRegionsList200Response dcimRegionsList(id, name, slug, description, created, lastUpdated, q, tag, contact, contactRole, contactGroup, parentId, parent, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, contactN, contactRoleN, contactGroupN, parentIdN, parentN, ordering, limit, offset)
+> DcimRegionsList200Response dcimRegionsList(id, name, slug, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, contact, contactRole, contactGroup, parentId, parent, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, contactN, contactRoleN, contactGroupN, parentIdN, parentN, limit, offset)
 
 
 
@@ -60081,7 +57591,11 @@ public class Example {
         String slug = "slug_example"; // String | 
         String description = "description_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String contact = "contact_example"; // String | 
@@ -60121,27 +57635,16 @@ public class Example {
         String descriptionNisw = "descriptionNisw_example"; // String | 
         String descriptionIe = "descriptionIe_example"; // String | 
         String descriptionNie = "descriptionNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String contactN = "contactN_example"; // String | 
         String contactRoleN = "contactRoleN_example"; // String | 
         String contactGroupN = "contactGroupN_example"; // String | 
         String parentIdN = "parentIdN_example"; // String | 
         String parentN = "parentN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            DcimRegionsList200Response result = apiInstance.dcimRegionsList(id, name, slug, description, created, lastUpdated, q, tag, contact, contactRole, contactGroup, parentId, parent, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, contactN, contactRoleN, contactGroupN, parentIdN, parentN, ordering, limit, offset);
+            DcimRegionsList200Response result = apiInstance.dcimRegionsList(id, name, slug, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, contact, contactRole, contactGroup, parentId, parent, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, contactN, contactRoleN, contactGroupN, parentIdN, parentN, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling DcimApi#dcimRegionsList");
@@ -60164,7 +57667,11 @@ public class Example {
 | **slug** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **contact** | **String**|  | [optional] |
@@ -60204,23 +57711,12 @@ public class Example {
 | **descriptionNisw** | **String**|  | [optional] |
 | **descriptionIe** | **String**|  | [optional] |
 | **descriptionNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **contactN** | **String**|  | [optional] |
 | **contactRoleN** | **String**|  | [optional] |
 | **contactGroupN** | **String**|  | [optional] |
 | **parentIdN** | **String**|  | [optional] |
 | **parentN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -60245,7 +57741,7 @@ public class Example {
 
 ## dcimRegionsListWithHttpInfo
 
-> ApiResponse<DcimRegionsList200Response> dcimRegionsList dcimRegionsListWithHttpInfo(id, name, slug, description, created, lastUpdated, q, tag, contact, contactRole, contactGroup, parentId, parent, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, contactN, contactRoleN, contactGroupN, parentIdN, parentN, ordering, limit, offset)
+> ApiResponse<DcimRegionsList200Response> dcimRegionsList dcimRegionsListWithHttpInfo(id, name, slug, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, contact, contactRole, contactGroup, parentId, parent, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, contactN, contactRoleN, contactGroupN, parentIdN, parentN, limit, offset)
 
 
 
@@ -60280,7 +57776,11 @@ public class Example {
         String slug = "slug_example"; // String | 
         String description = "description_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String contact = "contact_example"; // String | 
@@ -60320,27 +57820,16 @@ public class Example {
         String descriptionNisw = "descriptionNisw_example"; // String | 
         String descriptionIe = "descriptionIe_example"; // String | 
         String descriptionNie = "descriptionNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String contactN = "contactN_example"; // String | 
         String contactRoleN = "contactRoleN_example"; // String | 
         String contactGroupN = "contactGroupN_example"; // String | 
         String parentIdN = "parentIdN_example"; // String | 
         String parentN = "parentN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<DcimRegionsList200Response> response = apiInstance.dcimRegionsListWithHttpInfo(id, name, slug, description, created, lastUpdated, q, tag, contact, contactRole, contactGroup, parentId, parent, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, contactN, contactRoleN, contactGroupN, parentIdN, parentN, ordering, limit, offset);
+            ApiResponse<DcimRegionsList200Response> response = apiInstance.dcimRegionsListWithHttpInfo(id, name, slug, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, contact, contactRole, contactGroup, parentId, parent, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, contactN, contactRoleN, contactGroupN, parentIdN, parentN, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -60365,7 +57854,11 @@ public class Example {
 | **slug** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **contact** | **String**|  | [optional] |
@@ -60405,23 +57898,12 @@ public class Example {
 | **descriptionNisw** | **String**|  | [optional] |
 | **descriptionIe** | **String**|  | [optional] |
 | **descriptionNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **contactN** | **String**|  | [optional] |
 | **contactRoleN** | **String**|  | [optional] |
 | **contactGroupN** | **String**|  | [optional] |
 | **parentIdN** | **String**|  | [optional] |
 | **parentN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -61595,7 +59077,7 @@ ApiResponse<Void>
 
 ## dcimSiteGroupsList
 
-> DcimSiteGroupsList200Response dcimSiteGroupsList(id, name, slug, description, created, lastUpdated, q, tag, contact, contactRole, contactGroup, parentId, parent, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, contactN, contactRoleN, contactGroupN, parentIdN, parentN, ordering, limit, offset)
+> DcimSiteGroupsList200Response dcimSiteGroupsList(id, name, slug, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, contact, contactRole, contactGroup, parentId, parent, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, contactN, contactRoleN, contactGroupN, parentIdN, parentN, limit, offset)
 
 
 
@@ -61629,7 +59111,11 @@ public class Example {
         String slug = "slug_example"; // String | 
         String description = "description_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String contact = "contact_example"; // String | 
@@ -61669,27 +59155,16 @@ public class Example {
         String descriptionNisw = "descriptionNisw_example"; // String | 
         String descriptionIe = "descriptionIe_example"; // String | 
         String descriptionNie = "descriptionNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String contactN = "contactN_example"; // String | 
         String contactRoleN = "contactRoleN_example"; // String | 
         String contactGroupN = "contactGroupN_example"; // String | 
         String parentIdN = "parentIdN_example"; // String | 
         String parentN = "parentN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            DcimSiteGroupsList200Response result = apiInstance.dcimSiteGroupsList(id, name, slug, description, created, lastUpdated, q, tag, contact, contactRole, contactGroup, parentId, parent, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, contactN, contactRoleN, contactGroupN, parentIdN, parentN, ordering, limit, offset);
+            DcimSiteGroupsList200Response result = apiInstance.dcimSiteGroupsList(id, name, slug, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, contact, contactRole, contactGroup, parentId, parent, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, contactN, contactRoleN, contactGroupN, parentIdN, parentN, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling DcimApi#dcimSiteGroupsList");
@@ -61712,7 +59187,11 @@ public class Example {
 | **slug** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **contact** | **String**|  | [optional] |
@@ -61752,23 +59231,12 @@ public class Example {
 | **descriptionNisw** | **String**|  | [optional] |
 | **descriptionIe** | **String**|  | [optional] |
 | **descriptionNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **contactN** | **String**|  | [optional] |
 | **contactRoleN** | **String**|  | [optional] |
 | **contactGroupN** | **String**|  | [optional] |
 | **parentIdN** | **String**|  | [optional] |
 | **parentN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -61793,7 +59261,7 @@ public class Example {
 
 ## dcimSiteGroupsListWithHttpInfo
 
-> ApiResponse<DcimSiteGroupsList200Response> dcimSiteGroupsList dcimSiteGroupsListWithHttpInfo(id, name, slug, description, created, lastUpdated, q, tag, contact, contactRole, contactGroup, parentId, parent, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, contactN, contactRoleN, contactGroupN, parentIdN, parentN, ordering, limit, offset)
+> ApiResponse<DcimSiteGroupsList200Response> dcimSiteGroupsList dcimSiteGroupsListWithHttpInfo(id, name, slug, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, contact, contactRole, contactGroup, parentId, parent, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, contactN, contactRoleN, contactGroupN, parentIdN, parentN, limit, offset)
 
 
 
@@ -61828,7 +59296,11 @@ public class Example {
         String slug = "slug_example"; // String | 
         String description = "description_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String contact = "contact_example"; // String | 
@@ -61868,27 +59340,16 @@ public class Example {
         String descriptionNisw = "descriptionNisw_example"; // String | 
         String descriptionIe = "descriptionIe_example"; // String | 
         String descriptionNie = "descriptionNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String contactN = "contactN_example"; // String | 
         String contactRoleN = "contactRoleN_example"; // String | 
         String contactGroupN = "contactGroupN_example"; // String | 
         String parentIdN = "parentIdN_example"; // String | 
         String parentN = "parentN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<DcimSiteGroupsList200Response> response = apiInstance.dcimSiteGroupsListWithHttpInfo(id, name, slug, description, created, lastUpdated, q, tag, contact, contactRole, contactGroup, parentId, parent, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, contactN, contactRoleN, contactGroupN, parentIdN, parentN, ordering, limit, offset);
+            ApiResponse<DcimSiteGroupsList200Response> response = apiInstance.dcimSiteGroupsListWithHttpInfo(id, name, slug, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, contact, contactRole, contactGroup, parentId, parent, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, contactN, contactRoleN, contactGroupN, parentIdN, parentN, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -61913,7 +59374,11 @@ public class Example {
 | **slug** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **contact** | **String**|  | [optional] |
@@ -61953,23 +59418,12 @@ public class Example {
 | **descriptionNisw** | **String**|  | [optional] |
 | **descriptionIe** | **String**|  | [optional] |
 | **descriptionNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **contactN** | **String**|  | [optional] |
 | **contactRoleN** | **String**|  | [optional] |
 | **contactGroupN** | **String**|  | [optional] |
 | **parentIdN** | **String**|  | [optional] |
 | **parentN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -63143,7 +60597,7 @@ ApiResponse<Void>
 
 ## dcimSitesList
 
-> DcimSitesList200Response dcimSitesList(id, name, slug, facility, latitude, longitude, description, created, lastUpdated, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, contact, contactRole, contactGroup, status, regionId, region, groupId, group, asn, asnId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, facilityN, facilityIc, facilityNic, facilityIew, facilityNiew, facilityIsw, facilityNisw, facilityIe, facilityNie, latitudeN, latitudeLte, latitudeLt, latitudeGte, latitudeGt, longitudeN, longitudeLte, longitudeLt, longitudeGte, longitudeGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, contactN, contactRoleN, contactGroupN, statusN, regionIdN, regionN, groupIdN, groupN, asnN, asnIdN, ordering, limit, offset)
+> DcimSitesList200Response dcimSitesList(id, name, slug, facility, latitude, longitude, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, contact, contactRole, contactGroup, status, regionId, region, groupId, group, asn, asnId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, facilityN, facilityIc, facilityNic, facilityIew, facilityNiew, facilityIsw, facilityNisw, facilityIe, facilityNie, latitudeN, latitudeLte, latitudeLt, latitudeGte, latitudeGt, longitudeN, longitudeLte, longitudeLt, longitudeGte, longitudeGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, contactN, contactRoleN, contactGroupN, statusN, regionIdN, regionN, groupIdN, groupN, asnN, asnIdN, limit, offset)
 
 
 
@@ -63180,7 +60634,11 @@ public class Example {
         String longitude = "longitude_example"; // String | 
         String description = "description_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String tenantGroupId = "tenantGroupId_example"; // String | 
@@ -63248,16 +60706,6 @@ public class Example {
         String descriptionNisw = "descriptionNisw_example"; // String | 
         String descriptionIe = "descriptionIe_example"; // String | 
         String descriptionNie = "descriptionNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String tenantGroupIdN = "tenantGroupIdN_example"; // String | 
         String tenantGroupN = "tenantGroupN_example"; // String | 
@@ -63273,11 +60721,10 @@ public class Example {
         String groupN = "groupN_example"; // String | 
         String asnN = "asnN_example"; // String | 
         String asnIdN = "asnIdN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            DcimSitesList200Response result = apiInstance.dcimSitesList(id, name, slug, facility, latitude, longitude, description, created, lastUpdated, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, contact, contactRole, contactGroup, status, regionId, region, groupId, group, asn, asnId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, facilityN, facilityIc, facilityNic, facilityIew, facilityNiew, facilityIsw, facilityNisw, facilityIe, facilityNie, latitudeN, latitudeLte, latitudeLt, latitudeGte, latitudeGt, longitudeN, longitudeLte, longitudeLt, longitudeGte, longitudeGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, contactN, contactRoleN, contactGroupN, statusN, regionIdN, regionN, groupIdN, groupN, asnN, asnIdN, ordering, limit, offset);
+            DcimSitesList200Response result = apiInstance.dcimSitesList(id, name, slug, facility, latitude, longitude, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, contact, contactRole, contactGroup, status, regionId, region, groupId, group, asn, asnId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, facilityN, facilityIc, facilityNic, facilityIew, facilityNiew, facilityIsw, facilityNisw, facilityIe, facilityNie, latitudeN, latitudeLte, latitudeLt, latitudeGte, latitudeGt, longitudeN, longitudeLte, longitudeLt, longitudeGte, longitudeGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, contactN, contactRoleN, contactGroupN, statusN, regionIdN, regionN, groupIdN, groupN, asnN, asnIdN, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling DcimApi#dcimSitesList");
@@ -63303,7 +60750,11 @@ public class Example {
 | **longitude** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **tenantGroupId** | **String**|  | [optional] |
@@ -63371,16 +60822,6 @@ public class Example {
 | **descriptionNisw** | **String**|  | [optional] |
 | **descriptionIe** | **String**|  | [optional] |
 | **descriptionNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **tenantGroupIdN** | **String**|  | [optional] |
 | **tenantGroupN** | **String**|  | [optional] |
@@ -63396,7 +60837,6 @@ public class Example {
 | **groupN** | **String**|  | [optional] |
 | **asnN** | **String**|  | [optional] |
 | **asnIdN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -63421,7 +60861,7 @@ public class Example {
 
 ## dcimSitesListWithHttpInfo
 
-> ApiResponse<DcimSitesList200Response> dcimSitesList dcimSitesListWithHttpInfo(id, name, slug, facility, latitude, longitude, description, created, lastUpdated, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, contact, contactRole, contactGroup, status, regionId, region, groupId, group, asn, asnId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, facilityN, facilityIc, facilityNic, facilityIew, facilityNiew, facilityIsw, facilityNisw, facilityIe, facilityNie, latitudeN, latitudeLte, latitudeLt, latitudeGte, latitudeGt, longitudeN, longitudeLte, longitudeLt, longitudeGte, longitudeGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, contactN, contactRoleN, contactGroupN, statusN, regionIdN, regionN, groupIdN, groupN, asnN, asnIdN, ordering, limit, offset)
+> ApiResponse<DcimSitesList200Response> dcimSitesList dcimSitesListWithHttpInfo(id, name, slug, facility, latitude, longitude, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, contact, contactRole, contactGroup, status, regionId, region, groupId, group, asn, asnId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, facilityN, facilityIc, facilityNic, facilityIew, facilityNiew, facilityIsw, facilityNisw, facilityIe, facilityNie, latitudeN, latitudeLte, latitudeLt, latitudeGte, latitudeGt, longitudeN, longitudeLte, longitudeLt, longitudeGte, longitudeGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, contactN, contactRoleN, contactGroupN, statusN, regionIdN, regionN, groupIdN, groupN, asnN, asnIdN, limit, offset)
 
 
 
@@ -63459,7 +60899,11 @@ public class Example {
         String longitude = "longitude_example"; // String | 
         String description = "description_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String tenantGroupId = "tenantGroupId_example"; // String | 
@@ -63527,16 +60971,6 @@ public class Example {
         String descriptionNisw = "descriptionNisw_example"; // String | 
         String descriptionIe = "descriptionIe_example"; // String | 
         String descriptionNie = "descriptionNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String tenantGroupIdN = "tenantGroupIdN_example"; // String | 
         String tenantGroupN = "tenantGroupN_example"; // String | 
@@ -63552,11 +60986,10 @@ public class Example {
         String groupN = "groupN_example"; // String | 
         String asnN = "asnN_example"; // String | 
         String asnIdN = "asnIdN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<DcimSitesList200Response> response = apiInstance.dcimSitesListWithHttpInfo(id, name, slug, facility, latitude, longitude, description, created, lastUpdated, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, contact, contactRole, contactGroup, status, regionId, region, groupId, group, asn, asnId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, facilityN, facilityIc, facilityNic, facilityIew, facilityNiew, facilityIsw, facilityNisw, facilityIe, facilityNie, latitudeN, latitudeLte, latitudeLt, latitudeGte, latitudeGt, longitudeN, longitudeLte, longitudeLt, longitudeGte, longitudeGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, contactN, contactRoleN, contactGroupN, statusN, regionIdN, regionN, groupIdN, groupN, asnN, asnIdN, ordering, limit, offset);
+            ApiResponse<DcimSitesList200Response> response = apiInstance.dcimSitesListWithHttpInfo(id, name, slug, facility, latitude, longitude, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, contact, contactRole, contactGroup, status, regionId, region, groupId, group, asn, asnId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, facilityN, facilityIc, facilityNic, facilityIew, facilityNiew, facilityIsw, facilityNisw, facilityIe, facilityNie, latitudeN, latitudeLte, latitudeLt, latitudeGte, latitudeGt, longitudeN, longitudeLte, longitudeLt, longitudeGte, longitudeGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, contactN, contactRoleN, contactGroupN, statusN, regionIdN, regionN, groupIdN, groupN, asnN, asnIdN, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -63584,7 +61017,11 @@ public class Example {
 | **longitude** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **tenantGroupId** | **String**|  | [optional] |
@@ -63652,16 +61089,6 @@ public class Example {
 | **descriptionNisw** | **String**|  | [optional] |
 | **descriptionIe** | **String**|  | [optional] |
 | **descriptionNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **tenantGroupIdN** | **String**|  | [optional] |
 | **tenantGroupN** | **String**|  | [optional] |
@@ -63677,7 +61104,6 @@ public class Example {
 | **groupN** | **String**|  | [optional] |
 | **asnN** | **String**|  | [optional] |
 | **asnIdN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -64851,7 +62277,7 @@ ApiResponse<Void>
 
 ## dcimVirtualChassisList
 
-> DcimVirtualChassisList200Response dcimVirtualChassisList(id, domain, name, created, lastUpdated, q, tag, masterId, master, regionId, region, siteGroupId, siteGroup, siteId, site, tenantId, tenant, idN, idLte, idLt, idGte, idGt, domainN, domainIc, domainNic, domainIew, domainNiew, domainIsw, domainNisw, domainIe, domainNie, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, masterIdN, masterN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, tenantIdN, tenantN, ordering, limit, offset)
+> DcimVirtualChassisList200Response dcimVirtualChassisList(id, domain, name, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, masterId, master, regionId, region, siteGroupId, siteGroup, siteId, site, tenantId, tenant, idN, idLte, idLt, idGte, idGt, domainN, domainIc, domainNic, domainIew, domainNiew, domainIsw, domainNisw, domainIe, domainNie, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, tagN, masterIdN, masterN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, tenantIdN, tenantN, limit, offset)
 
 
 
@@ -64884,7 +62310,11 @@ public class Example {
         String domain = "domain_example"; // String | 
         String name = "name_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String masterId = "masterId_example"; // String | 
@@ -64920,16 +62350,6 @@ public class Example {
         String nameNisw = "nameNisw_example"; // String | 
         String nameIe = "nameIe_example"; // String | 
         String nameNie = "nameNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String masterIdN = "masterIdN_example"; // String | 
         String masterN = "masterN_example"; // String | 
@@ -64941,11 +62361,10 @@ public class Example {
         String siteN = "siteN_example"; // String | 
         String tenantIdN = "tenantIdN_example"; // String | 
         String tenantN = "tenantN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            DcimVirtualChassisList200Response result = apiInstance.dcimVirtualChassisList(id, domain, name, created, lastUpdated, q, tag, masterId, master, regionId, region, siteGroupId, siteGroup, siteId, site, tenantId, tenant, idN, idLte, idLt, idGte, idGt, domainN, domainIc, domainNic, domainIew, domainNiew, domainIsw, domainNisw, domainIe, domainNie, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, masterIdN, masterN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, tenantIdN, tenantN, ordering, limit, offset);
+            DcimVirtualChassisList200Response result = apiInstance.dcimVirtualChassisList(id, domain, name, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, masterId, master, regionId, region, siteGroupId, siteGroup, siteId, site, tenantId, tenant, idN, idLte, idLt, idGte, idGt, domainN, domainIc, domainNic, domainIew, domainNiew, domainIsw, domainNisw, domainIe, domainNie, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, tagN, masterIdN, masterN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, tenantIdN, tenantN, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling DcimApi#dcimVirtualChassisList");
@@ -64967,7 +62386,11 @@ public class Example {
 | **domain** | **String**|  | [optional] |
 | **name** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **masterId** | **String**|  | [optional] |
@@ -65003,16 +62426,6 @@ public class Example {
 | **nameNisw** | **String**|  | [optional] |
 | **nameIe** | **String**|  | [optional] |
 | **nameNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **masterIdN** | **String**|  | [optional] |
 | **masterN** | **String**|  | [optional] |
@@ -65024,7 +62437,6 @@ public class Example {
 | **siteN** | **String**|  | [optional] |
 | **tenantIdN** | **String**|  | [optional] |
 | **tenantN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -65049,7 +62461,7 @@ public class Example {
 
 ## dcimVirtualChassisListWithHttpInfo
 
-> ApiResponse<DcimVirtualChassisList200Response> dcimVirtualChassisList dcimVirtualChassisListWithHttpInfo(id, domain, name, created, lastUpdated, q, tag, masterId, master, regionId, region, siteGroupId, siteGroup, siteId, site, tenantId, tenant, idN, idLte, idLt, idGte, idGt, domainN, domainIc, domainNic, domainIew, domainNiew, domainIsw, domainNisw, domainIe, domainNie, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, masterIdN, masterN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, tenantIdN, tenantN, ordering, limit, offset)
+> ApiResponse<DcimVirtualChassisList200Response> dcimVirtualChassisList dcimVirtualChassisListWithHttpInfo(id, domain, name, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, masterId, master, regionId, region, siteGroupId, siteGroup, siteId, site, tenantId, tenant, idN, idLte, idLt, idGte, idGt, domainN, domainIc, domainNic, domainIew, domainNiew, domainIsw, domainNisw, domainIe, domainNie, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, tagN, masterIdN, masterN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, tenantIdN, tenantN, limit, offset)
 
 
 
@@ -65083,7 +62495,11 @@ public class Example {
         String domain = "domain_example"; // String | 
         String name = "name_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String masterId = "masterId_example"; // String | 
@@ -65119,16 +62535,6 @@ public class Example {
         String nameNisw = "nameNisw_example"; // String | 
         String nameIe = "nameIe_example"; // String | 
         String nameNie = "nameNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String masterIdN = "masterIdN_example"; // String | 
         String masterN = "masterN_example"; // String | 
@@ -65140,11 +62546,10 @@ public class Example {
         String siteN = "siteN_example"; // String | 
         String tenantIdN = "tenantIdN_example"; // String | 
         String tenantN = "tenantN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<DcimVirtualChassisList200Response> response = apiInstance.dcimVirtualChassisListWithHttpInfo(id, domain, name, created, lastUpdated, q, tag, masterId, master, regionId, region, siteGroupId, siteGroup, siteId, site, tenantId, tenant, idN, idLte, idLt, idGte, idGt, domainN, domainIc, domainNic, domainIew, domainNiew, domainIsw, domainNisw, domainIe, domainNie, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, masterIdN, masterN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, tenantIdN, tenantN, ordering, limit, offset);
+            ApiResponse<DcimVirtualChassisList200Response> response = apiInstance.dcimVirtualChassisListWithHttpInfo(id, domain, name, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, masterId, master, regionId, region, siteGroupId, siteGroup, siteId, site, tenantId, tenant, idN, idLte, idLt, idGte, idGt, domainN, domainIc, domainNic, domainIew, domainNiew, domainIsw, domainNisw, domainIe, domainNie, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, tagN, masterIdN, masterN, regionIdN, regionN, siteGroupIdN, siteGroupN, siteIdN, siteN, tenantIdN, tenantN, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -65168,7 +62573,11 @@ public class Example {
 | **domain** | **String**|  | [optional] |
 | **name** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **masterId** | **String**|  | [optional] |
@@ -65204,16 +62613,6 @@ public class Example {
 | **nameNisw** | **String**|  | [optional] |
 | **nameIe** | **String**|  | [optional] |
 | **nameNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **masterIdN** | **String**|  | [optional] |
 | **masterN** | **String**|  | [optional] |
@@ -65225,7 +62624,6 @@ public class Example {
 | **siteN** | **String**|  | [optional] |
 | **tenantIdN** | **String**|  | [optional] |
 | **tenantN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 

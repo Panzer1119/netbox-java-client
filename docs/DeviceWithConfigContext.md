@@ -20,7 +20,7 @@
 |**site** | [**NestedSite**](NestedSite.md) |  |  |
 |**location** | [**NestedLocation**](NestedLocation.md) |  |  [optional] |
 |**rack** | [**NestedRack**](NestedRack.md) |  |  [optional] |
-|**position** | **BigDecimal** |  |  [optional] |
+|**position** | **Integer** |  |  [optional] |
 |**face** | [**Face**](Face.md) |  |  [optional] |
 |**parentDevice** | [**NestedDevice**](NestedDevice.md) |  |  [optional] |
 |**status** | [**Status2**](Status2.md) |  |  [optional] |

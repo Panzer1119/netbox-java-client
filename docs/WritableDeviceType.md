@@ -14,7 +14,7 @@
 |**model** | **String** |  |  |
 |**slug** | **String** |  |  |
 |**partNumber** | **String** | Discrete part number (optional) |  [optional] |
-|**uHeight** | **BigDecimal** |  |  [optional] |
+|**uHeight** | **Integer** |  |  [optional] |
 |**isFullDepth** | **Boolean** | Device consumes both front and rear rack faces |  [optional] |
 |**subdeviceRole** | [**SubdeviceRoleEnum**](#SubdeviceRoleEnum) | Parent devices house child devices in device bays. Leave blank if this device type is neither a parent nor a child. |  [optional] |
 |**airflow** | [**AirflowEnum**](#AirflowEnum) |  |  [optional] |

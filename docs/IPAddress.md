@@ -20,7 +20,7 @@
 |**assignedObjectId** | **Integer** |  |  [optional] |
 |**assignedObject** | **Map&lt;String, String&gt;** |  |  [optional] [readonly] |
 |**natInside** | [**NestedIPAddress**](NestedIPAddress.md) |  |  [optional] |
-|**natOutside** | [**List&lt;NestedIPAddress&gt;**](NestedIPAddress.md) |  |  [optional] [readonly] |
+|**natOutside** | [**NestedIPAddress**](NestedIPAddress.md) |  |  [optional] |
 |**dnsName** | **String** | Hostname or FQDN (not case-sensitive) |  [optional] |
 |**description** | **String** |  |  [optional] |
 |**tags** | [**List&lt;NestedTag&gt;**](NestedTag.md) |  |  [optional] |

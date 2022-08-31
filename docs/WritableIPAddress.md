@@ -20,7 +20,7 @@
 |**assignedObjectId** | **Integer** |  |  [optional] |
 |**assignedObject** | **Map&lt;String, String&gt;** |  |  [optional] [readonly] |
 |**natInside** | **Integer** | The IP for which this address is the \&quot;outside\&quot; IP |  [optional] |
-|**natOutside** | [**List&lt;NestedIPAddress&gt;**](NestedIPAddress.md) |  |  [optional] [readonly] |
+|**natOutside** | **String** |  |  [optional] [readonly] |
 |**dnsName** | **String** | Hostname or FQDN (not case-sensitive) |  [optional] |
 |**description** | **String** |  |  [optional] |
 |**tags** | [**List&lt;NestedTag&gt;**](NestedTag.md) |  |  [optional] |

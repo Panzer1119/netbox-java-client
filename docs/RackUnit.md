@@ -7,7 +7,7 @@
 
 | Name | Type | Description | Notes |
 |------------ | ------------- | ------------- | -------------|
-|**id** | **BigDecimal** |  |  [optional] [readonly] |
+|**id** | **Integer** |  |  [optional] [readonly] |
 |**name** | **String** |  |  [optional] [readonly] |
 |**face** | [**Face1**](Face1.md) |  |  [optional] |
 |**device** | [**NestedDevice**](NestedDevice.md) |  |  [optional] |

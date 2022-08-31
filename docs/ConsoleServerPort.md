@@ -19,12 +19,11 @@
 |**description** | **String** |  |  [optional] |
 |**markConnected** | **Boolean** | Treat as if a cable is connected |  [optional] |
 |**cable** | [**NestedCable**](NestedCable.md) |  |  [optional] |
-|**cableEnd** | **String** |  |  [optional] [readonly] |
-|**linkPeers** | **List&lt;String&gt;** |  Return the appropriate serializer for the link termination model.  |  [optional] [readonly] |
-|**linkPeersType** | **String** |  |  [optional] [readonly] |
-|**connectedEndpoints** | **List&lt;String&gt;** |  Return the appropriate serializer for the type of connected object.  |  [optional] [readonly] |
-|**connectedEndpointsType** | **String** |  |  [optional] [readonly] |
-|**connectedEndpointsReachable** | **Boolean** |  |  [optional] [readonly] |
+|**linkPeer** | **Map&lt;String, String&gt;** |  Return the appropriate serializer for the link termination model.  |  [optional] [readonly] |
+|**linkPeerType** | **String** |  |  [optional] [readonly] |
+|**connectedEndpoint** | **Map&lt;String, String&gt;** |  Return the appropriate serializer for the type of connected object.  |  [optional] [readonly] |
+|**connectedEndpointType** | **String** |  |  [optional] [readonly] |
+|**connectedEndpointReachable** | **Boolean** |  |  [optional] [readonly] |
 |**tags** | [**List&lt;NestedTag&gt;**](NestedTag.md) |  |  [optional] |
 |**customFields** | **Object** |  |  [optional] |
 |**created** | **OffsetDateTime** |  |  [optional] [readonly] |
