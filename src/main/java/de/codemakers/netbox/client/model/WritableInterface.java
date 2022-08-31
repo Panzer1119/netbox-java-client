@@ -936,7 +936,7 @@ public class WritableInterface {
   private JsonNullable<Integer> wirelessLink = JsonNullable.<Integer>undefined();
 
   public static final String JSON_PROPERTY_LINK_PEER = "link_peer";
-  private Map<String, String> linkPeer = null;
+  private LinkTermination linkPeer = null;
 
   public static final String JSON_PROPERTY_LINK_PEER_TYPE = "link_peer_type";
   private String linkPeerType;
@@ -948,7 +948,7 @@ public class WritableInterface {
   private JsonNullable<Integer> vrf = JsonNullable.<Integer>undefined();
 
   public static final String JSON_PROPERTY_CONNECTED_ENDPOINT = "connected_endpoint";
-  private Map<String, String> connectedEndpoint = null;
+  private LinkTermination connectedEndpoint = null;
 
   public static final String JSON_PROPERTY_CONNECTED_ENDPOINT_TYPE = "connected_endpoint_type";
   private String connectedEndpointType;
@@ -985,9 +985,9 @@ public class WritableInterface {
     @JsonProperty(JSON_PROPERTY_ID) Integer id, 
     @JsonProperty(JSON_PROPERTY_URL) URI url, 
     @JsonProperty(JSON_PROPERTY_DISPLAY) String display, 
-    @JsonProperty(JSON_PROPERTY_LINK_PEER) Map<String, String> linkPeer, 
+    @JsonProperty(JSON_PROPERTY_LINK_PEER) LinkTermination linkPeer, 
     @JsonProperty(JSON_PROPERTY_LINK_PEER_TYPE) String linkPeerType, 
-    @JsonProperty(JSON_PROPERTY_CONNECTED_ENDPOINT) Map<String, String> connectedEndpoint, 
+    @JsonProperty(JSON_PROPERTY_CONNECTED_ENDPOINT) LinkTermination connectedEndpoint, 
     @JsonProperty(JSON_PROPERTY_CONNECTED_ENDPOINT_TYPE) String connectedEndpointType, 
     @JsonProperty(JSON_PROPERTY_CONNECTED_ENDPOINT_REACHABLE) Boolean connectedEndpointReachable, 
     @JsonProperty(JSON_PROPERTY_CREATED) OffsetDateTime created, 
@@ -1890,15 +1890,15 @@ public class WritableInterface {
 
 
    /**
-   *  Return the appropriate serializer for the link termination model. 
+   *  Get linkPeer
    * @return linkPeer
   **/
   @javax.annotation.Nullable
-  @ApiModelProperty(value = " Return the appropriate serializer for the link termination model. ")
+  @ApiModelProperty(value = " Get linkPeer. ")
   @JsonProperty(JSON_PROPERTY_LINK_PEER)
   @JsonInclude(content = JsonInclude.Include.ALWAYS, value = JsonInclude.Include.USE_DEFAULTS)
 
-  public Map<String, String> getLinkPeer() {
+  public LinkTermination getLinkPeer() {
     return linkPeer;
   }
 
@@ -1991,15 +1991,15 @@ public class WritableInterface {
 
 
    /**
-   *  Return the appropriate serializer for the type of connected object. 
+   *  Get connectedEndpoint
    * @return connectedEndpoint
   **/
   @javax.annotation.Nullable
-  @ApiModelProperty(value = " Return the appropriate serializer for the type of connected object. ")
+  @ApiModelProperty(value = " Get connectedEndpoint")
   @JsonProperty(JSON_PROPERTY_CONNECTED_ENDPOINT)
   @JsonInclude(content = JsonInclude.Include.ALWAYS, value = JsonInclude.Include.USE_DEFAULTS)
 
-  public Map<String, String> getConnectedEndpoint() {
+  public LinkTermination getConnectedEndpoint() {
     return connectedEndpoint;
   }
 

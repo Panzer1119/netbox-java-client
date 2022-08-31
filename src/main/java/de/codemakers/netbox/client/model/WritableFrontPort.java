@@ -229,7 +229,7 @@ public class WritableFrontPort {
   private NestedCable cable;
 
   public static final String JSON_PROPERTY_LINK_PEER = "link_peer";
-  private Map<String, String> linkPeer = null;
+  private LinkTermination linkPeer = null;
 
   public static final String JSON_PROPERTY_LINK_PEER_TYPE = "link_peer_type";
   private String linkPeerType;
@@ -257,7 +257,7 @@ public class WritableFrontPort {
     @JsonProperty(JSON_PROPERTY_ID) Integer id, 
     @JsonProperty(JSON_PROPERTY_URL) URI url, 
     @JsonProperty(JSON_PROPERTY_DISPLAY) String display, 
-    @JsonProperty(JSON_PROPERTY_LINK_PEER) Map<String, String> linkPeer, 
+    @JsonProperty(JSON_PROPERTY_LINK_PEER) LinkTermination linkPeer, 
     @JsonProperty(JSON_PROPERTY_LINK_PEER_TYPE) String linkPeerType, 
     @JsonProperty(JSON_PROPERTY_CREATED) OffsetDateTime created, 
     @JsonProperty(JSON_PROPERTY_LAST_UPDATED) OffsetDateTime lastUpdated, 
@@ -619,15 +619,15 @@ public class WritableFrontPort {
 
 
    /**
-   *  Return the appropriate serializer for the link termination model. 
+   *  Get linkPeer
    * @return linkPeer
   **/
   @javax.annotation.Nullable
-  @ApiModelProperty(value = " Return the appropriate serializer for the link termination model. ")
+  @ApiModelProperty(value = " Get linkPeer. ")
   @JsonProperty(JSON_PROPERTY_LINK_PEER)
   @JsonInclude(content = JsonInclude.Include.ALWAYS, value = JsonInclude.Include.USE_DEFAULTS)
 
-  public Map<String, String> getLinkPeer() {
+  public LinkTermination getLinkPeer() {
     return linkPeer;
   }
 
