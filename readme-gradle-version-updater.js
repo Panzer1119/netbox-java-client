@@ -1,9 +1,5 @@
 function versionRegex (contents) {
-    return RegExp('(?:implementation|compile) ["\']de\.codemakers\.netbox:netbox-java-client:(.+?)["\']', 'm')
-}
-
-function replaceRegex (contents) {
-    return RegExp('(implementation|compile) (["\'])de\.codemakers\.netbox:netbox-java-client:(.+?)["\']', 'm')
+    return RegExp('(?:implementation|compile)\\s+["\']de\\.codemakers\\.netbox:netbox-java-client:(.+?)["\']', 'm')
 }
 
 module.exports.readVersion = function (contents) {
@@ -12,6 +8,10 @@ module.exports.readVersion = function (contents) {
         throw new Error('Failed to read the gradle version field in your README.md file - is it present?')
     }
     return matches[1]
+}
+
+function replaceRegex (contents) {
+    return RegExp('(implementation|compile)\\s+(["\'])de\\.codemakers\\.netbox:netbox-java-client:(.+?)["\']', 'm')
 }
 
 module.exports.writeVersion = function (contents, version) {
