@@ -14,7 +14,7 @@
 |**model** | **String** |  |  |
 |**slug** | **String** |  |  |
 |**partNumber** | **String** | Discrete part number (optional) |  [optional] |
-|**uHeight** | **BigDecimal** |  |  [optional] |
+|**uHeight** | **Integer** |  |  [optional] |
 |**isFullDepth** | **Boolean** | Device consumes both front and rear rack faces |  [optional] |
 |**subdeviceRole** | [**SubdeviceRole**](SubdeviceRole.md) |  |  [optional] |
 |**airflow** | [**Airflow**](Airflow.md) |  |  [optional] |

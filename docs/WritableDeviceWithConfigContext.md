@@ -20,7 +20,7 @@
 |**site** | **Integer** |  |  |
 |**location** | **Integer** |  |  [optional] |
 |**rack** | **Integer** |  |  |
-|**position** | **BigDecimal** |  |  [optional] |
+|**position** | **Integer** |  |  [optional] |
 |**face** | [**FaceEnum**](#FaceEnum) |  |  |
 |**parentDevice** | [**NestedDevice**](NestedDevice.md) |  |  [optional] |
 |**status** | [**StatusEnum**](#StatusEnum) |  |  [optional] |

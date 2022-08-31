@@ -16,7 +16,6 @@
 |**status** | [**StatusEnum**](#StatusEnum) |  |  [optional] |
 |**tenant** | **Integer** |  |  [optional] |
 |**installDate** | **LocalDate** |  |  [optional] |
-|**terminationDate** | **LocalDate** |  |  [optional] |
 |**commitRate** | **Integer** |  |  [optional] |
 |**description** | **String** |  |  [optional] |
 |**terminationA** | **Integer** |  |  [optional] [readonly] |

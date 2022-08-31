@@ -13,7 +13,6 @@
 |**name** | **String** |  |  |
 |**type** | [**NestedClusterType**](NestedClusterType.md) |  |  |
 |**group** | [**NestedClusterGroup**](NestedClusterGroup.md) |  |  [optional] |
-|**status** | [**Status10**](Status10.md) |  |  [optional] |
 |**tenant** | [**NestedTenant**](NestedTenant.md) |  |  [optional] |
 |**site** | [**NestedSite**](NestedSite.md) |  |  [optional] |
 |**comments** | **String** |  |  [optional] |

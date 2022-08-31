@@ -29,8 +29,6 @@
 |**mode** | [**Mode**](Mode.md) |  |  [optional] |
 |**rfRole** | [**RfRole**](RfRole.md) |  |  [optional] |
 |**rfChannel** | [**RfChannel**](RfChannel.md) |  |  [optional] |
-|**poeMode** | [**PoeMode**](PoeMode.md) |  |  [optional] |
-|**poeType** | [**PoeType**](PoeType.md) |  |  [optional] |
 |**rfChannelFrequency** | **BigDecimal** |  |  [optional] |
 |**rfChannelWidth** | **BigDecimal** |  |  [optional] |
 |**txPower** | **Integer** |  |  [optional] |
@@ -38,16 +36,14 @@
 |**taggedVlans** | [**Set&lt;NestedVLAN&gt;**](NestedVLAN.md) |  |  [optional] |
 |**markConnected** | **Boolean** | Treat as if a cable is connected |  [optional] |
 |**cable** | [**NestedCable**](NestedCable.md) |  |  [optional] |
-|**cableEnd** | **String** |  |  [optional] [readonly] |
 |**wirelessLink** | [**NestedWirelessLink**](NestedWirelessLink.md) |  |  [optional] |
-|**linkPeers** | **List&lt;String&gt;** |  Return the appropriate serializer for the link termination model.  |  [optional] [readonly] |
-|**linkPeersType** | **String** |  |  [optional] [readonly] |
+|**linkPeer** | **Map&lt;String, String&gt;** |  Return the appropriate serializer for the link termination model.  |  [optional] [readonly] |
+|**linkPeerType** | **String** |  |  [optional] [readonly] |
 |**wirelessLans** | [**Set&lt;NestedWirelessLAN&gt;**](NestedWirelessLAN.md) |  |  [optional] |
 |**vrf** | [**NestedVRF**](NestedVRF.md) |  |  [optional] |
-|**l2vpnTermination** | [**NestedL2VPNTermination**](NestedL2VPNTermination.md) |  |  [optional] |
-|**connectedEndpoints** | **List&lt;String&gt;** |  Return the appropriate serializer for the type of connected object.  |  [optional] [readonly] |
-|**connectedEndpointsType** | **String** |  |  [optional] [readonly] |
-|**connectedEndpointsReachable** | **Boolean** |  |  [optional] [readonly] |
+|**connectedEndpoint** | **Map&lt;String, String&gt;** |  Return the appropriate serializer for the type of connected object.  |  [optional] [readonly] |
+|**connectedEndpointType** | **String** |  |  [optional] [readonly] |
+|**connectedEndpointReachable** | **Boolean** |  |  [optional] [readonly] |
 |**tags** | [**List&lt;NestedTag&gt;**](NestedTag.md) |  |  [optional] |
 |**customFields** | **Object** |  |  [optional] |
 |**created** | **OffsetDateTime** |  |  [optional] [readonly] |

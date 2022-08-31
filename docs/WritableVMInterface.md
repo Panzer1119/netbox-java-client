@@ -22,7 +22,6 @@
 |**untaggedVlan** | **Integer** |  |  [optional] |
 |**taggedVlans** | **Set&lt;Integer&gt;** |  |  [optional] |
 |**vrf** | **Integer** |  |  [optional] |
-|**l2vpnTermination** | **String** |  |  [optional] [readonly] |
 |**tags** | [**List&lt;NestedTag&gt;**](NestedTag.md) |  |  [optional] |
 |**customFields** | **Object** |  |  [optional] |
 |**created** | **OffsetDateTime** |  |  [optional] [readonly] |

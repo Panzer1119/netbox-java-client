@@ -883,7 +883,7 @@ ApiResponse<Void>
 
 ## extrasConfigContextsList
 
-> ExtrasConfigContextsList200Response extrasConfigContextsList(id, name, isActive, created, lastUpdated, q, regionId, region, siteGroup, siteGroupId, siteId, site, locationId, location, deviceTypeId, roleId, role, platformId, platform, clusterTypeId, clusterType, clusterGroupId, clusterGroup, clusterId, tenantGroupId, tenantGroup, tenantId, tenant, tagId, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, regionIdN, regionN, siteGroupN, siteGroupIdN, siteIdN, siteN, locationIdN, locationN, deviceTypeIdN, roleIdN, roleN, platformIdN, platformN, clusterTypeIdN, clusterTypeN, clusterGroupIdN, clusterGroupN, clusterIdN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, tagIdN, tagN, ordering, limit, offset)
+> ExtrasConfigContextsList200Response extrasConfigContextsList(id, name, isActive, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, regionId, region, siteGroup, siteGroupId, siteId, site, deviceTypeId, roleId, role, platformId, platform, clusterTypeId, clusterType, clusterGroupId, clusterGroup, clusterId, tenantGroupId, tenantGroup, tenantId, tenant, tagId, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, regionIdN, regionN, siteGroupN, siteGroupIdN, siteIdN, siteN, deviceTypeIdN, roleIdN, roleN, platformIdN, platformN, clusterTypeIdN, clusterTypeN, clusterGroupIdN, clusterGroupN, clusterIdN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, tagIdN, tagN, limit, offset)
 
 
 
@@ -916,7 +916,11 @@ public class Example {
         String name = "name_example"; // String | 
         String isActive = "isActive_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String regionId = "regionId_example"; // String | 
         String region = "region_example"; // String | 
@@ -924,8 +928,6 @@ public class Example {
         String siteGroupId = "siteGroupId_example"; // String | 
         String siteId = "siteId_example"; // String | 
         String site = "site_example"; // String | 
-        String locationId = "locationId_example"; // String | 
-        String location = "location_example"; // String | 
         String deviceTypeId = "deviceTypeId_example"; // String | 
         String roleId = "roleId_example"; // String | 
         String role = "role_example"; // String | 
@@ -956,24 +958,12 @@ public class Example {
         String nameNisw = "nameNisw_example"; // String | 
         String nameIe = "nameIe_example"; // String | 
         String nameNie = "nameNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String regionIdN = "regionIdN_example"; // String | 
         String regionN = "regionN_example"; // String | 
         String siteGroupN = "siteGroupN_example"; // String | 
         String siteGroupIdN = "siteGroupIdN_example"; // String | 
         String siteIdN = "siteIdN_example"; // String | 
         String siteN = "siteN_example"; // String | 
-        String locationIdN = "locationIdN_example"; // String | 
-        String locationN = "locationN_example"; // String | 
         String deviceTypeIdN = "deviceTypeIdN_example"; // String | 
         String roleIdN = "roleIdN_example"; // String | 
         String roleN = "roleN_example"; // String | 
@@ -990,11 +980,10 @@ public class Example {
         String tenantN = "tenantN_example"; // String | 
         String tagIdN = "tagIdN_example"; // String | 
         String tagN = "tagN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ExtrasConfigContextsList200Response result = apiInstance.extrasConfigContextsList(id, name, isActive, created, lastUpdated, q, regionId, region, siteGroup, siteGroupId, siteId, site, locationId, location, deviceTypeId, roleId, role, platformId, platform, clusterTypeId, clusterType, clusterGroupId, clusterGroup, clusterId, tenantGroupId, tenantGroup, tenantId, tenant, tagId, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, regionIdN, regionN, siteGroupN, siteGroupIdN, siteIdN, siteN, locationIdN, locationN, deviceTypeIdN, roleIdN, roleN, platformIdN, platformN, clusterTypeIdN, clusterTypeN, clusterGroupIdN, clusterGroupN, clusterIdN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, tagIdN, tagN, ordering, limit, offset);
+            ExtrasConfigContextsList200Response result = apiInstance.extrasConfigContextsList(id, name, isActive, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, regionId, region, siteGroup, siteGroupId, siteId, site, deviceTypeId, roleId, role, platformId, platform, clusterTypeId, clusterType, clusterGroupId, clusterGroup, clusterId, tenantGroupId, tenantGroup, tenantId, tenant, tagId, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, regionIdN, regionN, siteGroupN, siteGroupIdN, siteIdN, siteN, deviceTypeIdN, roleIdN, roleN, platformIdN, platformN, clusterTypeIdN, clusterTypeN, clusterGroupIdN, clusterGroupN, clusterIdN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, tagIdN, tagN, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling ExtrasApi#extrasConfigContextsList");
@@ -1016,7 +1005,11 @@ public class Example {
 | **name** | **String**|  | [optional] |
 | **isActive** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **regionId** | **String**|  | [optional] |
 | **region** | **String**|  | [optional] |
@@ -1024,8 +1017,6 @@ public class Example {
 | **siteGroupId** | **String**|  | [optional] |
 | **siteId** | **String**|  | [optional] |
 | **site** | **String**|  | [optional] |
-| **locationId** | **String**|  | [optional] |
-| **location** | **String**|  | [optional] |
 | **deviceTypeId** | **String**|  | [optional] |
 | **roleId** | **String**|  | [optional] |
 | **role** | **String**|  | [optional] |
@@ -1056,24 +1047,12 @@ public class Example {
 | **nameNisw** | **String**|  | [optional] |
 | **nameIe** | **String**|  | [optional] |
 | **nameNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **regionIdN** | **String**|  | [optional] |
 | **regionN** | **String**|  | [optional] |
 | **siteGroupN** | **String**|  | [optional] |
 | **siteGroupIdN** | **String**|  | [optional] |
 | **siteIdN** | **String**|  | [optional] |
 | **siteN** | **String**|  | [optional] |
-| **locationIdN** | **String**|  | [optional] |
-| **locationN** | **String**|  | [optional] |
 | **deviceTypeIdN** | **String**|  | [optional] |
 | **roleIdN** | **String**|  | [optional] |
 | **roleN** | **String**|  | [optional] |
@@ -1090,7 +1069,6 @@ public class Example {
 | **tenantN** | **String**|  | [optional] |
 | **tagIdN** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -1115,7 +1093,7 @@ public class Example {
 
 ## extrasConfigContextsListWithHttpInfo
 
-> ApiResponse<ExtrasConfigContextsList200Response> extrasConfigContextsList extrasConfigContextsListWithHttpInfo(id, name, isActive, created, lastUpdated, q, regionId, region, siteGroup, siteGroupId, siteId, site, locationId, location, deviceTypeId, roleId, role, platformId, platform, clusterTypeId, clusterType, clusterGroupId, clusterGroup, clusterId, tenantGroupId, tenantGroup, tenantId, tenant, tagId, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, regionIdN, regionN, siteGroupN, siteGroupIdN, siteIdN, siteN, locationIdN, locationN, deviceTypeIdN, roleIdN, roleN, platformIdN, platformN, clusterTypeIdN, clusterTypeN, clusterGroupIdN, clusterGroupN, clusterIdN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, tagIdN, tagN, ordering, limit, offset)
+> ApiResponse<ExtrasConfigContextsList200Response> extrasConfigContextsList extrasConfigContextsListWithHttpInfo(id, name, isActive, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, regionId, region, siteGroup, siteGroupId, siteId, site, deviceTypeId, roleId, role, platformId, platform, clusterTypeId, clusterType, clusterGroupId, clusterGroup, clusterId, tenantGroupId, tenantGroup, tenantId, tenant, tagId, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, regionIdN, regionN, siteGroupN, siteGroupIdN, siteIdN, siteN, deviceTypeIdN, roleIdN, roleN, platformIdN, platformN, clusterTypeIdN, clusterTypeN, clusterGroupIdN, clusterGroupN, clusterIdN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, tagIdN, tagN, limit, offset)
 
 
 
@@ -1149,7 +1127,11 @@ public class Example {
         String name = "name_example"; // String | 
         String isActive = "isActive_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String regionId = "regionId_example"; // String | 
         String region = "region_example"; // String | 
@@ -1157,8 +1139,6 @@ public class Example {
         String siteGroupId = "siteGroupId_example"; // String | 
         String siteId = "siteId_example"; // String | 
         String site = "site_example"; // String | 
-        String locationId = "locationId_example"; // String | 
-        String location = "location_example"; // String | 
         String deviceTypeId = "deviceTypeId_example"; // String | 
         String roleId = "roleId_example"; // String | 
         String role = "role_example"; // String | 
@@ -1189,24 +1169,12 @@ public class Example {
         String nameNisw = "nameNisw_example"; // String | 
         String nameIe = "nameIe_example"; // String | 
         String nameNie = "nameNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String regionIdN = "regionIdN_example"; // String | 
         String regionN = "regionN_example"; // String | 
         String siteGroupN = "siteGroupN_example"; // String | 
         String siteGroupIdN = "siteGroupIdN_example"; // String | 
         String siteIdN = "siteIdN_example"; // String | 
         String siteN = "siteN_example"; // String | 
-        String locationIdN = "locationIdN_example"; // String | 
-        String locationN = "locationN_example"; // String | 
         String deviceTypeIdN = "deviceTypeIdN_example"; // String | 
         String roleIdN = "roleIdN_example"; // String | 
         String roleN = "roleN_example"; // String | 
@@ -1223,11 +1191,10 @@ public class Example {
         String tenantN = "tenantN_example"; // String | 
         String tagIdN = "tagIdN_example"; // String | 
         String tagN = "tagN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<ExtrasConfigContextsList200Response> response = apiInstance.extrasConfigContextsListWithHttpInfo(id, name, isActive, created, lastUpdated, q, regionId, region, siteGroup, siteGroupId, siteId, site, locationId, location, deviceTypeId, roleId, role, platformId, platform, clusterTypeId, clusterType, clusterGroupId, clusterGroup, clusterId, tenantGroupId, tenantGroup, tenantId, tenant, tagId, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, regionIdN, regionN, siteGroupN, siteGroupIdN, siteIdN, siteN, locationIdN, locationN, deviceTypeIdN, roleIdN, roleN, platformIdN, platformN, clusterTypeIdN, clusterTypeN, clusterGroupIdN, clusterGroupN, clusterIdN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, tagIdN, tagN, ordering, limit, offset);
+            ApiResponse<ExtrasConfigContextsList200Response> response = apiInstance.extrasConfigContextsListWithHttpInfo(id, name, isActive, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, regionId, region, siteGroup, siteGroupId, siteId, site, deviceTypeId, roleId, role, platformId, platform, clusterTypeId, clusterType, clusterGroupId, clusterGroup, clusterId, tenantGroupId, tenantGroup, tenantId, tenant, tagId, tag, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, regionIdN, regionN, siteGroupN, siteGroupIdN, siteIdN, siteN, deviceTypeIdN, roleIdN, roleN, platformIdN, platformN, clusterTypeIdN, clusterTypeN, clusterGroupIdN, clusterGroupN, clusterIdN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, tagIdN, tagN, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -1251,7 +1218,11 @@ public class Example {
 | **name** | **String**|  | [optional] |
 | **isActive** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **regionId** | **String**|  | [optional] |
 | **region** | **String**|  | [optional] |
@@ -1259,8 +1230,6 @@ public class Example {
 | **siteGroupId** | **String**|  | [optional] |
 | **siteId** | **String**|  | [optional] |
 | **site** | **String**|  | [optional] |
-| **locationId** | **String**|  | [optional] |
-| **location** | **String**|  | [optional] |
 | **deviceTypeId** | **String**|  | [optional] |
 | **roleId** | **String**|  | [optional] |
 | **role** | **String**|  | [optional] |
@@ -1291,24 +1260,12 @@ public class Example {
 | **nameNisw** | **String**|  | [optional] |
 | **nameIe** | **String**|  | [optional] |
 | **nameNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **regionIdN** | **String**|  | [optional] |
 | **regionN** | **String**|  | [optional] |
 | **siteGroupN** | **String**|  | [optional] |
 | **siteGroupIdN** | **String**|  | [optional] |
 | **siteIdN** | **String**|  | [optional] |
 | **siteN** | **String**|  | [optional] |
-| **locationIdN** | **String**|  | [optional] |
-| **locationN** | **String**|  | [optional] |
 | **deviceTypeIdN** | **String**|  | [optional] |
 | **roleIdN** | **String**|  | [optional] |
 | **roleN** | **String**|  | [optional] |
@@ -1325,7 +1282,6 @@ public class Example {
 | **tenantN** | **String**|  | [optional] |
 | **tagIdN** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -1791,7 +1747,7 @@ ApiResponse<[**ConfigContext**](ConfigContext.md)>
 
 ## extrasContentTypesList
 
-> ExtrasContentTypesList200Response extrasContentTypesList(id, appLabel, model, q, ordering, limit, offset)
+> ExtrasContentTypesList200Response extrasContentTypesList(id, appLabel, model, q, limit, offset)
 
 
 
@@ -1824,11 +1780,10 @@ public class Example {
         String appLabel = "appLabel_example"; // String | 
         String model = "model_example"; // String | 
         String q = "q_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ExtrasContentTypesList200Response result = apiInstance.extrasContentTypesList(id, appLabel, model, q, ordering, limit, offset);
+            ExtrasContentTypesList200Response result = apiInstance.extrasContentTypesList(id, appLabel, model, q, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling ExtrasApi#extrasContentTypesList");
@@ -1850,7 +1805,6 @@ public class Example {
 | **appLabel** | **String**|  | [optional] |
 | **model** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -1875,7 +1829,7 @@ public class Example {
 
 ## extrasContentTypesListWithHttpInfo
 
-> ApiResponse<ExtrasContentTypesList200Response> extrasContentTypesList extrasContentTypesListWithHttpInfo(id, appLabel, model, q, ordering, limit, offset)
+> ApiResponse<ExtrasContentTypesList200Response> extrasContentTypesList extrasContentTypesListWithHttpInfo(id, appLabel, model, q, limit, offset)
 
 
 
@@ -1909,11 +1863,10 @@ public class Example {
         String appLabel = "appLabel_example"; // String | 
         String model = "model_example"; // String | 
         String q = "q_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<ExtrasContentTypesList200Response> response = apiInstance.extrasContentTypesListWithHttpInfo(id, appLabel, model, q, ordering, limit, offset);
+            ApiResponse<ExtrasContentTypesList200Response> response = apiInstance.extrasContentTypesListWithHttpInfo(id, appLabel, model, q, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -1937,7 +1890,6 @@ public class Example {
 | **appLabel** | **String**|  | [optional] |
 | **model** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -2819,7 +2771,7 @@ ApiResponse<Void>
 
 ## extrasCustomFieldsList
 
-> ExtrasCustomFieldsList200Response extrasCustomFieldsList(id, contentTypes, name, groupName, required, filterLogic, uiVisibility, weight, description, q, type, contentTypeId, idN, idLte, idLt, idGte, idGt, contentTypesN, contentTypesIc, contentTypesNic, contentTypesIew, contentTypesNiew, contentTypesIsw, contentTypesNisw, contentTypesIe, contentTypesNie, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, groupNameN, groupNameIc, groupNameNic, groupNameIew, groupNameNiew, groupNameIsw, groupNameNisw, groupNameIe, groupNameNie, filterLogicN, uiVisibilityN, weightN, weightLte, weightLt, weightGte, weightGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, typeN, contentTypeIdN, contentTypeIdLte, contentTypeIdLt, contentTypeIdGte, contentTypeIdGt, ordering, limit, offset)
+> ExtrasCustomFieldsList200Response extrasCustomFieldsList(id, name, required, filterLogic, weight, description, q, type, contentTypeId, contentTypes, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, filterLogicN, weightN, weightLte, weightLt, weightGte, weightGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, typeN, contentTypeIdN, contentTypeIdLte, contentTypeIdLt, contentTypeIdGte, contentTypeIdGt, contentTypesN, contentTypesIc, contentTypesNic, contentTypesIew, contentTypesNiew, contentTypesIsw, contentTypesNisw, contentTypesIe, contentTypesNie, limit, offset)
 
 
 
@@ -2849,31 +2801,20 @@ public class Example {
 
         ExtrasApi apiInstance = new ExtrasApi(defaultClient);
         String id = "id_example"; // String | 
-        String contentTypes = "contentTypes_example"; // String | 
         String name = "name_example"; // String | 
-        String groupName = "groupName_example"; // String | 
         String required = "required_example"; // String | 
         String filterLogic = "filterLogic_example"; // String | 
-        String uiVisibility = "uiVisibility_example"; // String | 
         String weight = "weight_example"; // String | 
         String description = "description_example"; // String | 
         String q = "q_example"; // String | 
         String type = "type_example"; // String | 
         String contentTypeId = "contentTypeId_example"; // String | 
+        String contentTypes = "contentTypes_example"; // String | 
         String idN = "idN_example"; // String | 
         String idLte = "idLte_example"; // String | 
         String idLt = "idLt_example"; // String | 
         String idGte = "idGte_example"; // String | 
         String idGt = "idGt_example"; // String | 
-        String contentTypesN = "contentTypesN_example"; // String | 
-        String contentTypesIc = "contentTypesIc_example"; // String | 
-        String contentTypesNic = "contentTypesNic_example"; // String | 
-        String contentTypesIew = "contentTypesIew_example"; // String | 
-        String contentTypesNiew = "contentTypesNiew_example"; // String | 
-        String contentTypesIsw = "contentTypesIsw_example"; // String | 
-        String contentTypesNisw = "contentTypesNisw_example"; // String | 
-        String contentTypesIe = "contentTypesIe_example"; // String | 
-        String contentTypesNie = "contentTypesNie_example"; // String | 
         String nameN = "nameN_example"; // String | 
         String nameIc = "nameIc_example"; // String | 
         String nameNic = "nameNic_example"; // String | 
@@ -2883,17 +2824,7 @@ public class Example {
         String nameNisw = "nameNisw_example"; // String | 
         String nameIe = "nameIe_example"; // String | 
         String nameNie = "nameNie_example"; // String | 
-        String groupNameN = "groupNameN_example"; // String | 
-        String groupNameIc = "groupNameIc_example"; // String | 
-        String groupNameNic = "groupNameNic_example"; // String | 
-        String groupNameIew = "groupNameIew_example"; // String | 
-        String groupNameNiew = "groupNameNiew_example"; // String | 
-        String groupNameIsw = "groupNameIsw_example"; // String | 
-        String groupNameNisw = "groupNameNisw_example"; // String | 
-        String groupNameIe = "groupNameIe_example"; // String | 
-        String groupNameNie = "groupNameNie_example"; // String | 
         String filterLogicN = "filterLogicN_example"; // String | 
-        String uiVisibilityN = "uiVisibilityN_example"; // String | 
         String weightN = "weightN_example"; // String | 
         String weightLte = "weightLte_example"; // String | 
         String weightLt = "weightLt_example"; // String | 
@@ -2914,11 +2845,19 @@ public class Example {
         String contentTypeIdLt = "contentTypeIdLt_example"; // String | 
         String contentTypeIdGte = "contentTypeIdGte_example"; // String | 
         String contentTypeIdGt = "contentTypeIdGt_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
+        String contentTypesN = "contentTypesN_example"; // String | 
+        String contentTypesIc = "contentTypesIc_example"; // String | 
+        String contentTypesNic = "contentTypesNic_example"; // String | 
+        String contentTypesIew = "contentTypesIew_example"; // String | 
+        String contentTypesNiew = "contentTypesNiew_example"; // String | 
+        String contentTypesIsw = "contentTypesIsw_example"; // String | 
+        String contentTypesNisw = "contentTypesNisw_example"; // String | 
+        String contentTypesIe = "contentTypesIe_example"; // String | 
+        String contentTypesNie = "contentTypesNie_example"; // String | 
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ExtrasCustomFieldsList200Response result = apiInstance.extrasCustomFieldsList(id, contentTypes, name, groupName, required, filterLogic, uiVisibility, weight, description, q, type, contentTypeId, idN, idLte, idLt, idGte, idGt, contentTypesN, contentTypesIc, contentTypesNic, contentTypesIew, contentTypesNiew, contentTypesIsw, contentTypesNisw, contentTypesIe, contentTypesNie, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, groupNameN, groupNameIc, groupNameNic, groupNameIew, groupNameNiew, groupNameIsw, groupNameNisw, groupNameIe, groupNameNie, filterLogicN, uiVisibilityN, weightN, weightLte, weightLt, weightGte, weightGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, typeN, contentTypeIdN, contentTypeIdLte, contentTypeIdLt, contentTypeIdGte, contentTypeIdGt, ordering, limit, offset);
+            ExtrasCustomFieldsList200Response result = apiInstance.extrasCustomFieldsList(id, name, required, filterLogic, weight, description, q, type, contentTypeId, contentTypes, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, filterLogicN, weightN, weightLte, weightLt, weightGte, weightGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, typeN, contentTypeIdN, contentTypeIdLte, contentTypeIdLt, contentTypeIdGte, contentTypeIdGt, contentTypesN, contentTypesIc, contentTypesNic, contentTypesIew, contentTypesNiew, contentTypesIsw, contentTypesNisw, contentTypesIe, contentTypesNie, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling ExtrasApi#extrasCustomFieldsList");
@@ -2937,31 +2876,20 @@ public class Example {
 | Name | Type | Description  | Notes |
 |------------- | ------------- | ------------- | -------------|
 | **id** | **String**|  | [optional] |
-| **contentTypes** | **String**|  | [optional] |
 | **name** | **String**|  | [optional] |
-| **groupName** | **String**|  | [optional] |
 | **required** | **String**|  | [optional] |
 | **filterLogic** | **String**|  | [optional] |
-| **uiVisibility** | **String**|  | [optional] |
 | **weight** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **type** | **String**|  | [optional] |
 | **contentTypeId** | **String**|  | [optional] |
+| **contentTypes** | **String**|  | [optional] |
 | **idN** | **String**|  | [optional] |
 | **idLte** | **String**|  | [optional] |
 | **idLt** | **String**|  | [optional] |
 | **idGte** | **String**|  | [optional] |
 | **idGt** | **String**|  | [optional] |
-| **contentTypesN** | **String**|  | [optional] |
-| **contentTypesIc** | **String**|  | [optional] |
-| **contentTypesNic** | **String**|  | [optional] |
-| **contentTypesIew** | **String**|  | [optional] |
-| **contentTypesNiew** | **String**|  | [optional] |
-| **contentTypesIsw** | **String**|  | [optional] |
-| **contentTypesNisw** | **String**|  | [optional] |
-| **contentTypesIe** | **String**|  | [optional] |
-| **contentTypesNie** | **String**|  | [optional] |
 | **nameN** | **String**|  | [optional] |
 | **nameIc** | **String**|  | [optional] |
 | **nameNic** | **String**|  | [optional] |
@@ -2971,17 +2899,7 @@ public class Example {
 | **nameNisw** | **String**|  | [optional] |
 | **nameIe** | **String**|  | [optional] |
 | **nameNie** | **String**|  | [optional] |
-| **groupNameN** | **String**|  | [optional] |
-| **groupNameIc** | **String**|  | [optional] |
-| **groupNameNic** | **String**|  | [optional] |
-| **groupNameIew** | **String**|  | [optional] |
-| **groupNameNiew** | **String**|  | [optional] |
-| **groupNameIsw** | **String**|  | [optional] |
-| **groupNameNisw** | **String**|  | [optional] |
-| **groupNameIe** | **String**|  | [optional] |
-| **groupNameNie** | **String**|  | [optional] |
 | **filterLogicN** | **String**|  | [optional] |
-| **uiVisibilityN** | **String**|  | [optional] |
 | **weightN** | **String**|  | [optional] |
 | **weightLte** | **String**|  | [optional] |
 | **weightLt** | **String**|  | [optional] |
@@ -3002,7 +2920,15 @@ public class Example {
 | **contentTypeIdLt** | **String**|  | [optional] |
 | **contentTypeIdGte** | **String**|  | [optional] |
 | **contentTypeIdGt** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
+| **contentTypesN** | **String**|  | [optional] |
+| **contentTypesIc** | **String**|  | [optional] |
+| **contentTypesNic** | **String**|  | [optional] |
+| **contentTypesIew** | **String**|  | [optional] |
+| **contentTypesNiew** | **String**|  | [optional] |
+| **contentTypesIsw** | **String**|  | [optional] |
+| **contentTypesNisw** | **String**|  | [optional] |
+| **contentTypesIe** | **String**|  | [optional] |
+| **contentTypesNie** | **String**|  | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -3027,7 +2953,7 @@ public class Example {
 
 ## extrasCustomFieldsListWithHttpInfo
 
-> ApiResponse<ExtrasCustomFieldsList200Response> extrasCustomFieldsList extrasCustomFieldsListWithHttpInfo(id, contentTypes, name, groupName, required, filterLogic, uiVisibility, weight, description, q, type, contentTypeId, idN, idLte, idLt, idGte, idGt, contentTypesN, contentTypesIc, contentTypesNic, contentTypesIew, contentTypesNiew, contentTypesIsw, contentTypesNisw, contentTypesIe, contentTypesNie, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, groupNameN, groupNameIc, groupNameNic, groupNameIew, groupNameNiew, groupNameIsw, groupNameNisw, groupNameIe, groupNameNie, filterLogicN, uiVisibilityN, weightN, weightLte, weightLt, weightGte, weightGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, typeN, contentTypeIdN, contentTypeIdLte, contentTypeIdLt, contentTypeIdGte, contentTypeIdGt, ordering, limit, offset)
+> ApiResponse<ExtrasCustomFieldsList200Response> extrasCustomFieldsList extrasCustomFieldsListWithHttpInfo(id, name, required, filterLogic, weight, description, q, type, contentTypeId, contentTypes, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, filterLogicN, weightN, weightLte, weightLt, weightGte, weightGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, typeN, contentTypeIdN, contentTypeIdLte, contentTypeIdLt, contentTypeIdGte, contentTypeIdGt, contentTypesN, contentTypesIc, contentTypesNic, contentTypesIew, contentTypesNiew, contentTypesIsw, contentTypesNisw, contentTypesIe, contentTypesNie, limit, offset)
 
 
 
@@ -3058,31 +2984,20 @@ public class Example {
 
         ExtrasApi apiInstance = new ExtrasApi(defaultClient);
         String id = "id_example"; // String | 
-        String contentTypes = "contentTypes_example"; // String | 
         String name = "name_example"; // String | 
-        String groupName = "groupName_example"; // String | 
         String required = "required_example"; // String | 
         String filterLogic = "filterLogic_example"; // String | 
-        String uiVisibility = "uiVisibility_example"; // String | 
         String weight = "weight_example"; // String | 
         String description = "description_example"; // String | 
         String q = "q_example"; // String | 
         String type = "type_example"; // String | 
         String contentTypeId = "contentTypeId_example"; // String | 
+        String contentTypes = "contentTypes_example"; // String | 
         String idN = "idN_example"; // String | 
         String idLte = "idLte_example"; // String | 
         String idLt = "idLt_example"; // String | 
         String idGte = "idGte_example"; // String | 
         String idGt = "idGt_example"; // String | 
-        String contentTypesN = "contentTypesN_example"; // String | 
-        String contentTypesIc = "contentTypesIc_example"; // String | 
-        String contentTypesNic = "contentTypesNic_example"; // String | 
-        String contentTypesIew = "contentTypesIew_example"; // String | 
-        String contentTypesNiew = "contentTypesNiew_example"; // String | 
-        String contentTypesIsw = "contentTypesIsw_example"; // String | 
-        String contentTypesNisw = "contentTypesNisw_example"; // String | 
-        String contentTypesIe = "contentTypesIe_example"; // String | 
-        String contentTypesNie = "contentTypesNie_example"; // String | 
         String nameN = "nameN_example"; // String | 
         String nameIc = "nameIc_example"; // String | 
         String nameNic = "nameNic_example"; // String | 
@@ -3092,17 +3007,7 @@ public class Example {
         String nameNisw = "nameNisw_example"; // String | 
         String nameIe = "nameIe_example"; // String | 
         String nameNie = "nameNie_example"; // String | 
-        String groupNameN = "groupNameN_example"; // String | 
-        String groupNameIc = "groupNameIc_example"; // String | 
-        String groupNameNic = "groupNameNic_example"; // String | 
-        String groupNameIew = "groupNameIew_example"; // String | 
-        String groupNameNiew = "groupNameNiew_example"; // String | 
-        String groupNameIsw = "groupNameIsw_example"; // String | 
-        String groupNameNisw = "groupNameNisw_example"; // String | 
-        String groupNameIe = "groupNameIe_example"; // String | 
-        String groupNameNie = "groupNameNie_example"; // String | 
         String filterLogicN = "filterLogicN_example"; // String | 
-        String uiVisibilityN = "uiVisibilityN_example"; // String | 
         String weightN = "weightN_example"; // String | 
         String weightLte = "weightLte_example"; // String | 
         String weightLt = "weightLt_example"; // String | 
@@ -3123,11 +3028,19 @@ public class Example {
         String contentTypeIdLt = "contentTypeIdLt_example"; // String | 
         String contentTypeIdGte = "contentTypeIdGte_example"; // String | 
         String contentTypeIdGt = "contentTypeIdGt_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
+        String contentTypesN = "contentTypesN_example"; // String | 
+        String contentTypesIc = "contentTypesIc_example"; // String | 
+        String contentTypesNic = "contentTypesNic_example"; // String | 
+        String contentTypesIew = "contentTypesIew_example"; // String | 
+        String contentTypesNiew = "contentTypesNiew_example"; // String | 
+        String contentTypesIsw = "contentTypesIsw_example"; // String | 
+        String contentTypesNisw = "contentTypesNisw_example"; // String | 
+        String contentTypesIe = "contentTypesIe_example"; // String | 
+        String contentTypesNie = "contentTypesNie_example"; // String | 
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<ExtrasCustomFieldsList200Response> response = apiInstance.extrasCustomFieldsListWithHttpInfo(id, contentTypes, name, groupName, required, filterLogic, uiVisibility, weight, description, q, type, contentTypeId, idN, idLte, idLt, idGte, idGt, contentTypesN, contentTypesIc, contentTypesNic, contentTypesIew, contentTypesNiew, contentTypesIsw, contentTypesNisw, contentTypesIe, contentTypesNie, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, groupNameN, groupNameIc, groupNameNic, groupNameIew, groupNameNiew, groupNameIsw, groupNameNisw, groupNameIe, groupNameNie, filterLogicN, uiVisibilityN, weightN, weightLte, weightLt, weightGte, weightGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, typeN, contentTypeIdN, contentTypeIdLte, contentTypeIdLt, contentTypeIdGte, contentTypeIdGt, ordering, limit, offset);
+            ApiResponse<ExtrasCustomFieldsList200Response> response = apiInstance.extrasCustomFieldsListWithHttpInfo(id, name, required, filterLogic, weight, description, q, type, contentTypeId, contentTypes, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, filterLogicN, weightN, weightLte, weightLt, weightGte, weightGt, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, typeN, contentTypeIdN, contentTypeIdLte, contentTypeIdLt, contentTypeIdGte, contentTypeIdGt, contentTypesN, contentTypesIc, contentTypesNic, contentTypesIew, contentTypesNiew, contentTypesIsw, contentTypesNisw, contentTypesIe, contentTypesNie, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -3148,31 +3061,20 @@ public class Example {
 | Name | Type | Description  | Notes |
 |------------- | ------------- | ------------- | -------------|
 | **id** | **String**|  | [optional] |
-| **contentTypes** | **String**|  | [optional] |
 | **name** | **String**|  | [optional] |
-| **groupName** | **String**|  | [optional] |
 | **required** | **String**|  | [optional] |
 | **filterLogic** | **String**|  | [optional] |
-| **uiVisibility** | **String**|  | [optional] |
 | **weight** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **type** | **String**|  | [optional] |
 | **contentTypeId** | **String**|  | [optional] |
+| **contentTypes** | **String**|  | [optional] |
 | **idN** | **String**|  | [optional] |
 | **idLte** | **String**|  | [optional] |
 | **idLt** | **String**|  | [optional] |
 | **idGte** | **String**|  | [optional] |
 | **idGt** | **String**|  | [optional] |
-| **contentTypesN** | **String**|  | [optional] |
-| **contentTypesIc** | **String**|  | [optional] |
-| **contentTypesNic** | **String**|  | [optional] |
-| **contentTypesIew** | **String**|  | [optional] |
-| **contentTypesNiew** | **String**|  | [optional] |
-| **contentTypesIsw** | **String**|  | [optional] |
-| **contentTypesNisw** | **String**|  | [optional] |
-| **contentTypesIe** | **String**|  | [optional] |
-| **contentTypesNie** | **String**|  | [optional] |
 | **nameN** | **String**|  | [optional] |
 | **nameIc** | **String**|  | [optional] |
 | **nameNic** | **String**|  | [optional] |
@@ -3182,17 +3084,7 @@ public class Example {
 | **nameNisw** | **String**|  | [optional] |
 | **nameIe** | **String**|  | [optional] |
 | **nameNie** | **String**|  | [optional] |
-| **groupNameN** | **String**|  | [optional] |
-| **groupNameIc** | **String**|  | [optional] |
-| **groupNameNic** | **String**|  | [optional] |
-| **groupNameIew** | **String**|  | [optional] |
-| **groupNameNiew** | **String**|  | [optional] |
-| **groupNameIsw** | **String**|  | [optional] |
-| **groupNameNisw** | **String**|  | [optional] |
-| **groupNameIe** | **String**|  | [optional] |
-| **groupNameNie** | **String**|  | [optional] |
 | **filterLogicN** | **String**|  | [optional] |
-| **uiVisibilityN** | **String**|  | [optional] |
 | **weightN** | **String**|  | [optional] |
 | **weightLte** | **String**|  | [optional] |
 | **weightLt** | **String**|  | [optional] |
@@ -3213,7 +3105,15 @@ public class Example {
 | **contentTypeIdLt** | **String**|  | [optional] |
 | **contentTypeIdGte** | **String**|  | [optional] |
 | **contentTypeIdGt** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
+| **contentTypesN** | **String**|  | [optional] |
+| **contentTypesIc** | **String**|  | [optional] |
+| **contentTypesNic** | **String**|  | [optional] |
+| **contentTypesIew** | **String**|  | [optional] |
+| **contentTypesNiew** | **String**|  | [optional] |
+| **contentTypesIsw** | **String**|  | [optional] |
+| **contentTypesNisw** | **String**|  | [optional] |
+| **contentTypesIe** | **String**|  | [optional] |
+| **contentTypesNie** | **String**|  | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -4387,7 +4287,7 @@ ApiResponse<Void>
 
 ## extrasCustomLinksList
 
-> ExtrasCustomLinksList200Response extrasCustomLinksList(id, contentType, name, enabled, linkText, linkUrl, weight, groupName, newWindow, q, idN, idLte, idLt, idGte, idGt, contentTypeN, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, linkTextN, linkTextIc, linkTextNic, linkTextIew, linkTextNiew, linkTextIsw, linkTextNisw, linkTextIe, linkTextNie, linkUrlN, linkUrlIc, linkUrlNic, linkUrlIew, linkUrlNiew, linkUrlIsw, linkUrlNisw, linkUrlIe, linkUrlNie, weightN, weightLte, weightLt, weightGte, weightGt, groupNameN, groupNameIc, groupNameNic, groupNameIew, groupNameNiew, groupNameIsw, groupNameNisw, groupNameIe, groupNameNie, ordering, limit, offset)
+> ExtrasCustomLinksList200Response extrasCustomLinksList(id, contentType, name, enabled, linkText, linkUrl, weight, groupName, newWindow, q, idN, idLte, idLt, idGte, idGt, contentTypeN, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, linkTextN, linkTextIc, linkTextNic, linkTextIew, linkTextNiew, linkTextIsw, linkTextNisw, linkTextIe, linkTextNie, linkUrlN, linkUrlIc, linkUrlNic, linkUrlIew, linkUrlNiew, linkUrlIsw, linkUrlNisw, linkUrlIe, linkUrlNie, weightN, weightLte, weightLt, weightGte, weightGt, groupNameN, groupNameIc, groupNameNic, groupNameIew, groupNameNiew, groupNameIsw, groupNameNisw, groupNameIe, groupNameNie, limit, offset)
 
 
 
@@ -4473,11 +4373,10 @@ public class Example {
         String groupNameNisw = "groupNameNisw_example"; // String | 
         String groupNameIe = "groupNameIe_example"; // String | 
         String groupNameNie = "groupNameNie_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ExtrasCustomLinksList200Response result = apiInstance.extrasCustomLinksList(id, contentType, name, enabled, linkText, linkUrl, weight, groupName, newWindow, q, idN, idLte, idLt, idGte, idGt, contentTypeN, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, linkTextN, linkTextIc, linkTextNic, linkTextIew, linkTextNiew, linkTextIsw, linkTextNisw, linkTextIe, linkTextNie, linkUrlN, linkUrlIc, linkUrlNic, linkUrlIew, linkUrlNiew, linkUrlIsw, linkUrlNisw, linkUrlIe, linkUrlNie, weightN, weightLte, weightLt, weightGte, weightGt, groupNameN, groupNameIc, groupNameNic, groupNameIew, groupNameNiew, groupNameIsw, groupNameNisw, groupNameIe, groupNameNie, ordering, limit, offset);
+            ExtrasCustomLinksList200Response result = apiInstance.extrasCustomLinksList(id, contentType, name, enabled, linkText, linkUrl, weight, groupName, newWindow, q, idN, idLte, idLt, idGte, idGt, contentTypeN, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, linkTextN, linkTextIc, linkTextNic, linkTextIew, linkTextNiew, linkTextIsw, linkTextNisw, linkTextIe, linkTextNie, linkUrlN, linkUrlIc, linkUrlNic, linkUrlIew, linkUrlNiew, linkUrlIsw, linkUrlNisw, linkUrlIe, linkUrlNie, weightN, weightLte, weightLt, weightGte, weightGt, groupNameN, groupNameIc, groupNameNic, groupNameIew, groupNameNiew, groupNameIsw, groupNameNisw, groupNameIe, groupNameNie, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling ExtrasApi#extrasCustomLinksList");
@@ -4552,7 +4451,6 @@ public class Example {
 | **groupNameNisw** | **String**|  | [optional] |
 | **groupNameIe** | **String**|  | [optional] |
 | **groupNameNie** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -4577,7 +4475,7 @@ public class Example {
 
 ## extrasCustomLinksListWithHttpInfo
 
-> ApiResponse<ExtrasCustomLinksList200Response> extrasCustomLinksList extrasCustomLinksListWithHttpInfo(id, contentType, name, enabled, linkText, linkUrl, weight, groupName, newWindow, q, idN, idLte, idLt, idGte, idGt, contentTypeN, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, linkTextN, linkTextIc, linkTextNic, linkTextIew, linkTextNiew, linkTextIsw, linkTextNisw, linkTextIe, linkTextNie, linkUrlN, linkUrlIc, linkUrlNic, linkUrlIew, linkUrlNiew, linkUrlIsw, linkUrlNisw, linkUrlIe, linkUrlNie, weightN, weightLte, weightLt, weightGte, weightGt, groupNameN, groupNameIc, groupNameNic, groupNameIew, groupNameNiew, groupNameIsw, groupNameNisw, groupNameIe, groupNameNie, ordering, limit, offset)
+> ApiResponse<ExtrasCustomLinksList200Response> extrasCustomLinksList extrasCustomLinksListWithHttpInfo(id, contentType, name, enabled, linkText, linkUrl, weight, groupName, newWindow, q, idN, idLte, idLt, idGte, idGt, contentTypeN, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, linkTextN, linkTextIc, linkTextNic, linkTextIew, linkTextNiew, linkTextIsw, linkTextNisw, linkTextIe, linkTextNie, linkUrlN, linkUrlIc, linkUrlNic, linkUrlIew, linkUrlNiew, linkUrlIsw, linkUrlNisw, linkUrlIe, linkUrlNie, weightN, weightLte, weightLt, weightGte, weightGt, groupNameN, groupNameIc, groupNameNic, groupNameIew, groupNameNiew, groupNameIsw, groupNameNisw, groupNameIe, groupNameNie, limit, offset)
 
 
 
@@ -4664,11 +4562,10 @@ public class Example {
         String groupNameNisw = "groupNameNisw_example"; // String | 
         String groupNameIe = "groupNameIe_example"; // String | 
         String groupNameNie = "groupNameNie_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<ExtrasCustomLinksList200Response> response = apiInstance.extrasCustomLinksListWithHttpInfo(id, contentType, name, enabled, linkText, linkUrl, weight, groupName, newWindow, q, idN, idLte, idLt, idGte, idGt, contentTypeN, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, linkTextN, linkTextIc, linkTextNic, linkTextIew, linkTextNiew, linkTextIsw, linkTextNisw, linkTextIe, linkTextNie, linkUrlN, linkUrlIc, linkUrlNic, linkUrlIew, linkUrlNiew, linkUrlIsw, linkUrlNisw, linkUrlIe, linkUrlNie, weightN, weightLte, weightLt, weightGte, weightGt, groupNameN, groupNameIc, groupNameNic, groupNameIew, groupNameNiew, groupNameIsw, groupNameNisw, groupNameIe, groupNameNie, ordering, limit, offset);
+            ApiResponse<ExtrasCustomLinksList200Response> response = apiInstance.extrasCustomLinksListWithHttpInfo(id, contentType, name, enabled, linkText, linkUrl, weight, groupName, newWindow, q, idN, idLte, idLt, idGte, idGt, contentTypeN, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, linkTextN, linkTextIc, linkTextNic, linkTextIew, linkTextNiew, linkTextIsw, linkTextNisw, linkTextIe, linkTextNie, linkUrlN, linkUrlIc, linkUrlNic, linkUrlIew, linkUrlNiew, linkUrlIsw, linkUrlNisw, linkUrlIe, linkUrlNie, weightN, weightLte, weightLt, weightGte, weightGt, groupNameN, groupNameIc, groupNameNic, groupNameIew, groupNameNiew, groupNameIsw, groupNameNisw, groupNameIe, groupNameNie, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -4745,7 +4642,6 @@ public class Example {
 | **groupNameNisw** | **String**|  | [optional] |
 | **groupNameIe** | **String**|  | [optional] |
 | **groupNameNie** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -5919,7 +5815,7 @@ ApiResponse<Void>
 
 ## extrasExportTemplatesList
 
-> ExtrasExportTemplatesList200Response extrasExportTemplatesList(id, contentType, name, description, q, idN, idLte, idLt, idGte, idGt, contentTypeN, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, ordering, limit, offset)
+> ExtrasExportTemplatesList200Response extrasExportTemplatesList(id, contentType, name, description, q, idN, idLte, idLt, idGte, idGt, contentTypeN, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, limit, offset)
 
 
 
@@ -5977,11 +5873,10 @@ public class Example {
         String descriptionNisw = "descriptionNisw_example"; // String | 
         String descriptionIe = "descriptionIe_example"; // String | 
         String descriptionNie = "descriptionNie_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ExtrasExportTemplatesList200Response result = apiInstance.extrasExportTemplatesList(id, contentType, name, description, q, idN, idLte, idLt, idGte, idGt, contentTypeN, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, ordering, limit, offset);
+            ExtrasExportTemplatesList200Response result = apiInstance.extrasExportTemplatesList(id, contentType, name, description, q, idN, idLte, idLt, idGte, idGt, contentTypeN, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling ExtrasApi#extrasExportTemplatesList");
@@ -6028,7 +5923,6 @@ public class Example {
 | **descriptionNisw** | **String**|  | [optional] |
 | **descriptionIe** | **String**|  | [optional] |
 | **descriptionNie** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -6053,7 +5947,7 @@ public class Example {
 
 ## extrasExportTemplatesListWithHttpInfo
 
-> ApiResponse<ExtrasExportTemplatesList200Response> extrasExportTemplatesList extrasExportTemplatesListWithHttpInfo(id, contentType, name, description, q, idN, idLte, idLt, idGte, idGt, contentTypeN, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, ordering, limit, offset)
+> ApiResponse<ExtrasExportTemplatesList200Response> extrasExportTemplatesList extrasExportTemplatesListWithHttpInfo(id, contentType, name, description, q, idN, idLte, idLt, idGte, idGt, contentTypeN, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, limit, offset)
 
 
 
@@ -6112,11 +6006,10 @@ public class Example {
         String descriptionNisw = "descriptionNisw_example"; // String | 
         String descriptionIe = "descriptionIe_example"; // String | 
         String descriptionNie = "descriptionNie_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<ExtrasExportTemplatesList200Response> response = apiInstance.extrasExportTemplatesListWithHttpInfo(id, contentType, name, description, q, idN, idLte, idLt, idGte, idGt, contentTypeN, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, ordering, limit, offset);
+            ApiResponse<ExtrasExportTemplatesList200Response> response = apiInstance.extrasExportTemplatesListWithHttpInfo(id, contentType, name, description, q, idN, idLte, idLt, idGte, idGt, contentTypeN, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -6165,7 +6058,6 @@ public class Example {
 | **descriptionNisw** | **String**|  | [optional] |
 | **descriptionIe** | **String**|  | [optional] |
 | **descriptionNie** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -7339,7 +7231,7 @@ ApiResponse<Void>
 
 ## extrasImageAttachmentsList
 
-> ExtrasImageAttachmentsList200Response extrasImageAttachmentsList(id, contentTypeId, objectId, name, q, created, contentType, idN, idLte, idLt, idGte, idGt, contentTypeIdN, objectIdN, objectIdLte, objectIdLt, objectIdGte, objectIdGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, contentTypeN, ordering, limit, offset)
+> ExtrasImageAttachmentsList200Response extrasImageAttachmentsList(id, contentTypeId, objectId, name, q, created, contentType, idN, idLte, idLt, idGte, idGt, contentTypeIdN, objectIdN, objectIdLte, objectIdLt, objectIdGte, objectIdGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, contentTypeN, limit, offset)
 
 
 
@@ -7396,11 +7288,10 @@ public class Example {
         String nameIe = "nameIe_example"; // String | 
         String nameNie = "nameNie_example"; // String | 
         String contentTypeN = "contentTypeN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ExtrasImageAttachmentsList200Response result = apiInstance.extrasImageAttachmentsList(id, contentTypeId, objectId, name, q, created, contentType, idN, idLte, idLt, idGte, idGt, contentTypeIdN, objectIdN, objectIdLte, objectIdLt, objectIdGte, objectIdGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, contentTypeN, ordering, limit, offset);
+            ExtrasImageAttachmentsList200Response result = apiInstance.extrasImageAttachmentsList(id, contentTypeId, objectId, name, q, created, contentType, idN, idLte, idLt, idGte, idGt, contentTypeIdN, objectIdN, objectIdLte, objectIdLt, objectIdGte, objectIdGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, contentTypeN, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling ExtrasApi#extrasImageAttachmentsList");
@@ -7446,7 +7337,6 @@ public class Example {
 | **nameIe** | **String**|  | [optional] |
 | **nameNie** | **String**|  | [optional] |
 | **contentTypeN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -7471,7 +7361,7 @@ public class Example {
 
 ## extrasImageAttachmentsListWithHttpInfo
 
-> ApiResponse<ExtrasImageAttachmentsList200Response> extrasImageAttachmentsList extrasImageAttachmentsListWithHttpInfo(id, contentTypeId, objectId, name, q, created, contentType, idN, idLte, idLt, idGte, idGt, contentTypeIdN, objectIdN, objectIdLte, objectIdLt, objectIdGte, objectIdGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, contentTypeN, ordering, limit, offset)
+> ApiResponse<ExtrasImageAttachmentsList200Response> extrasImageAttachmentsList extrasImageAttachmentsListWithHttpInfo(id, contentTypeId, objectId, name, q, created, contentType, idN, idLte, idLt, idGte, idGt, contentTypeIdN, objectIdN, objectIdLte, objectIdLt, objectIdGte, objectIdGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, contentTypeN, limit, offset)
 
 
 
@@ -7529,11 +7419,10 @@ public class Example {
         String nameIe = "nameIe_example"; // String | 
         String nameNie = "nameNie_example"; // String | 
         String contentTypeN = "contentTypeN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<ExtrasImageAttachmentsList200Response> response = apiInstance.extrasImageAttachmentsListWithHttpInfo(id, contentTypeId, objectId, name, q, created, contentType, idN, idLte, idLt, idGte, idGt, contentTypeIdN, objectIdN, objectIdLte, objectIdLt, objectIdGte, objectIdGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, contentTypeN, ordering, limit, offset);
+            ApiResponse<ExtrasImageAttachmentsList200Response> response = apiInstance.extrasImageAttachmentsListWithHttpInfo(id, contentTypeId, objectId, name, q, created, contentType, idN, idLte, idLt, idGte, idGt, contentTypeIdN, objectIdN, objectIdLte, objectIdLt, objectIdGte, objectIdGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, contentTypeN, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -7581,7 +7470,6 @@ public class Example {
 | **nameIe** | **String**|  | [optional] |
 | **nameNie** | **String**|  | [optional] |
 | **contentTypeN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -8047,7 +7935,7 @@ ApiResponse<[**ImageAttachment**](ImageAttachment.md)>
 
 ## extrasJobResultsList
 
-> ExtrasJobResultsList200Response extrasJobResultsList(id, created, completed, status, user, objType, name, q, idN, idLte, idLt, idGte, idGt, statusN, userN, objTypeN, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, ordering, limit, offset)
+> ExtrasJobResultsList200Response extrasJobResultsList(id, created, completed, status, user, objType, name, q, idN, idLte, idLt, idGte, idGt, statusN, userN, objTypeN, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, limit, offset)
 
 
 
@@ -8101,11 +7989,10 @@ public class Example {
         String nameNisw = "nameNisw_example"; // String | 
         String nameIe = "nameIe_example"; // String | 
         String nameNie = "nameNie_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ExtrasJobResultsList200Response result = apiInstance.extrasJobResultsList(id, created, completed, status, user, objType, name, q, idN, idLte, idLt, idGte, idGt, statusN, userN, objTypeN, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, ordering, limit, offset);
+            ExtrasJobResultsList200Response result = apiInstance.extrasJobResultsList(id, created, completed, status, user, objType, name, q, idN, idLte, idLt, idGte, idGt, statusN, userN, objTypeN, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling ExtrasApi#extrasJobResultsList");
@@ -8148,7 +8035,6 @@ public class Example {
 | **nameNisw** | **String**|  | [optional] |
 | **nameIe** | **String**|  | [optional] |
 | **nameNie** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -8173,7 +8059,7 @@ public class Example {
 
 ## extrasJobResultsListWithHttpInfo
 
-> ApiResponse<ExtrasJobResultsList200Response> extrasJobResultsList extrasJobResultsListWithHttpInfo(id, created, completed, status, user, objType, name, q, idN, idLte, idLt, idGte, idGt, statusN, userN, objTypeN, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, ordering, limit, offset)
+> ApiResponse<ExtrasJobResultsList200Response> extrasJobResultsList extrasJobResultsListWithHttpInfo(id, created, completed, status, user, objType, name, q, idN, idLte, idLt, idGte, idGt, statusN, userN, objTypeN, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, limit, offset)
 
 
 
@@ -8228,11 +8114,10 @@ public class Example {
         String nameNisw = "nameNisw_example"; // String | 
         String nameIe = "nameIe_example"; // String | 
         String nameNie = "nameNie_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<ExtrasJobResultsList200Response> response = apiInstance.extrasJobResultsListWithHttpInfo(id, created, completed, status, user, objType, name, q, idN, idLte, idLt, idGte, idGt, statusN, userN, objTypeN, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, ordering, limit, offset);
+            ApiResponse<ExtrasJobResultsList200Response> response = apiInstance.extrasJobResultsListWithHttpInfo(id, created, completed, status, user, objType, name, q, idN, idLte, idLt, idGte, idGt, statusN, userN, objTypeN, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -8277,7 +8162,6 @@ public class Example {
 | **nameNisw** | **String**|  | [optional] |
 | **nameIe** | **String**|  | [optional] |
 | **nameNie** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -9159,7 +9043,7 @@ ApiResponse<Void>
 
 ## extrasJournalEntriesList
 
-> ExtrasJournalEntriesList200Response extrasJournalEntriesList(id, assignedObjectTypeId, assignedObjectId, created, kind, lastUpdated, q, tag, assignedObjectType, createdById, createdBy, idN, idLte, idLt, idGte, idGt, assignedObjectTypeIdN, assignedObjectIdN, assignedObjectIdLte, assignedObjectIdLt, assignedObjectIdGte, assignedObjectIdGt, kindN, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, assignedObjectTypeN, createdByIdN, createdByN, ordering, limit, offset)
+> ExtrasJournalEntriesList200Response extrasJournalEntriesList(id, assignedObjectTypeId, assignedObjectId, created, kind, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, assignedObjectType, createdById, createdBy, idN, idLte, idLt, idGte, idGt, assignedObjectTypeIdN, assignedObjectIdN, assignedObjectIdLte, assignedObjectIdLt, assignedObjectIdGte, assignedObjectIdGt, kindN, tagN, assignedObjectTypeN, createdByIdN, createdByN, limit, offset)
 
 
 
@@ -9193,7 +9077,11 @@ public class Example {
         String assignedObjectId = "assignedObjectId_example"; // String | 
         String created = "created_example"; // String | 
         String kind = "kind_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String assignedObjectType = "assignedObjectType_example"; // String | 
@@ -9211,20 +9099,14 @@ public class Example {
         String assignedObjectIdGte = "assignedObjectIdGte_example"; // String | 
         String assignedObjectIdGt = "assignedObjectIdGt_example"; // String | 
         String kindN = "kindN_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String assignedObjectTypeN = "assignedObjectTypeN_example"; // String | 
         String createdByIdN = "createdByIdN_example"; // String | 
         String createdByN = "createdByN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ExtrasJournalEntriesList200Response result = apiInstance.extrasJournalEntriesList(id, assignedObjectTypeId, assignedObjectId, created, kind, lastUpdated, q, tag, assignedObjectType, createdById, createdBy, idN, idLte, idLt, idGte, idGt, assignedObjectTypeIdN, assignedObjectIdN, assignedObjectIdLte, assignedObjectIdLt, assignedObjectIdGte, assignedObjectIdGt, kindN, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, assignedObjectTypeN, createdByIdN, createdByN, ordering, limit, offset);
+            ExtrasJournalEntriesList200Response result = apiInstance.extrasJournalEntriesList(id, assignedObjectTypeId, assignedObjectId, created, kind, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, assignedObjectType, createdById, createdBy, idN, idLte, idLt, idGte, idGt, assignedObjectTypeIdN, assignedObjectIdN, assignedObjectIdLte, assignedObjectIdLt, assignedObjectIdGte, assignedObjectIdGt, kindN, tagN, assignedObjectTypeN, createdByIdN, createdByN, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling ExtrasApi#extrasJournalEntriesList");
@@ -9247,7 +9129,11 @@ public class Example {
 | **assignedObjectId** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
 | **kind** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **assignedObjectType** | **String**|  | [optional] |
@@ -9265,16 +9151,10 @@ public class Example {
 | **assignedObjectIdGte** | **String**|  | [optional] |
 | **assignedObjectIdGt** | **String**|  | [optional] |
 | **kindN** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **assignedObjectTypeN** | **String**|  | [optional] |
 | **createdByIdN** | **String**|  | [optional] |
 | **createdByN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -9299,7 +9179,7 @@ public class Example {
 
 ## extrasJournalEntriesListWithHttpInfo
 
-> ApiResponse<ExtrasJournalEntriesList200Response> extrasJournalEntriesList extrasJournalEntriesListWithHttpInfo(id, assignedObjectTypeId, assignedObjectId, created, kind, lastUpdated, q, tag, assignedObjectType, createdById, createdBy, idN, idLte, idLt, idGte, idGt, assignedObjectTypeIdN, assignedObjectIdN, assignedObjectIdLte, assignedObjectIdLt, assignedObjectIdGte, assignedObjectIdGt, kindN, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, assignedObjectTypeN, createdByIdN, createdByN, ordering, limit, offset)
+> ApiResponse<ExtrasJournalEntriesList200Response> extrasJournalEntriesList extrasJournalEntriesListWithHttpInfo(id, assignedObjectTypeId, assignedObjectId, created, kind, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, assignedObjectType, createdById, createdBy, idN, idLte, idLt, idGte, idGt, assignedObjectTypeIdN, assignedObjectIdN, assignedObjectIdLte, assignedObjectIdLt, assignedObjectIdGte, assignedObjectIdGt, kindN, tagN, assignedObjectTypeN, createdByIdN, createdByN, limit, offset)
 
 
 
@@ -9334,7 +9214,11 @@ public class Example {
         String assignedObjectId = "assignedObjectId_example"; // String | 
         String created = "created_example"; // String | 
         String kind = "kind_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String assignedObjectType = "assignedObjectType_example"; // String | 
@@ -9352,20 +9236,14 @@ public class Example {
         String assignedObjectIdGte = "assignedObjectIdGte_example"; // String | 
         String assignedObjectIdGt = "assignedObjectIdGt_example"; // String | 
         String kindN = "kindN_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String assignedObjectTypeN = "assignedObjectTypeN_example"; // String | 
         String createdByIdN = "createdByIdN_example"; // String | 
         String createdByN = "createdByN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<ExtrasJournalEntriesList200Response> response = apiInstance.extrasJournalEntriesListWithHttpInfo(id, assignedObjectTypeId, assignedObjectId, created, kind, lastUpdated, q, tag, assignedObjectType, createdById, createdBy, idN, idLte, idLt, idGte, idGt, assignedObjectTypeIdN, assignedObjectIdN, assignedObjectIdLte, assignedObjectIdLt, assignedObjectIdGte, assignedObjectIdGt, kindN, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, assignedObjectTypeN, createdByIdN, createdByN, ordering, limit, offset);
+            ApiResponse<ExtrasJournalEntriesList200Response> response = apiInstance.extrasJournalEntriesListWithHttpInfo(id, assignedObjectTypeId, assignedObjectId, created, kind, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, assignedObjectType, createdById, createdBy, idN, idLte, idLt, idGte, idGt, assignedObjectTypeIdN, assignedObjectIdN, assignedObjectIdLte, assignedObjectIdLt, assignedObjectIdGte, assignedObjectIdGt, kindN, tagN, assignedObjectTypeN, createdByIdN, createdByN, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -9390,7 +9268,11 @@ public class Example {
 | **assignedObjectId** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
 | **kind** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **assignedObjectType** | **String**|  | [optional] |
@@ -9408,16 +9290,10 @@ public class Example {
 | **assignedObjectIdGte** | **String**|  | [optional] |
 | **assignedObjectIdGt** | **String**|  | [optional] |
 | **kindN** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **assignedObjectTypeN** | **String**|  | [optional] |
 | **createdByIdN** | **String**|  | [optional] |
 | **createdByN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -9883,7 +9759,7 @@ ApiResponse<[**JournalEntry**](JournalEntry.md)>
 
 ## extrasObjectChangesList
 
-> ExtrasObjectChangesList200Response extrasObjectChangesList(id, user, userName, requestId, action, changedObjectTypeId, changedObjectId, objectRepr, q, time, changedObjectType, userId, idN, idLte, idLt, idGte, idGt, userN, userNameN, userNameIc, userNameNic, userNameIew, userNameNiew, userNameIsw, userNameNisw, userNameIe, userNameNie, actionN, changedObjectTypeIdN, changedObjectIdN, changedObjectIdLte, changedObjectIdLt, changedObjectIdGte, changedObjectIdGt, objectReprN, objectReprIc, objectReprNic, objectReprIew, objectReprNiew, objectReprIsw, objectReprNisw, objectReprIe, objectReprNie, changedObjectTypeN, userIdN, ordering, limit, offset)
+> ExtrasObjectChangesList200Response extrasObjectChangesList(id, user, userName, requestId, action, changedObjectTypeId, changedObjectId, objectRepr, q, time, changedObjectType, userId, idN, idLte, idLt, idGte, idGt, userN, userNameN, userNameIc, userNameNic, userNameIew, userNameNiew, userNameIsw, userNameNisw, userNameIe, userNameNie, actionN, changedObjectTypeIdN, changedObjectIdN, changedObjectIdLte, changedObjectIdLt, changedObjectIdGte, changedObjectIdGt, objectReprN, objectReprIc, objectReprNic, objectReprIew, objectReprNiew, objectReprIsw, objectReprNisw, objectReprIe, objectReprNie, changedObjectTypeN, userIdN, limit, offset)
 
 
 
@@ -9957,11 +9833,10 @@ public class Example {
         String objectReprNie = "objectReprNie_example"; // String | 
         String changedObjectTypeN = "changedObjectTypeN_example"; // String | 
         String userIdN = "userIdN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ExtrasObjectChangesList200Response result = apiInstance.extrasObjectChangesList(id, user, userName, requestId, action, changedObjectTypeId, changedObjectId, objectRepr, q, time, changedObjectType, userId, idN, idLte, idLt, idGte, idGt, userN, userNameN, userNameIc, userNameNic, userNameIew, userNameNiew, userNameIsw, userNameNisw, userNameIe, userNameNie, actionN, changedObjectTypeIdN, changedObjectIdN, changedObjectIdLte, changedObjectIdLt, changedObjectIdGte, changedObjectIdGt, objectReprN, objectReprIc, objectReprNic, objectReprIew, objectReprNiew, objectReprIsw, objectReprNisw, objectReprIe, objectReprNie, changedObjectTypeN, userIdN, ordering, limit, offset);
+            ExtrasObjectChangesList200Response result = apiInstance.extrasObjectChangesList(id, user, userName, requestId, action, changedObjectTypeId, changedObjectId, objectRepr, q, time, changedObjectType, userId, idN, idLte, idLt, idGte, idGt, userN, userNameN, userNameIc, userNameNic, userNameIew, userNameNiew, userNameIsw, userNameNisw, userNameIe, userNameNie, actionN, changedObjectTypeIdN, changedObjectIdN, changedObjectIdLte, changedObjectIdLt, changedObjectIdGte, changedObjectIdGt, objectReprN, objectReprIc, objectReprNic, objectReprIew, objectReprNiew, objectReprIsw, objectReprNisw, objectReprIe, objectReprNie, changedObjectTypeN, userIdN, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling ExtrasApi#extrasObjectChangesList");
@@ -10024,7 +9899,6 @@ public class Example {
 | **objectReprNie** | **String**|  | [optional] |
 | **changedObjectTypeN** | **String**|  | [optional] |
 | **userIdN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -10049,7 +9923,7 @@ public class Example {
 
 ## extrasObjectChangesListWithHttpInfo
 
-> ApiResponse<ExtrasObjectChangesList200Response> extrasObjectChangesList extrasObjectChangesListWithHttpInfo(id, user, userName, requestId, action, changedObjectTypeId, changedObjectId, objectRepr, q, time, changedObjectType, userId, idN, idLte, idLt, idGte, idGt, userN, userNameN, userNameIc, userNameNic, userNameIew, userNameNiew, userNameIsw, userNameNisw, userNameIe, userNameNie, actionN, changedObjectTypeIdN, changedObjectIdN, changedObjectIdLte, changedObjectIdLt, changedObjectIdGte, changedObjectIdGt, objectReprN, objectReprIc, objectReprNic, objectReprIew, objectReprNiew, objectReprIsw, objectReprNisw, objectReprIe, objectReprNie, changedObjectTypeN, userIdN, ordering, limit, offset)
+> ApiResponse<ExtrasObjectChangesList200Response> extrasObjectChangesList extrasObjectChangesListWithHttpInfo(id, user, userName, requestId, action, changedObjectTypeId, changedObjectId, objectRepr, q, time, changedObjectType, userId, idN, idLte, idLt, idGte, idGt, userN, userNameN, userNameIc, userNameNic, userNameIew, userNameNiew, userNameIsw, userNameNisw, userNameIe, userNameNie, actionN, changedObjectTypeIdN, changedObjectIdN, changedObjectIdLte, changedObjectIdLt, changedObjectIdGte, changedObjectIdGt, objectReprN, objectReprIc, objectReprNic, objectReprIew, objectReprNiew, objectReprIsw, objectReprNisw, objectReprIe, objectReprNie, changedObjectTypeN, userIdN, limit, offset)
 
 
 
@@ -10124,11 +9998,10 @@ public class Example {
         String objectReprNie = "objectReprNie_example"; // String | 
         String changedObjectTypeN = "changedObjectTypeN_example"; // String | 
         String userIdN = "userIdN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<ExtrasObjectChangesList200Response> response = apiInstance.extrasObjectChangesListWithHttpInfo(id, user, userName, requestId, action, changedObjectTypeId, changedObjectId, objectRepr, q, time, changedObjectType, userId, idN, idLte, idLt, idGte, idGt, userN, userNameN, userNameIc, userNameNic, userNameIew, userNameNiew, userNameIsw, userNameNisw, userNameIe, userNameNie, actionN, changedObjectTypeIdN, changedObjectIdN, changedObjectIdLte, changedObjectIdLt, changedObjectIdGte, changedObjectIdGt, objectReprN, objectReprIc, objectReprNic, objectReprIew, objectReprNiew, objectReprIsw, objectReprNisw, objectReprIe, objectReprNie, changedObjectTypeN, userIdN, ordering, limit, offset);
+            ApiResponse<ExtrasObjectChangesList200Response> response = apiInstance.extrasObjectChangesListWithHttpInfo(id, user, userName, requestId, action, changedObjectTypeId, changedObjectId, objectRepr, q, time, changedObjectType, userId, idN, idLte, idLt, idGte, idGt, userN, userNameN, userNameIc, userNameNic, userNameIew, userNameNiew, userNameIsw, userNameNisw, userNameIe, userNameNie, actionN, changedObjectTypeIdN, changedObjectIdN, changedObjectIdLte, changedObjectIdLt, changedObjectIdGte, changedObjectIdGt, objectReprN, objectReprIc, objectReprNic, objectReprIew, objectReprNiew, objectReprIsw, objectReprNisw, objectReprIe, objectReprNie, changedObjectTypeN, userIdN, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -10193,7 +10066,6 @@ public class Example {
 | **objectReprNie** | **String**|  | [optional] |
 | **changedObjectTypeN** | **String**|  | [optional] |
 | **userIdN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -11781,7 +11653,7 @@ ApiResponse<Void>
 
 ## extrasTagsList
 
-> ExtrasTagsList200Response extrasTagsList(id, name, slug, color, description, created, lastUpdated, q, contentType, contentTypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, colorN, colorIc, colorNic, colorIew, colorNiew, colorIsw, colorNisw, colorIe, colorNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, ordering, limit, offset)
+> ExtrasTagsList200Response extrasTagsList(id, name, slug, color, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, contentType, contentTypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, colorN, colorIc, colorNic, colorIew, colorNiew, colorIsw, colorNisw, colorIe, colorNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, limit, offset)
 
 
 
@@ -11816,7 +11688,11 @@ public class Example {
         String color = "color_example"; // String | 
         String description = "description_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String contentType = "contentType_example"; // String | 
         String contentTypeId = "contentTypeId_example"; // String | 
@@ -11861,21 +11737,10 @@ public class Example {
         String descriptionNisw = "descriptionNisw_example"; // String | 
         String descriptionIe = "descriptionIe_example"; // String | 
         String descriptionNie = "descriptionNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ExtrasTagsList200Response result = apiInstance.extrasTagsList(id, name, slug, color, description, created, lastUpdated, q, contentType, contentTypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, colorN, colorIc, colorNic, colorIew, colorNiew, colorIsw, colorNisw, colorIe, colorNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, ordering, limit, offset);
+            ExtrasTagsList200Response result = apiInstance.extrasTagsList(id, name, slug, color, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, contentType, contentTypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, colorN, colorIc, colorNic, colorIew, colorNiew, colorIsw, colorNisw, colorIe, colorNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling ExtrasApi#extrasTagsList");
@@ -11899,7 +11764,11 @@ public class Example {
 | **color** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **contentType** | **String**|  | [optional] |
 | **contentTypeId** | **String**|  | [optional] |
@@ -11944,17 +11813,6 @@ public class Example {
 | **descriptionNisw** | **String**|  | [optional] |
 | **descriptionIe** | **String**|  | [optional] |
 | **descriptionNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -11979,7 +11837,7 @@ public class Example {
 
 ## extrasTagsListWithHttpInfo
 
-> ApiResponse<ExtrasTagsList200Response> extrasTagsList extrasTagsListWithHttpInfo(id, name, slug, color, description, created, lastUpdated, q, contentType, contentTypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, colorN, colorIc, colorNic, colorIew, colorNiew, colorIsw, colorNisw, colorIe, colorNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, ordering, limit, offset)
+> ApiResponse<ExtrasTagsList200Response> extrasTagsList extrasTagsListWithHttpInfo(id, name, slug, color, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, contentType, contentTypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, colorN, colorIc, colorNic, colorIew, colorNiew, colorIsw, colorNisw, colorIe, colorNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, limit, offset)
 
 
 
@@ -12015,7 +11873,11 @@ public class Example {
         String color = "color_example"; // String | 
         String description = "description_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String contentType = "contentType_example"; // String | 
         String contentTypeId = "contentTypeId_example"; // String | 
@@ -12060,21 +11922,10 @@ public class Example {
         String descriptionNisw = "descriptionNisw_example"; // String | 
         String descriptionIe = "descriptionIe_example"; // String | 
         String descriptionNie = "descriptionNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<ExtrasTagsList200Response> response = apiInstance.extrasTagsListWithHttpInfo(id, name, slug, color, description, created, lastUpdated, q, contentType, contentTypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, colorN, colorIc, colorNic, colorIew, colorNiew, colorIsw, colorNisw, colorIe, colorNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, ordering, limit, offset);
+            ApiResponse<ExtrasTagsList200Response> response = apiInstance.extrasTagsListWithHttpInfo(id, name, slug, color, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, contentType, contentTypeId, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, colorN, colorIc, colorNic, colorIew, colorNiew, colorIsw, colorNisw, colorIe, colorNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -12100,7 +11951,11 @@ public class Example {
 | **color** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **contentType** | **String**|  | [optional] |
 | **contentTypeId** | **String**|  | [optional] |
@@ -12145,17 +12000,6 @@ public class Example {
 | **descriptionNisw** | **String**|  | [optional] |
 | **descriptionIe** | **String**|  | [optional] |
 | **descriptionNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -13329,7 +13173,7 @@ ApiResponse<Void>
 
 ## extrasWebhooksList
 
-> ExtrasWebhooksList200Response extrasWebhooksList(id, name, typeCreate, typeUpdate, typeDelete, payloadUrl, enabled, httpMethod, httpContentType, secret, sslVerification, caFilePath, q, contentTypeId, contentTypes, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, payloadUrlN, payloadUrlIc, payloadUrlNic, payloadUrlIew, payloadUrlNiew, payloadUrlIsw, payloadUrlNisw, payloadUrlIe, payloadUrlNie, httpMethodN, httpContentTypeN, httpContentTypeIc, httpContentTypeNic, httpContentTypeIew, httpContentTypeNiew, httpContentTypeIsw, httpContentTypeNisw, httpContentTypeIe, httpContentTypeNie, secretN, secretIc, secretNic, secretIew, secretNiew, secretIsw, secretNisw, secretIe, secretNie, caFilePathN, caFilePathIc, caFilePathNic, caFilePathIew, caFilePathNiew, caFilePathIsw, caFilePathNisw, caFilePathIe, caFilePathNie, contentTypeIdN, contentTypeIdLte, contentTypeIdLt, contentTypeIdGte, contentTypeIdGt, contentTypesN, contentTypesIc, contentTypesNic, contentTypesIew, contentTypesNiew, contentTypesIsw, contentTypesNisw, contentTypesIe, contentTypesNie, ordering, limit, offset)
+> ExtrasWebhooksList200Response extrasWebhooksList(id, name, typeCreate, typeUpdate, typeDelete, payloadUrl, enabled, httpMethod, httpContentType, secret, sslVerification, caFilePath, q, contentTypeId, contentTypes, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, payloadUrlN, payloadUrlIc, payloadUrlNic, payloadUrlIew, payloadUrlNiew, payloadUrlIsw, payloadUrlNisw, payloadUrlIe, payloadUrlNie, httpMethodN, httpContentTypeN, httpContentTypeIc, httpContentTypeNic, httpContentTypeIew, httpContentTypeNiew, httpContentTypeIsw, httpContentTypeNisw, httpContentTypeIe, httpContentTypeNie, secretN, secretIc, secretNic, secretIew, secretNiew, secretIsw, secretNisw, secretIe, secretNie, caFilePathN, caFilePathIc, caFilePathNic, caFilePathIew, caFilePathNiew, caFilePathIsw, caFilePathNisw, caFilePathIe, caFilePathNie, contentTypeIdN, contentTypeIdLte, contentTypeIdLt, contentTypeIdGte, contentTypeIdGt, contentTypesN, contentTypesIc, contentTypesNic, contentTypesIew, contentTypesNiew, contentTypesIsw, contentTypesNisw, contentTypesIe, contentTypesNie, limit, offset)
 
 
 
@@ -13438,11 +13282,10 @@ public class Example {
         String contentTypesNisw = "contentTypesNisw_example"; // String | 
         String contentTypesIe = "contentTypesIe_example"; // String | 
         String contentTypesNie = "contentTypesNie_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ExtrasWebhooksList200Response result = apiInstance.extrasWebhooksList(id, name, typeCreate, typeUpdate, typeDelete, payloadUrl, enabled, httpMethod, httpContentType, secret, sslVerification, caFilePath, q, contentTypeId, contentTypes, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, payloadUrlN, payloadUrlIc, payloadUrlNic, payloadUrlIew, payloadUrlNiew, payloadUrlIsw, payloadUrlNisw, payloadUrlIe, payloadUrlNie, httpMethodN, httpContentTypeN, httpContentTypeIc, httpContentTypeNic, httpContentTypeIew, httpContentTypeNiew, httpContentTypeIsw, httpContentTypeNisw, httpContentTypeIe, httpContentTypeNie, secretN, secretIc, secretNic, secretIew, secretNiew, secretIsw, secretNisw, secretIe, secretNie, caFilePathN, caFilePathIc, caFilePathNic, caFilePathIew, caFilePathNiew, caFilePathIsw, caFilePathNisw, caFilePathIe, caFilePathNie, contentTypeIdN, contentTypeIdLte, contentTypeIdLt, contentTypeIdGte, contentTypeIdGt, contentTypesN, contentTypesIc, contentTypesNic, contentTypesIew, contentTypesNiew, contentTypesIsw, contentTypesNisw, contentTypesIe, contentTypesNie, ordering, limit, offset);
+            ExtrasWebhooksList200Response result = apiInstance.extrasWebhooksList(id, name, typeCreate, typeUpdate, typeDelete, payloadUrl, enabled, httpMethod, httpContentType, secret, sslVerification, caFilePath, q, contentTypeId, contentTypes, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, payloadUrlN, payloadUrlIc, payloadUrlNic, payloadUrlIew, payloadUrlNiew, payloadUrlIsw, payloadUrlNisw, payloadUrlIe, payloadUrlNie, httpMethodN, httpContentTypeN, httpContentTypeIc, httpContentTypeNic, httpContentTypeIew, httpContentTypeNiew, httpContentTypeIsw, httpContentTypeNisw, httpContentTypeIe, httpContentTypeNie, secretN, secretIc, secretNic, secretIew, secretNiew, secretIsw, secretNisw, secretIe, secretNie, caFilePathN, caFilePathIc, caFilePathNic, caFilePathIew, caFilePathNiew, caFilePathIsw, caFilePathNisw, caFilePathIe, caFilePathNie, contentTypeIdN, contentTypeIdLte, contentTypeIdLt, contentTypeIdGte, contentTypeIdGt, contentTypesN, contentTypesIc, contentTypesNic, contentTypesIew, contentTypesNiew, contentTypesIsw, contentTypesNisw, contentTypesIe, contentTypesNie, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling ExtrasApi#extrasWebhooksList");
@@ -13540,7 +13383,6 @@ public class Example {
 | **contentTypesNisw** | **String**|  | [optional] |
 | **contentTypesIe** | **String**|  | [optional] |
 | **contentTypesNie** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -13565,7 +13407,7 @@ public class Example {
 
 ## extrasWebhooksListWithHttpInfo
 
-> ApiResponse<ExtrasWebhooksList200Response> extrasWebhooksList extrasWebhooksListWithHttpInfo(id, name, typeCreate, typeUpdate, typeDelete, payloadUrl, enabled, httpMethod, httpContentType, secret, sslVerification, caFilePath, q, contentTypeId, contentTypes, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, payloadUrlN, payloadUrlIc, payloadUrlNic, payloadUrlIew, payloadUrlNiew, payloadUrlIsw, payloadUrlNisw, payloadUrlIe, payloadUrlNie, httpMethodN, httpContentTypeN, httpContentTypeIc, httpContentTypeNic, httpContentTypeIew, httpContentTypeNiew, httpContentTypeIsw, httpContentTypeNisw, httpContentTypeIe, httpContentTypeNie, secretN, secretIc, secretNic, secretIew, secretNiew, secretIsw, secretNisw, secretIe, secretNie, caFilePathN, caFilePathIc, caFilePathNic, caFilePathIew, caFilePathNiew, caFilePathIsw, caFilePathNisw, caFilePathIe, caFilePathNie, contentTypeIdN, contentTypeIdLte, contentTypeIdLt, contentTypeIdGte, contentTypeIdGt, contentTypesN, contentTypesIc, contentTypesNic, contentTypesIew, contentTypesNiew, contentTypesIsw, contentTypesNisw, contentTypesIe, contentTypesNie, ordering, limit, offset)
+> ApiResponse<ExtrasWebhooksList200Response> extrasWebhooksList extrasWebhooksListWithHttpInfo(id, name, typeCreate, typeUpdate, typeDelete, payloadUrl, enabled, httpMethod, httpContentType, secret, sslVerification, caFilePath, q, contentTypeId, contentTypes, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, payloadUrlN, payloadUrlIc, payloadUrlNic, payloadUrlIew, payloadUrlNiew, payloadUrlIsw, payloadUrlNisw, payloadUrlIe, payloadUrlNie, httpMethodN, httpContentTypeN, httpContentTypeIc, httpContentTypeNic, httpContentTypeIew, httpContentTypeNiew, httpContentTypeIsw, httpContentTypeNisw, httpContentTypeIe, httpContentTypeNie, secretN, secretIc, secretNic, secretIew, secretNiew, secretIsw, secretNisw, secretIe, secretNie, caFilePathN, caFilePathIc, caFilePathNic, caFilePathIew, caFilePathNiew, caFilePathIsw, caFilePathNisw, caFilePathIe, caFilePathNie, contentTypeIdN, contentTypeIdLte, contentTypeIdLt, contentTypeIdGte, contentTypeIdGt, contentTypesN, contentTypesIc, contentTypesNic, contentTypesIew, contentTypesNiew, contentTypesIsw, contentTypesNisw, contentTypesIe, contentTypesNie, limit, offset)
 
 
 
@@ -13675,11 +13517,10 @@ public class Example {
         String contentTypesNisw = "contentTypesNisw_example"; // String | 
         String contentTypesIe = "contentTypesIe_example"; // String | 
         String contentTypesNie = "contentTypesNie_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<ExtrasWebhooksList200Response> response = apiInstance.extrasWebhooksListWithHttpInfo(id, name, typeCreate, typeUpdate, typeDelete, payloadUrl, enabled, httpMethod, httpContentType, secret, sslVerification, caFilePath, q, contentTypeId, contentTypes, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, payloadUrlN, payloadUrlIc, payloadUrlNic, payloadUrlIew, payloadUrlNiew, payloadUrlIsw, payloadUrlNisw, payloadUrlIe, payloadUrlNie, httpMethodN, httpContentTypeN, httpContentTypeIc, httpContentTypeNic, httpContentTypeIew, httpContentTypeNiew, httpContentTypeIsw, httpContentTypeNisw, httpContentTypeIe, httpContentTypeNie, secretN, secretIc, secretNic, secretIew, secretNiew, secretIsw, secretNisw, secretIe, secretNie, caFilePathN, caFilePathIc, caFilePathNic, caFilePathIew, caFilePathNiew, caFilePathIsw, caFilePathNisw, caFilePathIe, caFilePathNie, contentTypeIdN, contentTypeIdLte, contentTypeIdLt, contentTypeIdGte, contentTypeIdGt, contentTypesN, contentTypesIc, contentTypesNic, contentTypesIew, contentTypesNiew, contentTypesIsw, contentTypesNisw, contentTypesIe, contentTypesNie, ordering, limit, offset);
+            ApiResponse<ExtrasWebhooksList200Response> response = apiInstance.extrasWebhooksListWithHttpInfo(id, name, typeCreate, typeUpdate, typeDelete, payloadUrl, enabled, httpMethod, httpContentType, secret, sslVerification, caFilePath, q, contentTypeId, contentTypes, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, payloadUrlN, payloadUrlIc, payloadUrlNic, payloadUrlIew, payloadUrlNiew, payloadUrlIsw, payloadUrlNisw, payloadUrlIe, payloadUrlNie, httpMethodN, httpContentTypeN, httpContentTypeIc, httpContentTypeNic, httpContentTypeIew, httpContentTypeNiew, httpContentTypeIsw, httpContentTypeNisw, httpContentTypeIe, httpContentTypeNie, secretN, secretIc, secretNic, secretIew, secretNiew, secretIsw, secretNisw, secretIe, secretNie, caFilePathN, caFilePathIc, caFilePathNic, caFilePathIew, caFilePathNiew, caFilePathIsw, caFilePathNisw, caFilePathIe, caFilePathNie, contentTypeIdN, contentTypeIdLte, contentTypeIdLt, contentTypeIdGte, contentTypeIdGt, contentTypesN, contentTypesIc, contentTypesNic, contentTypesIew, contentTypesNiew, contentTypesIsw, contentTypesNisw, contentTypesIe, contentTypesNie, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -13779,7 +13620,6 @@ public class Example {
 | **contentTypesNisw** | **String**|  | [optional] |
 | **contentTypesIe** | **String**|  | [optional] |
 | **contentTypesNie** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 

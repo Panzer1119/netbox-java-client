@@ -16,7 +16,6 @@
 |**status** | [**Status**](Status.md) |  |  [optional] |
 |**tenant** | [**NestedTenant**](NestedTenant.md) |  |  [optional] |
 |**installDate** | **LocalDate** |  |  [optional] |
-|**terminationDate** | **LocalDate** |  |  [optional] |
 |**commitRate** | **Integer** |  |  [optional] |
 |**description** | **String** |  |  [optional] |
 |**terminationA** | [**CircuitCircuitTermination**](CircuitCircuitTermination.md) |  |  [optional] |

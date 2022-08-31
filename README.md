@@ -4,9 +4,9 @@
 
 NetBox API
 
-- API version: 3.3
+- API version: 3.2
 
-- Build date: 2022-08-31T15:10:46.540964900+02:00[Europe/Berlin]
+- Build date: 2022-08-31T18:36:37.665487300+02:00[Europe/Berlin]
 
 API to access NetBox
 
@@ -44,7 +44,7 @@ Add this dependency to your project's POM:
 <dependency>
   <groupId>de.codemakers.netbox</groupId>
   <artifactId>netbox-java-client</artifactId>
-  <version>0.4.1-1-SNAPSHOT</version>
+  <version>3.2.0</version>
   <scope>compile</scope>
 </dependency>
 ```
@@ -54,7 +54,7 @@ Add this dependency to your project's POM:
 Add this dependency to your project's build file:
 
 ```groovy
-implementation "de.codemakers.netbox:netbox-java-client:0.4.1-1-SNAPSHOT"
+implementation "de.codemakers.netbox:netbox-java-client:3.2.0"
 ```
 
 ### Others
@@ -86,7 +86,6 @@ public class CircuitsApiExample {
         ApiClient defaultClient = Configuration.getDefaultApiClient();
         // Configure clients using the `defaultClient` object, such as
         // overriding the host and port, timeout, etc.
-        
         CircuitsApi apiInstance = new CircuitsApi(defaultClient);
         try {
             apiInstance.circuitsCircuitTerminationsBulkDelete();
@@ -200,24 +199,6 @@ Class | Method | HTTP request | Description
 *CircuitsApi* | [**circuitsProvidersReadWithHttpInfo**](docs/CircuitsApi.md#circuitsProvidersReadWithHttpInfo) | **GET** /circuits/providers/{id}/ | 
 *CircuitsApi* | [**circuitsProvidersUpdate**](docs/CircuitsApi.md#circuitsProvidersUpdate) | **PUT** /circuits/providers/{id}/ | 
 *CircuitsApi* | [**circuitsProvidersUpdateWithHttpInfo**](docs/CircuitsApi.md#circuitsProvidersUpdateWithHttpInfo) | **PUT** /circuits/providers/{id}/ | 
-*DcimApi* | [**dcimCableTerminationsBulkDelete**](docs/DcimApi.md#dcimCableTerminationsBulkDelete) | **DELETE** /dcim/cable-terminations/ | 
-*DcimApi* | [**dcimCableTerminationsBulkDeleteWithHttpInfo**](docs/DcimApi.md#dcimCableTerminationsBulkDeleteWithHttpInfo) | **DELETE** /dcim/cable-terminations/ | 
-*DcimApi* | [**dcimCableTerminationsBulkPartialUpdate**](docs/DcimApi.md#dcimCableTerminationsBulkPartialUpdate) | **PATCH** /dcim/cable-terminations/ | 
-*DcimApi* | [**dcimCableTerminationsBulkPartialUpdateWithHttpInfo**](docs/DcimApi.md#dcimCableTerminationsBulkPartialUpdateWithHttpInfo) | **PATCH** /dcim/cable-terminations/ | 
-*DcimApi* | [**dcimCableTerminationsBulkUpdate**](docs/DcimApi.md#dcimCableTerminationsBulkUpdate) | **PUT** /dcim/cable-terminations/ | 
-*DcimApi* | [**dcimCableTerminationsBulkUpdateWithHttpInfo**](docs/DcimApi.md#dcimCableTerminationsBulkUpdateWithHttpInfo) | **PUT** /dcim/cable-terminations/ | 
-*DcimApi* | [**dcimCableTerminationsCreate**](docs/DcimApi.md#dcimCableTerminationsCreate) | **POST** /dcim/cable-terminations/ | 
-*DcimApi* | [**dcimCableTerminationsCreateWithHttpInfo**](docs/DcimApi.md#dcimCableTerminationsCreateWithHttpInfo) | **POST** /dcim/cable-terminations/ | 
-*DcimApi* | [**dcimCableTerminationsDelete**](docs/DcimApi.md#dcimCableTerminationsDelete) | **DELETE** /dcim/cable-terminations/{id}/ | 
-*DcimApi* | [**dcimCableTerminationsDeleteWithHttpInfo**](docs/DcimApi.md#dcimCableTerminationsDeleteWithHttpInfo) | **DELETE** /dcim/cable-terminations/{id}/ | 
-*DcimApi* | [**dcimCableTerminationsList**](docs/DcimApi.md#dcimCableTerminationsList) | **GET** /dcim/cable-terminations/ | 
-*DcimApi* | [**dcimCableTerminationsListWithHttpInfo**](docs/DcimApi.md#dcimCableTerminationsListWithHttpInfo) | **GET** /dcim/cable-terminations/ | 
-*DcimApi* | [**dcimCableTerminationsPartialUpdate**](docs/DcimApi.md#dcimCableTerminationsPartialUpdate) | **PATCH** /dcim/cable-terminations/{id}/ | 
-*DcimApi* | [**dcimCableTerminationsPartialUpdateWithHttpInfo**](docs/DcimApi.md#dcimCableTerminationsPartialUpdateWithHttpInfo) | **PATCH** /dcim/cable-terminations/{id}/ | 
-*DcimApi* | [**dcimCableTerminationsRead**](docs/DcimApi.md#dcimCableTerminationsRead) | **GET** /dcim/cable-terminations/{id}/ | 
-*DcimApi* | [**dcimCableTerminationsReadWithHttpInfo**](docs/DcimApi.md#dcimCableTerminationsReadWithHttpInfo) | **GET** /dcim/cable-terminations/{id}/ | 
-*DcimApi* | [**dcimCableTerminationsUpdate**](docs/DcimApi.md#dcimCableTerminationsUpdate) | **PUT** /dcim/cable-terminations/{id}/ | 
-*DcimApi* | [**dcimCableTerminationsUpdateWithHttpInfo**](docs/DcimApi.md#dcimCableTerminationsUpdateWithHttpInfo) | **PUT** /dcim/cable-terminations/{id}/ | 
 *DcimApi* | [**dcimCablesBulkDelete**](docs/DcimApi.md#dcimCablesBulkDelete) | **DELETE** /dcim/cables/ | 
 *DcimApi* | [**dcimCablesBulkDeleteWithHttpInfo**](docs/DcimApi.md#dcimCablesBulkDeleteWithHttpInfo) | **DELETE** /dcim/cables/ | 
 *DcimApi* | [**dcimCablesBulkPartialUpdate**](docs/DcimApi.md#dcimCablesBulkPartialUpdate) | **PATCH** /dcim/cables/ | 
@@ -478,8 +459,8 @@ Class | Method | HTTP request | Description
 *DcimApi* | [**dcimInterfacesPartialUpdateWithHttpInfo**](docs/DcimApi.md#dcimInterfacesPartialUpdateWithHttpInfo) | **PATCH** /dcim/interfaces/{id}/ | 
 *DcimApi* | [**dcimInterfacesRead**](docs/DcimApi.md#dcimInterfacesRead) | **GET** /dcim/interfaces/{id}/ | 
 *DcimApi* | [**dcimInterfacesReadWithHttpInfo**](docs/DcimApi.md#dcimInterfacesReadWithHttpInfo) | **GET** /dcim/interfaces/{id}/ | 
-*DcimApi* | [**dcimInterfacesTraceRead**](docs/DcimApi.md#dcimInterfacesTraceRead) | **GET** /dcim/interfaces/{id}/trace/ | 
-*DcimApi* | [**dcimInterfacesTraceReadWithHttpInfo**](docs/DcimApi.md#dcimInterfacesTraceReadWithHttpInfo) | **GET** /dcim/interfaces/{id}/trace/ | 
+*DcimApi* | [**dcimInterfacesTrace**](docs/DcimApi.md#dcimInterfacesTrace) | **GET** /dcim/interfaces/{id}/trace/ | 
+*DcimApi* | [**dcimInterfacesTraceWithHttpInfo**](docs/DcimApi.md#dcimInterfacesTraceWithHttpInfo) | **GET** /dcim/interfaces/{id}/trace/ | 
 *DcimApi* | [**dcimInterfacesUpdate**](docs/DcimApi.md#dcimInterfacesUpdate) | **PUT** /dcim/interfaces/{id}/ | 
 *DcimApi* | [**dcimInterfacesUpdateWithHttpInfo**](docs/DcimApi.md#dcimInterfacesUpdateWithHttpInfo) | **PUT** /dcim/interfaces/{id}/ | 
 *DcimApi* | [**dcimInventoryItemRolesBulkDelete**](docs/DcimApi.md#dcimInventoryItemRolesBulkDelete) | **DELETE** /dcim/inventory-item-roles/ | 
@@ -822,8 +803,8 @@ Class | Method | HTTP request | Description
 *DcimApi* | [**dcimRacksCreateWithHttpInfo**](docs/DcimApi.md#dcimRacksCreateWithHttpInfo) | **POST** /dcim/racks/ | 
 *DcimApi* | [**dcimRacksDelete**](docs/DcimApi.md#dcimRacksDelete) | **DELETE** /dcim/racks/{id}/ | 
 *DcimApi* | [**dcimRacksDeleteWithHttpInfo**](docs/DcimApi.md#dcimRacksDeleteWithHttpInfo) | **DELETE** /dcim/racks/{id}/ | 
-*DcimApi* | [**dcimRacksElevationRead**](docs/DcimApi.md#dcimRacksElevationRead) | **GET** /dcim/racks/{id}/elevation/ | 
-*DcimApi* | [**dcimRacksElevationReadWithHttpInfo**](docs/DcimApi.md#dcimRacksElevationReadWithHttpInfo) | **GET** /dcim/racks/{id}/elevation/ | 
+*DcimApi* | [**dcimRacksElevation**](docs/DcimApi.md#dcimRacksElevation) | **GET** /dcim/racks/{id}/elevation/ | 
+*DcimApi* | [**dcimRacksElevationWithHttpInfo**](docs/DcimApi.md#dcimRacksElevationWithHttpInfo) | **GET** /dcim/racks/{id}/elevation/ | 
 *DcimApi* | [**dcimRacksList**](docs/DcimApi.md#dcimRacksList) | **GET** /dcim/racks/ | 
 *DcimApi* | [**dcimRacksListWithHttpInfo**](docs/DcimApi.md#dcimRacksListWithHttpInfo) | **GET** /dcim/racks/ | 
 *DcimApi* | [**dcimRacksPartialUpdate**](docs/DcimApi.md#dcimRacksPartialUpdate) | **PATCH** /dcim/racks/{id}/ | 
@@ -1220,42 +1201,6 @@ Class | Method | HTTP request | Description
 *IpamApi* | [**ipamIpRangesReadWithHttpInfo**](docs/IpamApi.md#ipamIpRangesReadWithHttpInfo) | **GET** /ipam/ip-ranges/{id}/ | 
 *IpamApi* | [**ipamIpRangesUpdate**](docs/IpamApi.md#ipamIpRangesUpdate) | **PUT** /ipam/ip-ranges/{id}/ | 
 *IpamApi* | [**ipamIpRangesUpdateWithHttpInfo**](docs/IpamApi.md#ipamIpRangesUpdateWithHttpInfo) | **PUT** /ipam/ip-ranges/{id}/ | 
-*IpamApi* | [**ipamL2vpnTerminationsBulkDelete**](docs/IpamApi.md#ipamL2vpnTerminationsBulkDelete) | **DELETE** /ipam/l2vpn-terminations/ | 
-*IpamApi* | [**ipamL2vpnTerminationsBulkDeleteWithHttpInfo**](docs/IpamApi.md#ipamL2vpnTerminationsBulkDeleteWithHttpInfo) | **DELETE** /ipam/l2vpn-terminations/ | 
-*IpamApi* | [**ipamL2vpnTerminationsBulkPartialUpdate**](docs/IpamApi.md#ipamL2vpnTerminationsBulkPartialUpdate) | **PATCH** /ipam/l2vpn-terminations/ | 
-*IpamApi* | [**ipamL2vpnTerminationsBulkPartialUpdateWithHttpInfo**](docs/IpamApi.md#ipamL2vpnTerminationsBulkPartialUpdateWithHttpInfo) | **PATCH** /ipam/l2vpn-terminations/ | 
-*IpamApi* | [**ipamL2vpnTerminationsBulkUpdate**](docs/IpamApi.md#ipamL2vpnTerminationsBulkUpdate) | **PUT** /ipam/l2vpn-terminations/ | 
-*IpamApi* | [**ipamL2vpnTerminationsBulkUpdateWithHttpInfo**](docs/IpamApi.md#ipamL2vpnTerminationsBulkUpdateWithHttpInfo) | **PUT** /ipam/l2vpn-terminations/ | 
-*IpamApi* | [**ipamL2vpnTerminationsCreate**](docs/IpamApi.md#ipamL2vpnTerminationsCreate) | **POST** /ipam/l2vpn-terminations/ | 
-*IpamApi* | [**ipamL2vpnTerminationsCreateWithHttpInfo**](docs/IpamApi.md#ipamL2vpnTerminationsCreateWithHttpInfo) | **POST** /ipam/l2vpn-terminations/ | 
-*IpamApi* | [**ipamL2vpnTerminationsDelete**](docs/IpamApi.md#ipamL2vpnTerminationsDelete) | **DELETE** /ipam/l2vpn-terminations/{id}/ | 
-*IpamApi* | [**ipamL2vpnTerminationsDeleteWithHttpInfo**](docs/IpamApi.md#ipamL2vpnTerminationsDeleteWithHttpInfo) | **DELETE** /ipam/l2vpn-terminations/{id}/ | 
-*IpamApi* | [**ipamL2vpnTerminationsList**](docs/IpamApi.md#ipamL2vpnTerminationsList) | **GET** /ipam/l2vpn-terminations/ | 
-*IpamApi* | [**ipamL2vpnTerminationsListWithHttpInfo**](docs/IpamApi.md#ipamL2vpnTerminationsListWithHttpInfo) | **GET** /ipam/l2vpn-terminations/ | 
-*IpamApi* | [**ipamL2vpnTerminationsPartialUpdate**](docs/IpamApi.md#ipamL2vpnTerminationsPartialUpdate) | **PATCH** /ipam/l2vpn-terminations/{id}/ | 
-*IpamApi* | [**ipamL2vpnTerminationsPartialUpdateWithHttpInfo**](docs/IpamApi.md#ipamL2vpnTerminationsPartialUpdateWithHttpInfo) | **PATCH** /ipam/l2vpn-terminations/{id}/ | 
-*IpamApi* | [**ipamL2vpnTerminationsRead**](docs/IpamApi.md#ipamL2vpnTerminationsRead) | **GET** /ipam/l2vpn-terminations/{id}/ | 
-*IpamApi* | [**ipamL2vpnTerminationsReadWithHttpInfo**](docs/IpamApi.md#ipamL2vpnTerminationsReadWithHttpInfo) | **GET** /ipam/l2vpn-terminations/{id}/ | 
-*IpamApi* | [**ipamL2vpnTerminationsUpdate**](docs/IpamApi.md#ipamL2vpnTerminationsUpdate) | **PUT** /ipam/l2vpn-terminations/{id}/ | 
-*IpamApi* | [**ipamL2vpnTerminationsUpdateWithHttpInfo**](docs/IpamApi.md#ipamL2vpnTerminationsUpdateWithHttpInfo) | **PUT** /ipam/l2vpn-terminations/{id}/ | 
-*IpamApi* | [**ipamL2vpnsBulkDelete**](docs/IpamApi.md#ipamL2vpnsBulkDelete) | **DELETE** /ipam/l2vpns/ | 
-*IpamApi* | [**ipamL2vpnsBulkDeleteWithHttpInfo**](docs/IpamApi.md#ipamL2vpnsBulkDeleteWithHttpInfo) | **DELETE** /ipam/l2vpns/ | 
-*IpamApi* | [**ipamL2vpnsBulkPartialUpdate**](docs/IpamApi.md#ipamL2vpnsBulkPartialUpdate) | **PATCH** /ipam/l2vpns/ | 
-*IpamApi* | [**ipamL2vpnsBulkPartialUpdateWithHttpInfo**](docs/IpamApi.md#ipamL2vpnsBulkPartialUpdateWithHttpInfo) | **PATCH** /ipam/l2vpns/ | 
-*IpamApi* | [**ipamL2vpnsBulkUpdate**](docs/IpamApi.md#ipamL2vpnsBulkUpdate) | **PUT** /ipam/l2vpns/ | 
-*IpamApi* | [**ipamL2vpnsBulkUpdateWithHttpInfo**](docs/IpamApi.md#ipamL2vpnsBulkUpdateWithHttpInfo) | **PUT** /ipam/l2vpns/ | 
-*IpamApi* | [**ipamL2vpnsCreate**](docs/IpamApi.md#ipamL2vpnsCreate) | **POST** /ipam/l2vpns/ | 
-*IpamApi* | [**ipamL2vpnsCreateWithHttpInfo**](docs/IpamApi.md#ipamL2vpnsCreateWithHttpInfo) | **POST** /ipam/l2vpns/ | 
-*IpamApi* | [**ipamL2vpnsDelete**](docs/IpamApi.md#ipamL2vpnsDelete) | **DELETE** /ipam/l2vpns/{id}/ | 
-*IpamApi* | [**ipamL2vpnsDeleteWithHttpInfo**](docs/IpamApi.md#ipamL2vpnsDeleteWithHttpInfo) | **DELETE** /ipam/l2vpns/{id}/ | 
-*IpamApi* | [**ipamL2vpnsList**](docs/IpamApi.md#ipamL2vpnsList) | **GET** /ipam/l2vpns/ | 
-*IpamApi* | [**ipamL2vpnsListWithHttpInfo**](docs/IpamApi.md#ipamL2vpnsListWithHttpInfo) | **GET** /ipam/l2vpns/ | 
-*IpamApi* | [**ipamL2vpnsPartialUpdate**](docs/IpamApi.md#ipamL2vpnsPartialUpdate) | **PATCH** /ipam/l2vpns/{id}/ | 
-*IpamApi* | [**ipamL2vpnsPartialUpdateWithHttpInfo**](docs/IpamApi.md#ipamL2vpnsPartialUpdateWithHttpInfo) | **PATCH** /ipam/l2vpns/{id}/ | 
-*IpamApi* | [**ipamL2vpnsRead**](docs/IpamApi.md#ipamL2vpnsRead) | **GET** /ipam/l2vpns/{id}/ | 
-*IpamApi* | [**ipamL2vpnsReadWithHttpInfo**](docs/IpamApi.md#ipamL2vpnsReadWithHttpInfo) | **GET** /ipam/l2vpns/{id}/ | 
-*IpamApi* | [**ipamL2vpnsUpdate**](docs/IpamApi.md#ipamL2vpnsUpdate) | **PUT** /ipam/l2vpns/{id}/ | 
-*IpamApi* | [**ipamL2vpnsUpdateWithHttpInfo**](docs/IpamApi.md#ipamL2vpnsUpdateWithHttpInfo) | **PUT** /ipam/l2vpns/{id}/ | 
 *IpamApi* | [**ipamPrefixesAvailableIpsCreate**](docs/IpamApi.md#ipamPrefixesAvailableIpsCreate) | **POST** /ipam/prefixes/{id}/available-ips/ | 
 *IpamApi* | [**ipamPrefixesAvailableIpsCreateWithHttpInfo**](docs/IpamApi.md#ipamPrefixesAvailableIpsCreateWithHttpInfo) | **POST** /ipam/prefixes/{id}/available-ips/ | 
 *IpamApi* | [**ipamPrefixesAvailableIpsList**](docs/IpamApi.md#ipamPrefixesAvailableIpsList) | **GET** /ipam/prefixes/{id}/available-ips/ | 
@@ -1774,7 +1719,6 @@ Class | Method | HTTP request | Description
  - [AvailablePrefix](docs/AvailablePrefix.md)
  - [AvailableVLAN](docs/AvailableVLAN.md)
  - [Cable](docs/Cable.md)
- - [CableTermination](docs/CableTermination.md)
  - [Circuit](docs/Circuit.md)
  - [CircuitCircuitTermination](docs/CircuitCircuitTermination.md)
  - [CircuitTermination](docs/CircuitTermination.md)
@@ -1800,7 +1744,6 @@ Class | Method | HTTP request | Description
  - [ContentType](docs/ContentType.md)
  - [CustomField](docs/CustomField.md)
  - [CustomLink](docs/CustomLink.md)
- - [DcimCableTerminationsList200Response](docs/DcimCableTerminationsList200Response.md)
  - [DcimCablesList200Response](docs/DcimCablesList200Response.md)
  - [DcimConsolePortTemplatesList200Response](docs/DcimConsolePortTemplatesList200Response.md)
  - [DcimConsolePortsList200Response](docs/DcimConsolePortsList200Response.md)
@@ -1870,7 +1813,6 @@ Class | Method | HTTP request | Description
  - [FrontPort](docs/FrontPort.md)
  - [FrontPortRearPort](docs/FrontPortRearPort.md)
  - [FrontPortTemplate](docs/FrontPortTemplate.md)
- - [GenericObject](docs/GenericObject.md)
  - [Group](docs/Group.md)
  - [IPAddress](docs/IPAddress.md)
  - [IPRange](docs/IPRange.md)
@@ -1885,8 +1827,6 @@ Class | Method | HTTP request | Description
  - [IpamFhrpGroupsList200Response](docs/IpamFhrpGroupsList200Response.md)
  - [IpamIpAddressesList200Response](docs/IpamIpAddressesList200Response.md)
  - [IpamIpRangesList200Response](docs/IpamIpRangesList200Response.md)
- - [IpamL2vpnTerminationsList200Response](docs/IpamL2vpnTerminationsList200Response.md)
- - [IpamL2vpnsList200Response](docs/IpamL2vpnsList200Response.md)
  - [IpamPrefixesList200Response](docs/IpamPrefixesList200Response.md)
  - [IpamRirsList200Response](docs/IpamRirsList200Response.md)
  - [IpamRolesList200Response](docs/IpamRolesList200Response.md)
@@ -1899,8 +1839,6 @@ Class | Method | HTTP request | Description
  - [JobResult](docs/JobResult.md)
  - [JournalEntry](docs/JournalEntry.md)
  - [Kind](docs/Kind.md)
- - [L2VPN](docs/L2VPN.md)
- - [L2VPNTermination](docs/L2VPNTermination.md)
  - [LengthUnit](docs/LengthUnit.md)
  - [Location](docs/Location.md)
  - [Manufacturer](docs/Manufacturer.md)
@@ -1930,8 +1868,6 @@ Class | Method | HTTP request | Description
  - [NestedIPAddress](docs/NestedIPAddress.md)
  - [NestedInterface](docs/NestedInterface.md)
  - [NestedInventoryItemRole](docs/NestedInventoryItemRole.md)
- - [NestedL2VPN](docs/NestedL2VPN.md)
- - [NestedL2VPNTermination](docs/NestedL2VPNTermination.md)
  - [NestedLocation](docs/NestedLocation.md)
  - [NestedManufacturer](docs/NestedManufacturer.md)
  - [NestedModule](docs/NestedModule.md)
@@ -1970,8 +1906,6 @@ Class | Method | HTTP request | Description
  - [OuterUnit](docs/OuterUnit.md)
  - [Phase](docs/Phase.md)
  - [Platform](docs/Platform.md)
- - [PoeMode](docs/PoeMode.md)
- - [PoeType](docs/PoeType.md)
  - [PowerFeed](docs/PowerFeed.md)
  - [PowerOutlet](docs/PowerOutlet.md)
  - [PowerOutletTemplate](docs/PowerOutletTemplate.md)
@@ -2005,7 +1939,6 @@ Class | Method | HTTP request | Description
  - [Status](docs/Status.md)
  - [Status1](docs/Status1.md)
  - [Status10](docs/Status10.md)
- - [Status11](docs/Status11.md)
  - [Status2](docs/Status2.md)
  - [Status3](docs/Status3.md)
  - [Status4](docs/Status4.md)
@@ -2034,8 +1967,6 @@ Class | Method | HTTP request | Description
  - [Type5](docs/Type5.md)
  - [Type6](docs/Type6.md)
  - [Type7](docs/Type7.md)
- - [Type8](docs/Type8.md)
- - [UiVisibility](docs/UiVisibility.md)
  - [User](docs/User.md)
  - [UsersGroupsList200Response](docs/UsersGroupsList200Response.md)
  - [UsersPermissionsList200Response](docs/UsersPermissionsList200Response.md)
@@ -2091,8 +2022,6 @@ Class | Method | HTTP request | Description
  - [WritableInventoryItem](docs/WritableInventoryItem.md)
  - [WritableInventoryItemTemplate](docs/WritableInventoryItemTemplate.md)
  - [WritableJournalEntry](docs/WritableJournalEntry.md)
- - [WritableL2VPN](docs/WritableL2VPN.md)
- - [WritableL2VPNTermination](docs/WritableL2VPNTermination.md)
  - [WritableLocation](docs/WritableLocation.md)
  - [WritableModule](docs/WritableModule.md)
  - [WritableModuleBay](docs/WritableModuleBay.md)

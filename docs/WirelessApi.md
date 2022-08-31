@@ -771,7 +771,7 @@ ApiResponse<Void>
 
 ## wirelessWirelessLanGroupsList
 
-> WirelessWirelessLanGroupsList200Response wirelessWirelessLanGroupsList(id, name, slug, description, created, lastUpdated, q, tag, parentId, parent, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, parentIdN, parentN, ordering, limit, offset)
+> WirelessWirelessLanGroupsList200Response wirelessWirelessLanGroupsList(id, name, slug, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, parentId, parent, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, parentIdN, parentN, limit, offset)
 
 
 
@@ -805,7 +805,11 @@ public class Example {
         String slug = "slug_example"; // String | 
         String description = "description_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String parentId = "parentId_example"; // String | 
@@ -842,24 +846,13 @@ public class Example {
         String descriptionNisw = "descriptionNisw_example"; // String | 
         String descriptionIe = "descriptionIe_example"; // String | 
         String descriptionNie = "descriptionNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String parentIdN = "parentIdN_example"; // String | 
         String parentN = "parentN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            WirelessWirelessLanGroupsList200Response result = apiInstance.wirelessWirelessLanGroupsList(id, name, slug, description, created, lastUpdated, q, tag, parentId, parent, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, parentIdN, parentN, ordering, limit, offset);
+            WirelessWirelessLanGroupsList200Response result = apiInstance.wirelessWirelessLanGroupsList(id, name, slug, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, parentId, parent, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, parentIdN, parentN, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling WirelessApi#wirelessWirelessLanGroupsList");
@@ -882,7 +875,11 @@ public class Example {
 | **slug** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **parentId** | **String**|  | [optional] |
@@ -919,20 +916,9 @@ public class Example {
 | **descriptionNisw** | **String**|  | [optional] |
 | **descriptionIe** | **String**|  | [optional] |
 | **descriptionNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **parentIdN** | **String**|  | [optional] |
 | **parentN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -957,7 +943,7 @@ public class Example {
 
 ## wirelessWirelessLanGroupsListWithHttpInfo
 
-> ApiResponse<WirelessWirelessLanGroupsList200Response> wirelessWirelessLanGroupsList wirelessWirelessLanGroupsListWithHttpInfo(id, name, slug, description, created, lastUpdated, q, tag, parentId, parent, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, parentIdN, parentN, ordering, limit, offset)
+> ApiResponse<WirelessWirelessLanGroupsList200Response> wirelessWirelessLanGroupsList wirelessWirelessLanGroupsListWithHttpInfo(id, name, slug, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, parentId, parent, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, parentIdN, parentN, limit, offset)
 
 
 
@@ -992,7 +978,11 @@ public class Example {
         String slug = "slug_example"; // String | 
         String description = "description_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
         String parentId = "parentId_example"; // String | 
@@ -1029,24 +1019,13 @@ public class Example {
         String descriptionNisw = "descriptionNisw_example"; // String | 
         String descriptionIe = "descriptionIe_example"; // String | 
         String descriptionNie = "descriptionNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
         String parentIdN = "parentIdN_example"; // String | 
         String parentN = "parentN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<WirelessWirelessLanGroupsList200Response> response = apiInstance.wirelessWirelessLanGroupsListWithHttpInfo(id, name, slug, description, created, lastUpdated, q, tag, parentId, parent, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, parentIdN, parentN, ordering, limit, offset);
+            ApiResponse<WirelessWirelessLanGroupsList200Response> response = apiInstance.wirelessWirelessLanGroupsListWithHttpInfo(id, name, slug, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, parentId, parent, idN, idLte, idLt, idGte, idGt, nameN, nameIc, nameNic, nameIew, nameNiew, nameIsw, nameNisw, nameIe, nameNie, slugN, slugIc, slugNic, slugIew, slugNiew, slugIsw, slugNisw, slugIe, slugNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, parentIdN, parentN, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -1071,7 +1050,11 @@ public class Example {
 | **slug** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
 | **parentId** | **String**|  | [optional] |
@@ -1108,20 +1091,9 @@ public class Example {
 | **descriptionNisw** | **String**|  | [optional] |
 | **descriptionIe** | **String**|  | [optional] |
 | **descriptionNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
 | **parentIdN** | **String**|  | [optional] |
 | **parentN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -2295,7 +2267,7 @@ ApiResponse<Void>
 
 ## wirelessWirelessLansList
 
-> WirelessWirelessLansList200Response wirelessWirelessLansList(id, ssid, authPsk, description, created, lastUpdated, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, groupId, group, vlanId, authType, authCipher, idN, idLte, idLt, idGte, idGt, ssidN, ssidIc, ssidNic, ssidIew, ssidNiew, ssidIsw, ssidNisw, ssidIe, ssidNie, authPskN, authPskIc, authPskNic, authPskIew, authPskNiew, authPskIsw, authPskNisw, authPskIe, authPskNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, groupIdN, groupN, vlanIdN, authTypeN, authCipherN, ordering, limit, offset)
+> WirelessWirelessLansList200Response wirelessWirelessLansList(id, ssid, authPsk, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, groupId, group, vlanId, authType, authCipher, idN, idLte, idLt, idGte, idGt, ssidN, ssidIc, ssidNic, ssidIew, ssidNiew, ssidIsw, ssidNisw, ssidIe, ssidNie, authPskN, authPskIc, authPskNic, authPskIew, authPskNiew, authPskIsw, authPskNisw, authPskIe, authPskNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, groupIdN, groupN, vlanIdN, authTypeN, authCipherN, limit, offset)
 
 
 
@@ -2329,13 +2301,13 @@ public class Example {
         String authPsk = "authPsk_example"; // String | 
         String description = "description_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
-        String tenantGroupId = "tenantGroupId_example"; // String | 
-        String tenantGroup = "tenantGroup_example"; // String | 
-        String tenantId = "tenantId_example"; // String | 
-        String tenant = "tenant_example"; // String | 
         String groupId = "groupId_example"; // String | 
         String group = "group_example"; // String | 
         String vlanId = "vlanId_example"; // String | 
@@ -2373,31 +2345,16 @@ public class Example {
         String descriptionNisw = "descriptionNisw_example"; // String | 
         String descriptionIe = "descriptionIe_example"; // String | 
         String descriptionNie = "descriptionNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
-        String tenantGroupIdN = "tenantGroupIdN_example"; // String | 
-        String tenantGroupN = "tenantGroupN_example"; // String | 
-        String tenantIdN = "tenantIdN_example"; // String | 
-        String tenantN = "tenantN_example"; // String | 
         String groupIdN = "groupIdN_example"; // String | 
         String groupN = "groupN_example"; // String | 
         String vlanIdN = "vlanIdN_example"; // String | 
         String authTypeN = "authTypeN_example"; // String | 
         String authCipherN = "authCipherN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            WirelessWirelessLansList200Response result = apiInstance.wirelessWirelessLansList(id, ssid, authPsk, description, created, lastUpdated, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, groupId, group, vlanId, authType, authCipher, idN, idLte, idLt, idGte, idGt, ssidN, ssidIc, ssidNic, ssidIew, ssidNiew, ssidIsw, ssidNisw, ssidIe, ssidNie, authPskN, authPskIc, authPskNic, authPskIew, authPskNiew, authPskIsw, authPskNisw, authPskIe, authPskNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, groupIdN, groupN, vlanIdN, authTypeN, authCipherN, ordering, limit, offset);
+            WirelessWirelessLansList200Response result = apiInstance.wirelessWirelessLansList(id, ssid, authPsk, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, groupId, group, vlanId, authType, authCipher, idN, idLte, idLt, idGte, idGt, ssidN, ssidIc, ssidNic, ssidIew, ssidNiew, ssidIsw, ssidNisw, ssidIe, ssidNie, authPskN, authPskIc, authPskNic, authPskIew, authPskNiew, authPskIsw, authPskNisw, authPskIe, authPskNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, groupIdN, groupN, vlanIdN, authTypeN, authCipherN, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling WirelessApi#wirelessWirelessLansList");
@@ -2420,13 +2377,13 @@ public class Example {
 | **authPsk** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
-| **tenantGroupId** | **String**|  | [optional] |
-| **tenantGroup** | **String**|  | [optional] |
-| **tenantId** | **String**|  | [optional] |
-| **tenant** | **String**|  | [optional] |
 | **groupId** | **String**|  | [optional] |
 | **group** | **String**|  | [optional] |
 | **vlanId** | **String**|  | [optional] |
@@ -2464,27 +2421,12 @@ public class Example {
 | **descriptionNisw** | **String**|  | [optional] |
 | **descriptionIe** | **String**|  | [optional] |
 | **descriptionNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
-| **tenantGroupIdN** | **String**|  | [optional] |
-| **tenantGroupN** | **String**|  | [optional] |
-| **tenantIdN** | **String**|  | [optional] |
-| **tenantN** | **String**|  | [optional] |
 | **groupIdN** | **String**|  | [optional] |
 | **groupN** | **String**|  | [optional] |
 | **vlanIdN** | **String**|  | [optional] |
 | **authTypeN** | **String**|  | [optional] |
 | **authCipherN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -2509,7 +2451,7 @@ public class Example {
 
 ## wirelessWirelessLansListWithHttpInfo
 
-> ApiResponse<WirelessWirelessLansList200Response> wirelessWirelessLansList wirelessWirelessLansListWithHttpInfo(id, ssid, authPsk, description, created, lastUpdated, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, groupId, group, vlanId, authType, authCipher, idN, idLte, idLt, idGte, idGt, ssidN, ssidIc, ssidNic, ssidIew, ssidNiew, ssidIsw, ssidNisw, ssidIe, ssidNie, authPskN, authPskIc, authPskNic, authPskIew, authPskNiew, authPskIsw, authPskNisw, authPskIe, authPskNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, groupIdN, groupN, vlanIdN, authTypeN, authCipherN, ordering, limit, offset)
+> ApiResponse<WirelessWirelessLansList200Response> wirelessWirelessLansList wirelessWirelessLansListWithHttpInfo(id, ssid, authPsk, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, groupId, group, vlanId, authType, authCipher, idN, idLte, idLt, idGte, idGt, ssidN, ssidIc, ssidNic, ssidIew, ssidNiew, ssidIsw, ssidNisw, ssidIe, ssidNie, authPskN, authPskIc, authPskNic, authPskIew, authPskNiew, authPskIsw, authPskNisw, authPskIe, authPskNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, groupIdN, groupN, vlanIdN, authTypeN, authCipherN, limit, offset)
 
 
 
@@ -2544,13 +2486,13 @@ public class Example {
         String authPsk = "authPsk_example"; // String | 
         String description = "description_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
-        String tenantGroupId = "tenantGroupId_example"; // String | 
-        String tenantGroup = "tenantGroup_example"; // String | 
-        String tenantId = "tenantId_example"; // String | 
-        String tenant = "tenant_example"; // String | 
         String groupId = "groupId_example"; // String | 
         String group = "group_example"; // String | 
         String vlanId = "vlanId_example"; // String | 
@@ -2588,31 +2530,16 @@ public class Example {
         String descriptionNisw = "descriptionNisw_example"; // String | 
         String descriptionIe = "descriptionIe_example"; // String | 
         String descriptionNie = "descriptionNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
-        String tenantGroupIdN = "tenantGroupIdN_example"; // String | 
-        String tenantGroupN = "tenantGroupN_example"; // String | 
-        String tenantIdN = "tenantIdN_example"; // String | 
-        String tenantN = "tenantN_example"; // String | 
         String groupIdN = "groupIdN_example"; // String | 
         String groupN = "groupN_example"; // String | 
         String vlanIdN = "vlanIdN_example"; // String | 
         String authTypeN = "authTypeN_example"; // String | 
         String authCipherN = "authCipherN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<WirelessWirelessLansList200Response> response = apiInstance.wirelessWirelessLansListWithHttpInfo(id, ssid, authPsk, description, created, lastUpdated, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, groupId, group, vlanId, authType, authCipher, idN, idLte, idLt, idGte, idGt, ssidN, ssidIc, ssidNic, ssidIew, ssidNiew, ssidIsw, ssidNisw, ssidIe, ssidNie, authPskN, authPskIc, authPskNic, authPskIew, authPskNiew, authPskIsw, authPskNisw, authPskIe, authPskNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, groupIdN, groupN, vlanIdN, authTypeN, authCipherN, ordering, limit, offset);
+            ApiResponse<WirelessWirelessLansList200Response> response = apiInstance.wirelessWirelessLansListWithHttpInfo(id, ssid, authPsk, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, groupId, group, vlanId, authType, authCipher, idN, idLte, idLt, idGte, idGt, ssidN, ssidIc, ssidNic, ssidIew, ssidNiew, ssidIsw, ssidNisw, ssidIe, ssidNie, authPskN, authPskIc, authPskNic, authPskIew, authPskNiew, authPskIsw, authPskNisw, authPskIe, authPskNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, groupIdN, groupN, vlanIdN, authTypeN, authCipherN, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -2637,13 +2564,13 @@ public class Example {
 | **authPsk** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
-| **tenantGroupId** | **String**|  | [optional] |
-| **tenantGroup** | **String**|  | [optional] |
-| **tenantId** | **String**|  | [optional] |
-| **tenant** | **String**|  | [optional] |
 | **groupId** | **String**|  | [optional] |
 | **group** | **String**|  | [optional] |
 | **vlanId** | **String**|  | [optional] |
@@ -2681,27 +2608,12 @@ public class Example {
 | **descriptionNisw** | **String**|  | [optional] |
 | **descriptionIe** | **String**|  | [optional] |
 | **descriptionNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
-| **tenantGroupIdN** | **String**|  | [optional] |
-| **tenantGroupN** | **String**|  | [optional] |
-| **tenantIdN** | **String**|  | [optional] |
-| **tenantN** | **String**|  | [optional] |
 | **groupIdN** | **String**|  | [optional] |
 | **groupN** | **String**|  | [optional] |
 | **vlanIdN** | **String**|  | [optional] |
 | **authTypeN** | **String**|  | [optional] |
 | **authCipherN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -3875,7 +3787,7 @@ ApiResponse<Void>
 
 ## wirelessWirelessLinksList
 
-> WirelessWirelessLinksList200Response wirelessWirelessLinksList(id, ssid, authPsk, description, created, lastUpdated, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, interfaceAId, interfaceBId, status, authType, authCipher, idN, idLte, idLt, idGte, idGt, ssidN, ssidIc, ssidNic, ssidIew, ssidNiew, ssidIsw, ssidNisw, ssidIe, ssidNie, authPskN, authPskIc, authPskNic, authPskIew, authPskNiew, authPskIsw, authPskNisw, authPskIe, authPskNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, interfaceAIdN, interfaceAIdLte, interfaceAIdLt, interfaceAIdGte, interfaceAIdGt, interfaceBIdN, interfaceBIdLte, interfaceBIdLt, interfaceBIdGte, interfaceBIdGt, statusN, authTypeN, authCipherN, ordering, limit, offset)
+> WirelessWirelessLinksList200Response wirelessWirelessLinksList(id, ssid, authPsk, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, interfaceAId, interfaceBId, status, authType, authCipher, idN, idLte, idLt, idGte, idGt, ssidN, ssidIc, ssidNic, ssidIew, ssidNiew, ssidIsw, ssidNisw, ssidIe, ssidNie, authPskN, authPskIc, authPskNic, authPskIew, authPskNiew, authPskIsw, authPskNisw, authPskIe, authPskNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, interfaceAIdN, interfaceAIdLte, interfaceAIdLt, interfaceAIdGte, interfaceAIdGt, interfaceBIdN, interfaceBIdLte, interfaceBIdLt, interfaceBIdGte, interfaceBIdGt, statusN, authTypeN, authCipherN, limit, offset)
 
 
 
@@ -3909,13 +3821,13 @@ public class Example {
         String authPsk = "authPsk_example"; // String | 
         String description = "description_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
-        String tenantGroupId = "tenantGroupId_example"; // String | 
-        String tenantGroup = "tenantGroup_example"; // String | 
-        String tenantId = "tenantId_example"; // String | 
-        String tenant = "tenant_example"; // String | 
         String interfaceAId = "interfaceAId_example"; // String | 
         String interfaceBId = "interfaceBId_example"; // String | 
         String status = "status_example"; // String | 
@@ -3953,21 +3865,7 @@ public class Example {
         String descriptionNisw = "descriptionNisw_example"; // String | 
         String descriptionIe = "descriptionIe_example"; // String | 
         String descriptionNie = "descriptionNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
-        String tenantGroupIdN = "tenantGroupIdN_example"; // String | 
-        String tenantGroupN = "tenantGroupN_example"; // String | 
-        String tenantIdN = "tenantIdN_example"; // String | 
-        String tenantN = "tenantN_example"; // String | 
         String interfaceAIdN = "interfaceAIdN_example"; // String | 
         String interfaceAIdLte = "interfaceAIdLte_example"; // String | 
         String interfaceAIdLt = "interfaceAIdLt_example"; // String | 
@@ -3981,11 +3879,10 @@ public class Example {
         String statusN = "statusN_example"; // String | 
         String authTypeN = "authTypeN_example"; // String | 
         String authCipherN = "authCipherN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            WirelessWirelessLinksList200Response result = apiInstance.wirelessWirelessLinksList(id, ssid, authPsk, description, created, lastUpdated, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, interfaceAId, interfaceBId, status, authType, authCipher, idN, idLte, idLt, idGte, idGt, ssidN, ssidIc, ssidNic, ssidIew, ssidNiew, ssidIsw, ssidNisw, ssidIe, ssidNie, authPskN, authPskIc, authPskNic, authPskIew, authPskNiew, authPskIsw, authPskNisw, authPskIe, authPskNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, interfaceAIdN, interfaceAIdLte, interfaceAIdLt, interfaceAIdGte, interfaceAIdGt, interfaceBIdN, interfaceBIdLte, interfaceBIdLt, interfaceBIdGte, interfaceBIdGt, statusN, authTypeN, authCipherN, ordering, limit, offset);
+            WirelessWirelessLinksList200Response result = apiInstance.wirelessWirelessLinksList(id, ssid, authPsk, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, interfaceAId, interfaceBId, status, authType, authCipher, idN, idLte, idLt, idGte, idGt, ssidN, ssidIc, ssidNic, ssidIew, ssidNiew, ssidIsw, ssidNisw, ssidIe, ssidNie, authPskN, authPskIc, authPskNic, authPskIew, authPskNiew, authPskIsw, authPskNisw, authPskIe, authPskNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, interfaceAIdN, interfaceAIdLte, interfaceAIdLt, interfaceAIdGte, interfaceAIdGt, interfaceBIdN, interfaceBIdLte, interfaceBIdLt, interfaceBIdGte, interfaceBIdGt, statusN, authTypeN, authCipherN, limit, offset);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling WirelessApi#wirelessWirelessLinksList");
@@ -4008,13 +3905,13 @@ public class Example {
 | **authPsk** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
-| **tenantGroupId** | **String**|  | [optional] |
-| **tenantGroup** | **String**|  | [optional] |
-| **tenantId** | **String**|  | [optional] |
-| **tenant** | **String**|  | [optional] |
 | **interfaceAId** | **String**|  | [optional] |
 | **interfaceBId** | **String**|  | [optional] |
 | **status** | **String**|  | [optional] |
@@ -4052,21 +3949,7 @@ public class Example {
 | **descriptionNisw** | **String**|  | [optional] |
 | **descriptionIe** | **String**|  | [optional] |
 | **descriptionNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
-| **tenantGroupIdN** | **String**|  | [optional] |
-| **tenantGroupN** | **String**|  | [optional] |
-| **tenantIdN** | **String**|  | [optional] |
-| **tenantN** | **String**|  | [optional] |
 | **interfaceAIdN** | **String**|  | [optional] |
 | **interfaceAIdLte** | **String**|  | [optional] |
 | **interfaceAIdLt** | **String**|  | [optional] |
@@ -4080,7 +3963,6 @@ public class Example {
 | **statusN** | **String**|  | [optional] |
 | **authTypeN** | **String**|  | [optional] |
 | **authCipherN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 
@@ -4105,7 +3987,7 @@ public class Example {
 
 ## wirelessWirelessLinksListWithHttpInfo
 
-> ApiResponse<WirelessWirelessLinksList200Response> wirelessWirelessLinksList wirelessWirelessLinksListWithHttpInfo(id, ssid, authPsk, description, created, lastUpdated, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, interfaceAId, interfaceBId, status, authType, authCipher, idN, idLte, idLt, idGte, idGt, ssidN, ssidIc, ssidNic, ssidIew, ssidNiew, ssidIsw, ssidNisw, ssidIe, ssidNie, authPskN, authPskIc, authPskNic, authPskIew, authPskNiew, authPskIsw, authPskNisw, authPskIe, authPskNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, interfaceAIdN, interfaceAIdLte, interfaceAIdLt, interfaceAIdGte, interfaceAIdGt, interfaceBIdN, interfaceBIdLte, interfaceBIdLt, interfaceBIdGte, interfaceBIdGt, statusN, authTypeN, authCipherN, ordering, limit, offset)
+> ApiResponse<WirelessWirelessLinksList200Response> wirelessWirelessLinksList wirelessWirelessLinksListWithHttpInfo(id, ssid, authPsk, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, interfaceAId, interfaceBId, status, authType, authCipher, idN, idLte, idLt, idGte, idGt, ssidN, ssidIc, ssidNic, ssidIew, ssidNiew, ssidIsw, ssidNisw, ssidIe, ssidNie, authPskN, authPskIc, authPskNic, authPskIew, authPskNiew, authPskIsw, authPskNisw, authPskIe, authPskNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, interfaceAIdN, interfaceAIdLte, interfaceAIdLt, interfaceAIdGte, interfaceAIdGt, interfaceBIdN, interfaceBIdLte, interfaceBIdLt, interfaceBIdGte, interfaceBIdGt, statusN, authTypeN, authCipherN, limit, offset)
 
 
 
@@ -4140,13 +4022,13 @@ public class Example {
         String authPsk = "authPsk_example"; // String | 
         String description = "description_example"; // String | 
         String created = "created_example"; // String | 
+        String createdGte = "createdGte_example"; // String | 
+        String createdLte = "createdLte_example"; // String | 
         String lastUpdated = "lastUpdated_example"; // String | 
+        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
+        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
         String q = "q_example"; // String | 
         String tag = "tag_example"; // String | 
-        String tenantGroupId = "tenantGroupId_example"; // String | 
-        String tenantGroup = "tenantGroup_example"; // String | 
-        String tenantId = "tenantId_example"; // String | 
-        String tenant = "tenant_example"; // String | 
         String interfaceAId = "interfaceAId_example"; // String | 
         String interfaceBId = "interfaceBId_example"; // String | 
         String status = "status_example"; // String | 
@@ -4184,21 +4066,7 @@ public class Example {
         String descriptionNisw = "descriptionNisw_example"; // String | 
         String descriptionIe = "descriptionIe_example"; // String | 
         String descriptionNie = "descriptionNie_example"; // String | 
-        String createdN = "createdN_example"; // String | 
-        String createdLte = "createdLte_example"; // String | 
-        String createdLt = "createdLt_example"; // String | 
-        String createdGte = "createdGte_example"; // String | 
-        String createdGt = "createdGt_example"; // String | 
-        String lastUpdatedN = "lastUpdatedN_example"; // String | 
-        String lastUpdatedLte = "lastUpdatedLte_example"; // String | 
-        String lastUpdatedLt = "lastUpdatedLt_example"; // String | 
-        String lastUpdatedGte = "lastUpdatedGte_example"; // String | 
-        String lastUpdatedGt = "lastUpdatedGt_example"; // String | 
         String tagN = "tagN_example"; // String | 
-        String tenantGroupIdN = "tenantGroupIdN_example"; // String | 
-        String tenantGroupN = "tenantGroupN_example"; // String | 
-        String tenantIdN = "tenantIdN_example"; // String | 
-        String tenantN = "tenantN_example"; // String | 
         String interfaceAIdN = "interfaceAIdN_example"; // String | 
         String interfaceAIdLte = "interfaceAIdLte_example"; // String | 
         String interfaceAIdLt = "interfaceAIdLt_example"; // String | 
@@ -4212,11 +4080,10 @@ public class Example {
         String statusN = "statusN_example"; // String | 
         String authTypeN = "authTypeN_example"; // String | 
         String authCipherN = "authCipherN_example"; // String | 
-        String ordering = "ordering_example"; // String | Which field to use when ordering the results.
         Integer limit = 56; // Integer | Number of results to return per page.
         Integer offset = 56; // Integer | The initial index from which to return the results.
         try {
-            ApiResponse<WirelessWirelessLinksList200Response> response = apiInstance.wirelessWirelessLinksListWithHttpInfo(id, ssid, authPsk, description, created, lastUpdated, q, tag, tenantGroupId, tenantGroup, tenantId, tenant, interfaceAId, interfaceBId, status, authType, authCipher, idN, idLte, idLt, idGte, idGt, ssidN, ssidIc, ssidNic, ssidIew, ssidNiew, ssidIsw, ssidNisw, ssidIe, ssidNie, authPskN, authPskIc, authPskNic, authPskIew, authPskNiew, authPskIsw, authPskNisw, authPskIe, authPskNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, createdN, createdLte, createdLt, createdGte, createdGt, lastUpdatedN, lastUpdatedLte, lastUpdatedLt, lastUpdatedGte, lastUpdatedGt, tagN, tenantGroupIdN, tenantGroupN, tenantIdN, tenantN, interfaceAIdN, interfaceAIdLte, interfaceAIdLt, interfaceAIdGte, interfaceAIdGt, interfaceBIdN, interfaceBIdLte, interfaceBIdLt, interfaceBIdGte, interfaceBIdGt, statusN, authTypeN, authCipherN, ordering, limit, offset);
+            ApiResponse<WirelessWirelessLinksList200Response> response = apiInstance.wirelessWirelessLinksListWithHttpInfo(id, ssid, authPsk, description, created, createdGte, createdLte, lastUpdated, lastUpdatedGte, lastUpdatedLte, q, tag, interfaceAId, interfaceBId, status, authType, authCipher, idN, idLte, idLt, idGte, idGt, ssidN, ssidIc, ssidNic, ssidIew, ssidNiew, ssidIsw, ssidNisw, ssidIe, ssidNie, authPskN, authPskIc, authPskNic, authPskIew, authPskNiew, authPskIsw, authPskNisw, authPskIe, authPskNie, descriptionN, descriptionIc, descriptionNic, descriptionIew, descriptionNiew, descriptionIsw, descriptionNisw, descriptionIe, descriptionNie, tagN, interfaceAIdN, interfaceAIdLte, interfaceAIdLt, interfaceAIdGte, interfaceAIdGt, interfaceBIdN, interfaceBIdLte, interfaceBIdLt, interfaceBIdGte, interfaceBIdGt, statusN, authTypeN, authCipherN, limit, offset);
             System.out.println("Status code: " + response.getStatusCode());
             System.out.println("Response headers: " + response.getHeaders());
             System.out.println("Response body: " + response.getData());
@@ -4241,13 +4108,13 @@ public class Example {
 | **authPsk** | **String**|  | [optional] |
 | **description** | **String**|  | [optional] |
 | **created** | **String**|  | [optional] |
+| **createdGte** | **String**|  | [optional] |
+| **createdLte** | **String**|  | [optional] |
 | **lastUpdated** | **String**|  | [optional] |
+| **lastUpdatedGte** | **String**|  | [optional] |
+| **lastUpdatedLte** | **String**|  | [optional] |
 | **q** | **String**|  | [optional] |
 | **tag** | **String**|  | [optional] |
-| **tenantGroupId** | **String**|  | [optional] |
-| **tenantGroup** | **String**|  | [optional] |
-| **tenantId** | **String**|  | [optional] |
-| **tenant** | **String**|  | [optional] |
 | **interfaceAId** | **String**|  | [optional] |
 | **interfaceBId** | **String**|  | [optional] |
 | **status** | **String**|  | [optional] |
@@ -4285,21 +4152,7 @@ public class Example {
 | **descriptionNisw** | **String**|  | [optional] |
 | **descriptionIe** | **String**|  | [optional] |
 | **descriptionNie** | **String**|  | [optional] |
-| **createdN** | **String**|  | [optional] |
-| **createdLte** | **String**|  | [optional] |
-| **createdLt** | **String**|  | [optional] |
-| **createdGte** | **String**|  | [optional] |
-| **createdGt** | **String**|  | [optional] |
-| **lastUpdatedN** | **String**|  | [optional] |
-| **lastUpdatedLte** | **String**|  | [optional] |
-| **lastUpdatedLt** | **String**|  | [optional] |
-| **lastUpdatedGte** | **String**|  | [optional] |
-| **lastUpdatedGt** | **String**|  | [optional] |
 | **tagN** | **String**|  | [optional] |
-| **tenantGroupIdN** | **String**|  | [optional] |
-| **tenantGroupN** | **String**|  | [optional] |
-| **tenantIdN** | **String**|  | [optional] |
-| **tenantN** | **String**|  | [optional] |
 | **interfaceAIdN** | **String**|  | [optional] |
 | **interfaceAIdLte** | **String**|  | [optional] |
 | **interfaceAIdLt** | **String**|  | [optional] |
@@ -4313,7 +4166,6 @@ public class Example {
 | **statusN** | **String**|  | [optional] |
 | **authTypeN** | **String**|  | [optional] |
 | **authCipherN** | **String**|  | [optional] |
-| **ordering** | **String**| Which field to use when ordering the results. | [optional] |
 | **limit** | **Integer**| Number of results to return per page. | [optional] |
 | **offset** | **Integer**| The initial index from which to return the results. | [optional] |
 

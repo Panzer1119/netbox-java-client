@@ -14,7 +14,6 @@
 |**description** | **String** |  |  [optional] |
 |**group** | **Integer** |  |  [optional] |
 |**vlan** | **Integer** |  |  [optional] |
-|**tenant** | **Integer** |  |  [optional] |
 |**authType** | [**AuthTypeEnum**](#AuthTypeEnum) |  |  [optional] |
 |**authCipher** | [**AuthCipherEnum**](#AuthCipherEnum) |  |  [optional] |
 |**authPsk** | **String** |  |  [optional] |

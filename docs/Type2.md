@@ -50,9 +50,7 @@
 | IEEE_802_11AC | &quot;IEEE 802.11ac&quot; |
 | IEEE_802_11AD | &quot;IEEE 802.11ad&quot; |
 | IEEE_802_11AX | &quot;IEEE 802.11ax&quot; |
-| IEEE_802_11AY | &quot;IEEE 802.11ay&quot; |
 | IEEE_802_15_1_BLUETOOTH_ | &quot;IEEE 802.15.1 (Bluetooth)&quot; |
-| OTHER_WIRELESS_ | &quot;Other (Wireless)&quot; |
 | GSM | &quot;GSM&quot; |
 | CDMA | &quot;CDMA&quot; |
 | LTE | &quot;LTE&quot; |
@@ -148,9 +146,7 @@
 | IEEE802_11AC | &quot;ieee802.11ac&quot; |
 | IEEE802_11AD | &quot;ieee802.11ad&quot; |
 | IEEE802_11AX | &quot;ieee802.11ax&quot; |
-| IEEE802_11AY | &quot;ieee802.11ay&quot; |
 | IEEE802_15_1 | &quot;ieee802.15.1&quot; |
-| OTHER_WIRELESS | &quot;other-wireless&quot; |
 | GSM | &quot;gsm&quot; |
 | CDMA | &quot;cdma&quot; |
 | LTE | &quot;lte&quot; |

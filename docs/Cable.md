@@ -10,9 +10,13 @@
 |**id** | **Integer** |  |  [optional] [readonly] |
 |**url** | **URI** |  |  [optional] [readonly] |
 |**display** | **String** |  |  [optional] [readonly] |
+|**terminationAType** | **String** |  |  |
+|**terminationAId** | **Integer** |  |  |
+|**terminationA** | **Map&lt;String, String&gt;** |  |  [optional] [readonly] |
+|**terminationBType** | **String** |  |  |
+|**terminationBId** | **Integer** |  |  |
+|**terminationB** | **Map&lt;String, String&gt;** |  |  [optional] [readonly] |
 |**type** | [**TypeEnum**](#TypeEnum) |  |  [optional] |
-|**aTerminations** | [**List&lt;GenericObject&gt;**](GenericObject.md) |  |  [optional] |
-|**bTerminations** | [**List&lt;GenericObject&gt;**](GenericObject.md) |  |  [optional] |
 |**status** | [**Status1**](Status1.md) |  |  [optional] |
 |**tenant** | [**NestedTenant**](NestedTenant.md) |  |  [optional] |
 |**label** | **String** |  |  [optional] |

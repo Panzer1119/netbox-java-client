@@ -12,9 +12,8 @@
 |**display** | **String** |  |  [optional] [readonly] |
 |**name** | **String** |  |  |
 |**status** | [**StatusEnum**](#StatusEnum) |  |  [optional] |
-|**site** | **Integer** |  |  [optional] |
-|**cluster** | **Integer** |  |  [optional] |
-|**device** | **Integer** |  |  [optional] |
+|**site** | **String** |  |  [optional] [readonly] |
+|**cluster** | **Integer** |  |  |
 |**role** | **Integer** |  |  [optional] |
 |**tenant** | **Integer** |  |  [optional] |
 |**platform** | **Integer** |  |  [optional] |
