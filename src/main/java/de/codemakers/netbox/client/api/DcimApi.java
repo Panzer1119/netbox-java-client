@@ -26601,8 +26601,8 @@ public class DcimApi {
    * @return PowerPort
    * @throws ApiException if fails to make API call
    */
-  public PowerPort dcimPowerPortsBulkPartialUpdate(List<WritablePowerPort> data) throws ApiException {
-    ApiResponse<PowerPort> localVarResponse = dcimPowerPortsBulkPartialUpdateWithHttpInfo(data);
+  public List<PowerPort> dcimPowerPortsBulkPartialUpdate(List<WritablePowerPort> data) throws ApiException {
+    ApiResponse<List<PowerPort>> localVarResponse = dcimPowerPortsBulkPartialUpdateWithHttpInfo(data);
     return localVarResponse.getData();
   }
 
@@ -26613,7 +26613,7 @@ public class DcimApi {
    * @return ApiResponse&lt;PowerPort&gt;
    * @throws ApiException if fails to make API call
    */
-  public ApiResponse<PowerPort> dcimPowerPortsBulkPartialUpdateWithHttpInfo(List<WritablePowerPort> data) throws ApiException {
+  public ApiResponse<List<PowerPort>> dcimPowerPortsBulkPartialUpdateWithHttpInfo(List<WritablePowerPort> data) throws ApiException {
     HttpRequest.Builder localVarRequestBuilder = dcimPowerPortsBulkPartialUpdateRequestBuilder(data);
     try {
       HttpResponse<InputStream> localVarResponse = memberVarHttpClient.send(
@@ -26626,10 +26626,10 @@ public class DcimApi {
         if (localVarResponse.statusCode()/ 100 != 2) {
           throw getApiException("dcimPowerPortsBulkPartialUpdate", localVarResponse);
         }
-        return new ApiResponse<PowerPort>(
+        return new ApiResponse<List<PowerPort>>(
           localVarResponse.statusCode(),
           localVarResponse.headers().map(),
-          memberVarObjectMapper.readValue(localVarResponse.body(), new TypeReference<PowerPort>() {}) // closes the InputStream
+          memberVarObjectMapper.readValue(localVarResponse.body(), new TypeReference<List<PowerPort>>() {}) // closes the InputStream
           
         );
       } finally {
