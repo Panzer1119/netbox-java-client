@@ -26601,7 +26601,7 @@ public class DcimApi {
    * @return PowerPort
    * @throws ApiException if fails to make API call
    */
-  public PowerPort dcimPowerPortsBulkPartialUpdate(WritablePowerPort data) throws ApiException {
+  public PowerPort dcimPowerPortsBulkPartialUpdate(List<WritablePowerPort> data) throws ApiException {
     ApiResponse<PowerPort> localVarResponse = dcimPowerPortsBulkPartialUpdateWithHttpInfo(data);
     return localVarResponse.getData();
   }
@@ -26613,7 +26613,7 @@ public class DcimApi {
    * @return ApiResponse&lt;PowerPort&gt;
    * @throws ApiException if fails to make API call
    */
-  public ApiResponse<PowerPort> dcimPowerPortsBulkPartialUpdateWithHttpInfo(WritablePowerPort data) throws ApiException {
+  public ApiResponse<PowerPort> dcimPowerPortsBulkPartialUpdateWithHttpInfo(List<WritablePowerPort> data) throws ApiException {
     HttpRequest.Builder localVarRequestBuilder = dcimPowerPortsBulkPartialUpdateRequestBuilder(data);
     try {
       HttpResponse<InputStream> localVarResponse = memberVarHttpClient.send(
@@ -26643,7 +26643,7 @@ public class DcimApi {
     }
   }
 
-  private HttpRequest.Builder dcimPowerPortsBulkPartialUpdateRequestBuilder(WritablePowerPort data) throws ApiException {
+  private HttpRequest.Builder dcimPowerPortsBulkPartialUpdateRequestBuilder(List<WritablePowerPort> data) throws ApiException {
     // verify the required parameter 'data' is set
     if (data == null) {
       throw new ApiException(400, "Missing the required parameter 'data' when calling dcimPowerPortsBulkPartialUpdate");
