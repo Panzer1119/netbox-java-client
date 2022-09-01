@@ -6596,7 +6596,7 @@ public class DcimApiTest {
      */
     @Test
     public void dcimPowerPortsBulkPartialUpdateTest() throws ApiException {
-        WritablePowerPort data = null;
+        List<WritablePowerPort> data = new ArrayList<>();
         PowerPort response = 
         api.dcimPowerPortsBulkPartialUpdate(data);
         
